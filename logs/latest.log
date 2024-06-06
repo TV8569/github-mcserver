@@ -612,3 +612,16 @@ Caused by: java.lang.NullPointerException: Cannot read the array length because 
 	at com.google.common.cache.LocalCache$Segment.lockedGetOrLoad(LocalCache.java:2298) ~[patched_1.16.5.jar:git-Paper-794]
 	at com.google.common.cache.LocalCache$Segment.get(LocalCache.java:2211) ~[patched_1.16.5.jar:git-Paper-794]
 	... 22 more
+[18:03:33] [User Authenticator #1/INFO]: UUID of player SeniorDiv is d4c4888d-3808-3381-ac4b-ab7ce1dc7efc
+[18:03:33] [Server thread/INFO]: + SeniorDiv Connected
+[18:03:33] [Server thread/INFO]: SeniorDiv[/[0:0:0:0:0:0:0:1%0]:33754] logged in with entity id 2280 at ([world]13.5, 71.0, 244.5)
+[18:03:48] [User Authenticator #1/INFO]: UUID of player amirabbas8585 is 20cf1db0-e54b-388d-8edc-76880a8b4ffa
+[18:03:48] [TAB Processing Thread/INFO]: [TAB] [WARN] Player amirabbas8585's group (dev) is not in sorting list! Sorting list: owner,admin,mod,helper,builder,vip,default. Player will be sorted on the bottom.
+[18:03:48] [Server thread/INFO]: + amirabbas8585 Connected
+[18:03:48] [Server thread/INFO]: amirabbas8585[/[0:0:0:0:0:0:0:1%0]:33912] logged in with entity id 2600 at ([world]8.5, 71.0, 238.5)
+[18:03:57] [Server thread/INFO]: /[0:0:0:0:0:0:0:1%0]:33746 lost connection: Timed out
+[18:04:18] [Server thread/INFO]: amirabbas8585 lost connection: Timed out
+[18:04:18] [Server thread/INFO]: - amirabbas8585 Disconnected
+[18:04:20] [Server thread/INFO]: SeniorDiv lost connection: Disconnected
+[18:04:20] [Server thread/INFO]: - SeniorDiv Disconnected
+[18:04:41] [Server thread/INFO]: /[0:0:0:0:0:0:0:1%0]:42840 lost connection: Timed out
