@@ -1050,3 +1050,119 @@ java.lang.NoSuchMethodError: 'org.bukkit.entity.Player[] org.bukkit.Server.getOn
 [19:10:30] [Server thread/WARN]: AdminSonic moved too quickly! -3.397404777346239,-0.6870924201840864,10.785597512370467
 [19:10:41] [Server thread/INFO]: SeniorDiv issued server command: /tp AdminSonic SeniorDiv
 [19:10:41] [Server thread/INFO]: [SeniorDiv: Teleported AdminSonic to SeniorDiv]
+[19:10:49] [Server thread/INFO]: SeniorDiv issued server command: /gmc AdminSonic
+[19:10:50] [Server thread/INFO]: SeniorDiv issued server command: /tp AdminSonic SeniorDiv
+[19:10:50] [Server thread/INFO]: [SeniorDiv: Teleported AdminSonic to SeniorDiv]
+[19:10:50] [Server thread/INFO]: amirabbas8585 issued server command: /tp AdminSonic amirabbas8585
+[19:10:50] [Server thread/INFO]: [amirabbas8585: Teleported AdminSonic to amirabbas8585]
+[19:10:54] [Server thread/INFO]: SeniorDiv issued server command: /tp AdminSonic SeniorDiv
+[19:10:54] [Server thread/INFO]: [SeniorDiv: Teleported AdminSonic to SeniorDiv]
+[19:10:54] [Server thread/INFO]: amirabbas8585 issued server command: /tp AdminSonic amirabbas8585
+[19:10:54] [Server thread/INFO]: [amirabbas8585: Teleported AdminSonic to amirabbas8585]
+[19:10:56] [Server thread/INFO]: SeniorDiv issued server command: /tp AdminSonic SeniorDiv
+[19:10:56] [Server thread/INFO]: [SeniorDiv: Teleported AdminSonic to SeniorDiv]
+[19:11:01] [Server thread/INFO]: amirabbas8585 issued server command: /tp AdminSonic amirabbas8585
+[19:11:01] [Server thread/INFO]: [amirabbas8585: Teleported AdminSonic to amirabbas8585]
+[19:11:03] [Server thread/INFO]: [PartyGames] Updating leaderboards...
+[19:11:03] [Server thread/INFO]: [PartyGames] Couldn't find any valid top sign to update!
+[19:11:37] [Server thread/INFO]: amirabbas8585 issued server command: /papi register Expansion-math.jar
+[19:11:37] [Server thread/INFO]: [PlaceholderAPI] Successfully registered external expansion: math [2.0.2]
+[19:11:37] [Craft Scheduler Thread - 37/WARN]: [PlaceholderAPI] [math] Invalid Placeholder detected!
+[19:11:37] [Craft Scheduler Thread - 37/WARN]: [PlaceholderAPI] [math] Placeholder: %math_{server_online_t1}+{server_online_t2}%
+[19:11:37] [Craft Scheduler Thread - 37/WARN]: [PlaceholderAPI] [math] Cause:       {server is not a valid integer number.
+[19:11:39] [Server thread/INFO]: poyash issued server command: /tp amirabbas8585 poyash
+[19:11:39] [Server thread/INFO]: [poyash: Teleported amirabbas8585 to poyash]
+[19:11:48] [Server thread/WARN]: [PlaceholderAPI] [math] Invalid Placeholder detected!
+[19:11:48] [Server thread/WARN]: [PlaceholderAPI] [math] Placeholder: %math_{server_online_t1}+{server_online_t2}%
+[19:11:48] [Server thread/WARN]: [PlaceholderAPI] [math] Cause:       {server is not a valid integer number.
+[19:11:56] [Server thread/INFO]: AdminSonic issued server command: /tp SeniorDiv ~ -10000 ~
+[19:11:56] [Server thread/INFO]: [AdminSonic: Teleported SeniorDiv to -111.17936543585233, -10000.0, 57.600778229356585]
+[19:11:58] [Server thread/WARN]: [PlaceholderAPI] [math] Invalid Placeholder detected!
+[19:11:58] [Server thread/WARN]: [PlaceholderAPI] [math] Placeholder: %math_{server_online_t1}+{server_online_t2}%
+[19:11:58] [Server thread/WARN]: [PlaceholderAPI] [math] Cause:       {server is not a valid integer number.
+[19:12:02] [Server thread/INFO]: amirabbas8585 issued server command: /tp AdminSonic
+[19:12:02] [Server thread/INFO]: [amirabbas8585: Teleported amirabbas8585 to AdminSonic]
+[19:12:03] [Server thread/INFO]: poyash issued server command: /tp amirabbas8585 poyash
+[19:12:03] [Server thread/INFO]: [poyash: Teleported amirabbas8585 to poyash]
+[19:12:08] [Craft Scheduler Thread - 35/WARN]: [PlaceholderAPI] [math] Invalid Placeholder detected!
+[19:12:08] [Craft Scheduler Thread - 35/WARN]: [PlaceholderAPI] [math] Placeholder: %math_{server_online_t1}+{server_online_t2}%
+[19:12:08] [Craft Scheduler Thread - 35/WARN]: [PlaceholderAPI] [math] Cause:       {server is not a valid integer number.
+[19:12:18] [Craft Scheduler Thread - 38/WARN]: [PlaceholderAPI] [math] Invalid Placeholder detected!
+[19:12:18] [Craft Scheduler Thread - 38/WARN]: [PlaceholderAPI] [math] Placeholder: %math_{server_online_t1}+{server_online_t2}%
+[19:12:18] [Craft Scheduler Thread - 38/WARN]: [PlaceholderAPI] [math] Cause:       {server is not a valid integer number.
+[19:12:20] [Server thread/INFO]: amirabbas8585 issued server command: /partygames leave
+[19:12:22] [Server thread/INFO]: amirabbas8585 issued server command: /gamemode creative
+[19:12:22] [Server thread/INFO]: SeniorDiv issued server command: /tp poyash
+[19:12:22] [Server thread/INFO]: [SeniorDiv: Teleported SeniorDiv to poyash]
+[19:12:28] [Craft Scheduler Thread - 37/WARN]: [PlaceholderAPI] [math] Invalid Placeholder detected!
+[19:12:28] [Craft Scheduler Thread - 37/WARN]: [PlaceholderAPI] [math] Placeholder: %math_{server_online_t1}+{server_online_t2}%
+[19:12:28] [Craft Scheduler Thread - 37/WARN]: [PlaceholderAPI] [math] Cause:       {server is not a valid integer number.
+[19:12:34] [Server thread/INFO]: AdminSonic issued server command: /pl
+[19:12:38] [Craft Scheduler Thread - 37/WARN]: [PlaceholderAPI] [math] Invalid Placeholder detected!
+[19:12:38] [Craft Scheduler Thread - 37/WARN]: [PlaceholderAPI] [math] Placeholder: %math_{server_online_t1}+{server_online_t2}%
+[19:12:38] [Craft Scheduler Thread - 37/WARN]: [PlaceholderAPI] [math] Cause:       {server is not a valid integer number.
+[19:12:45] [Server thread/INFO]: SeniorDiv issued server command: /pl
+[19:12:47] [Server thread/INFO]: amirabbas8585 issued server command: /pl
+[19:12:50] [Server thread/WARN]: [PlaceholderAPI] [math] Invalid Placeholder detected!
+[19:12:50] [Server thread/WARN]: [PlaceholderAPI] [math] Placeholder: %math_{server_online_t1}+{server_online_t2}%
+[19:12:50] [Server thread/WARN]: [PlaceholderAPI] [math] Cause:       {server is not a valid integer number.
+[19:13:00] [Craft Scheduler Thread - 38/WARN]: [PlaceholderAPI] [math] Invalid Placeholder detected!
+[19:13:00] [Craft Scheduler Thread - 38/WARN]: [PlaceholderAPI] [math] Placeholder: %math_{server_online_t1}+{server_online_t2}%
+[19:13:00] [Craft Scheduler Thread - 38/WARN]: [PlaceholderAPI] [math] Cause:       {server is not a valid integer number.
+[19:13:05] [Server thread/INFO]: poyash issued server command: /partygame
+[19:13:08] [Server thread/INFO]: poyash issued server command: /partygames
+[19:13:10] [Craft Scheduler Thread - 38/WARN]: [PlaceholderAPI] [math] Invalid Placeholder detected!
+[19:13:10] [Craft Scheduler Thread - 38/WARN]: [PlaceholderAPI] [math] Placeholder: %math_{server_online_t1}+{server_online_t2}%
+[19:13:10] [Craft Scheduler Thread - 38/WARN]: [PlaceholderAPI] [math] Cause:       {server is not a valid integer number.
+[19:13:17] [Server thread/INFO]: poyash issued server command: /partygames place
+[19:13:20] [Server thread/INFO]: AdminSonic issued server command: /pl
+[19:13:21] [Server thread/WARN]: [PlaceholderAPI] [math] Invalid Placeholder detected!
+[19:13:21] [Server thread/WARN]: [PlaceholderAPI] [math] Placeholder: %math_{server_online_t1}+{server_online_t2}%
+[19:13:21] [Server thread/WARN]: [PlaceholderAPI] [math] Cause:       {server is not a valid integer number.
+[19:13:31] [Server thread/WARN]: [PlaceholderAPI] [math] Invalid Placeholder detected!
+[19:13:31] [Server thread/WARN]: [PlaceholderAPI] [math] Placeholder: %math_{server_online_t1}+{server_online_t2}%
+[19:13:31] [Server thread/WARN]: [PlaceholderAPI] [math] Cause:       {server is not a valid integer number.
+[19:13:46] [Server thread/WARN]: [PlaceholderAPI] [math] Invalid Placeholder detected!
+[19:13:46] [Server thread/WARN]: [PlaceholderAPI] [math] Placeholder: %math_{server_online_t1}+{server_online_t2}%
+[19:13:46] [Server thread/WARN]: [PlaceholderAPI] [math] Cause:       {server is not a valid integer number.
+[19:14:01] [Server thread/WARN]: [PlaceholderAPI] [math] Invalid Placeholder detected!
+[19:14:01] [Server thread/WARN]: [PlaceholderAPI] [math] Placeholder: %math_{server_online_t1}+{server_online_t2}%
+[19:14:01] [Server thread/WARN]: [PlaceholderAPI] [math] Cause:       {server is not a valid integer number.
+[19:14:16] [Server thread/WARN]: [PlaceholderAPI] [math] Invalid Placeholder detected!
+[19:14:16] [Server thread/WARN]: [PlaceholderAPI] [math] Placeholder: %math_{server_online_t1}+{server_online_t2}%
+[19:14:16] [Server thread/WARN]: [PlaceholderAPI] [math] Cause:       {server is not a valid integer number.
+[19:14:31] [Server thread/WARN]: [PlaceholderAPI] [math] Invalid Placeholder detected!
+[19:14:31] [Server thread/WARN]: [PlaceholderAPI] [math] Placeholder: %math_{server_online_t1}+{server_online_t2}%
+[19:14:31] [Server thread/WARN]: [PlaceholderAPI] [math] Cause:       {server is not a valid integer number.
+[19:14:42] [Server thread/WARN]: [PlaceholderAPI] [math] Invalid Placeholder detected!
+[19:14:42] [Server thread/WARN]: [PlaceholderAPI] [math] Placeholder: %math_{server_online_t1}+{server_online_t2}%
+[19:14:42] [Server thread/WARN]: [PlaceholderAPI] [math] Cause:       {server is not a valid integer number.
+[19:14:50] [Server thread/INFO]: SeniorDiv issued server command: /tp AdminSonic
+[19:14:50] [Server thread/INFO]: [SeniorDiv: Teleported SeniorDiv to AdminSonic]
+[19:14:56] [Server thread/WARN]: [PlaceholderAPI] [math] Invalid Placeholder detected!
+[19:14:56] [Server thread/WARN]: [PlaceholderAPI] [math] Placeholder: %math_{server_online_t1}+{server_online_t2}%
+[19:14:56] [Server thread/WARN]: [PlaceholderAPI] [math] Cause:       {server is not a valid integer number.
+[19:15:11] [Server thread/WARN]: [PlaceholderAPI] [math] Invalid Placeholder detected!
+[19:15:11] [Server thread/WARN]: [PlaceholderAPI] [math] Placeholder: %math_{server_online_t1}+{server_online_t2}%
+[19:15:11] [Server thread/WARN]: [PlaceholderAPI] [math] Cause:       {server is not a valid integer number.
+[19:15:20] [Server thread/INFO]: amirabbas8585 issued server command: //wand
+[19:15:23] [Server thread/WARN]: [PlaceholderAPI] [math] Invalid Placeholder detected!
+[19:15:23] [Server thread/WARN]: [PlaceholderAPI] [math] Placeholder: %math_{server_online_t1}+{server_online_t2}%
+[19:15:23] [Server thread/WARN]: [PlaceholderAPI] [math] Cause:       {server is not a valid integer number.
+[19:15:33] [Server thread/WARN]: [PlaceholderAPI] [math] Invalid Placeholder detected!
+[19:15:33] [Server thread/WARN]: [PlaceholderAPI] [math] Placeholder: %math_{server_online_t1}+{server_online_t2}%
+[19:15:33] [Server thread/WARN]: [PlaceholderAPI] [math] Cause:       {server is not a valid integer number.
+[19:15:36] [Server thread/INFO]: amirabbas8585 issued server command: /up 10
+[19:15:39] [Server thread/INFO]: amirabbas8585 issued server command: /up 10
+[19:15:40] [Server thread/INFO]: amirabbas8585 issued server command: /up 10
+[19:15:43] [Server thread/WARN]: [PlaceholderAPI] [math] Invalid Placeholder detected!
+[19:15:43] [Server thread/WARN]: [PlaceholderAPI] [math] Placeholder: %math_{server_online_t1}+{server_online_t2}%
+[19:15:43] [Server thread/WARN]: [PlaceholderAPI] [math] Cause:       {server is not a valid integer number.
+[19:15:47] [Server thread/INFO]: amirabbas8585 issued server command: //set hand
+[19:15:54] [Server thread/WARN]: [PlaceholderAPI] [math] Invalid Placeholder detected!
+[19:15:54] [Server thread/WARN]: [PlaceholderAPI] [math] Placeholder: %math_{server_online_t1}+{server_online_t2}%
+[19:15:54] [Server thread/WARN]: [PlaceholderAPI] [math] Cause:       {server is not a valid integer number.
+[19:15:56] [Server thread/INFO]: AdminSonic issued server command: /tp poyash AdminSonic
+[19:15:56] [Server thread/INFO]: [AdminSonic: Teleported poyash to AdminSonic]
+[19:15:56] [Server thread/INFO]: AdminSonic issued server command: /tp poyash AdminSonic
+[19:15:56] [Server thread/INFO]: [AdminSonic: Teleported poyash to AdminSonic]
