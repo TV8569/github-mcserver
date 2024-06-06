@@ -1,4 +1,0 @@
-NPCS:
-  '45':
-    Commands:
-    - 1~~~parkour join arcade~~~noPerm~~~BOTH~~~~~~false~~~true~~~false~~~0.0~~~0~~~0~~~false~~~false
