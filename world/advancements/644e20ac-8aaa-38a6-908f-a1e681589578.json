@@ -5,6 +5,18 @@
     },
     "done": true
   },
+  "minecraft:recipes/building_blocks/magma_block": {
+    "criteria": {
+      "has_magma_cream": "2024-06-06 19:04:55 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/building_blocks/emerald_block": {
+    "criteria": {
+      "has_emerald": "2024-06-06 19:04:55 +0000"
+    },
+    "done": true
+  },
   "minecraft:recipes/decorations/lime_carpet_from_white_carpet": {
     "criteria": {
       "has_lime_dye": "2024-06-06 19:01:02 +0000"
@@ -16,6 +28,12 @@
       "minecraft:plains": "2024-06-06 19:01:02 +0000"
     },
     "done": false
+  },
+  "minecraft:story/root": {
+    "criteria": {
+      "crafting_table": "2024-06-06 19:04:55 +0000"
+    },
+    "done": true
   },
   "DataVersion": 2586
 }
