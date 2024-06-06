@@ -94,7 +94,8 @@ Error:
   ErrorFloorLoad: Failed to load floor.
   ErrorFloorSet: Failed to set floor in arena "%ARENA%"
   ErrorInProgress: The game you are trying to join is already running
-  ErrorIngame: You can't join another game while you are playing. Use &e/bp leave &cto leave the current match
+  ErrorIngame: You can't join another game while you are playing. Use &e/bp leave
+    &cto leave the current match
   ErrorNoArenas: There are no arenas to list
   ErrorNoFloor: You have to set a floor first
   ErrorNoGameSpawn: You have to set a game spawn first
@@ -113,7 +114,8 @@ Error:
   ErrorSyntax: 'Syntax: %SYNTAX%'
   ErrorVote: Voting for song "%SONG%" failed
   ErrorWrongSize: This pattern isn't the right size
-  ErrorIssueSend: An error occurred while posting on GitHub! Head over to https://github.com/Leon167/BlockParty/issues !
+  ErrorIssueSend: An error occurred while posting on GitHub! Head over to https://github.com/Leon167/BlockParty/issues
+    !
 Success:
   SuccessArenaCreate: Successfully created arena "%ARENA%"
   SuccessArenaDelete: Successfully deleted arena "%ARENA%"
@@ -129,7 +131,8 @@ Success:
   SuccessSongAdded: Song "%SONG%" has been added to arena "%ARENA%"
   SuccessSignAdded: Added sign to arena "%ARENA%"
   SuccessSignRemoved: Removed sign from arena "%ARENA%"
-  SuccessIssueSend: Bug successfully posted on GitHub ( https://github.com/Leon167/BlockParty/issues )
+  SuccessIssueSend: Bug successfully posted on GitHub ( https://github.com/Leon167/BlockParty/issues
+    )
 Commands:
   CommandFormat: '&e%SYNTAX% &7- %DESCRIPTION%'
   CommandBlockParty: See plugin info

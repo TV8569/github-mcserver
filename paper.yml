@@ -1,14 +1,18 @@
-# This is the main configuration file for PaperSpigot.
+# This is the main configuration file for Paper.
 # As you can see, there's tons to configure. Some options may impact gameplay, so use
 # with caution, and make sure you know what each option does before configuring.
 # 
-# If you need help with the configuration or have any questions related to PaperSpigot,
-# join us at the IRC.
+# If you need help with the configuration or have any questions related to Paper,
+# join us in our Discord or IRC channel.
 # 
-# IRC: #paperspigot @ irc.spi.gt ( http://irc.spi.gt/iris/?channels=PaperSpigot )
+# Discord: https://discord.gg/papermc
+# IRC: #paper @ irc.esper.net ( https://webchat.esper.net/?channels=paper ) 
+# Website: https://papermc.io/ 
+# Docs: https://paper.readthedocs.org/ 
 
-config-version: 9
+config-version: 20
 settings:
+  play-in-use-item-spam-threshold: 300
   baby-zombie-movement-speed: 0.5
   limit-player-interactions: true
   use-alternative-luck-formula: false
@@ -30,9 +34,14 @@ settings:
     allow-headless-pistons: false
     allow-piston-duplication: false
     allow-permanent-block-break-exploits: false
-    allow-headless-pistons-readme: This setting controls if players should be able to create headless pistons.
-    allow-piston-duplication-readme: This setting controls if player should be able to use TNT duplication, but this also allows duplicating carpet, rails and potentially other items
-    allow-permanent-block-break-exploits-readme: This setting controls if players should be able to break bedrock, end portals and other intended to be permanent blocks.
+    allow-headless-pistons-readme: This setting controls if players should be able
+      to create headless pistons.
+    allow-piston-duplication-readme: This setting controls if player should be able
+      to use TNT duplication, but this also allows duplicating carpet, rails and potentially
+      other items
+    allow-permanent-block-break-exploits-readme: This setting controls if players
+      should be able to break bedrock, end portals and other intended to be permanent
+      blocks.
   watchdog:
     early-warning-every: 5000
     early-warning-delay: 10000
@@ -72,6 +81,8 @@ effect-modifiers:
   weakness: -0.5
 world-settings:
   default:
+    baby-zombie-movement-speed: 0.5
+    enable-old-tnt-cannon-behaviors: false
     verbose: true
     generator-settings:
       canyon: true
