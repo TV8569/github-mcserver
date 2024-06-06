@@ -596,3 +596,185 @@ Caused by: java.lang.NullPointerException: Cannot read the array length because 
 [20:37:09] [Server thread/INFO]: amirabbas8585 issued server command: //set hand
 [20:37:34] [Server thread/INFO]: amirabbas8585 issued server command: /holograms
 [20:37:36] [Server thread/INFO]: amirabbas8585 issued server command: /holograms edit
+[20:37:40] [Server thread/INFO]: amirabbas8585 issued server command: /holograms list
+[20:37:44] [Server thread/INFO]: SeniorDiv issued server command: /kill @e[type=!minecraft:player]
+[20:37:44] [Server thread/INFO]: Villager EntityVillager['Farmer'/8, uuid='8659aa45-d774-45c2-bb67-cc1353d9d961', l='ServerLevel[world]', x=-21.87, y=74.00, z=249.67, cx=-2, cz=15, tl=35544, v=true, d=false] died, message: 'Farmer fell out of the world'
+[20:37:44] [Server thread/INFO]: Villager EntityVillager['Villager'/9, uuid='ec5023bc-5abd-4c41-baa4-bd6f4309b765', l='ServerLevel[world]', x=-4.95, y=78.00, z=251.99, cx=-1, cz=15, tl=35541, v=true, d=false] died, message: 'Villager fell out of the world'
+[20:37:44] [Server thread/INFO]: Villager EntityVillager['Villager'/13, uuid='8c1f4168-d2bd-4e24-9688-8ece55e45608', l='ServerLevel[world]', x=-17.42, y=73.00, z=290.29, cx=-2, cz=18, tl=35540, v=true, d=false] died, message: 'Villager fell out of the world'
+[20:37:44] [Server thread/INFO]: Villager EntityVillager['Villager'/20, uuid='f63e76a0-1f60-4712-b77a-836f8ce455db', l='ServerLevel[world]', x=18.25, y=71.00, z=282.37, cx=1, cz=17, tl=35526, v=true, d=false] died, message: 'Villager fell out of the world'
+[20:37:44] [Server thread/INFO]: Villager EntityVillager['Villager'/21, uuid='937b64c2-bc93-43b7-8b26-31ce61aebeb5', l='ServerLevel[world]', x=27.13, y=71.00, z=291.84, cx=1, cz=18, tl=35526, v=true, d=false] died, message: 'Villager fell out of the world'
+[20:37:44] [Server thread/INFO]: Villager EntityVillager['Farmer'/24, uuid='547799e8-e9f2-4713-84f9-f077c37bdb39', l='ServerLevel[world]', x=32.50, y=72.77, z=270.49, cx=2, cz=16, tl=35521, v=true, d=false] died, message: 'Farmer fell out of the world'
+[20:37:44] [Server thread/INFO]: Villager EntityVillager['Villager'/42, uuid='7286de79-5961-4d22-8732-31fde4dff311', l='ServerLevel[world]', x=9.38, y=75.00, z=264.02, cx=0, cz=16, tl=35531, v=true, d=false] died, message: 'Villager fell out of the world'
+[20:37:44] [Server thread/INFO]: Villager EntityVillager['Villager'/44, uuid='69f2be34-662b-4770-b684-78f8dd47f68b', l='ServerLevel[world]', x=29.69, y=72.94, z=262.25, cx=1, cz=16, tl=35521, v=true, d=false] died, message: 'Villager fell out of the world'
+[20:37:44] [Server thread/INFO]: Villager EntityVillager['Villager'/45, uuid='901aaa6c-0264-42eb-8d80-3d919e52b78f', l='ServerLevel[world]', x=18.46, y=72.00, z=264.81, cx=1, cz=16, tl=35532, v=true, d=false] died, message: 'Villager fell out of the world'
+[20:37:44] [Server thread/INFO]: Villager EntityVillager['Farmer'/47, uuid='f8652306-1abb-4d83-bced-5b22daeee102', l='ServerLevel[world]', x=17.75, y=72.00, z=267.54, cx=1, cz=16, tl=35530, v=true, d=false] died, message: 'Farmer fell out of the world'
+[20:37:44] [Server thread/INFO]: Villager EntityVillager['Villager'/48, uuid='ce32dfad-ae60-450b-b257-1f8342d6fe2c', l='ServerLevel[world]', x=18.51, y=73.00, z=264.11, cx=1, cz=16, tl=35522, v=true, d=false] died, message: 'Villager fell out of the world'
+[20:37:44] [Server thread/INFO]: [SeniorDiv: Killed 581 entities]
+[20:37:46] [Server thread/INFO]: amirabbas8585 issued server command: /holograms
+[20:37:49] [Server thread/INFO]: amirabbas8585 issued server command: /holograms help
+[20:38:00] [Server thread/INFO]: amirabbas8585 issued server command: /holograms delete run
+[20:38:03] [Server thread/INFO]: SeniorDiv issued server command: /gamemode spectator
+[20:38:04] [Server thread/INFO]: amirabbas8585 issued server command: /holograms delete block
+[20:38:06] [Server thread/INFO]: SeniorDiv issued server command: /gamemode creative
+[20:38:16] [Server thread/INFO]: amirabbas8585 issued server command: /holograms delete block topp
+[20:38:24] [Server thread/INFO]: amirabbas8585 issued server command: /holograms delete topp
+[20:38:49] [Server thread/INFO]: SeniorDiv issued server command: /gamemode spectator
+[20:39:04] [Server thread/INFO]: amirabbas8585 issued server command: /gamemode survival
+[20:39:06] [Server thread/INFO]: amirabbas8585 issued server command: /gamemode spectator
+[20:39:15] [Server thread/INFO]: SeniorDiv issued server command: /gamemode creative
+[20:39:42] [Server thread/INFO]: amirabbas8585 issued server command: /gamemode survival
+[20:39:45] [Server thread/INFO]: amirabbas8585 issued server command: /gamemode creative
+[20:40:03] [Server thread/INFO]: amirabbas8585 issued server command: //wand
+[20:40:08] [Server thread/INFO]: SeniorDiv issued server command: /tp amirabbas8585 SeniorDiv
+[20:40:08] [Server thread/INFO]: [SeniorDiv: Teleported amirabbas8585 to SeniorDiv]
+[20:40:11] [Server thread/INFO]: SeniorDiv issued server command: /tp amirabbas8585 SeniorDiv
+[20:40:11] [Server thread/INFO]: [SeniorDiv: Teleported amirabbas8585 to SeniorDiv]
+[20:40:12] [Server thread/INFO]: SeniorDiv issued server command: /tp amirabbas8585 SeniorDiv
+[20:40:12] [Server thread/INFO]: [SeniorDiv: Teleported amirabbas8585 to SeniorDiv]
+[20:40:12] [Server thread/INFO]: SeniorDiv issued server command: /tp amirabbas8585 SeniorDiv
+[20:40:12] [Server thread/INFO]: [SeniorDiv: Teleported amirabbas8585 to SeniorDiv]
+[20:40:13] [Server thread/INFO]: SeniorDiv issued server command: /tp amirabbas8585 SeniorDiv
+[20:40:13] [Server thread/INFO]: [SeniorDiv: Teleported amirabbas8585 to SeniorDiv]
+[20:40:21] [Server thread/INFO]: SeniorDiv issued server command: /give SeniorDiv minecraft:command_block
+[20:40:21] [Server thread/INFO]: [SeniorDiv: Gave 1 [Command Block] to SeniorDiv]
+[20:40:47] [Server thread/INFO]: amirabbas8585 issued server command: /pg join
+[20:40:58] [Server thread/INFO]: SeniorDiv issued server command: /stop
+[20:40:58] [Server thread/INFO]: [SeniorDiv: Stopping the server]
+[20:40:58] [Server thread/INFO]: Stopping server
+[20:40:58] [Server thread/INFO]: [BlockParty] Disabling BlockParty v2.0.5-RELEASE
+[20:40:58] [Server thread/INFO]: [BuildBattlePro] Disabling BuildBattlePro v6.7.0
+[20:40:58] [Server thread/WARN]: Initializing Legacy Material Support. Unless you have legacy plugins and/or data this is a bug!
+[20:41:00] [Server thread/INFO]: [PartyGames] Disabling PartyGames v6.6.8
+[20:41:00] [Server thread/INFO]: [PartyGames] Plugin has been disabled!
+[20:41:00] [Server thread/INFO]: [GadgetsMenu] Disabling GadgetsMenu v4.7.3
+[20:41:00] [Server thread/INFO]: [GadgetsMenu] SQLite database connection has been closed.
+[20:41:00] [Server thread/INFO]: [DeluxeHub] Disabling DeluxeHub v3.5.5
+[20:41:00] [Server thread/INFO]: [ajLeaderboards] Disabling ajLeaderboards v2.8.0
+[20:41:00] [pool-22-thread-1/INFO]: [ajLeaderboards] Shutting down cache method..
+[20:41:00] [pool-22-thread-1/INFO]: [ajLeaderboards] Cache method shut down
+[20:41:00] [Server thread/INFO]: [ajLeaderboards] Killing remaining workers
+[20:41:00] [Server thread/INFO]: [ajLeaderboards] Remaining workers killed
+[20:41:00] [Server thread/INFO]: [ajLeaderboards] ajLeaderboards v2.8.0 disabled.
+[20:41:00] [Server thread/INFO]: [Images] Disabling Images v2.1.7
+[20:41:00] [Server thread/INFO]: [Citizens] Disabling Citizens v2.0.33-SNAPSHOT (build 3287)
+[20:41:00] [Server thread/INFO]: [Multiverse-Core] Disabling Multiverse-Core v4.3.1-b861
+[20:41:00] [Server thread/INFO]: [PlayerPoints] Disabling PlayerPoints v3.0.1
+[20:41:00] [Server thread/INFO]: [gs] Disabling GlobalStats v5.1
+[20:41:00] [Server thread/INFO]: [gs] Version 5.1 is disabled!
+[20:41:00] [Server thread/INFO]: [WorldEdit] Disabling WorldEdit v7.2.12+6240-87f4ae1
+[20:41:00] [Server thread/INFO]: Unregistering com.sk89q.worldedit.bukkit.BukkitServerInterface from WorldEdit
+[20:41:00] [Server thread/INFO]: [LPC] Disabling LPC v3.6.0
+[20:41:00] [Server thread/INFO]: [MyCommand] Disabling MyCommand v5.7.4
+[20:41:00] [Server thread/INFO]: *-=-=-=-=-=-=-=-=-* MyCommand v.5.7.4*-=-=-=-=-=-=-=-=-=-*
+[20:41:00] [Server thread/INFO]: | Tasks : Stopped all tasks.
+[20:41:00] [Server thread/INFO]: *-=-=-=-=-=-=-=-=-=-*    Bye!   *-=-=-=-=-=-=-=-=-=-=-*
+[20:41:00] [Server thread/INFO]: [Vault] Disabling Vault v1.7.3-b131
+[20:41:00] [Server thread/INFO]: [HolographicExtension] Disabling HolographicExtension v1.10.9
+[20:41:00] [Server thread/INFO]: [HolographicExtension] Disabling HolographicExtension v1.10.9
+[20:41:00] [Server thread/INFO]: [LuckPerms] Disabling LuckPerms v5.4.40
+[20:41:00] [Server thread/INFO]: [LuckPerms] Starting shutdown process...
+[20:41:00] [Server thread/INFO]: [LuckPerms] Closing storage...
+[20:41:00] [Server thread/INFO]: [LuckPerms] Goodbye!
+[20:41:00] [Server thread/INFO]: [ViaRewind] Disabling ViaRewind v3.1.2
+[20:41:00] [Server thread/INFO]: [ViaBackwards] Disabling ViaBackwards v4.10.2
+[20:41:00] [Server thread/INFO]: [ViaVersion] Disabling ViaVersion v4.10.2
+[20:41:00] [Server thread/INFO]: [ViaVersion] ViaVersion is disabling, if this is a reload and you experience issues consider rebooting.
+[20:41:00] [Server thread/INFO]: [HolographicDisplays] Disabling HolographicDisplays v3.0.4
+[20:41:00] [Server thread/INFO]: [PlaceholderAPI] Disabling PlaceholderAPI v2.11.6
+[20:41:00] [Server thread/INFO]: [JumpPads] Disabling JumpPads v1.25.13
+[20:41:00] [Server thread/INFO]: Saving players
+[20:41:00] [Server thread/INFO]: amirabbas8585 lost connection: Server closed
+[20:41:00] [Server thread/INFO]: amirabbas8585 left the game
+[20:41:00] [Server thread/INFO]: SeniorDiv lost connection: Server closed
+[20:41:00] [Server thread/INFO]: SeniorDiv left the game
+[20:41:00] [Server thread/INFO]: Saving worlds
+[20:41:00] [Server thread/INFO]: Saving chunks for level 'ServerLevel[world]'/minecraft:overworld
+[20:41:00] [Server thread/INFO]: ThreadedAnvilChunkStorage (world): All chunks are saved
+[20:41:00] [Server thread/INFO]: Saving chunks for level 'ServerLevel[bb]'/minecraft:bb
+[20:41:00] [Server thread/INFO]: ThreadedAnvilChunkStorage (bb): All chunks are saved
+[20:41:00] [Server thread/INFO]: Saving chunks for level 'ServerLevel[t4]'/minecraft:t4
+[20:41:00] [Server thread/INFO]: ThreadedAnvilChunkStorage (t4): All chunks are saved
+[20:41:00] [Server thread/INFO]: Saving chunks for level 'ServerLevel[TV]'/minecraft:tv
+[20:41:00] [Server thread/INFO]: ThreadedAnvilChunkStorage (TV): All chunks are saved
+[20:41:00] [Server thread/INFO]: Saving chunks for level 'ServerLevel[bil]'/minecraft:bil
+[20:41:01] [Server thread/INFO]: ThreadedAnvilChunkStorage (bil): All chunks are saved
+[20:41:01] [Server thread/INFO]: Saving chunks for level 'ServerLevel[fot]'/minecraft:fot
+[20:41:01] [Server thread/INFO]: ThreadedAnvilChunkStorage (fot): All chunks are saved
+[20:41:01] [Server thread/INFO]: Saving chunks for level 'ServerLevel[crmapin]'/minecraft:crmapin
+[20:41:01] [Server thread/INFO]: ThreadedAnvilChunkStorage (crmapin): All chunks are saved
+[20:41:01] [Server thread/INFO]: Saving chunks for level 'ServerLevel[world_nether]'/minecraft:the_nether
+[20:41:01] [Server thread/INFO]: ThreadedAnvilChunkStorage (DIM-1): All chunks are saved
+[20:41:01] [Server thread/INFO]: Saving chunks for level 'ServerLevel[block]'/minecraft:block
+[20:41:01] [Server thread/INFO]: ThreadedAnvilChunkStorage (block): All chunks are saved
+[20:41:01] [Server thread/INFO]: Saving chunks for level 'ServerLevel[q1]'/minecraft:q1
+[20:41:01] [Server thread/INFO]: ThreadedAnvilChunkStorage (q1): All chunks are saved
+[20:41:01] [Server thread/INFO]: Saving chunks for level 'ServerLevel[q2]'/minecraft:q2
+[20:41:01] [Server thread/INFO]: ThreadedAnvilChunkStorage (q2): All chunks are saved
+[20:41:01] [Server thread/INFO]: Saving chunks for level 'ServerLevel[bil2]'/minecraft:bil2
+[20:41:01] [Server thread/INFO]: ThreadedAnvilChunkStorage (bil2): All chunks are saved
+[20:41:01] [Server thread/INFO]: Saving chunks for level 'ServerLevel[Arcade]'/minecraft:arcade
+[20:41:01] [Server thread/INFO]: ThreadedAnvilChunkStorage (Arcade): All chunks are saved
+[20:41:01] [Server thread/INFO]: Saving chunks for level 'ServerLevel[tt1]'/minecraft:tt1
+[20:41:02] [Server thread/INFO]: ThreadedAnvilChunkStorage (tt1): All chunks are saved
+[20:41:02] [Server thread/INFO]: Saving chunks for level 'ServerLevel[1]'/minecraft:1
+[20:41:02] [Server thread/INFO]: ThreadedAnvilChunkStorage (1): All chunks are saved
+[20:41:02] [Server thread/INFO]: Saving chunks for level 'ServerLevel[2]'/minecraft:2
+[20:41:02] [Server thread/INFO]: ThreadedAnvilChunkStorage (2): All chunks are saved
+[20:41:02] [Server thread/INFO]: Saving chunks for level 'ServerLevel[tt3]'/minecraft:tt3
+[20:41:02] [Server thread/INFO]: ThreadedAnvilChunkStorage (tt3): All chunks are saved
+[20:41:02] [Server thread/INFO]: Saving chunks for level 'ServerLevel[3]'/minecraft:3
+[20:41:02] [Server thread/INFO]: ThreadedAnvilChunkStorage (3): All chunks are saved
+[20:41:02] [Server thread/INFO]: Saving chunks for level 'ServerLevel[tt2]'/minecraft:tt2
+[20:41:02] [Server thread/INFO]: ThreadedAnvilChunkStorage (tt2): All chunks are saved
+[20:41:02] [Server thread/INFO]: Saving chunks for level 'ServerLevel[world_the_end]'/minecraft:the_end
+[20:41:02] [Server thread/INFO]: ThreadedAnvilChunkStorage (DIM1): All chunks are saved
+[20:41:02] [Server thread/INFO]: Saving chunks for level 'ServerLevel[4]'/minecraft:4
+[20:41:02] [Server thread/INFO]: ThreadedAnvilChunkStorage (4): All chunks are saved
+[20:41:02] [Server thread/INFO]: Saving chunks for level 'ServerLevel[sp2]'/minecraft:sp2
+[20:41:03] [Server thread/INFO]: ThreadedAnvilChunkStorage (sp2): All chunks are saved
+[20:41:03] [Server thread/INFO]: Saving chunks for level 'ServerLevel[5]'/minecraft:5
+[20:41:03] [Server thread/INFO]: ThreadedAnvilChunkStorage (5): All chunks are saved
+[20:41:03] [Server thread/INFO]: Saving chunks for level 'ServerLevel[sp1]'/minecraft:sp1
+[20:41:03] [Server thread/INFO]: ThreadedAnvilChunkStorage (sp1): All chunks are saved
+[20:41:03] [Server thread/INFO]: Saving chunks for level 'ServerLevel[tt4]'/minecraft:tt4
+[20:41:03] [Server thread/INFO]: ThreadedAnvilChunkStorage (tt4): All chunks are saved
+[20:41:03] [Server thread/INFO]: Saving chunks for level 'ServerLevel[6]'/minecraft:6
+[20:41:03] [Server thread/INFO]: ThreadedAnvilChunkStorage (6): All chunks are saved
+[20:41:03] [Server thread/INFO]: Saving chunks for level 'ServerLevel[t1]'/minecraft:t1
+[20:41:03] [Server thread/INFO]: ThreadedAnvilChunkStorage (t1): All chunks are saved
+[20:41:03] [Server thread/INFO]: Saving chunks for level 'ServerLevel[t2]'/minecraft:t2
+[20:41:03] [Server thread/INFO]: ThreadedAnvilChunkStorage (t2): All chunks are saved
+[20:41:03] [Server thread/INFO]: Saving chunks for level 'ServerLevel[t3]'/minecraft:t3
+[20:41:03] [Server thread/INFO]: ThreadedAnvilChunkStorage (t3): All chunks are saved
+[20:41:03] [Server thread/INFO]: ThreadedAnvilChunkStorage (world): All chunks are saved
+[20:41:03] [Server thread/INFO]: ThreadedAnvilChunkStorage (bb): All chunks are saved
+[20:41:03] [Server thread/INFO]: ThreadedAnvilChunkStorage (t4): All chunks are saved
+[20:41:03] [Server thread/INFO]: ThreadedAnvilChunkStorage (TV): All chunks are saved
+[20:41:03] [Server thread/INFO]: ThreadedAnvilChunkStorage (bil): All chunks are saved
+[20:41:03] [Server thread/INFO]: ThreadedAnvilChunkStorage (fot): All chunks are saved
+[20:41:03] [Server thread/INFO]: ThreadedAnvilChunkStorage (crmapin): All chunks are saved
+[20:41:03] [Server thread/INFO]: ThreadedAnvilChunkStorage (DIM-1): All chunks are saved
+[20:41:03] [Server thread/INFO]: ThreadedAnvilChunkStorage (block): All chunks are saved
+[20:41:03] [Server thread/INFO]: ThreadedAnvilChunkStorage (q1): All chunks are saved
+[20:41:03] [Server thread/INFO]: ThreadedAnvilChunkStorage (q2): All chunks are saved
+[20:41:03] [Server thread/INFO]: ThreadedAnvilChunkStorage (bil2): All chunks are saved
+[20:41:03] [Server thread/INFO]: ThreadedAnvilChunkStorage (Arcade): All chunks are saved
+[20:41:03] [Server thread/INFO]: ThreadedAnvilChunkStorage (tt1): All chunks are saved
+[20:41:03] [Server thread/INFO]: ThreadedAnvilChunkStorage (1): All chunks are saved
+[20:41:03] [Server thread/INFO]: ThreadedAnvilChunkStorage (2): All chunks are saved
+[20:41:03] [Server thread/INFO]: ThreadedAnvilChunkStorage (tt3): All chunks are saved
+[20:41:03] [Server thread/INFO]: ThreadedAnvilChunkStorage (3): All chunks are saved
+[20:41:03] [Server thread/INFO]: ThreadedAnvilChunkStorage (tt2): All chunks are saved
+[20:41:03] [Server thread/INFO]: ThreadedAnvilChunkStorage (DIM1): All chunks are saved
+[20:41:03] [Server thread/INFO]: ThreadedAnvilChunkStorage (4): All chunks are saved
+[20:41:03] [Server thread/INFO]: ThreadedAnvilChunkStorage (sp2): All chunks are saved
+[20:41:03] [Server thread/INFO]: ThreadedAnvilChunkStorage (5): All chunks are saved
+[20:41:03] [Server thread/INFO]: ThreadedAnvilChunkStorage (sp1): All chunks are saved
+[20:41:03] [Server thread/INFO]: ThreadedAnvilChunkStorage (tt4): All chunks are saved
+[20:41:03] [Server thread/INFO]: ThreadedAnvilChunkStorage (6): All chunks are saved
+[20:41:03] [Server thread/INFO]: ThreadedAnvilChunkStorage (t1): All chunks are saved
+[20:41:03] [Server thread/INFO]: ThreadedAnvilChunkStorage (t2): All chunks are saved
+[20:41:03] [Server thread/INFO]: ThreadedAnvilChunkStorage (t3): All chunks are saved
+[20:41:03] [Server thread/INFO]: Flushing Chunk IO
+[20:41:03] [Server thread/INFO]: Closing Thread Pool
+[20:41:03] [Server thread/INFO]: Closing Server
