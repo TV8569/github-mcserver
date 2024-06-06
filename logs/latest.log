@@ -550,3 +550,410 @@ Caused by: java.lang.NullPointerException: Cannot read the array length because 
 [19:00:08] [User Authenticator #1/INFO]: UUID of player SeniorDiv is d4c4888d-3808-3381-ac4b-ab7ce1dc7efc
 [19:00:08] [Server thread/INFO]: + SeniorDiv Connected
 [19:00:08] [Server thread/INFO]: SeniorDiv[/[0:0:0:0:0:0:0:1%0]:59562] logged in with entity id 1260 at ([crmapin]-105.9284526271798, 160.0, -2.7323424724515224)
+[19:01:02] [User Authenticator #1/INFO]: UUID of player AdminSonic is 644e20ac-8aaa-38a6-908f-a1e681589578
+[19:01:02] [Server thread/INFO]: + AdminSonic Connected
+[19:01:02] [Server thread/INFO]: AdminSonic[/[0:0:0:0:0:0:0:1%0]:60112] logged in with entity id 2194 at ([world]16.5, 69.0, 246.5)
+[19:01:14] [Server thread/INFO]: SeniorDiv issued server command: /npc
+[19:01:14] [Server thread/ERROR]: null
+org.bukkit.command.CommandException: Cannot execute command 'npc' in plugin Citizens v2.0.26-SNAPSHOT (build 1952) - plugin is disabled.
+	at org.bukkit.command.PluginCommand.execute(PluginCommand.java:37) ~[patched_1.16.5.jar:git-Paper-794]
+	at org.bukkit.command.SimpleCommandMap.dispatch(SimpleCommandMap.java:159) ~[patched_1.16.5.jar:git-Paper-794]
+	at org.bukkit.craftbukkit.v1_16_R3.CraftServer.dispatchCommand(CraftServer.java:826) ~[patched_1.16.5.jar:git-Paper-794]
+	at net.minecraft.server.v1_16_R3.PlayerConnection.handleCommand(PlayerConnection.java:2185) ~[patched_1.16.5.jar:git-Paper-794]
+	at net.minecraft.server.v1_16_R3.PlayerConnection.c(PlayerConnection.java:2000) ~[patched_1.16.5.jar:git-Paper-794]
+	at net.minecraft.server.v1_16_R3.PlayerConnection.a(PlayerConnection.java:1953) ~[patched_1.16.5.jar:git-Paper-794]
+	at net.minecraft.server.v1_16_R3.PacketPlayInChat.a(PacketPlayInChat.java:49) ~[patched_1.16.5.jar:git-Paper-794]
+	at net.minecraft.server.v1_16_R3.PacketPlayInChat.a(PacketPlayInChat.java:7) ~[patched_1.16.5.jar:git-Paper-794]
+	at net.minecraft.server.v1_16_R3.PlayerConnectionUtils.lambda$ensureMainThread$1(PlayerConnectionUtils.java:35) ~[patched_1.16.5.jar:git-Paper-794]
+	at net.minecraft.server.v1_16_R3.TickTask.run(SourceFile:18) ~[patched_1.16.5.jar:git-Paper-794]
+	at net.minecraft.server.v1_16_R3.IAsyncTaskHandler.executeTask(IAsyncTaskHandler.java:136) ~[patched_1.16.5.jar:git-Paper-794]
+	at net.minecraft.server.v1_16_R3.IAsyncTaskHandlerReentrant.executeTask(SourceFile:23) ~[patched_1.16.5.jar:git-Paper-794]
+	at net.minecraft.server.v1_16_R3.IAsyncTaskHandler.executeNext(IAsyncTaskHandler.java:109) ~[patched_1.16.5.jar:git-Paper-794]
+	at net.minecraft.server.v1_16_R3.MinecraftServer.bb(MinecraftServer.java:1271) ~[patched_1.16.5.jar:git-Paper-794]
+	at net.minecraft.server.v1_16_R3.MinecraftServer.executeNext(MinecraftServer.java:1264) ~[patched_1.16.5.jar:git-Paper-794]
+	at net.minecraft.server.v1_16_R3.IAsyncTaskHandler.executeAll(IAsyncTaskHandler.java:95) ~[patched_1.16.5.jar:git-Paper-794]
+	at net.minecraft.server.v1_16_R3.MinecraftServer.a(MinecraftServer.java:1400) ~[patched_1.16.5.jar:git-Paper-794]
+	at net.minecraft.server.v1_16_R3.MinecraftServer.w(MinecraftServer.java:1135) ~[patched_1.16.5.jar:git-Paper-794]
+	at net.minecraft.server.v1_16_R3.MinecraftServer.lambda$a$0(MinecraftServer.java:291) ~[patched_1.16.5.jar:git-Paper-794]
+	at java.lang.Thread.run(Thread.java:831) [?:?]
+[19:01:56] [Server thread/INFO]: amirabbas8585 issued server command: /papi ecloud download LocalTime
+[19:01:56] [placeholderapi-io-#1/INFO]: [PlaceholderAPI] Fetching available expansion information...
+[19:02:02] [Server thread/INFO]: amirabbas8585 issued server command: /papi reload
+[19:02:02] [Server thread/INFO]: [PlaceholderAPI] Placeholder expansion registration initializing...
+[19:02:02] [Server thread/INFO]: [PlaceholderAPI] Fetching available expansion information...
+[19:02:02] [Server thread/ERROR]: [PlaceholderAPI] Failed to load class files of expansion.
+java.util.concurrent.CompletionException: java.lang.UnsupportedClassVersionError: at/helpch/placeholderapi/expansion/server/ServerExpansion has been compiled by a more recent version of the Java Runtime (class file version 61.0), this version of the Java Runtime only recognizes class file versions up to 60.0
+	at java.util.concurrent.CompletableFuture.encodeThrowable(CompletableFuture.java:314) ~[?:?]
+	at java.util.concurrent.CompletableFuture.completeThrowable(CompletableFuture.java:319) ~[?:?]
+	at java.util.concurrent.CompletableFuture$AsyncSupply.run(CompletableFuture.java:1766) ~[?:?]
+	at java.util.concurrent.CompletableFuture$AsyncSupply.exec(CompletableFuture.java:1756) ~[?:?]
+	at java.util.concurrent.ForkJoinTask.doExec(ForkJoinTask.java:295) ~[?:?]
+	at java.util.concurrent.ForkJoinPool$WorkQueue.topLevelExec(ForkJoinPool.java:1016) ~[?:?]
+	at java.util.concurrent.ForkJoinPool.scan(ForkJoinPool.java:1665) ~[?:?]
+	at java.util.concurrent.ForkJoinPool.runWorker(ForkJoinPool.java:1598) ~[?:?]
+	at java.util.concurrent.ForkJoinWorkerThread.run(ForkJoinWorkerThread.java:183) ~[?:?]
+Caused by: java.lang.UnsupportedClassVersionError: at/helpch/placeholderapi/expansion/server/ServerExpansion has been compiled by a more recent version of the Java Runtime (class file version 61.0), this version of the Java Runtime only recognizes class file versions up to 60.0
+	at java.lang.ClassLoader.defineClass1(Native Method) ~[?:?]
+	at java.lang.ClassLoader.defineClass(ClassLoader.java:1010) ~[?:?]
+	at java.security.SecureClassLoader.defineClass(SecureClassLoader.java:150) ~[?:?]
+	at java.net.URLClassLoader.defineClass(URLClassLoader.java:512) ~[?:?]
+	at java.net.URLClassLoader$1.run(URLClassLoader.java:420) ~[?:?]
+	at java.net.URLClassLoader$1.run(URLClassLoader.java:414) ~[?:?]
+	at java.security.AccessController.doPrivileged(AccessController.java:691) ~[?:?]
+	at java.net.URLClassLoader.findClass(URLClassLoader.java:413) ~[?:?]
+	at java.lang.ClassLoader.loadClass(ClassLoader.java:586) ~[?:?]
+	at java.lang.ClassLoader.loadClass(ClassLoader.java:519) ~[?:?]
+	at me.clip.placeholderapi.util.FileUtil.findClass(FileUtil.java:62) ~[?:?]
+	at me.clip.placeholderapi.expansion.manager.LocalExpansionManager.lambda$findExpansionInFile$7(LocalExpansionManager.java:421) ~[?:?]
+	at java.util.concurrent.CompletableFuture$AsyncSupply.run(CompletableFuture.java:1764) ~[?:?]
+	... 6 more
+[19:02:08] [Server thread/INFO]: amirabbas8585 issued server command: /papi reload
+[19:02:08] [Server thread/INFO]: [PlaceholderAPI] Placeholder expansion registration initializing...
+[19:02:08] [Server thread/INFO]: [PlaceholderAPI] Fetching available expansion information...
+[19:02:08] [Server thread/ERROR]: [PlaceholderAPI] Failed to load class files of expansion.
+java.util.concurrent.CompletionException: java.lang.UnsupportedClassVersionError: at/helpch/placeholderapi/expansion/server/ServerExpansion has been compiled by a more recent version of the Java Runtime (class file version 61.0), this version of the Java Runtime only recognizes class file versions up to 60.0
+	at java.util.concurrent.CompletableFuture.encodeThrowable(CompletableFuture.java:314) ~[?:?]
+	at java.util.concurrent.CompletableFuture.completeThrowable(CompletableFuture.java:319) ~[?:?]
+	at java.util.concurrent.CompletableFuture$AsyncSupply.run(CompletableFuture.java:1766) ~[?:?]
+	at java.util.concurrent.CompletableFuture$AsyncSupply.exec(CompletableFuture.java:1756) ~[?:?]
+	at java.util.concurrent.ForkJoinTask.doExec(ForkJoinTask.java:295) ~[?:?]
+	at java.util.concurrent.ForkJoinPool$WorkQueue.topLevelExec(ForkJoinPool.java:1016) ~[?:?]
+	at java.util.concurrent.ForkJoinPool.scan(ForkJoinPool.java:1665) ~[?:?]
+	at java.util.concurrent.ForkJoinPool.runWorker(ForkJoinPool.java:1598) ~[?:?]
+	at java.util.concurrent.ForkJoinWorkerThread.run(ForkJoinWorkerThread.java:183) ~[?:?]
+Caused by: java.lang.UnsupportedClassVersionError: at/helpch/placeholderapi/expansion/server/ServerExpansion has been compiled by a more recent version of the Java Runtime (class file version 61.0), this version of the Java Runtime only recognizes class file versions up to 60.0
+	at java.lang.ClassLoader.defineClass1(Native Method) ~[?:?]
+	at java.lang.ClassLoader.defineClass(ClassLoader.java:1010) ~[?:?]
+	at java.security.SecureClassLoader.defineClass(SecureClassLoader.java:150) ~[?:?]
+	at java.net.URLClassLoader.defineClass(URLClassLoader.java:512) ~[?:?]
+	at java.net.URLClassLoader$1.run(URLClassLoader.java:420) ~[?:?]
+	at java.net.URLClassLoader$1.run(URLClassLoader.java:414) ~[?:?]
+	at java.security.AccessController.doPrivileged(AccessController.java:691) ~[?:?]
+	at java.net.URLClassLoader.findClass(URLClassLoader.java:413) ~[?:?]
+	at java.lang.ClassLoader.loadClass(ClassLoader.java:586) ~[?:?]
+	at java.lang.ClassLoader.loadClass(ClassLoader.java:519) ~[?:?]
+	at me.clip.placeholderapi.util.FileUtil.findClass(FileUtil.java:62) ~[?:?]
+	at me.clip.placeholderapi.expansion.manager.LocalExpansionManager.lambda$findExpansionInFile$7(LocalExpansionManager.java:421) ~[?:?]
+	at java.util.concurrent.CompletableFuture$AsyncSupply.run(CompletableFuture.java:1764) ~[?:?]
+	... 6 more
+[19:02:11] [Server thread/INFO]: SeniorDiv issued server command: /papi reload
+[19:02:11] [Server thread/INFO]: [PlaceholderAPI] Placeholder expansion registration initializing...
+[19:02:11] [Server thread/INFO]: [PlaceholderAPI] Fetching available expansion information...
+[19:02:12] [Server thread/ERROR]: [PlaceholderAPI] Failed to load class files of expansion.
+java.util.concurrent.CompletionException: java.lang.UnsupportedClassVersionError: at/helpch/placeholderapi/expansion/server/ServerExpansion has been compiled by a more recent version of the Java Runtime (class file version 61.0), this version of the Java Runtime only recognizes class file versions up to 60.0
+	at java.util.concurrent.CompletableFuture.encodeThrowable(CompletableFuture.java:314) ~[?:?]
+	at java.util.concurrent.CompletableFuture.completeThrowable(CompletableFuture.java:319) ~[?:?]
+	at java.util.concurrent.CompletableFuture$AsyncSupply.run(CompletableFuture.java:1766) ~[?:?]
+	at java.util.concurrent.CompletableFuture$AsyncSupply.exec(CompletableFuture.java:1756) ~[?:?]
+	at java.util.concurrent.ForkJoinTask.doExec(ForkJoinTask.java:295) ~[?:?]
+	at java.util.concurrent.ForkJoinPool$WorkQueue.topLevelExec(ForkJoinPool.java:1016) ~[?:?]
+	at java.util.concurrent.ForkJoinPool.scan(ForkJoinPool.java:1665) ~[?:?]
+	at java.util.concurrent.ForkJoinPool.runWorker(ForkJoinPool.java:1598) ~[?:?]
+	at java.util.concurrent.ForkJoinWorkerThread.run(ForkJoinWorkerThread.java:183) ~[?:?]
+Caused by: java.lang.UnsupportedClassVersionError: at/helpch/placeholderapi/expansion/server/ServerExpansion has been compiled by a more recent version of the Java Runtime (class file version 61.0), this version of the Java Runtime only recognizes class file versions up to 60.0
+	at java.lang.ClassLoader.defineClass1(Native Method) ~[?:?]
+	at java.lang.ClassLoader.defineClass(ClassLoader.java:1010) ~[?:?]
+	at java.security.SecureClassLoader.defineClass(SecureClassLoader.java:150) ~[?:?]
+	at java.net.URLClassLoader.defineClass(URLClassLoader.java:512) ~[?:?]
+	at java.net.URLClassLoader$1.run(URLClassLoader.java:420) ~[?:?]
+	at java.net.URLClassLoader$1.run(URLClassLoader.java:414) ~[?:?]
+	at java.security.AccessController.doPrivileged(AccessController.java:691) ~[?:?]
+	at java.net.URLClassLoader.findClass(URLClassLoader.java:413) ~[?:?]
+	at java.lang.ClassLoader.loadClass(ClassLoader.java:586) ~[?:?]
+	at java.lang.ClassLoader.loadClass(ClassLoader.java:519) ~[?:?]
+	at me.clip.placeholderapi.util.FileUtil.findClass(FileUtil.java:62) ~[?:?]
+	at me.clip.placeholderapi.expansion.manager.LocalExpansionManager.lambda$findExpansionInFile$7(LocalExpansionManager.java:421) ~[?:?]
+	at java.util.concurrent.CompletableFuture$AsyncSupply.run(CompletableFuture.java:1764) ~[?:?]
+	... 6 more
+[19:02:12] [Server thread/INFO]: amirabbas8585 issued server command: /papi register
+[19:02:15] [Server thread/WARN]: AdminSonic was kicked for floating too long!
+[19:02:15] [Server thread/INFO]: AdminSonic lost connection: Flying is not enabled on this server
+[19:02:15] [Server thread/INFO]: - AdminSonic Disconnected
+[19:02:17] [Server thread/INFO]: amirabbas8585 issued server command: /papi register Expansion-gg.jar
+[19:02:17] [Server thread/INFO]: [PlaceholderAPI] Successfully registered external expansion: gg [1.0.0]
+[19:02:22] [Server thread/INFO]: amirabbas8585 issued server command: /papi register Expansion-localtime.jar
+[19:02:22] [Server thread/INFO]: [PlaceholderAPI] Successfully registered external expansion: localtime [1.2]
+[19:02:23] [Craft Scheduler Thread - 22/INFO]: [LocalTime] Couldn't get SeniorDiv's timezone. Will use default timezone.
+[19:02:23] [Craft Scheduler Thread - 23/INFO]: [LocalTime] Couldn't get amirabbas8585's timezone. Will use default timezone.
+[19:02:30] [Server thread/INFO]: amirabbas8585 issued server command: /papi register Expansion-luckperms.jar
+[19:02:30] [Server thread/WARN]: [PlaceholderAPI] Loaded class net.luckperms.api.LuckPerms from LuckPerms v5.4.40 which is not a depend, softdepend or loadbefore of this plugin.
+[19:02:30] [Server thread/INFO]: [PlaceholderAPI] Successfully registered external expansion: luckperms [5.4-R2]
+[19:02:33] [Server thread/INFO]: SeniorDiv issued server command: /papi reload
+[19:02:33] [Server thread/INFO]: [PlaceholderAPI] Placeholder expansion registration initializing...
+[19:02:33] [Server thread/INFO]: [PlaceholderAPI] Fetching available expansion information...
+[19:02:33] [Server thread/ERROR]: [PlaceholderAPI] Failed to load class files of expansion.
+java.util.concurrent.CompletionException: java.lang.UnsupportedClassVersionError: at/helpch/placeholderapi/expansion/server/ServerExpansion has been compiled by a more recent version of the Java Runtime (class file version 61.0), this version of the Java Runtime only recognizes class file versions up to 60.0
+	at java.util.concurrent.CompletableFuture.encodeThrowable(CompletableFuture.java:314) ~[?:?]
+	at java.util.concurrent.CompletableFuture.completeThrowable(CompletableFuture.java:319) ~[?:?]
+	at java.util.concurrent.CompletableFuture$AsyncSupply.run(CompletableFuture.java:1766) ~[?:?]
+	at java.util.concurrent.CompletableFuture$AsyncSupply.exec(CompletableFuture.java:1756) ~[?:?]
+	at java.util.concurrent.ForkJoinTask.doExec(ForkJoinTask.java:295) ~[?:?]
+	at java.util.concurrent.ForkJoinPool$WorkQueue.topLevelExec(ForkJoinPool.java:1016) ~[?:?]
+	at java.util.concurrent.ForkJoinPool.scan(ForkJoinPool.java:1665) ~[?:?]
+	at java.util.concurrent.ForkJoinPool.runWorker(ForkJoinPool.java:1598) ~[?:?]
+	at java.util.concurrent.ForkJoinWorkerThread.run(ForkJoinWorkerThread.java:183) ~[?:?]
+Caused by: java.lang.UnsupportedClassVersionError: at/helpch/placeholderapi/expansion/server/ServerExpansion has been compiled by a more recent version of the Java Runtime (class file version 61.0), this version of the Java Runtime only recognizes class file versions up to 60.0
+	at java.lang.ClassLoader.defineClass1(Native Method) ~[?:?]
+	at java.lang.ClassLoader.defineClass(ClassLoader.java:1010) ~[?:?]
+	at java.security.SecureClassLoader.defineClass(SecureClassLoader.java:150) ~[?:?]
+	at java.net.URLClassLoader.defineClass(URLClassLoader.java:512) ~[?:?]
+	at java.net.URLClassLoader$1.run(URLClassLoader.java:420) ~[?:?]
+	at java.net.URLClassLoader$1.run(URLClassLoader.java:414) ~[?:?]
+	at java.security.AccessController.doPrivileged(AccessController.java:691) ~[?:?]
+	at java.net.URLClassLoader.findClass(URLClassLoader.java:413) ~[?:?]
+	at java.lang.ClassLoader.loadClass(ClassLoader.java:586) ~[?:?]
+	at java.lang.ClassLoader.loadClass(ClassLoader.java:519) ~[?:?]
+	at me.clip.placeholderapi.util.FileUtil.findClass(FileUtil.java:62) ~[?:?]
+	at me.clip.placeholderapi.expansion.manager.LocalExpansionManager.lambda$findExpansionInFile$7(LocalExpansionManager.java:421) ~[?:?]
+	at java.util.concurrent.CompletableFuture$AsyncSupply.run(CompletableFuture.java:1764) ~[?:?]
+	... 6 more
+[19:02:43] [Server thread/INFO]: amirabbas8585 issued server command: /papi register Expansion-math.jar
+[19:02:43] [Server thread/INFO]: [PlaceholderAPI] Successfully registered external expansion: math [2.0.2]
+[19:02:43] [Craft Scheduler Thread - 18/WARN]: [PlaceholderAPI] [math] Invalid Placeholder detected!
+[19:02:43] [Craft Scheduler Thread - 18/WARN]: [PlaceholderAPI] [math] Placeholder: %math_{server_online_t1}+{server_online_t2}%
+[19:02:43] [Craft Scheduler Thread - 18/WARN]: [PlaceholderAPI] [math] Cause:       {server is not a valid integer number.
+[19:02:46] [User Authenticator #2/INFO]: UUID of player poya1392 is a5f4eafa-aea6-3546-b059-3789697a9507
+[19:02:46] [Server thread/INFO]: + poya1392 Connected
+[19:02:46] [Server thread/INFO]: poya1392[/[0:0:0:0:0:0:0:1%0]:38478] logged in with entity id 3931 at ([world]16.5, 69.0, 242.5)
+[19:02:49] [Server thread/INFO]: amirabbas8585 issued server command: /papi register Expansion-server.jar
+[19:02:49] [Server thread/WARN]: [PlaceholderAPI] failed to find expansion in file: plugins/PlaceholderAPI/expansions/Expansion-server.jar
+java.util.concurrent.CompletionException: java.lang.UnsupportedClassVersionError: at/helpch/placeholderapi/expansion/server/ServerExpansion has been compiled by a more recent version of the Java Runtime (class file version 61.0), this version of the Java Runtime only recognizes class file versions up to 60.0
+	at java.util.concurrent.CompletableFuture.encodeThrowable(CompletableFuture.java:314) ~[?:?]
+	at java.util.concurrent.CompletableFuture.completeThrowable(CompletableFuture.java:319) ~[?:?]
+	at java.util.concurrent.CompletableFuture$AsyncSupply.run(CompletableFuture.java:1766) ~[?:?]
+	at java.util.concurrent.CompletableFuture$AsyncSupply.exec(CompletableFuture.java:1756) ~[?:?]
+	at java.util.concurrent.ForkJoinTask.doExec(ForkJoinTask.java:295) ~[?:?]
+	at java.util.concurrent.ForkJoinPool$WorkQueue.topLevelExec(ForkJoinPool.java:1016) ~[?:?]
+	at java.util.concurrent.ForkJoinPool.scan(ForkJoinPool.java:1665) ~[?:?]
+	at java.util.concurrent.ForkJoinPool.runWorker(ForkJoinPool.java:1598) ~[?:?]
+	at java.util.concurrent.ForkJoinWorkerThread.run(ForkJoinWorkerThread.java:183) ~[?:?]
+Caused by: java.lang.UnsupportedClassVersionError: at/helpch/placeholderapi/expansion/server/ServerExpansion has been compiled by a more recent version of the Java Runtime (class file version 61.0), this version of the Java Runtime only recognizes class file versions up to 60.0
+	at java.lang.ClassLoader.defineClass1(Native Method) ~[?:?]
+	at java.lang.ClassLoader.defineClass(ClassLoader.java:1010) ~[?:?]
+	at java.security.SecureClassLoader.defineClass(SecureClassLoader.java:150) ~[?:?]
+	at java.net.URLClassLoader.defineClass(URLClassLoader.java:512) ~[?:?]
+	at java.net.URLClassLoader$1.run(URLClassLoader.java:420) ~[?:?]
+	at java.net.URLClassLoader$1.run(URLClassLoader.java:414) ~[?:?]
+	at java.security.AccessController.doPrivileged(AccessController.java:691) ~[?:?]
+	at java.net.URLClassLoader.findClass(URLClassLoader.java:413) ~[?:?]
+	at java.lang.ClassLoader.loadClass(ClassLoader.java:586) ~[?:?]
+	at java.lang.ClassLoader.loadClass(ClassLoader.java:519) ~[?:?]
+	at me.clip.placeholderapi.util.FileUtil.findClass(FileUtil.java:62) ~[?:?]
+	at me.clip.placeholderapi.expansion.manager.LocalExpansionManager.lambda$findExpansionInFile$7(LocalExpansionManager.java:421) ~[?:?]
+	at java.util.concurrent.CompletableFuture$AsyncSupply.run(CompletableFuture.java:1764) ~[?:?]
+	... 6 more
+[19:02:52] [Server thread/INFO]: amirabbas8585 issued server command: /papi register Expansion-server.jar
+[19:02:52] [Server thread/WARN]: [PlaceholderAPI] failed to find expansion in file: plugins/PlaceholderAPI/expansions/Expansion-server.jar
+java.util.concurrent.CompletionException: java.lang.UnsupportedClassVersionError: at/helpch/placeholderapi/expansion/server/ServerExpansion has been compiled by a more recent version of the Java Runtime (class file version 61.0), this version of the Java Runtime only recognizes class file versions up to 60.0
+	at java.util.concurrent.CompletableFuture.encodeThrowable(CompletableFuture.java:314) ~[?:?]
+	at java.util.concurrent.CompletableFuture.completeThrowable(CompletableFuture.java:319) ~[?:?]
+	at java.util.concurrent.CompletableFuture$AsyncSupply.run(CompletableFuture.java:1766) ~[?:?]
+	at java.util.concurrent.CompletableFuture$AsyncSupply.exec(CompletableFuture.java:1756) ~[?:?]
+	at java.util.concurrent.ForkJoinTask.doExec(ForkJoinTask.java:295) ~[?:?]
+	at java.util.concurrent.ForkJoinPool$WorkQueue.topLevelExec(ForkJoinPool.java:1016) ~[?:?]
+	at java.util.concurrent.ForkJoinPool.scan(ForkJoinPool.java:1665) ~[?:?]
+	at java.util.concurrent.ForkJoinPool.runWorker(ForkJoinPool.java:1598) ~[?:?]
+	at java.util.concurrent.ForkJoinWorkerThread.run(ForkJoinWorkerThread.java:183) ~[?:?]
+Caused by: java.lang.UnsupportedClassVersionError: at/helpch/placeholderapi/expansion/server/ServerExpansion has been compiled by a more recent version of the Java Runtime (class file version 61.0), this version of the Java Runtime only recognizes class file versions up to 60.0
+	at java.lang.ClassLoader.defineClass1(Native Method) ~[?:?]
+	at java.lang.ClassLoader.defineClass(ClassLoader.java:1010) ~[?:?]
+	at java.security.SecureClassLoader.defineClass(SecureClassLoader.java:150) ~[?:?]
+	at java.net.URLClassLoader.defineClass(URLClassLoader.java:512) ~[?:?]
+	at java.net.URLClassLoader$1.run(URLClassLoader.java:420) ~[?:?]
+	at java.net.URLClassLoader$1.run(URLClassLoader.java:414) ~[?:?]
+	at java.security.AccessController.doPrivileged(AccessController.java:691) ~[?:?]
+	at java.net.URLClassLoader.findClass(URLClassLoader.java:413) ~[?:?]
+	at java.lang.ClassLoader.loadClass(ClassLoader.java:586) ~[?:?]
+	at java.lang.ClassLoader.loadClass(ClassLoader.java:519) ~[?:?]
+	at me.clip.placeholderapi.util.FileUtil.findClass(FileUtil.java:62) ~[?:?]
+	at me.clip.placeholderapi.expansion.manager.LocalExpansionManager.lambda$findExpansionInFile$7(LocalExpansionManager.java:421) ~[?:?]
+	at java.util.concurrent.CompletableFuture$AsyncSupply.run(CompletableFuture.java:1764) ~[?:?]
+	... 6 more
+[19:02:53] [Craft Scheduler Thread - 20/WARN]: [PlaceholderAPI] [math] Invalid Placeholder detected!
+[19:02:53] [Craft Scheduler Thread - 20/WARN]: [PlaceholderAPI] [math] Placeholder: %math_{server_online_t1}+{server_online_t2}%
+[19:02:53] [Craft Scheduler Thread - 20/WARN]: [PlaceholderAPI] [math] Cause:       {server is not a valid integer number.
+[19:02:58] [User Authenticator #2/INFO]: UUID of player AdminSonic is 644e20ac-8aaa-38a6-908f-a1e681589578
+[19:02:58] [Server thread/INFO]: + AdminSonic Connected
+[19:02:58] [Server thread/INFO]: AdminSonic[/[0:0:0:0:0:0:0:1%0]:56100] logged in with entity id 4171 at ([crmapin]-100.95161735383091, 154.09456764752272, 14.801892743172392)
+[19:03:00] [Server thread/WARN]: AdminSonic moved too quickly! 9.61075658802163,-3.905432352477277,24.26473697189535
+[19:03:03] [Craft Scheduler Thread - 22/WARN]: [PlaceholderAPI] [math] Invalid Placeholder detected!
+[19:03:03] [Craft Scheduler Thread - 22/WARN]: [PlaceholderAPI] [math] Placeholder: %math_{server_online_t1}+{server_online_t2}%
+[19:03:03] [Craft Scheduler Thread - 22/WARN]: [PlaceholderAPI] [math] Cause:       {server is not a valid integer number.
+[19:03:07] [Server thread/INFO]: SeniorDiv issued server command: /papi register
+[19:03:13] [Craft Scheduler Thread - 22/WARN]: [PlaceholderAPI] [math] Invalid Placeholder detected!
+[19:03:13] [Craft Scheduler Thread - 22/WARN]: [PlaceholderAPI] [math] Placeholder: %math_{server_online_t1}+{server_online_t2}%
+[19:03:13] [Craft Scheduler Thread - 22/WARN]: [PlaceholderAPI] [math] Cause:       {server is not a valid integer number.
+[19:03:17] [Server thread/INFO]: amirabbas8585 issued server command: /papi ecloud download Server
+[19:03:17] [placeholderapi-io-#2/INFO]: [PlaceholderAPI] Fetching available expansion information...
+[19:03:21] [Server thread/INFO]: amirabbas8585 issued server command: /papi reload
+[19:03:21] [Server thread/INFO]: [PlaceholderAPI] Placeholder expansion registration initializing...
+[19:03:21] [Server thread/INFO]: [PlaceholderAPI] Fetching available expansion information...
+[19:03:21] [Server thread/ERROR]: [PlaceholderAPI] Failed to load class files of expansion.
+java.util.concurrent.CompletionException: java.lang.UnsupportedClassVersionError: at/helpch/placeholderapi/expansion/server/ServerExpansion has been compiled by a more recent version of the Java Runtime (class file version 61.0), this version of the Java Runtime only recognizes class file versions up to 60.0
+	at java.util.concurrent.CompletableFuture.encodeThrowable(CompletableFuture.java:314) ~[?:?]
+	at java.util.concurrent.CompletableFuture.completeThrowable(CompletableFuture.java:319) ~[?:?]
+	at java.util.concurrent.CompletableFuture$AsyncSupply.run(CompletableFuture.java:1766) ~[?:?]
+	at java.util.concurrent.CompletableFuture$AsyncSupply.exec(CompletableFuture.java:1756) ~[?:?]
+	at java.util.concurrent.ForkJoinTask.doExec(ForkJoinTask.java:295) ~[?:?]
+	at java.util.concurrent.ForkJoinPool$WorkQueue.topLevelExec(ForkJoinPool.java:1016) ~[?:?]
+	at java.util.concurrent.ForkJoinPool.scan(ForkJoinPool.java:1665) ~[?:?]
+	at java.util.concurrent.ForkJoinPool.runWorker(ForkJoinPool.java:1598) ~[?:?]
+	at java.util.concurrent.ForkJoinWorkerThread.run(ForkJoinWorkerThread.java:183) ~[?:?]
+Caused by: java.lang.UnsupportedClassVersionError: at/helpch/placeholderapi/expansion/server/ServerExpansion has been compiled by a more recent version of the Java Runtime (class file version 61.0), this version of the Java Runtime only recognizes class file versions up to 60.0
+	at java.lang.ClassLoader.defineClass1(Native Method) ~[?:?]
+	at java.lang.ClassLoader.defineClass(ClassLoader.java:1010) ~[?:?]
+	at java.security.SecureClassLoader.defineClass(SecureClassLoader.java:150) ~[?:?]
+	at java.net.URLClassLoader.defineClass(URLClassLoader.java:512) ~[?:?]
+	at java.net.URLClassLoader$1.run(URLClassLoader.java:420) ~[?:?]
+	at java.net.URLClassLoader$1.run(URLClassLoader.java:414) ~[?:?]
+	at java.security.AccessController.doPrivileged(AccessController.java:691) ~[?:?]
+	at java.net.URLClassLoader.findClass(URLClassLoader.java:413) ~[?:?]
+	at java.lang.ClassLoader.loadClass(ClassLoader.java:586) ~[?:?]
+	at java.lang.ClassLoader.loadClass(ClassLoader.java:519) ~[?:?]
+	at me.clip.placeholderapi.util.FileUtil.findClass(FileUtil.java:62) ~[?:?]
+	at me.clip.placeholderapi.expansion.manager.LocalExpansionManager.lambda$findExpansionInFile$7(LocalExpansionManager.java:421) ~[?:?]
+	at java.util.concurrent.CompletableFuture$AsyncSupply.run(CompletableFuture.java:1764) ~[?:?]
+	... 6 more
+[19:03:27] [Server thread/INFO]: SeniorDiv issued server command: /papi ecloud download Server
+[19:03:27] [placeholderapi-io-#3/INFO]: [PlaceholderAPI] Fetching available expansion information...
+[19:03:31] [Server thread/WARN]: AdminSonic was kicked for floating too long!
+[19:03:31] [Server thread/INFO]: AdminSonic lost connection: Flying is not enabled on this server
+[19:03:31] [Server thread/INFO]: - AdminSonic Disconnected
+[19:03:33] [User Authenticator #2/INFO]: UUID of player AdminSonic is 644e20ac-8aaa-38a6-908f-a1e681589578
+[19:03:33] [Server thread/INFO]: + AdminSonic Connected
+[19:03:33] [Server thread/INFO]: AdminSonic[/[0:0:0:0:0:0:0:1%0]:45554] logged in with entity id 4836 at ([crmapin]-114.16592744769372, 154.2504316585239, 33.426231785690945)
+[19:03:34] [Server thread/INFO]: SeniorDiv issued server command: /papi reload
+[19:03:34] [Server thread/INFO]: [PlaceholderAPI] Placeholder expansion registration initializing...
+[19:03:34] [Server thread/INFO]: [PlaceholderAPI] Fetching available expansion information...
+[19:03:34] [Server thread/ERROR]: [PlaceholderAPI] Failed to load class files of expansion.
+java.util.concurrent.CompletionException: java.lang.UnsupportedClassVersionError: at/helpch/placeholderapi/expansion/server/ServerExpansion has been compiled by a more recent version of the Java Runtime (class file version 61.0), this version of the Java Runtime only recognizes class file versions up to 60.0
+	at java.util.concurrent.CompletableFuture.encodeThrowable(CompletableFuture.java:314) ~[?:?]
+	at java.util.concurrent.CompletableFuture.completeThrowable(CompletableFuture.java:319) ~[?:?]
+	at java.util.concurrent.CompletableFuture$AsyncSupply.run(CompletableFuture.java:1766) ~[?:?]
+	at java.util.concurrent.CompletableFuture$AsyncSupply.exec(CompletableFuture.java:1756) ~[?:?]
+	at java.util.concurrent.ForkJoinTask.doExec(ForkJoinTask.java:295) ~[?:?]
+	at java.util.concurrent.ForkJoinPool$WorkQueue.topLevelExec(ForkJoinPool.java:1016) ~[?:?]
+	at java.util.concurrent.ForkJoinPool.scan(ForkJoinPool.java:1665) ~[?:?]
+	at java.util.concurrent.ForkJoinPool.runWorker(ForkJoinPool.java:1598) ~[?:?]
+	at java.util.concurrent.ForkJoinWorkerThread.run(ForkJoinWorkerThread.java:183) ~[?:?]
+Caused by: java.lang.UnsupportedClassVersionError: at/helpch/placeholderapi/expansion/server/ServerExpansion has been compiled by a more recent version of the Java Runtime (class file version 61.0), this version of the Java Runtime only recognizes class file versions up to 60.0
+	at java.lang.ClassLoader.defineClass1(Native Method) ~[?:?]
+	at java.lang.ClassLoader.defineClass(ClassLoader.java:1010) ~[?:?]
+	at java.security.SecureClassLoader.defineClass(SecureClassLoader.java:150) ~[?:?]
+	at java.net.URLClassLoader.defineClass(URLClassLoader.java:512) ~[?:?]
+	at java.net.URLClassLoader$1.run(URLClassLoader.java:420) ~[?:?]
+	at java.net.URLClassLoader$1.run(URLClassLoader.java:414) ~[?:?]
+	at java.security.AccessController.doPrivileged(AccessController.java:691) ~[?:?]
+	at java.net.URLClassLoader.findClass(URLClassLoader.java:413) ~[?:?]
+	at java.lang.ClassLoader.loadClass(ClassLoader.java:586) ~[?:?]
+	at java.lang.ClassLoader.loadClass(ClassLoader.java:519) ~[?:?]
+	at me.clip.placeholderapi.util.FileUtil.findClass(FileUtil.java:62) ~[?:?]
+	at me.clip.placeholderapi.expansion.manager.LocalExpansionManager.lambda$findExpansionInFile$7(LocalExpansionManager.java:421) ~[?:?]
+	at java.util.concurrent.CompletableFuture$AsyncSupply.run(CompletableFuture.java:1764) ~[?:?]
+	... 6 more
+[19:03:36] [Server thread/WARN]: AdminSonic moved too quickly! -3.6035535058411767,-3.749568341476106,42.8890760144139
+[19:03:39] [Server thread/INFO]: amirabbas8585 issued server command: /papi register Expansion-server.jar
+[19:03:39] [Server thread/WARN]: [PlaceholderAPI] failed to find expansion in file: plugins/PlaceholderAPI/expansions/Expansion-server.jar
+java.util.concurrent.CompletionException: java.lang.UnsupportedClassVersionError: at/helpch/placeholderapi/expansion/server/ServerExpansion has been compiled by a more recent version of the Java Runtime (class file version 61.0), this version of the Java Runtime only recognizes class file versions up to 60.0
+	at java.util.concurrent.CompletableFuture.encodeThrowable(CompletableFuture.java:314) ~[?:?]
+	at java.util.concurrent.CompletableFuture.completeThrowable(CompletableFuture.java:319) ~[?:?]
+	at java.util.concurrent.CompletableFuture$AsyncSupply.run(CompletableFuture.java:1766) ~[?:?]
+	at java.util.concurrent.CompletableFuture$AsyncSupply.exec(CompletableFuture.java:1756) ~[?:?]
+	at java.util.concurrent.ForkJoinTask.doExec(ForkJoinTask.java:295) ~[?:?]
+	at java.util.concurrent.ForkJoinPool$WorkQueue.topLevelExec(ForkJoinPool.java:1016) ~[?:?]
+	at java.util.concurrent.ForkJoinPool.scan(ForkJoinPool.java:1665) ~[?:?]
+	at java.util.concurrent.ForkJoinPool.runWorker(ForkJoinPool.java:1598) ~[?:?]
+	at java.util.concurrent.ForkJoinWorkerThread.run(ForkJoinWorkerThread.java:183) ~[?:?]
+Caused by: java.lang.UnsupportedClassVersionError: at/helpch/placeholderapi/expansion/server/ServerExpansion has been compiled by a more recent version of the Java Runtime (class file version 61.0), this version of the Java Runtime only recognizes class file versions up to 60.0
+	at java.lang.ClassLoader.defineClass1(Native Method) ~[?:?]
+	at java.lang.ClassLoader.defineClass(ClassLoader.java:1010) ~[?:?]
+	at java.security.SecureClassLoader.defineClass(SecureClassLoader.java:150) ~[?:?]
+	at java.net.URLClassLoader.defineClass(URLClassLoader.java:512) ~[?:?]
+	at java.net.URLClassLoader$1.run(URLClassLoader.java:420) ~[?:?]
+	at java.net.URLClassLoader$1.run(URLClassLoader.java:414) ~[?:?]
+	at java.security.AccessController.doPrivileged(AccessController.java:691) ~[?:?]
+	at java.net.URLClassLoader.findClass(URLClassLoader.java:413) ~[?:?]
+	at java.lang.ClassLoader.loadClass(ClassLoader.java:586) ~[?:?]
+	at java.lang.ClassLoader.loadClass(ClassLoader.java:519) ~[?:?]
+	at me.clip.placeholderapi.util.FileUtil.findClass(FileUtil.java:62) ~[?:?]
+	at me.clip.placeholderapi.expansion.manager.LocalExpansionManager.lambda$findExpansionInFile$7(LocalExpansionManager.java:421) ~[?:?]
+	at java.util.concurrent.CompletableFuture$AsyncSupply.run(CompletableFuture.java:1764) ~[?:?]
+	... 6 more
+[19:03:42] [Server thread/INFO]: amirabbas8585 issued server command: /papi register Expansion-server.jar
+[19:03:42] [Server thread/WARN]: [PlaceholderAPI] failed to find expansion in file: plugins/PlaceholderAPI/expansions/Expansion-server.jar
+java.util.concurrent.CompletionException: java.lang.UnsupportedClassVersionError: at/helpch/placeholderapi/expansion/server/ServerExpansion has been compiled by a more recent version of the Java Runtime (class file version 61.0), this version of the Java Runtime only recognizes class file versions up to 60.0
+	at java.util.concurrent.CompletableFuture.encodeThrowable(CompletableFuture.java:314) ~[?:?]
+	at java.util.concurrent.CompletableFuture.completeThrowable(CompletableFuture.java:319) ~[?:?]
+	at java.util.concurrent.CompletableFuture$AsyncSupply.run(CompletableFuture.java:1766) ~[?:?]
+	at java.util.concurrent.CompletableFuture$AsyncSupply.exec(CompletableFuture.java:1756) ~[?:?]
+	at java.util.concurrent.ForkJoinTask.doExec(ForkJoinTask.java:295) ~[?:?]
+	at java.util.concurrent.ForkJoinPool$WorkQueue.topLevelExec(ForkJoinPool.java:1016) ~[?:?]
+	at java.util.concurrent.ForkJoinPool.scan(ForkJoinPool.java:1665) ~[?:?]
+	at java.util.concurrent.ForkJoinPool.runWorker(ForkJoinPool.java:1598) ~[?:?]
+	at java.util.concurrent.ForkJoinWorkerThread.run(ForkJoinWorkerThread.java:183) ~[?:?]
+Caused by: java.lang.UnsupportedClassVersionError: at/helpch/placeholderapi/expansion/server/ServerExpansion has been compiled by a more recent version of the Java Runtime (class file version 61.0), this version of the Java Runtime only recognizes class file versions up to 60.0
+	at java.lang.ClassLoader.defineClass1(Native Method) ~[?:?]
+	at java.lang.ClassLoader.defineClass(ClassLoader.java:1010) ~[?:?]
+	at java.security.SecureClassLoader.defineClass(SecureClassLoader.java:150) ~[?:?]
+	at java.net.URLClassLoader.defineClass(URLClassLoader.java:512) ~[?:?]
+	at java.net.URLClassLoader$1.run(URLClassLoader.java:420) ~[?:?]
+	at java.net.URLClassLoader$1.run(URLClassLoader.java:414) ~[?:?]
+	at java.security.AccessController.doPrivileged(AccessController.java:691) ~[?:?]
+	at java.net.URLClassLoader.findClass(URLClassLoader.java:413) ~[?:?]
+	at java.lang.ClassLoader.loadClass(ClassLoader.java:586) ~[?:?]
+	at java.lang.ClassLoader.loadClass(ClassLoader.java:519) ~[?:?]
+	at me.clip.placeholderapi.util.FileUtil.findClass(FileUtil.java:62) ~[?:?]
+	at me.clip.placeholderapi.expansion.manager.LocalExpansionManager.lambda$findExpansionInFile$7(LocalExpansionManager.java:421) ~[?:?]
+	at java.util.concurrent.CompletableFuture$AsyncSupply.run(CompletableFuture.java:1764) ~[?:?]
+	... 6 more
+[19:03:45] [Server thread/INFO]: poya1392 lost connection: Disconnected
+[19:03:45] [Server thread/INFO]: - poya1392 Disconnected
+[19:03:45] [Async Chat Thread - #0/INFO]: Member | AdminSonic: poya1392
+[19:03:50] [Server thread/INFO]: SeniorDiv issued server command: /papi register Expansion-server.jar
+[19:03:50] [Server thread/WARN]: [PlaceholderAPI] failed to find expansion in file: plugins/PlaceholderAPI/expansions/Expansion-server.jar
+java.util.concurrent.CompletionException: java.lang.UnsupportedClassVersionError: at/helpch/placeholderapi/expansion/server/ServerExpansion has been compiled by a more recent version of the Java Runtime (class file version 61.0), this version of the Java Runtime only recognizes class file versions up to 60.0
+	at java.util.concurrent.CompletableFuture.encodeThrowable(CompletableFuture.java:314) ~[?:?]
+	at java.util.concurrent.CompletableFuture.completeThrowable(CompletableFuture.java:319) ~[?:?]
+	at java.util.concurrent.CompletableFuture$AsyncSupply.run(CompletableFuture.java:1766) ~[?:?]
+	at java.util.concurrent.CompletableFuture$AsyncSupply.exec(CompletableFuture.java:1756) ~[?:?]
+	at java.util.concurrent.ForkJoinTask.doExec(ForkJoinTask.java:295) ~[?:?]
+	at java.util.concurrent.ForkJoinPool$WorkQueue.topLevelExec(ForkJoinPool.java:1016) ~[?:?]
+	at java.util.concurrent.ForkJoinPool.scan(ForkJoinPool.java:1665) ~[?:?]
+	at java.util.concurrent.ForkJoinPool.runWorker(ForkJoinPool.java:1598) ~[?:?]
+	at java.util.concurrent.ForkJoinWorkerThread.run(ForkJoinWorkerThread.java:183) ~[?:?]
+Caused by: java.lang.UnsupportedClassVersionError: at/helpch/placeholderapi/expansion/server/ServerExpansion has been compiled by a more recent version of the Java Runtime (class file version 61.0), this version of the Java Runtime only recognizes class file versions up to 60.0
+	at java.lang.ClassLoader.defineClass1(Native Method) ~[?:?]
+	at java.lang.ClassLoader.defineClass(ClassLoader.java:1010) ~[?:?]
+	at java.security.SecureClassLoader.defineClass(SecureClassLoader.java:150) ~[?:?]
+	at java.net.URLClassLoader.defineClass(URLClassLoader.java:512) ~[?:?]
+	at java.net.URLClassLoader$1.run(URLClassLoader.java:420) ~[?:?]
+	at java.net.URLClassLoader$1.run(URLClassLoader.java:414) ~[?:?]
+	at java.security.AccessController.doPrivileged(AccessController.java:691) ~[?:?]
+	at java.net.URLClassLoader.findClass(URLClassLoader.java:413) ~[?:?]
+	at java.lang.ClassLoader.loadClass(ClassLoader.java:586) ~[?:?]
+	at java.lang.ClassLoader.loadClass(ClassLoader.java:519) ~[?:?]
+	at me.clip.placeholderapi.util.FileUtil.findClass(FileUtil.java:62) ~[?:?]
+	at me.clip.placeholderapi.expansion.manager.LocalExpansionManager.lambda$findExpansionInFile$7(LocalExpansionManager.java:421) ~[?:?]
+	at java.util.concurrent.CompletableFuture$AsyncSupply.run(CompletableFuture.java:1764) ~[?:?]
+	... 6 more
+[19:04:02] [Server thread/INFO]: amirabbas8585 issued server command: /papi register Expansion-pinger.jar
+[19:04:02] [Server thread/INFO]: [PlaceholderAPI] Successfully registered external expansion: pinger [1.0.1]
+[19:04:03] [Server thread/INFO]: AdminSonic issued server command: /login AdminSonic
+[19:04:10] [User Authenticator #2/INFO]: UUID of player poyash is e0b023ad-ee69-3302-9f18-a08767491181
+[19:04:10] [Server thread/INFO]: + poyash Connected
+[19:04:10] [Server thread/INFO]: poyash[/[0:0:0:0:0:0:0:1%0]:57098] logged in with entity id 5448 at ([world]14.5, 70.0, 233.5)
+[19:04:18] [Async Chat Thread - #0/INFO]: Member | AdminSonic: sdcsdfsfgjdf,gdfjsdcsdfsfgjdf,gdfjsdcsdfsfgjdf,gdfjsdcsdfsfgjdf,gdfjsdcsdfsfgjdf,gdfjsdcsdfsfgjdf,gdfjsdcsdfsfgjdf,gdfjsdcsdfsfgjdf,gdfjsdcsdfsfgjdf,gdfjsdcsdfsfgjdf,gdfjsdcsdfsfgjdf,gdfjsdcsdfsfgjdf,gdfjsdcsdfsfgjdf,gdfjsdcsdfsfgjdf,gdfjsdcsdfsfgjdf,gdfjs
+[19:04:24] [Async Chat Thread - #0/INFO]: Member | AdminSonic: sdcsdfsfgjdf,gdfjsdcsdfsfgjdf,gdfjsdcsdfsfgjdf,gdfjsdcsdfsfgjdf,gdfjsdcsdfsfgjdf,gdfjsdcsdfsfgjdf,gdfjsdcsdfsfgjdf,gdfjsdcsdfsfgjdf,gdfjsdcsdfsfgjdf,gdfjsdcsdfsfgjdf,gdfjsdcsdfsfgjdf,gdfjsdcsdfsfgjdf,gdfjsdcsdfsfgjdf,gdfjsdcsdfsfgjdf,gdfjsdcsdfsfgjdf,gdfjs
+[19:04:30] [Server thread/INFO]: amirabbas8585 issued server command: /partygames list
+[19:04:33] [Server thread/INFO]: SeniorDiv issued server command: /partygames join
+[19:04:35] [Async Chat Thread - #0/INFO]: Member | AdminSonic: ｓｑａｌａｍ
+[19:04:36] [Server thread/INFO]: amirabbas8585 issued server command: /partygames join
+[19:04:38] [Async Chat Thread - #0/INFO]: Member | AdminSonic: ｓａｌａａｍａｓｍａｄｍｓｄｆｌｓｋｇｊｓｄｆｇｄｓ
+[19:04:42] [Async Chat Thread - #0/INFO]: Member | AdminSonic: ｓａｌａａｍａｓｍａｄｍｓｄｆｌｓｋｇｊｓｄｆｇｄｓｓａｌａａｍａｓｍａｄｍｓｄｆｌｓｋｇｊｓｄｆｇｄｓｓａｌａａｍａｓｍａｄｍｓｄｆｌｓｋｇｊｓｄｆｇｄｓｓａｌａａｍａｓｍａｄｍｓｄｆｌｓｋｇｊｓｄｆｇｄｓｓａｌａａｍａｓｍａｄｍｓｄｆｌｓｋｇｊｓｄｆｇｄｓｓａｌａａｍａｓｍａｄｍｓｄｆｌｓｋｇｊｓｄｆｇｄｓｓａｌａａｍａｓｍａｄｍｓｄｆｌｓｋｇｊｓｄｆｇｄｓｓａｌａａｍａｓｍａｄｍｓｄｆｌｓｋｇｊｓｄｆｇｄｓｓａｌａａｍａｓｍａｄｍｓｄｆｌｓｋｇｊｓｄｆｇｄｓｓａｌａａｍａｓｍａｄｍｓｄｆｌｓｋｇｊｓｄ
+[19:04:44] [Async Chat Thread - #0/INFO]: Member | AdminSonic: ｓａｌａａｍａｓｍａｄｍｓｄｆｌｓｋｇｊｓｄｆｇｄｓｓａｌａａｍａｓｍａｄｍｓｄｆｌｓｋｇｊｓｄｆｇｄｓｓａｌａａｍａｓｍａｄｍｓｄｆｌｓｋｇｊｓｄｆｇｄｓｓａｌａａｍａｓｍａｄｍｓｄｆｌｓｋｇｊｓｄｆｇｄｓｓａｌａａｍａｓｍａｄｍｓｄｆｌｓｋｇｊｓｄｆｇｄｓ
+[19:04:45] [Async Chat Thread - #0/INFO]: Member | AdminSonic: ｓａｌａａｍａｓｍａｄｍｓｄｆｌｓｋｇｊｓｄｆｇｄｓｓａｌａａｍａｓｍａｄｍｓｄｆｌｓｋｇｊｓｄｆｇｄｓｓａｌａａｍａｓｍａｄｍｓｄｆｌｓｋｇｊｓｄｆｇｄｓｓａｌａａｍａｓｍａｄｍｓｄｆｌｓｋｇｊｓｄｆｇｄｓｓａｌａａｍａｓｍａｄｍｓｄｆｌｓｋｇｊｓｄｆｇｄｓ
+[19:04:48] [Async Chat Thread - #0/INFO]: Developer | amirabbas8585: ./partygames join
+[19:04:50] [Server thread/INFO]: SeniorDiv issued server command: /partygames leave
+[19:04:53] [Server thread/INFO]: SeniorDiv issued server command: /partygames join
+[19:04:54] [Server thread/INFO]: AdminSonic issued server command: /partygames join
+[19:05:08] [Server thread/INFO]: poyash issued server command: /partygames join
