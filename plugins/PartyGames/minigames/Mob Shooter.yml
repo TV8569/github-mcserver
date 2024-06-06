@@ -1,0 +1,10 @@
+Tutorial-Messages:
+- '&2 --------- &aMob Shooter &2--------- '
+- '- Shoot mobs down to earn points!'
+Display-Name: Mob Shooter
+Round-Duration: 30
+Spawned-Mobs: 8
+Freeze-Mobs: true
+Player-Items:
+- 'BOW : 1 : enchant:ARROW_INFINITE:1 : enchant:ARROW_DAMAGE:10'
+- 'ARROW : 1'

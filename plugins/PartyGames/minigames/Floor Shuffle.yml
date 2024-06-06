@@ -1,0 +1,6 @@
+Tutorial-Messages:
+- '&2 --------- &aFloor Shuffle &2--------- '
+- '- You must stand on the color shown in your inventory!'
+Display-Name: Floor Shuffle
+Color-Mismatch-Damage: 9.5
+Performance-Mode: true

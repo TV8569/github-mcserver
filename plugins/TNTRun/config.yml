@@ -1,0 +1,100 @@
+# # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # #
+#                                                             #
+#                           TNTRun                            #
+#                          Despical                           #
+#                                                             #
+#              https://www.patreon.com/despical               #
+#            https://www.buymeacoffee.com/despical            #
+#                                                             #
+#            Donations are really appreciated! <3             #
+#                                                             #
+# # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # #
+
+Time-Settings:
+  # Every 45 seconds a broadcast message will be sent to players
+  # about how many players should arena need to start.
+  Lobby-Waiting-Time: 45
+  # How many seconds should we wait for other players when we reach
+  # minimum player amount in the arena.
+  Lobby-Starting-Time: 10
+  # How many seconds are we going to wait in ending state?
+  # After this amount of time passed we'll send players to lobby.
+  Ending-Time: 10
+  # How many seconds after the blocks will be removed after the game starts.
+  Start-Block-Removing: 5
+  # How many ticks after the blocks will be removed when players moved on it.
+  Block-Remove-Delay: 4
+
+Double-Jumps:
+  # Default amount of double jumps for each of in-game players that doesn't have double jump permission.
+  Default: 5
+  # The duration between using double jumps as seconds.
+  Delay: 4
+  # https://github.com/Despical/TNTRun/wiki/Commands-and-permissions#double-jump-permissions
+  Permissions:
+    - tntrun.doublejumps.3
+    - tntrun.doublejumps.2
+    - tntrun.doublejumps.1
+
+# How many blocks should we scan on different scenarios?
+Scanning-Depth:
+  On-Ground: 2
+  In-Air: 6
+
+# The block list that we are going to remove these when player is on these blocks in-game.
+Whitelisted-Blocks:
+  - TNT
+  - SAND
+  - SANDSTONE
+  - GRAVEL
+  - STAINED_CLAY
+  - RED_SANDSTONE
+  - RED_SAND
+
+# Leave this section empty so everyone can join.
+# Op-ed players will override all the permissions.
+Join-Permission: ""
+
+# Should we create a progress bar to show how many seconds left
+# to use a new double jump?
+Jump-Bar: true
+
+# See messages.yml for game bar messages.
+# Should we create a game bar for in-game players?
+Game-Bar-Enabled: true
+
+# Should we enable our Bungee-cord server support?
+Bungee-Enabled: false
+
+# Enable Inventory Manager for your games? (Very useful feature for MULTI ARENA)
+# This saves inventory of players and restores it after player leaves arena.
+# Saved elements: max health, health, food, experience, full inventory, armor contents, and more.
+Inventory-Manager:
+  Enabled: true
+  # Usable elements: health, max-health, health-scale
+  Do-Not-Restore:
+    - "max-health"
+    - "health-scale"
+
+# Should we disable fall damage?
+Disable-Fall-Damage: true
+
+# Should we enable our MySQL support?
+# See mysql.yml for detailed information.
+Database-Enabled: false
+
+# Should we hide players' name tags in-game?
+Name-Tags-Hidden: false
+
+# Should we format the chat messages?
+# See messages.yml to change format.
+Chat-Format-Enabled: true
+
+# Should the messages stay between arena players or general?
+Disable-Separate-Chat: false
+
+# Should players instantly leave the arena using leave item?
+Instant-Leave: false
+
+# Should we check for any available updates?
+Update-Notifier-Enabled: true

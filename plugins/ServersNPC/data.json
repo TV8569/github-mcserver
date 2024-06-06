@@ -1,0 +1,100 @@
+[
+  {
+    "id": 3,
+    "hologramHeight": 0.0,
+    "skin": "ewogICJ0aW1lc3RhbXAiIDogMTcwNTk2OTAxNDE4MSwKICAicHJvZmlsZUlkIiA6ICJlYTViYmE5YTk5Mzg0MGYwYjcwZjYzYTgzMjIyZjQyOCIsCiAgInByb2ZpbGVOYW1lIiA6ICJUVFQiLAogICJzaWduYXR1cmVSZXF1aXJlZCIgOiB0cnVlLAogICJ0ZXh0dXJlcyIgOiB7CiAgICAiU0tJTiIgOiB7CiAgICAgICJ1cmwiIDogImh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvYjQzOWI3OWM5YTQzMWQ0OTU5ZWUxMTBhMmQ0YjkzMjBmMWJiNjQ5NWZkYjdhNWY3MWEyMDY2NGI0OTAxZWQ0OCIKICAgIH0KICB9Cn0=",
+    "signature": "QbUbsi3fdq7YnHHqokhVoQqRUoylIGk970fyZbOijAh6ud5YTuxiTI+WQkUSEeiA8zR3eW2YWXReXVvdNU9AYrMmqr/+SSm2UiANL4Xz0c2KCP3PENsepYgpOg+hal1qnu9u8ZxLPARlbD79b0Lnn7sF88ltvFL5hobP8aJVIeq2NnNULH+HrXBP/aVe33XPRom2XKAt6FDQF6QaqHDjXg8x0HFabGyyPaZn6LID7+zOSDWJuK1UrXLEb8r2GZzWO83cpyjiOXg1L1S8J3/2ew82DsWfIfgQcXxt7JhYj9dNxYtlXuJ0i0hbEIPtbfCnXcei688LXjVXlop800aunV+ppsYIWVSLOKJUAFQlB3/5BjL0vm32UnL6YqcrSLi6tD5nZjHkaOLWqD5crP37okebFh2pCZUXp1yVXURQ6zoIr33ZwI8VsOO/j6+iCjVg6i7fDl40pmpTWNa3rkXq5sO/BtC2g5Qu48P1F/Ss+p8anFaQmqhATxaoKv+HGeNzaQlaz93fPk6OHtT5go19Ksd50rAF1+aFPeEe/4ocQS6qSnvmWBwB2eYDceQjV12D7doVjksTVqlw83RfIuiD5kYsYkmXEpxFRG5r6huTOyaNuk2AkKkEWJ+PjK5KUdwTQTZe88RKRFWnvHp0Rbfr/qLQm3BTqMyeIVW59dKWl3c=",
+    "skinName": "Steve",
+    "location": {
+      "world": "crmapin",
+      "x": -109.5,
+      "y": 153.0,
+      "z": 31.5,
+      "yaw": 180.00027,
+      "pitch": 0.89999497
+    },
+    "npcType": "PLAYER",
+    "hologramLines": [
+      "&9&l%server_online_bil%-Players",
+      "&5Build-Battle",
+      "&9&lCLICK-TO-PLAY"
+    ],
+    "refreshSkinDuration": 0,
+    "clickActions": [
+      {
+        "actionType": "CMD",
+        "clickType": "DEFAULT",
+        "action": "bb plot",
+        "delay": 0
+      }
+    ],
+    "npcEquip": {},
+    "npcFunctions": {
+      "holo": true,
+      "look": true
+    },
+    "customizationMap": {}
+  },
+  {
+    "id": 4,
+    "hologramHeight": 0.0,
+    "skin": "ewogICJ0aW1lc3RhbXAiIDogMTcwNTk2OTAxNDE4MSwKICAicHJvZmlsZUlkIiA6ICJlYTViYmE5YTk5Mzg0MGYwYjcwZjYzYTgzMjIyZjQyOCIsCiAgInByb2ZpbGVOYW1lIiA6ICJUVFQiLAogICJzaWduYXR1cmVSZXF1aXJlZCIgOiB0cnVlLAogICJ0ZXh0dXJlcyIgOiB7CiAgICAiU0tJTiIgOiB7CiAgICAgICJ1cmwiIDogImh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvYjQzOWI3OWM5YTQzMWQ0OTU5ZWUxMTBhMmQ0YjkzMjBmMWJiNjQ5NWZkYjdhNWY3MWEyMDY2NGI0OTAxZWQ0OCIKICAgIH0KICB9Cn0=",
+    "signature": "QbUbsi3fdq7YnHHqokhVoQqRUoylIGk970fyZbOijAh6ud5YTuxiTI+WQkUSEeiA8zR3eW2YWXReXVvdNU9AYrMmqr/+SSm2UiANL4Xz0c2KCP3PENsepYgpOg+hal1qnu9u8ZxLPARlbD79b0Lnn7sF88ltvFL5hobP8aJVIeq2NnNULH+HrXBP/aVe33XPRom2XKAt6FDQF6QaqHDjXg8x0HFabGyyPaZn6LID7+zOSDWJuK1UrXLEb8r2GZzWO83cpyjiOXg1L1S8J3/2ew82DsWfIfgQcXxt7JhYj9dNxYtlXuJ0i0hbEIPtbfCnXcei688LXjVXlop800aunV+ppsYIWVSLOKJUAFQlB3/5BjL0vm32UnL6YqcrSLi6tD5nZjHkaOLWqD5crP37okebFh2pCZUXp1yVXURQ6zoIr33ZwI8VsOO/j6+iCjVg6i7fDl40pmpTWNa3rkXq5sO/BtC2g5Qu48P1F/Ss+p8anFaQmqhATxaoKv+HGeNzaQlaz93fPk6OHtT5go19Ksd50rAF1+aFPeEe/4ocQS6qSnvmWBwB2eYDceQjV12D7doVjksTVqlw83RfIuiD5kYsYkmXEpxFRG5r6huTOyaNuk2AkKkEWJ+PjK5KUdwTQTZe88RKRFWnvHp0Rbfr/qLQm3BTqMyeIVW59dKWl3c=",
+    "skinName": "Steve",
+    "location": {
+      "world": "crmapin",
+      "x": -115.5,
+      "y": 154.0,
+      "z": 32.5,
+      "yaw": -179.2502,
+      "pitch": -1.8000171
+    },
+    "npcType": "PLAYER",
+    "hologramLines": [
+      "&9&l%server_online_1%-Players",
+      "&5Murder-Mystery",
+      "&9&lCLICK-TO-PLAY"
+    ],
+    "refreshSkinDuration": 0,
+    "clickActions": [
+      {
+        "actionType": "CMD",
+        "clickType": "DEFAULT",
+        "action": "mm arenas",
+        "delay": 0
+      }
+    ],
+    "npcEquip": {},
+    "npcFunctions": {
+      "holo": true,
+      "look": true
+    },
+    "customizationMap": {}
+  },
+  {
+    "id": 222,
+    "hologramHeight": 0.0,
+    "skin": "ewogICJ0aW1lc3RhbXAiIDogMTcwNjAxMDU3NDIyMywKICAicHJvZmlsZUlkIiA6ICIwNTM0YTA2OGFhZDc0YWMwYmQ3MmNkYTlmZDAwNDEwZCIsCiAgInByb2ZpbGVOYW1lIiA6ICIyMjIiLAogICJzaWduYXR1cmVSZXF1aXJlZCIgOiB0cnVlLAogICJ0ZXh0dXJlcyIgOiB7CiAgICAiU0tJTiIgOiB7CiAgICAgICJ1cmwiIDogImh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvOTBlNzVjZDQyOWJhNjMzMWNkMjEwYjliZDE5Mzk5NTI3ZWUzYmFiNDY3YjVhOWY2MWNiOGEyN2IxNzdmNjc4OSIKICAgIH0KICB9Cn0=",
+    "signature": "BHHZ8lxGoIDJ4CQgBXTInTDw2gF+uFuMaGK94XMb6zfqIOooYJwOe8FjQHhtmqdO577BqLBGNAuIK8vYzE0LYdenNHNPm2kJl19l9sM3BiB6YuYn1B75DfScqikxVhho8wumUY42OwjOyvJ6F84Pb8KVBqVtjXng6a9NN/exLUGIfdLvDm/GqaEWBTiKOmmfAfIVZq0iPnKVJIV5AAGTmCf2jMP/19SDKmOk1y6iSv3eyZCNw5X4B8deAVL/Smf6+gn3sAa88RsZhTTGZqE/LqwMUn4Cjj0mWwfexZp+QUHxIlddqXyY93PO/0oHDqSLEsZj29u2XaSmsWvIad5dMX5zLuwsM3VFKkCodoNEPuiix34HK69mlc+f3Fm2R2ohLRa2odIPfbAE11be5zf7nBj6IhEE1yQYEwFnKjExproAmElvBV4paQq8J1fhIJPowuKt60AQNQBaJSao4meHj3UkXKJOXheVRWjMXFU0NBkggkbsmuLoC71abOBdS2gQkRLeOub5NuY7lzSEkHtJi8d+aESYC+A8rYupRF5UKg3LCz36kGEBrnMhvwF4Y6FY2F/FTUtPge8OuhM/OyptJAxj/1i5Bdus+HENe29MaNE9S3HH6Qn+KB45aSwbOFx7bDQgbXzVf+Obetoh2OwXFp59ghldZsR7GGcDJPgQCi0=",
+    "skinName": "Steve",
+    "location": {
+      "world": "crmapin",
+      "x": -114.5,
+      "y": 153.0,
+      "z": 25.5,
+      "yaw": -339.30005,
+      "pitch": 18.299997
+    },
+    "npcType": "PLAYER",
+    "hologramLines": [
+      "&e%math_{server_online_t1}+{server_online_t2}%Playesrs"
+    ],
+    "refreshSkinDuration": 0,
+    "clickActions": [],
+    "npcEquip": {},
+    "npcFunctions": {
+      "holo": true
+    },
+    "customizationMap": {}
+  }
+]

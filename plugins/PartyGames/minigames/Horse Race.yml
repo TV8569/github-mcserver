@@ -1,0 +1,8 @@
+Tutorial-Messages:
+- '&2 --------- &aHorse Race &2--------- '
+- '- Get to the end of the racing course as fast as possible!'
+Display-Name: Horse Race
+Round-Duration: 90
+Player-Items:
+- 'BOW : 1'
+- 'ARROW : 64'

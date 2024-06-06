@@ -1,0 +1,7 @@
+Tutorial-Messages:
+- '&2 --------- &aPunch The Bat &2--------- '
+- '- Kill as many bats as you can!'
+- '- You can double jump!'
+Display-Name: Punch The Bat
+Round-Duration: 30
+Allow-Double-Jump: true

@@ -1,0 +1,33 @@
+leaderboards:
+  bil//-470//24//77:
+    location: bil//-469.624970875464//24.0//77.53595728262678//0.0//0.0
+    type: BLOCKS_PLACED
+    player-amount: 10
+  bil//-467//24//74:
+    location: bil//-466.7699884956702//24.0//74.57650180593974//0.0//0.0
+    type: PARTICLES_PLACED
+    player-amount: 10
+  bil//-470//24//71:
+    location: bil//-469.2912230731893//24.0//71.47144430504918//0.0//0.0
+    type: PLAYED
+    player-amount: 10
+  bil//-473//24//74:
+    location: bil//-472.6443859913371//24.0//74.43645036932658//0.0//0.0
+    type: WINS
+    player-amount: 10
+  bb//-642//113//-250:
+    location: bb//-641.5412047401703//113.5//-249.30000001192093//0.0//0.0
+    type: BLOCKS_PLACED
+    player-amount: 10
+  bb//-637//113//-255:
+    location: bb//-636.3013782952869//113.5//-254.3673544741039//0.0//0.0
+    type: PARTICLES_PLACED
+    player-amount: 10
+  bb//-642//113//-260:
+    location: bb//-641.514071727752//113.5//-259.69999998807907//0.0//0.0
+    type: PLAYED
+    player-amount: 10
+  bb//-647//113//-255:
+    location: bb//-646.6410138975166//113.5//-254.59118546760803//0.0//0.0
+    type: WINS
+    player-amount: 10

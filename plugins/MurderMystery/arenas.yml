@@ -1,0 +1,121 @@
+# 
+# Don't edit it. But who's stopping you? It's your server!
+# Really, don't edit ;p
+# You edited it, huh? Next time hurt yourself!
+instances:
+  default:
+    lobbylocation: world,364.0,63.0,-72.0,0.0,0.0
+    startlocation: world,364.0,63.0,-72.0,0.0,0.0
+    endlocation: world,364.0,63.0,-72.0,0.0,0.0
+    minimumplayers: 2
+    maximumplayers: 10
+    mapname: mapname
+    world: worldname
+    signs: []
+    isdone: false
+    playerspawnpoints:
+    - world,364.0,63.0,-72.0,0.0,0.0
+    goldspawnpoints:
+    - world,364.0,63.0,-72.0,0.0,0.0
+    mystery-cauldrons:
+    - world,364.0,63.0,-72.0,0.0,0.0
+    playerpermurderer: 5
+    playerperdetective: 7
+    goldvisuals: false
+  '1':
+    isdone: true
+    endlocation: Arcade,-0.33,64.16,10.42,2.7,65.7
+    lobbylocation: 1,0.71,138.06,-0.06,-84.9,2.7
+    playerspawnpoints:
+    - 1,42,97,19,0.0,0.0
+    - 1,43,100,-3,0.0,0.0
+    - 1,41,101,42,0.0,0.0
+    - 1,27,106,0,0.0,0.0
+    - 1,8,103,20,0.0,0.0
+    startlocation: 1,8.22,103.0,20.28,-98.4,4.95
+    spectatorlocation: 1,39.59,113.21,20.51,-92.4,-7.5
+    minimumplayers: 4
+    maximumplayers: 16
+    goldspawnpoints:
+    - 1,26,97,-1,0.0,0.0
+    - 1,68,105,18,0.0,0.0
+    - 1,65,97,20,0.0,0.0
+    - 1,57,97,-1,0.0,0.0
+    mystery-cauldrons:
+    - 1,39,105,15,0.0,0.0
+    - 1,26,106,-1,0.0,0.0
+    - 1,17,106,25,0.0,0.0
+    - 1,43,94,23,0.0,0.0
+    - 1,33,97,-4,0.0,0.0
+    confessionals:
+    - 1,24,105,38,0.0,0.0
+    - 1,68,106,20,0.0,0.0
+    playerpermurderer: 1
+    spawngoldtime: 2
+    signs: []
+    playerperdetective: 2
+    goldvisuals: false
+    mapname: §c§lMine
+  '2':
+    isdone: true
+    goldspawnpoints:
+    - 2,-67,75,0,0.0,0.0
+    - 2,-13,65,-19,0.0,0.0
+    - 2,-4,65,-38,0.0,0.0
+    - 2,-12,66,-46,0.0,0.0
+    - 2,-69,65,0,0.0,0.0
+    spectatorlocation: 2,0.62,94.0,0.58,-356.4,10.8
+    lobbylocation: 2,0.62,94.0,0.58,-356.7,8.55
+    mystery-cauldrons:
+    - 2,-46,75,4,0.0,0.0
+    - 2,-52,75,4,0.0,0.0
+    - 2,0,65,-2,0.0,0.0
+    - 2,0,65,2,0.0,0.0
+    minimumplayers: 2
+    maximumplayers: 32
+    playerperdetective: 2
+    playerpermurderer: 2
+    confessionals:
+    - 2,2,65,0,0.0,0.0
+    endlocation: Arcade,-0.33,64.16,10.42,-1.65,84.6
+    goldvisuals: true
+    playerspawnpoints:
+    - 2,-25,66,45,0.0,0.0
+    - 2,-55,65,28,0.0,0.0
+    - 2,-54,67,-29,0.0,0.0
+    - 2,-36,66,-45,0.0,0.0
+    startlocation: 2,-35.66,66.06,-44.99,-79.95,6.75
+    spawngoldtime: 1
+    mapname: §6§lMuseum
+    signs: []
+  Texas:
+    isdone: true
+    lobbylocation: 4,86.54,168.0,11.47,-270.0,-8.4
+    playerspawnpoints:
+    - 4,106,65,-48,0.0,0.0
+    - 4,82,66,-12,0.0,0.0
+    - 4,41,65,42,0.0,0.0
+    - 4,-21,65,-57,0.0,0.0
+    startlocation: 4,-20.58,65.0,-56.12,-53.55,-6.3
+    goldspawnpoints:
+    - 4,-23,65,-57,0.0,0.0
+    - 4,-43,66,8,0.0,0.0
+    - 4,-34,65,56,0.0,0.0
+    - 4,46,65,54,0.0,0.0
+    mystery-cauldrons:
+    - 4,-38,66,8,0.0,0.0
+    - 4,-20,65,-8,0.0,0.0
+    - 4,-20,65,-22,0.0,0.0
+    - 4,-32,66,-7,0.0,0.0
+    minimumplayers: 4
+    maximumplayers: 24
+    spectatorlocation: 4,67.51,107.0,29.68,112.8,5.25
+    goldvisuals: true
+    spawngoldtime: 2
+    endlocation: Arcade,-0.66,65.15,10.65,6.75,88.65
+    playerpermurderer: 1
+    playerperdetective: 1
+    mapname: §9§lTexas
+Do-Not-Edit:
+  File-Version: 1
+  Core-Version: 1

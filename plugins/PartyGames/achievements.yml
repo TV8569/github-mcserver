@@ -1,0 +1,161 @@
+Styling:
+  Locked-Material: COAL_BLOCK
+  Locked-Lore: '&cLocked'
+  Unlocked-Material: DIAMOND_BLOCK
+  Unlocked-Lore: '&aUnlocked'
+  Name: '&b%description%'
+  Prize: '&6Prize: &e%prizeDescription%'
+Achievements:
+  mini_wins:
+    '1':
+      description: Win 1 minigames(s)!
+      prize-description: Earn 5 coins!
+      executed-command: pg statsmodify add coins %player% 5
+    '5':
+      description: Win 5 minigames(s)!
+      prize-description: Earn 25 coins!
+      executed-command: pg statsmodify add coins %player% 25
+    '10':
+      description: Win 10 minigames(s)!
+      prize-description: Earn 50 coins!
+      executed-command: pg statsmodify add coins %player% 50
+    '20':
+      description: Win 20 minigames(s)!
+      prize-description: Earn 100 coins!
+      executed-command: pg statsmodify add coins %player% 100
+    '50':
+      description: Win 50 minigames(s)!
+      prize-description: Earn 250 coins!
+      executed-command: pg statsmodify add coins %player% 250
+    '100':
+      description: Win 100 minigames(s)!
+      prize-description: Earn 500 coins!
+      executed-command: pg statsmodify add coins %player% 500
+    '250':
+      description: Win 250 minigames(s)!
+      prize-description: Earn 1250 coins!
+      executed-command: pg statsmodify add coins %player% 1250
+    '500':
+      description: Win 500 minigames(s)!
+      prize-description: Earn 2500 coins!
+      executed-command: pg statsmodify add coins %player% 2500
+    '1000':
+      description: Win 1000 minigames(s)!
+      prize-description: Earn 5000 coins!
+      executed-command: pg statsmodify add coins %player% 5000
+  wins:
+    '1':
+      description: Win 1 game(s)!
+      prize-description: Earn 10 coins!
+      executed-command: pg statsmodify add coins %player% 10
+    '5':
+      description: Win 5 game(s)!
+      prize-description: Earn 50 coins!
+      executed-command: pg statsmodify add coins %player% 50
+    '10':
+      description: Win 10 game(s)!
+      prize-description: Earn 100 coins!
+      executed-command: pg statsmodify add coins %player% 100
+    '20':
+      description: Win 20 game(s)!
+      prize-description: Earn 200 coins!
+      executed-command: pg statsmodify add coins %player% 200
+    '50':
+      description: Win 50 game(s)!
+      prize-description: Earn 500 coins!
+      executed-command: pg statsmodify add coins %player% 500
+    '100':
+      description: Win 100 game(s)!
+      prize-description: Earn 1000 coins!
+      executed-command: pg statsmodify add coins %player% 1000
+  games_played:
+    '1':
+      description: Play 1 game(s)!
+      prize-description: Earn 10 coins!
+      executed-command: pg statsmodify add coins %player% 10
+    '5':
+      description: Play 5 game(s)!
+      prize-description: Earn 50 coins!
+      executed-command: pg statsmodify add coins %player% 50
+    '10':
+      description: Play 10 game(s)!
+      prize-description: Earn 100 coins!
+      executed-command: pg statsmodify add coins %player% 100
+    '20':
+      description: Play 20 game(s)!
+      prize-description: Earn 200 coins!
+      executed-command: pg statsmodify add coins %player% 200
+    '50':
+      description: Play 50 game(s)!
+      prize-description: Earn 500 coins!
+      executed-command: pg statsmodify add coins %player% 500
+    '100':
+      description: Play 100 game(s)!
+      prize-description: Earn 1000 coins!
+      executed-command: pg statsmodify add coins %player% 1000
+  player_rank:
+    '3':
+      description: Reach rank 3!
+      prize-description: Earn 30 coins!
+      executed-command: pg statsmodify add coins %player% 30
+    '6':
+      description: Reach rank 6!
+      prize-description: Earn 60 coins!
+      executed-command: pg statsmodify add coins %player% 60
+    '9':
+      description: Reach rank 9!
+      prize-description: Earn 90 coins!
+      executed-command: pg statsmodify add coins %player% 90
+    '12':
+      description: Reach rank 12!
+      prize-description: Earn 120 coins!
+      executed-command: pg statsmodify add coins %player% 120
+    '15':
+      description: Reach rank 15!
+      prize-description: Earn 150 coins!
+      executed-command: pg statsmodify add coins %player% 150
+    '18':
+      description: Reach rank 18!
+      prize-description: Earn 180 coins!
+      executed-command: pg statsmodify add coins %player% 180
+    '21':
+      description: Reach rank 21!
+      prize-description: Earn 210 coins!
+      executed-command: pg statsmodify add coins %player% 210
+    '23':
+      description: Reach rank 23!
+      prize-description: Earn 230 coins!
+      executed-command: pg statsmodify add coins %player% 230
+    '25':
+      description: Reach rank 25!
+      prize-description: Earn 250 coins!
+      executed-command: pg statsmodify add coins %player% 250
+  player_prestige:
+    '1':
+      description: Reach prestige 1!
+      prize-description: Earn 1000 coins!
+      executed-command: pg statsmodify add coins %player% 1000
+    '3':
+      description: Reach prestige 3!
+      prize-description: Earn 3000 coins!
+      executed-command: pg statsmodify add coins %player% 3000
+    '5':
+      description: Reach prestige 5!
+      prize-description: Earn 5000 coins!
+      executed-command: pg statsmodify add coins %player% 5000
+    '7':
+      description: Reach prestige 7!
+      prize-description: Earn 7000 coins!
+      executed-command: pg statsmodify add coins %player% 7000
+    '9':
+      description: Reach prestige 9!
+      prize-description: Earn 9000 coins!
+      executed-command: pg statsmodify add coins %player% 9000
+    '12':
+      description: Reach prestige 12!
+      prize-description: Earn 12000 coins!
+      executed-command: pg statsmodify add coins %player% 12000
+    '15':
+      description: Reach prestige 15!
+      prize-description: Earn 15000 coins!
+      executed-command: pg statsmodify add coins %player% 15000

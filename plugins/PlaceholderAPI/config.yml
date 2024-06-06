@@ -1,0 +1,58 @@
+# PlaceholderAPI
+# Version: 2.11.6
+# Created by: extended_clip
+# Contributors: https://github.com/PlaceholderAPI/PlaceholderAPI/graphs/contributors
+# Issues: https://github.com/PlaceholderAPI/PlaceholderAPI/issues
+# Expansions: https://placeholderapi.com/ecloud
+# Wiki: https://wiki.placeholderapi.com/
+# Discord: https://helpch.at/discord
+# No placeholders are provided with this plugin by default.
+# Download placeholders: /papi ecloud
+check_updates: true
+cloud_enabled: true
+cloud_sorting: name
+boolean:
+  'true': 'yes'
+  'false': 'no'
+date_format: MM/dd/yy HH:mm:ss
+debug: false
+expansions:
+  server:
+    server_name: A Minecraft Server
+    time:
+      locale: en-US
+      zone: America/Los_Angeles
+      suffix:
+        week: w
+        day: d
+        hour: h
+        minute: m
+        second: s
+    tps_color:
+      high: '&a'
+      medium: '&e'
+      low: '&c'
+  math:
+    Disable-Warnings: false
+    Rounding: half-up
+    Decimals: 3
+    Debug: false
+  pinger:
+    offline: '&cOffline'
+    check_interval: 30
+    online: '&aOnline'
+  tempdata:
+    default-hex-format: '&#<hex-color>'
+    player-cache:
+      player:
+        duration: 5
+        time-unit: MINUTES
+      data:
+        duration: 1
+        time-unit: MINUTES
+    global-cache:
+      duration: 5
+      time-unit: MINUTES
+      max-size: 100
+  localtime:
+    date_format: dd/MM/yyyy hh:mma

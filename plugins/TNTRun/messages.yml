@@ -1,0 +1,175 @@
+admin-commands:
+  did-you-mean: "&3Did you mean &b/%command%?"
+  cannot-do-that-ingame: "&cYou can not do that while playing!"
+  provide-an-arena-name: "&cPlease provide an arena name!"
+  there-is-already-an-arena: "&cThere is already an arena with that name!"
+  no-arena-found-with-that-name: "&cNo arena found with that name!"
+  deleted-arena-successfully: "&cDeleted arena called %s successfully!"
+  must-be-in-arena: "&cYou must be in the arena to perform this command!"
+  list-command:
+    no-arenas-created: "&cThere aren't any arena to show!"
+    format: "&aExisting arenas: &7%list%"
+
+player-commands:
+  no-player-found: "&cNo player found with that name!"
+  no-free-arenas: "&cThere aren't any available arena to join!"
+  statistics:
+    type-name: "&cPlease type statistic name to view!"
+    invalid-name: "&cNo statistic found with that name!"
+    header: "&8&m-------------------[&6 Top 10 &8&m]-------------------"
+    format: "&e#%position% %name% - %value% &7%statistic%"
+  stats-command:
+    header: "&l[-----YOUR STATS-----]"
+    header-other: "&l[-----STATS FOR %player%-----]"
+    footer: "&l[--------------------]"
+    wins: "&aWins: &e"
+    loses: "&aLoses: &e"
+    coins: "&aCoins Earned: &e"
+    longest-survive: "&aLongest Survive: &e"
+    games-played: "&aGames played: &e"
+
+messages:
+  arena:
+    no-permission: "&cYou don't have enough permission to join this arena!"
+    not-configured: "&cThis arena is not ready yet to play!"
+    already-playing: "&cYou are already playing TNT Run!"
+    not-playing: "&cYou cannot leave the game if you are not playing!"
+    restarting: "&cYou cannot join while this arena is restarting!"
+    waiting-for-players: "&cWaiting for players... We need at least %min_players% players to start."
+    starts-in-20s: "&eThe game starts in 20 seconds!"
+    starts-in-10s: "&eThe game starts in &610&e seconds!"
+    starts-in-5s-and-less: "&eThe game starts in &c%time%&e seconds!"
+    countdown-cancelled: "&c&lCountdown cancelled! There aren't enough players to start!"
+    join-arena: "&7%player%&e has joined (&b%players%&e/&b%max_players%&e)!"
+    quit-arena: "&7%player%&e has quit!"
+    game-explanation: "&a&m---------------------------------------------------\n
+    &f&lTNT Run\n\n&e&lAvoid the falling blocks and try to\n&e&lsurvive longer than everyone else!\n\n&a&m---------------------------------------------------"
+  spectators:
+    show-spectators: "&aYou can now see other spectators!"
+    hide-spectators: "&cYou can no longer see other spectators!"
+    have-night-vision: "&aYou now have night vision!"
+    removed-night-vision: "&cYou no longer have night vision!"
+    auto-teleport-enabled: "&aOnce you select a player using your compass, it will auto teleport you to them!"
+    auto-teleport-disabled: "&cYou will no longer auto teleport to targets!"
+    have-speed: "&aYou now have Speed %speed%!"
+    no-longer-speed: "&cYou no longer have any speed effects!"
+  in-game:
+    game-started: "&a&lThe game has started!"
+    you-are-spectator-now: "&7You are spectator now!"
+    force-start: "&c&lAn admin set waiting time to 0. The game starts now!"
+    already-force-start: "&cThe game is already starting!"
+    game-chat-format: "&7%player%: %message%"
+    game-death-format: "&7[DEAD CHAT] "
+    fell-into-void: "&7%player% &cdied!\n&e%players_left% players remaining."
+    cooldown-format: "&6CHARGING &8&l[%progress%&8&l] &6%time%s"
+  score-actions:
+    bonus-score: "&6%score% score! %action%"
+    survive: "Survived 30 seconds"
+  game-items:
+    leave-item:
+      returning-lobby: "&a&lTeleporting you to the lobby in 3 seconds...\n&a&lRight-click again to cancel the teleport!"
+      teleport-cancelled: "&c&lTeleport cancelled!"
+  summary-message:
+    - "&a&m---------------------------------------------------"
+    - "&f&lTNT Run"
+    - ""
+    - "&e&l1st Place: &f&l%player_1%"
+    - "&e&l2nd Place: &f&l%player_2%"
+    - "&e&l3rd Place: &f&l%player_3%"
+    - ""
+    - "&a&m---------------------------------------------------"
+
+# Leave any message empty to hide bar in a specific arena state.
+game-bar:
+  waiting-for-players: "&e&lPLAYING &f&lTNT Run &e&lby &b&lDespical"
+  starting: "&e&lPLAYING &f&lTNT Run &e&lby &b&lDespical"
+  in-game: ""
+  ending: "&e&lPLAYING &f&lTNT Run &e&lby &b&lDespical"
+
+Scoreboard:
+  Title: " &e&lTNT Run "
+  # > %75, < %50, EMPTY
+  Double-Jumps: "&a:&e:&c"
+  Waiting:
+    - "&7%date%"
+    - ""
+    - ""
+    - "&fPlayers: &3%players%/%max_players%"
+    - ""
+    - "&fStart ta &3%formatted_time% &fAgar"
+    - "Bazikonan Bishtari Biaiand"
+    - ""
+    - "&fGame: &3TNT Run"
+    - ""
+    - "&3Play.GalaxyMC.ir"
+  Starting:
+    - "&7%date%"
+    - ""
+    - ""
+    - "Players: &3%players%/%max_players%"
+    - ""
+    - "&fStart ta &3%formatted_time% &fto"
+    - "&fallow time for"
+    - "&fadditional players"
+    - ""
+    - "Game: &3TNT Run"
+    - ""
+    - "&3Play.GalaxyMC.ir"
+  Playing:
+    - "&7Duration: %formatted_time%"
+    - ""
+    - "&fDouble Jump: %double_jumps%&7/%max_double_jumps%"
+    - ""
+    - "&fPlayers Alive: &3%players_left%"
+    - ""
+    - "&fCoins Earned: &3%coins_earned%"
+    - ""
+    - "&7%date%"
+    - "&3Play.GalaxyMC.ir"
+
+spectator-gui:
+  title: "         Spectator Settings"
+  close-item: "&cClose"
+  speed-prefix: "&aSpeed "
+  no-speed: "&aNo Speed"
+  teleporter:
+    title: "Teleporter"
+    skull-name: "&7%player%"
+    lore:
+      - "&7Click to teleport!"
+  auto-teleport-item:
+    enable: "&aEnable Auto Teleport"
+    disable: "&cDisable Auto Teleport"
+    enabled-lore:
+      - "&7Click to disable auto teleport!"
+    disabled-lore:
+      - "&7Click to enable auto teleport!"
+  night-vision-item:
+    enable: "&aEnable Night Vision"
+    disable: "&cDisable Night Vision"
+    enabled-lore:
+      - "&7Click to disable night vision!"
+    disabled-lore:
+      - "&7Click to enable night vision!"
+  hide-spectators-item:
+    enable: "&cHide Spectators"
+    disable: "&aShow Spectators"
+    enabled-lore:
+      - "&7Click to hide other spectators!"
+    disabled-lore:
+      - "&7Click to show other spectators!"
+
+signs:
+  game-states:
+    waiting: "&lWaiting..."
+    starting: "&e&lStarting"
+    playing: "&lIn-game"
+    full-game: "&c&lFULL"
+    ending: "&lEnding"
+    restarting: "&c&lRestarting"
+    inactive: "&lInactive..."
+  lines:
+    - "&4&lTNT Run"
+    - "%state%"
+    - "%map_name%"
+    - "&5[%players%/%max_players%]"

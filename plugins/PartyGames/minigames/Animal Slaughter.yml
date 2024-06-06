@@ -1,0 +1,10 @@
+Tutorial-Messages:
+- '&2 --------- &aAnimal Slaughter &2--------- '
+- '- Kill animals to earn points!'
+- '- Killing some animals deducts points!'
+Display-Name: Animal Slaughter
+Round-Duration: 45
+Spawned-Animals: 20
+Animals-Drop-Items: true
+Player-Items:
+- 'STONE_SWORD : 1'

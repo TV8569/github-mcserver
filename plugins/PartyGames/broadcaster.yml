@@ -1,0 +1,16 @@
+enabled: true
+broadcaster-send-every-seconds: 60
+top-line: '&3&m----------&b PartyGames &3&m----------'
+bottom-line: '&3&m-------------------------------'
+Messages:
+- '&b- &eRemember that you can always create a party or join one to play with your
+  friends!'
+- '&b- &eWant to earn coins faster? check the achievements you have not unlocked!
+  they provide decent prizes'
+- '&b- &eIf you are in a party, you can start your message with an exclamation mart
+  (!) to send the message to your party members only'
+- '&b- &eFound a bug? make sure to report it to the server admins!'
+- '&b- &eYou can quickly invite players to your party by shift right clicking them!'
+- '&b- &eYou can instantly join others party by shift right clicking them!'
+- '&b- &eAs a spectator, you can left click air or right click a block to open the
+  spectator menu!'

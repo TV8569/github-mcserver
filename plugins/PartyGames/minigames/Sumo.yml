@@ -1,0 +1,6 @@
+Tutorial-Messages:
+- '&2 --------- &aSumo &2--------- '
+- '- Use your stick to knock other players off!'
+Display-Name: Sumo
+Tool: 'STICK : 1 : enchant:KNOCKBACK:2'
+Round-Duration: 60

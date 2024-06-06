@@ -1,0 +1,13 @@
+# 
+#  					BukkitDev Help page : http://dev.bukkit.org/server-mods/mycommand/    					#
+block:
+  crmapin: {}
+  Arcade:
+    x-1y62z-3:
+      launchby: player
+      command:
+      - /lobby
+    x-1y62z10:
+      launchby: player
+      command:
+      - /lobby

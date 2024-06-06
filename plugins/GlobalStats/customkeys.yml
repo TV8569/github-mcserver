@@ -1,0 +1,7 @@
+CustomKeys:
+  EXAMPLE:
+    Fields:
+    - PICKUP_SUM
+    - USE_ITEM_SUM
+    - MINE_BLOCK_SUM
+    Calculation: MINE_BLOCK_SUM - (PICKUP_SUM + USE_ITEM_SUM)

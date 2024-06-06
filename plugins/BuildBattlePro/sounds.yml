@@ -1,0 +1,16 @@
+sounds:
+  arena_countdown: NOTE_STICKS
+  vote_countdown: NOTE_STICKS
+  end_countdown: NOTE_STICKS
+  floor_change: NOTE_PLING
+  floor_change_deny: ENDERMAN_TELEPORT
+  weather_change: NOTE_PLING
+  time_change: NOTE_PLING
+  biome_change: NOTE_PLING
+  vote_none: CAT_MEOW
+  vote_very_bad: CAT_MEOW
+  vote_bad: CAT_MEOW
+  vote_ok: CAT_MEOW
+  vote_nice: CAT_MEOW
+  vote_epic: CAT_MEOW
+  vote_legendary: CAT_MEOW

@@ -1,0 +1,205 @@
+# # options.debug: must the debug output be printed?
+# # options.difficulty: what is the server diffecalty?
+# # options.locale: what set of lang files must be used, supported: en_US, nl_NL, de_DE, it_IT
+# # spawnGroup: used to set whits worlds have whits spawn, difficult to use
+options:
+  debug: false
+  difficulty: 2
+  locale: en_US
+  usecreativemode: false
+  usecreativemodeinv: true
+  blockEnderChestInCrea: false
+  useEndPortalHandler: false
+  useportalhandler: false
+  useWorldSpawnHandler: false
+  useWorldChatSeperator: false
+spawnGroup:
+  defaultGroup:
+    spawn: crmapin
+worlds:
+  bil:
+    seed: -6683028749698562904
+    worldgen: Normal
+    options: ''
+    difficulty: 1
+    autoload: true
+    flags:
+      SPAWNMONSTER: false
+      SPAWNANIMAL: false
+      PVP: false
+    spawnGroup: defaultGroup
+  t1:
+    seed: 0
+    worldgen: Normal
+    options: ''
+    difficulty: 1
+    autoload: true
+    spawnGroup: defaultGroup
+  tt3:
+    seed: 0
+    worldgen: NORMAL
+    options: ''
+    difficulty: 1
+    autoload: true
+    spawnGroup: defaultGroup
+  tt2:
+    seed: 0
+    worldgen: NORMAL
+    options: ''
+    difficulty: 1
+    autoload: true
+    spawnGroup: defaultGroup
+  '3':
+    seed: 0
+    worldgen: Normal
+    options: ''
+    difficulty: 1
+    autoload: true
+    spawnGroup: defaultGroup
+  q2:
+    seed: 2338576020511927638
+    worldgen: NORMAL
+    options: ''
+    difficulty: 1
+    autoload: true
+    spawnGroup: defaultGroup
+  '1':
+    seed: 0
+    worldgen: Normal
+    options: ''
+    difficulty: 1
+    autoload: true
+    spawnGroup: defaultGroup
+  fot:
+    seed: 6697366528966269445
+    worldgen: Normal
+    options: ''
+    difficulty: 1
+    autoload: true
+    spawnGroup: defaultGroup
+  crmapin:
+    seed: -8739332149804148969
+    worldgen: Normal
+    options: ''
+    difficulty: 1
+    autoload: true
+    spawnGroup: defaultGroup
+  sp1:
+    seed: 7052891662603315795
+    worldgen: NORMAL
+    options: ''
+    difficulty: 1
+    autoload: true
+    spawnGroup: defaultGroup
+  bb:
+    seed: -7096442245435543163
+    worldgen: Normal
+    options: ''
+    difficulty: 2
+    autoload: true
+    spawnGroup: defaultGroup
+  tt1:
+    seed: 6687136738628935466
+    worldgen: NORMAL
+    options: ''
+    difficulty: 1
+    autoload: true
+    spawnGroup: defaultGroup
+  t3:
+    seed: 0
+    worldgen: NORMAL
+    options: ''
+    difficulty: 1
+    autoload: true
+    flags:
+      SPAWNMONSTER: false
+      SPAWNANIMAL: false
+      PVP: false
+      SAVEON: false
+    spawnGroup: defaultGroup
+  block:
+    seed: 8624453126376905840
+    worldgen: Normal
+    options: ''
+    difficulty: 2
+    autoload: true
+    flags:
+      SPAWNMONSTER: true
+      SPAWNANIMAL: true
+      PVP: false
+    spawnGroup: defaultGroup
+  q1:
+    seed: 6555541340611385439
+    worldgen: NORMAL
+    options: ''
+    difficulty: 1
+    autoload: true
+    spawnGroup: defaultGroup
+  '5':
+    seed: 0
+    worldgen: Normal
+    options: ''
+    difficulty: 1
+    autoload: true
+    spawnGroup: defaultGroup
+  '6':
+    seed: 0
+    worldgen: Normal
+    options: ''
+    difficulty: 1
+    autoload: true
+    spawnGroup: defaultGroup
+  melon_mash:
+    seed: 9008879910902331395
+    worldgen: Normal
+    options: ''
+    difficulty: 2
+    autoload: true
+    spawnGroup: defaultGroup
+  t4:
+    seed: -5968759963907179620
+    worldgen: NORMAL
+    options: ''
+    difficulty: 1
+    autoload: true
+    flags:
+      SPAWNMONSTER: false
+      SPAWNANIMAL: false
+      SAVEON: false
+      RECIEVECHAT: false
+    spawnGroup: defaultGroup
+  '4':
+    seed: 0
+    worldgen: Normal
+    options: ''
+    difficulty: 1
+    autoload: true
+    spawnGroup: defaultGroup
+  sp2:
+    seed: -7561808046980809095
+    worldgen: NORMAL
+    options: ''
+    difficulty: 1
+    autoload: true
+    spawnGroup: defaultGroup
+  tt4:
+    seed: 0
+    worldgen: NORMAL
+    options: ''
+    difficulty: 1
+    autoload: true
+    spawnGroup: defaultGroup
+  '2':
+    seed: 0
+    worldgen: Normal
+    options: ''
+    difficulty: 1
+    autoload: true
+    spawnGroup: defaultGroup
+  t2:
+    seed: -2118246586178679660
+    worldgen: NORMAL
+    options: ''
+    difficulty: 1
+    autoload: true
+    spawnGroup: defaultGroup

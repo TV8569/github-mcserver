@@ -1,0 +1,10 @@
+Tutorial-Messages:
+- '&2 --------- &aHot Potato &2--------- '
+- '- Avoid being hit by the person holding the tnt'
+- '- If you are the person holding the TNT, pass it to someone else before it explodes!'
+Display-Name: Hot Potato
+Potion-Effects:
+- 'SPEED : 99999 : 1'
+Tnt-Fuse: 20
+Allow-PVP: true
+Unite-All-On-Death: true

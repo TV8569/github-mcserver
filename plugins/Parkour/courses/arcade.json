@@ -1,0 +1,88 @@
+{
+   "Ready": true,
+   "Checkpoint": {
+      "0": {
+         "CheckpointX": -143,
+         "CheckpointY": 153,
+         "CheckpointZ": 55,
+         "Location": {
+            "world": "crmapin",
+            "x": -142.5,
+            "y": 154.5,
+            "z": 55.5,
+            "pitch": -7.0500264,
+            "yaw": -320.25156
+         }
+      },
+      "1": {
+         "CheckpointX": -143,
+         "CheckpointY": 162,
+         "CheckpointZ": 53,
+         "Location": {
+            "world": "crmapin",
+            "x": -142.5,
+            "y": 163.5,
+            "z": 53.5,
+            "pitch": 6.1499925,
+            "yaw": -321.00143
+         }
+      },
+      "2": {
+         "CheckpointX": -139,
+         "CheckpointY": 166,
+         "CheckpointZ": 56,
+         "Location": {
+            "world": "crmapin",
+            "x": -138.5,
+            "y": 167.5,
+            "z": 56.5,
+            "pitch": -11.84994,
+            "yaw": -168.30133
+         }
+      },
+      "3": {
+         "CheckpointX": -125,
+         "CheckpointY": 172,
+         "CheckpointZ": 76,
+         "Location": {
+            "world": "crmapin",
+            "x": -124.5,
+            "y": 173.5,
+            "z": 76.5,
+            "pitch": 79.50009,
+            "yaw": -0.60095215
+         }
+      },
+      "4": {
+         "CheckpointX": -116,
+         "CheckpointY": 192,
+         "CheckpointZ": 66,
+         "Location": {
+            "world": "crmapin",
+            "x": -115.5,
+            "y": 193.5,
+            "z": 66.5,
+            "pitch": 44.09998,
+            "yaw": -71.40089
+         }
+      },
+      "5": {
+         "CheckpointX": -114,
+         "CheckpointY": 196,
+         "CheckpointZ": 78,
+         "Location": {
+            "world": "crmapin",
+            "x": -113.5,
+            "y": 197.5,
+            "z": 78.5,
+            "pitch": 21.750023,
+            "yaw": 224.5491
+         }
+      }
+   },
+   "Views": 23,
+   "Checkpoints": 5,
+   "Completed": 1,
+   "Creator": "amirabbas8585",
+   "Name": "arcade"
+}
