@@ -1,31 +1,614 @@
-[16:46:45] [main/INFO]: Environment: authHost='https://authserver.mojang.com', accountsHost='https://api.mojang.com', sessionHost='https://sessionserver.mojang.com', servicesHost='https://api.minecraftservices.com', name='PROD'
-[16:46:45] [main/INFO]: Reloading ResourceManager: Default, bukkit
-[16:46:46] [Worker-Main-2/INFO]: Loaded 7 recipes
-[16:46:47] [Server thread/INFO]: Starting minecraft server version 1.16.5
-[16:46:47] [Server thread/INFO]: Loading properties
-[16:46:47] [Server thread/INFO]: This server is running Paper version git-Paper-794 (MC: 1.16.5) (Implementing API version 1.16.5-R0.1-SNAPSHOT)
-[16:46:47] [Server thread/INFO]: Debug logging is disabled
-[16:46:47] [Server thread/INFO]: Server Ping Player Sample Count: 12
-[16:46:47] [Server thread/INFO]: Using 4 threads for Netty based IO
-[16:46:47] [Server thread/INFO]: Default game type: SURVIVAL
-[16:46:47] [Server thread/INFO]: Generating keypair
-[16:46:47] [Server thread/INFO]: Starting Minecraft server on *:25565
-[16:46:47] [Server thread/INFO]: Using epoll channel type
-[16:46:47] [Server thread/INFO]: Server permissions file permissions.yml is empty, ignoring it
-[16:46:47] [Server thread/INFO]: Preparing level "world"
-[16:46:47] [Server thread/INFO]: Preparing start region for dimension minecraft:overworld
-[16:46:48] [Server thread/INFO]: Preparing spawn area: 0%
-[16:46:48] [Server thread/INFO]: Preparing spawn area: 0%
-[16:46:48] [Server thread/INFO]: Time elapsed: 642 ms
-[16:46:48] [Server thread/INFO]: Preparing start region for dimension minecraft:the_nether
-[16:46:48] [Server thread/INFO]: Preparing spawn area: 0%
-[16:46:48] [Server thread/INFO]: Time elapsed: 387 ms
-[16:46:48] [Server thread/INFO]: Preparing start region for dimension minecraft:the_end
-[16:46:49] [Server thread/INFO]: Preparing spawn area: 0%
-[16:46:49] [Server thread/INFO]: Preparing spawn area: 2%
-[16:46:50] [Server thread/INFO]: Preparing spawn area: 88%
-[16:46:50] [Server thread/INFO]: Preparing spawn area: 99%
-[16:46:50] [Server thread/INFO]: Time elapsed: 1515 ms
-[16:46:50] [Server thread/INFO]: Running delayed init tasks
-[16:46:50] [Server thread/INFO]: Done (3.166s)! For help, type "help"
-[16:46:50] [Server thread/INFO]: Timings Reset
+[17:56:29] [main/INFO]: Environment: authHost='https://authserver.mojang.com', accountsHost='https://api.mojang.com', sessionHost='https://sessionserver.mojang.com', servicesHost='https://api.minecraftservices.com', name='PROD'
+[17:56:29] [main/INFO]: Reloading ResourceManager: Default, bukkit
+[17:56:30] [Worker-Main-2/INFO]: Loaded 7 recipes
+[17:56:31] [Server thread/INFO]: Starting minecraft server version 1.16.5
+[17:56:31] [Server thread/INFO]: Loading properties
+[17:56:31] [Server thread/INFO]: This server is running Paper version git-Paper-794 (MC: 1.16.5) (Implementing API version 1.16.5-R0.1-SNAPSHOT)
+[17:56:31] [Server thread/INFO]: Debug logging is disabled
+[17:56:31] [Server thread/INFO]: Server Ping Player Sample Count: 12
+[17:56:31] [Server thread/INFO]: Using 4 threads for Netty based IO
+[17:56:31] [Server thread/INFO]: Default game type: SURVIVAL
+[17:56:31] [Server thread/INFO]: Generating keypair
+[17:56:31] [Server thread/INFO]: Starting Minecraft server on *:25565
+[17:56:31] [Server thread/INFO]: Using epoll channel type
+[17:56:32] [Server thread/WARN]: Initializing Legacy Material Support. Unless you have legacy plugins and/or data this is a bug!
+[17:56:35] [Server thread/WARN]: Legacy plugin MultiWorld v4.5.4 does not specify an api-version.
+[17:56:35] [Server thread/ERROR]: Could not load 'plugins/murdermystery-2.0.7.jar' in folder 'plugins'
+org.bukkit.plugin.InvalidPluginException: java.lang.UnsupportedClassVersionError: plugily/projects/murdermystery/Main has been compiled by a more recent version of the Java Runtime (class file version 61.0), this version of the Java Runtime only recognizes class file versions up to 60.0
+	at org.bukkit.plugin.java.JavaPluginLoader.loadPlugin(JavaPluginLoader.java:157) ~[patched_1.16.5.jar:git-Paper-794]
+	at org.bukkit.plugin.SimplePluginManager.loadPlugin(SimplePluginManager.java:414) ~[patched_1.16.5.jar:git-Paper-794]
+	at org.bukkit.plugin.SimplePluginManager.loadPlugins(SimplePluginManager.java:322) ~[patched_1.16.5.jar:git-Paper-794]
+	at org.bukkit.craftbukkit.v1_16_R3.CraftServer.loadPlugins(CraftServer.java:393) ~[patched_1.16.5.jar:git-Paper-794]
+	at net.minecraft.server.v1_16_R3.DedicatedServer.init(DedicatedServer.java:269) ~[patched_1.16.5.jar:git-Paper-794]
+	at net.minecraft.server.v1_16_R3.MinecraftServer.w(MinecraftServer.java:1074) ~[patched_1.16.5.jar:git-Paper-794]
+	at net.minecraft.server.v1_16_R3.MinecraftServer.lambda$a$0(MinecraftServer.java:291) ~[patched_1.16.5.jar:git-Paper-794]
+	at java.lang.Thread.run(Thread.java:831) [?:?]
+Caused by: java.lang.UnsupportedClassVersionError: plugily/projects/murdermystery/Main has been compiled by a more recent version of the Java Runtime (class file version 61.0), this version of the Java Runtime only recognizes class file versions up to 60.0
+	at java.lang.ClassLoader.defineClass1(Native Method) ~[?:?]
+	at java.lang.ClassLoader.defineClass(ClassLoader.java:1010) ~[?:?]
+	at java.security.SecureClassLoader.defineClass(SecureClassLoader.java:150) ~[?:?]
+	at org.bukkit.plugin.java.PluginClassLoader.findClass(PluginClassLoader.java:201) ~[patched_1.16.5.jar:git-Paper-794]
+	at java.lang.ClassLoader.loadClass(ClassLoader.java:586) ~[?:?]
+	at org.bukkit.plugin.java.PluginClassLoader.loadClass0(PluginClassLoader.java:119) ~[patched_1.16.5.jar:git-Paper-794]
+	at org.bukkit.plugin.java.PluginClassLoader.loadClass(PluginClassLoader.java:114) ~[patched_1.16.5.jar:git-Paper-794]
+	at java.lang.ClassLoader.loadClass(ClassLoader.java:519) ~[?:?]
+	at java.lang.Class.forName0(Native Method) ~[?:?]
+	at java.lang.Class.forName(Class.java:466) ~[?:?]
+	at org.bukkit.plugin.java.PluginClassLoader.<init>(PluginClassLoader.java:82) ~[patched_1.16.5.jar:git-Paper-794]
+	at org.bukkit.plugin.java.JavaPluginLoader.loadPlugin(JavaPluginLoader.java:153) ~[patched_1.16.5.jar:git-Paper-794]
+	... 7 more
+[17:56:35] [Server thread/WARN]: Legacy plugin CommandNPC v1.9.1 does not specify an api-version.
+[17:56:35] [Server thread/ERROR]: Could not load 'plugins/ProJumpPads-4.0 beta.jar' in folder 'plugins'
+org.bukkit.plugin.InvalidPluginException: java.lang.UnsupportedClassVersionError: me/sedattr/projumppads/ProJumpPads has been compiled by a more recent version of the Java Runtime (class file version 61.0), this version of the Java Runtime only recognizes class file versions up to 60.0
+	at org.bukkit.plugin.java.JavaPluginLoader.loadPlugin(JavaPluginLoader.java:157) ~[patched_1.16.5.jar:git-Paper-794]
+	at org.bukkit.plugin.SimplePluginManager.loadPlugin(SimplePluginManager.java:414) ~[patched_1.16.5.jar:git-Paper-794]
+	at org.bukkit.plugin.SimplePluginManager.loadPlugins(SimplePluginManager.java:322) ~[patched_1.16.5.jar:git-Paper-794]
+	at org.bukkit.craftbukkit.v1_16_R3.CraftServer.loadPlugins(CraftServer.java:393) ~[patched_1.16.5.jar:git-Paper-794]
+	at net.minecraft.server.v1_16_R3.DedicatedServer.init(DedicatedServer.java:269) ~[patched_1.16.5.jar:git-Paper-794]
+	at net.minecraft.server.v1_16_R3.MinecraftServer.w(MinecraftServer.java:1074) ~[patched_1.16.5.jar:git-Paper-794]
+	at net.minecraft.server.v1_16_R3.MinecraftServer.lambda$a$0(MinecraftServer.java:291) ~[patched_1.16.5.jar:git-Paper-794]
+	at java.lang.Thread.run(Thread.java:831) [?:?]
+Caused by: java.lang.UnsupportedClassVersionError: me/sedattr/projumppads/ProJumpPads has been compiled by a more recent version of the Java Runtime (class file version 61.0), this version of the Java Runtime only recognizes class file versions up to 60.0
+	at java.lang.ClassLoader.defineClass1(Native Method) ~[?:?]
+	at java.lang.ClassLoader.defineClass(ClassLoader.java:1010) ~[?:?]
+	at java.security.SecureClassLoader.defineClass(SecureClassLoader.java:150) ~[?:?]
+	at org.bukkit.plugin.java.PluginClassLoader.findClass(PluginClassLoader.java:201) ~[patched_1.16.5.jar:git-Paper-794]
+	at java.lang.ClassLoader.loadClass(ClassLoader.java:586) ~[?:?]
+	at org.bukkit.plugin.java.PluginClassLoader.loadClass0(PluginClassLoader.java:119) ~[patched_1.16.5.jar:git-Paper-794]
+	at org.bukkit.plugin.java.PluginClassLoader.loadClass(PluginClassLoader.java:114) ~[patched_1.16.5.jar:git-Paper-794]
+	at java.lang.ClassLoader.loadClass(ClassLoader.java:519) ~[?:?]
+	at java.lang.Class.forName0(Native Method) ~[?:?]
+	at java.lang.Class.forName(Class.java:466) ~[?:?]
+	at org.bukkit.plugin.java.PluginClassLoader.<init>(PluginClassLoader.java:82) ~[patched_1.16.5.jar:git-Paper-794]
+	at org.bukkit.plugin.java.JavaPluginLoader.loadPlugin(JavaPluginLoader.java:153) ~[patched_1.16.5.jar:git-Paper-794]
+	... 7 more
+[17:56:35] [Server thread/ERROR]: Could not load 'plugins/tnt-run-2.4.9.jar' in folder 'plugins'
+org.bukkit.plugin.InvalidPluginException: java.lang.UnsupportedClassVersionError: me/despical/tntrun/Main has been compiled by a more recent version of the Java Runtime (class file version 61.0), this version of the Java Runtime only recognizes class file versions up to 60.0
+	at org.bukkit.plugin.java.JavaPluginLoader.loadPlugin(JavaPluginLoader.java:157) ~[patched_1.16.5.jar:git-Paper-794]
+	at org.bukkit.plugin.SimplePluginManager.loadPlugin(SimplePluginManager.java:414) ~[patched_1.16.5.jar:git-Paper-794]
+	at org.bukkit.plugin.SimplePluginManager.loadPlugins(SimplePluginManager.java:322) ~[patched_1.16.5.jar:git-Paper-794]
+	at org.bukkit.craftbukkit.v1_16_R3.CraftServer.loadPlugins(CraftServer.java:393) ~[patched_1.16.5.jar:git-Paper-794]
+	at net.minecraft.server.v1_16_R3.DedicatedServer.init(DedicatedServer.java:269) ~[patched_1.16.5.jar:git-Paper-794]
+	at net.minecraft.server.v1_16_R3.MinecraftServer.w(MinecraftServer.java:1074) ~[patched_1.16.5.jar:git-Paper-794]
+	at net.minecraft.server.v1_16_R3.MinecraftServer.lambda$a$0(MinecraftServer.java:291) ~[patched_1.16.5.jar:git-Paper-794]
+	at java.lang.Thread.run(Thread.java:831) [?:?]
+Caused by: java.lang.UnsupportedClassVersionError: me/despical/tntrun/Main has been compiled by a more recent version of the Java Runtime (class file version 61.0), this version of the Java Runtime only recognizes class file versions up to 60.0
+	at java.lang.ClassLoader.defineClass1(Native Method) ~[?:?]
+	at java.lang.ClassLoader.defineClass(ClassLoader.java:1010) ~[?:?]
+	at java.security.SecureClassLoader.defineClass(SecureClassLoader.java:150) ~[?:?]
+	at org.bukkit.plugin.java.PluginClassLoader.findClass(PluginClassLoader.java:201) ~[patched_1.16.5.jar:git-Paper-794]
+	at java.lang.ClassLoader.loadClass(ClassLoader.java:586) ~[?:?]
+	at org.bukkit.plugin.java.PluginClassLoader.loadClass0(PluginClassLoader.java:119) ~[patched_1.16.5.jar:git-Paper-794]
+	at org.bukkit.plugin.java.PluginClassLoader.loadClass(PluginClassLoader.java:114) ~[patched_1.16.5.jar:git-Paper-794]
+	at java.lang.ClassLoader.loadClass(ClassLoader.java:519) ~[?:?]
+	at java.lang.Class.forName0(Native Method) ~[?:?]
+	at java.lang.Class.forName(Class.java:466) ~[?:?]
+	at org.bukkit.plugin.java.PluginClassLoader.<init>(PluginClassLoader.java:82) ~[patched_1.16.5.jar:git-Paper-794]
+	at org.bukkit.plugin.java.JavaPluginLoader.loadPlugin(JavaPluginLoader.java:153) ~[patched_1.16.5.jar:git-Paper-794]
+	... 7 more
+[17:56:35] [Server thread/INFO]: [JumpPads] Loading JumpPads v1.25.13
+[17:56:35] [Server thread/INFO]: [PlaceholderAPI] Loading PlaceholderAPI v2.11.6
+[17:56:35] [Server thread/INFO]: [HolographicDisplays] Loading HolographicDisplays v3.0.4
+[17:56:35] [Server thread/INFO]: [ServersNPC] Loading ServersNPC v4.6
+[17:56:35] [Server thread/INFO]: [MultiWorld] Loading MultiWorld v4.5.4
+[17:56:35] [Server thread/INFO]: [ViaVersion] Loading ViaVersion v4.10.2
+[17:56:35] [Server thread/INFO]: [ViaVersion] ViaVersion 4.10.2 is now loaded. Registering protocol transformers and injecting...
+[17:56:35] [Via-Mappingloader-0/INFO]: [ViaVersion] Loading block connection mappings ...
+[17:56:36] [Via-Mappingloader-0/INFO]: [ViaVersion] Using FastUtil Long2ObjectOpenHashMap for block connections
+[17:56:36] [Server thread/INFO]: [ViaBackwards] Loading translations...
+[17:56:36] [Server thread/INFO]: [ViaBackwards] Registering protocols...
+[17:56:36] [Server thread/INFO]: [ViaRewind] Registering protocols...
+[17:56:36] [Server thread/INFO]: [ViaBackwards] Loading ViaBackwards v4.10.2
+[17:56:36] [Server thread/INFO]: [ViaRewind] Loading ViaRewind v3.1.2
+[17:56:36] [Server thread/INFO]: [LuckPerms] Loading LuckPerms v5.4.40
+[17:56:36] [Server thread/INFO]: [HolographicExtension] Loading HolographicExtension v1.10.9
+[17:56:36] [Server thread/INFO]: [SkinsRestorer] Loading SkinsRestorer v15.0.13
+[17:56:36] [Server thread/INFO]: [Vault] Loading Vault v1.7.3-b131
+[17:56:36] [Server thread/INFO]: [MyCommand] Loading MyCommand v5.7.4
+[17:56:36] [Server thread/INFO]: [LPC] Loading LPC v3.6.0
+[17:56:36] [Server thread/INFO]: [WorldEdit] Loading WorldEdit v7.2.12+6240-87f4ae1
+[17:56:37] [Server thread/INFO]: Got request to register class com.sk89q.worldedit.bukkit.BukkitServerInterface with WorldEdit [com.sk89q.worldedit.extension.platform.PlatformManager@68cd8966]
+[17:56:37] [Server thread/INFO]: [gs] Loading GlobalStats v5.1
+[17:56:37] [Server thread/INFO]: [PlayerPoints] Loading PlayerPoints v3.0.1
+[17:56:37] [Server thread/INFO]: [Multiverse-Core] Loading Multiverse-Core v4.3.1-b861
+[17:56:37] [Server thread/INFO]: [Citizens] Loading Citizens v2.0.26-SNAPSHOT (build 1952)
+[17:56:37] [Server thread/INFO]: [Images] Loading Images v2.1.7
+[17:56:37] [Server thread/INFO]: [ajLeaderboards] Loading ajLeaderboards v2.8.0
+[17:56:37] [Server thread/INFO]: [ajLeaderboards] Verifying checksum for gson
+[17:56:37] [Server thread/INFO]: [ajLeaderboards] Checksum matched for gson
+[17:56:37] [Server thread/INFO]: [ajLeaderboards] Verifying checksum for jar-relocator
+[17:56:37] [Server thread/INFO]: [ajLeaderboards] Checksum matched for jar-relocator
+[17:56:37] [Server thread/INFO]: [ajLeaderboards] Verifying checksum for asm
+[17:56:37] [Server thread/INFO]: [ajLeaderboards] Checksum matched for asm
+[17:56:37] [Server thread/INFO]: [ajLeaderboards] Verifying checksum for asm-commons
+[17:56:37] [Server thread/INFO]: [ajLeaderboards] Checksum matched for asm-commons
+[17:56:37] [Server thread/INFO]: [ajLeaderboards] Verifying checksum for gson
+[17:56:37] [Server thread/INFO]: [ajLeaderboards] Checksum matched for gson
+[17:56:37] [Server thread/INFO]: [ajLeaderboards] Verifying checksum for HikariCP
+[17:56:37] [Server thread/INFO]: [ajLeaderboards] Checksum matched for HikariCP
+[17:56:37] [Server thread/INFO]: [ajLeaderboards] Verifying checksum for slf4j-api
+[17:56:37] [Server thread/INFO]: [ajLeaderboards] Checksum matched for slf4j-api
+[17:56:37] [Server thread/INFO]: [ajLeaderboards] Verifying checksum for h2
+[17:56:37] [Server thread/INFO]: [ajLeaderboards] Checksum matched for h2
+[17:56:37] [Server thread/INFO]: [TAB] Loading TAB v4.1.4
+[17:56:37] [Server thread/INFO]: [CommandNPC] Loading CommandNPC v1.9.1
+[17:56:37] [Server thread/INFO]: [DeluxeHub] Loading DeluxeHub v3.5.5
+[17:56:37] [Server thread/INFO]: [GadgetsMenu] Loading GadgetsMenu v4.7.3
+[17:56:37] [Server thread/INFO]: [PartyGames] Loading PartyGames v6.6.8
+[17:56:37] [Server thread/INFO]: [BuildBattlePro] Loading BuildBattlePro v6.7.0
+[17:56:37] [Server thread/INFO]: [BlockParty] Loading BlockParty v2.0.5-RELEASE
+[17:56:37] [Server thread/INFO]: [BlockParty] Using BlockPlacer version v1_13_R1
+[17:56:37] [Server thread/INFO]: [BlockParty] Loading VersionedMaterial.
+[17:56:37] [Server thread/INFO]: [BlockParty] Using materials.Sign version v1_14_R1
+[17:56:37] [Server thread/INFO]: [BlockParty] Using materials.Door version v1_13_R1
+[17:56:37] [Server thread/INFO]: [BlockParty] Using materials.FireCharge version v1_13_R1
+[17:56:37] [Server thread/INFO]: [BlockParty] Using materials.SkeletonSkull version v1_13_R1
+[17:56:37] [Server thread/INFO]: [BlockParty] Using materials.Terracotta version v1_13_R1
+[17:56:37] [Server thread/INFO]: [BlockParty] Using materials.Wool version v1_13_R1
+[17:56:37] [Server thread/INFO]: [BlockParty] Using materials.Carpet version v1_13_R1
+[17:56:37] [Server thread/INFO]: [BlockParty] Using materials.StainedGlass version v1_13_R1
+[17:56:37] [Server thread/INFO]: [BlockParty] Using materials.StainedGlassPane version v1_13_R1
+[17:56:37] [Server thread/INFO]: [BlockParty] Using materials.MusicDisc version v1_13_R1
+[17:56:37] [Server thread/INFO]: *******************************
+[17:56:37] [Server thread/INFO]: *  BlockParty v2.0.5-RELEASE
+[17:56:37] [Server thread/INFO]: *  Authors: [Leon167, pauhull]
+[17:56:37] [Server thread/INFO]: *  Music Server: Online
+[17:56:37] [Server thread/INFO]: *******************************
+[17:56:37] [Server thread/INFO]: Server permissions file permissions.yml is empty, ignoring it
+[17:56:37] [Server thread/INFO]: [ViaRewind] Enabling ViaRewind v3.1.2
+[17:56:37] [Server thread/INFO]: [LuckPerms] Enabling LuckPerms v5.4.40
+[17:56:38] [Server thread/INFO]:         __    
+[17:56:38] [Server thread/INFO]:   |    |__)   LuckPerms v5.4.40
+[17:56:38] [Server thread/INFO]:   |___ |      Running on Bukkit - Paper
+[17:56:38] [Server thread/INFO]: 
+[17:56:38] [Server thread/INFO]: [LuckPerms] Loading configuration...
+[17:56:38] [Server thread/INFO]: [LuckPerms] Loading storage provider... [H2]
+[17:56:39] [Server thread/INFO]: [LuckPerms] Loading internal permission managers...
+[17:56:39] [Server thread/INFO]: [LuckPerms] Performing initial data load...
+[17:56:39] [Server thread/INFO]: [LuckPerms] Successfully enabled. (took 1866ms)
+[17:56:39] [Server thread/INFO]: [SkinsRestorer] Enabling SkinsRestorer v15.0.13
+[17:56:40] [Server thread/INFO]: [33;1m[[32;22mSkinsRestorer[33;1m] [0;39m[32;1mRunning on Minecraft [33;1m1.16.5[32;1m.[0;39m
+[17:56:40] [Server thread/INFO]: [PlaceholderAPI] Successfully registered internal expansion: skinsrestorer [15.0.13]
+[17:56:40] [Server thread/INFO]: [33;1m[[32;22mSkinsRestorer[33;1m] [0;39mPlaceholderAPI expansion registered![0;39m
+[17:56:40] [Server thread/INFO]: [33;1m[[32;22mSkinsRestorer[33;1m] [0;39mUsing paper join listener![0;39m
+[17:56:40] [Server thread/WARN]: [33;1m[[32;22mSkinsRestorer[33;1m] [0;39m[33;1mYour Java version "16" is not supported! SkinsRestorer now uses Java 17 primarily.[0;39m
+[17:56:40] [Server thread/WARN]: [33;1m[[32;22mSkinsRestorer[33;1m] [0;39m[33;1mThe plugin was "downgraded" to Java 1.8 (Java 8) to ensure compatibility with your server, but it may cause issues.[0;39m
+[17:56:40] [Server thread/WARN]: [33;1m[[32;22mSkinsRestorer[33;1m] [0;39m[33;1mThe plugin still works, but it may have Java version related issues.[0;39m
+[17:56:40] [Server thread/WARN]: [33;1m[[32;22mSkinsRestorer[33;1m] [0;39m[33;1mPlease update your server Java version to 17 or higher to get the best performance, security and to avoid issues with SkinsRestorer.[0;39m
+[17:56:40] [Server thread/INFO]: [Vault] Enabling Vault v1.7.3-b131
+[17:56:40] [Server thread/INFO]: [Vault] [Permission] SuperPermissions loaded as backup permission system.
+[17:56:40] [Server thread/INFO]: [Vault] Enabled Version 1.7.3-b131
+[17:56:40] [Server thread/INFO]: [LuckPerms] Registered Vault permission & chat hook.
+[17:56:40] [Server thread/INFO]: [WorldEdit] Enabling WorldEdit v7.2.12+6240-87f4ae1
+[17:56:40] [Server thread/INFO]: Registering commands with com.sk89q.worldedit.bukkit.BukkitServerInterface
+[17:56:40] [Server thread/INFO]: WEPIF: Updated config file
+[17:56:40] [Server thread/INFO]: WEPIF: Vault detected! Using Vault for permissions
+[17:56:40] [Server thread/INFO]: Using com.sk89q.worldedit.bukkit.adapter.impl.Spigot_v1_16_R3 as the Bukkit adapter
+[17:56:41] [Server thread/WARN]: **** SERVER IS RUNNING IN OFFLINE/INSECURE MODE!
+[17:56:41] [Server thread/WARN]: The server will make no attempt to authenticate usernames. Beware.
+[17:56:41] [Server thread/WARN]: While this makes the game possible to play without internet access, it also opens up the ability for hackers to connect with any username they choose.
+[17:56:41] [Server thread/WARN]: To change this, set "online-mode" to "true" in the server.properties file.
+[17:56:41] [Server thread/INFO]: Preparing level "world"
+[17:56:42] [Server thread/INFO]: Preparing start region for dimension minecraft:overworld
+[17:56:42] [Server thread/INFO]: Preparing spawn area: 0%
+[17:56:42] [Server thread/INFO]: Time elapsed: 369 ms
+[17:56:42] [Server thread/INFO]: Preparing start region for dimension minecraft:the_nether
+[17:56:43] [Server thread/INFO]: Preparing spawn area: 0%
+[17:56:43] [Server thread/INFO]: Preparing spawn area: 0%
+[17:56:43] [Server thread/INFO]: Preparing spawn area: 60%
+[17:56:43] [Server thread/INFO]: Time elapsed: 1297 ms
+[17:56:43] [Server thread/INFO]: Preparing start region for dimension minecraft:the_end
+[17:56:44] [Server thread/INFO]: Preparing spawn area: 0%
+[17:56:44] [Server thread/INFO]: Preparing spawn area: 54%
+[17:56:44] [Server thread/INFO]: Time elapsed: 801 ms
+[17:56:44] [Server thread/INFO]: [JumpPads] Enabling JumpPads v1.25.13
+[17:56:44] [Server thread/INFO]: [PlaceholderAPI] Enabling PlaceholderAPI v2.11.6
+[17:56:44] [Server thread/INFO]: [PlaceholderAPI] Fetching available expansion information...
+[17:56:44] [Server thread/INFO]: [HolographicDisplays] Enabling HolographicDisplays v3.0.4
+[17:56:45] [Server thread/INFO]: [ServersNPC] Enabling ServersNPC v4.6
+[17:56:45] [Server thread/INFO]: [MultiWorld] Enabling MultiWorld v4.5.4*
+[17:56:45] [Server thread/INFO]: Preparing start region for dimension minecraft:bil
+[17:56:45] [Server thread/INFO]: Time elapsed: 167 ms
+[17:56:45] [Server thread/INFO]: Preparing start region for dimension minecraft:t1
+[17:56:46] [Server thread/INFO]: Time elapsed: 935 ms
+[17:56:46] [Server thread/INFO]: Preparing start region for dimension minecraft:tt3
+[17:56:47] [Server thread/INFO]: Time elapsed: 1172 ms
+[17:56:47] [Server thread/INFO]: Preparing start region for dimension minecraft:tt2
+[17:56:49] [Server thread/INFO]: Time elapsed: 1417 ms
+[17:56:49] [Server thread/INFO]: Preparing start region for dimension minecraft:3
+[17:56:49] [Server thread/INFO]: Time elapsed: 322 ms
+[17:56:49] [Server thread/INFO]: Preparing start region for dimension minecraft:q2
+[17:56:50] [Server thread/INFO]: Time elapsed: 223 ms
+[17:56:50] [Server thread/INFO]: Preparing start region for dimension minecraft:1
+[17:56:50] [Server thread/INFO]: Time elapsed: 89 ms
+[17:56:54] [Server thread/INFO]: Preparing start region for dimension minecraft:fot
+[17:56:54] [Worker-Main-2/INFO]: Preparing spawn area: 0%
+[17:56:54] [Server thread/INFO]: Time elapsed: 335 ms
+[17:56:54] [Server thread/INFO]: Preparing start region for dimension minecraft:crmapin
+[17:56:55] [Server thread/INFO]: Preparing spawn area: 0%
+[17:56:55] [Server thread/INFO]: Preparing spawn area: 0%
+[17:56:55] [Server thread/INFO]: Time elapsed: 986 ms
+[17:56:55] [Server thread/INFO]: Preparing start region for dimension minecraft:sp1
+[17:56:56] [Server thread/INFO]: Preparing spawn area: 0%
+[17:56:56] [Server thread/INFO]: Time elapsed: 187 ms
+[17:56:56] [Server thread/INFO]: Preparing start region for dimension minecraft:bb
+[17:56:56] [Server thread/INFO]: Preparing spawn area: 0%
+[17:56:56] [Server thread/INFO]: Time elapsed: 425 ms
+[17:56:56] [Server thread/INFO]: Preparing start region for dimension minecraft:tt1
+[17:56:57] [Server thread/INFO]: Time elapsed: 581 ms
+[17:56:57] [Server thread/INFO]: Preparing start region for dimension minecraft:t3
+[17:56:57] [Server thread/INFO]: Time elapsed: 276 ms
+[17:56:57] [Server thread/INFO]: Preparing start region for dimension minecraft:block
+[17:56:57] [Server thread/INFO]: Time elapsed: 351 ms
+[17:56:58] [Server thread/INFO]: Preparing start region for dimension minecraft:q1
+[17:56:58] [Paper Async Chunk Task Thread #1/ERROR]: Unknown registry key: minecraft:normal_tree
+[17:56:58] [Paper Async Chunk Task Thread #1/ERROR]: Unknown registry key: minecraft:normal_tree
+[17:56:58] [Server thread/INFO]: Preparing spawn area: 0%
+[17:56:58] [Server thread/INFO]: Preparing spawn area: 0%
+[17:56:58] [Server thread/INFO]: Time elapsed: 744 ms
+[17:56:58] [Server thread/INFO]: Preparing start region for dimension minecraft:5
+[17:56:59] [Server thread/INFO]: Time elapsed: 960 ms
+[17:56:59] [Server thread/INFO]: Preparing start region for dimension minecraft:6
+[17:57:00] [Server thread/INFO]: Time elapsed: 281 ms
+[17:57:03] [Server thread/INFO]: Preparing start region for dimension minecraft:melon_mash
+[17:57:03] [Worker-Main-1/INFO]: Preparing spawn area: 0%
+[17:57:04] [Worker-Main-2/INFO]: Preparing spawn area: 0%
+[17:57:04] [Worker-Main-1/INFO]: Preparing spawn area: 0%
+[17:57:04] [Server thread/INFO]: Time elapsed: 1188 ms
+[17:57:04] [Server thread/INFO]: Preparing start region for dimension minecraft:t4
+[17:57:05] [Server thread/INFO]: Preparing spawn area: 0%
+[17:57:05] [Server thread/INFO]: Preparing spawn area: 0%
+[17:57:05] [Server thread/INFO]: Time elapsed: 853 ms
+[17:57:05] [Server thread/INFO]: Preparing start region for dimension minecraft:4
+[17:57:06] [Server thread/INFO]: Preparing spawn area: 0%
+[17:57:06] [Server thread/INFO]: Time elapsed: 466 ms
+[17:57:06] [Server thread/INFO]: Preparing start region for dimension minecraft:sp2
+[17:57:07] [Server thread/INFO]: Preparing spawn area: 0%
+[17:57:07] [Server thread/INFO]: Preparing spawn area: 0%
+[17:57:07] [Server thread/INFO]: Preparing spawn area: 0%
+[17:57:07] [Server thread/INFO]: Time elapsed: 1036 ms
+[17:57:07] [Server thread/INFO]: Preparing start region for dimension minecraft:tt4
+[17:57:08] [Server thread/INFO]: Preparing spawn area: 0%
+[17:57:08] [Server thread/INFO]: Preparing spawn area: 0%
+[17:57:08] [Server thread/INFO]: Preparing spawn area: 0%
+[17:57:08] [Server thread/INFO]: Time elapsed: 1237 ms
+[17:57:08] [Server thread/INFO]: Preparing start region for dimension minecraft:2
+[17:57:08] [Server thread/INFO]: Preparing spawn area: 0%
+[17:57:09] [Server thread/INFO]: Time elapsed: 345 ms
+[17:57:09] [Server thread/INFO]: Preparing start region for dimension minecraft:t2
+[17:57:09] [Server thread/INFO]: Preparing spawn area: 0%
+[17:57:09] [Server thread/INFO]: Time elapsed: 382 ms
+[17:57:09] [Server thread/INFO]: [Minecraft.multiworld] [MultiWorld] v4.5.4 enabled.
+[17:57:09] [Server thread/INFO]: [ViaVersion] Enabling ViaVersion v4.10.2
+[17:57:09] [Server thread/INFO]: [ViaVersion] ViaVersion detected server version: 1.16.4-1.16.5 (754)
+[17:57:09] [Server thread/WARN]: [ViaVersion] You are running an outdated Java version, please update it to at least Java 17 (your version is 16.0.2).
+[17:57:09] [Server thread/WARN]: [ViaVersion] Starting with Minecraft 1.21, ViaVersion will no longer officially be compatible with this version of Java, only offering unsupported compatibility builds.
+[17:57:09] [Server thread/INFO]: [ViaBackwards] Enabling ViaBackwards v4.10.2
+[17:57:09] [Server thread/INFO]: [HolographicExtension] Enabling HolographicExtension v1.10.9
+[17:57:09] [Server thread/INFO]: [HolographicExtension] Starting HolographicExtension v1.10.9
+[17:57:09] [Server thread/INFO]: [HolographicExtension] Registering placeholder 'example' from config.
+[17:57:09] [Server thread/INFO]: [HolographicExtension] Registering placeholder 'scroller' from config.
+[17:57:09] [Server thread/INFO]: [HolographicExtension] Registering placeholder 'typing' from config.
+[17:57:09] [Server thread/INFO]: [HolographicExtension] Registering placeholder 'rainbow' from config.
+[17:57:09] [Server thread/INFO]: [HolographicExtension] If you want to use the placeholder extension, please install ProtocolLib and PlaceholderAPI
+[17:57:09] [Server thread/INFO]: [MyCommand] Enabling MyCommand v5.7.4
+[17:57:09] [Server thread/INFO]: *-=-=-=-=-=-=-=-=-* MyCommand v.5.7.4*-=-=-=-=-=-=-=-=-=-*
+[17:57:09] [Server thread/INFO]: | Hooked on Vault 1.7.3-b131
+[17:57:09] [Server thread/INFO]: | Logs Directory Created /MyCommand/logs/
+[17:57:09] [Server thread/INFO]: | PlayerData Directory Created /MyCommand/playerdata/
+[17:57:09] [Server thread/INFO]: | Command file(s) found : 1
+[17:57:09] [Server thread/INFO]: | Config : Ready.
+[17:57:09] [Server thread/INFO]: | ProtocolLib not found.
+[17:57:09] [Server thread/INFO]: [PlaceholderAPI] Successfully registered internal expansion: mycommand [1.0.0]
+[17:57:09] [Server thread/INFO]: | Placeholder_API : Hooked, Ok.
+[17:57:09] [Server thread/INFO]: | Custom commands loaded : 44
+[17:57:09] [Server thread/INFO]: | You're running the latest version of MyCommand.
+[17:57:09] [Server thread/INFO]: |          by emmerrei a.k.a. ivanfromitaly.           
+[17:57:09] [Server thread/INFO]: *-=-=-=-=-=-=-=-=-=-*   Done!   *-=-=-=-=-=-=-=-=-=-=-*
+[17:57:09] [Server thread/INFO]: [LPC] Enabling LPC v3.6.0
+[17:57:10] [Server thread/INFO]: [gs] Enabling GlobalStats v5.1
+[17:57:10] [Server thread/INFO]: [com.morelaid.shaded.gstats.ormlite.table.TableUtils] creating table 'globalstats_data'
+[17:57:10] [Server thread/INFO]: [PlaceholderAPI] Successfully registered internal expansion: gs [5.1]
+[17:57:10] [Server thread/INFO]: [gs] Version 5.1 is enabled!
+[17:57:10] [Server thread/INFO]: [PlayerPoints] Enabling PlayerPoints v3.0.1
+[17:57:10] [Server thread/INFO]: [PlayerPoints] Initializing using RoseGarden v1.0.5-SNAPSHOT
+[17:57:10] [Server thread/INFO]: [PlayerPoints] Data handler connected using SQLite.
+[17:57:10] [Server thread/INFO]: [PlaceholderAPI] Successfully registered internal expansion: playerpoints [3.0.1]
+[17:57:10] [Server thread/INFO]: [Multiverse-Core] Enabling Multiverse-Core v4.3.1-b861
+[17:57:10] [Server thread/WARN]: [Multiverse-Core] "Multiverse-Core v4.3.1-b861" has registered a listener for org.bukkit.event.entity.EntityCreatePortalEvent on method "public void com.onarandombox.MultiverseCore.listeners.MVPortalListener.entityPortalCreate(org.bukkit.event.entity.EntityCreatePortalEvent)", but the event is Deprecated. "Server performance will be affected"; please notify the authors [dumptruckman, Rigby, fernferret, lithium3141, main--].
+[17:57:10] [Server thread/INFO]: [Multiverse-Core] We are aware of the warning about the deprecated event. There is no alternative that allows us to do what we need to do and performance impact is negligible. It is safe to ignore.
+[17:57:10] [Server thread/INFO]: [Multiverse-Core] Loading World & Settings - 'world' - Env: NORMAL - Type: NORMAL & seed: 6371795715138767058
+[17:57:10] [Server thread/INFO]: [Multiverse-Core] Loading World & Settings - 'world_nether' - Env: NETHER - Type: NORMAL & seed: 6371795715138767058
+[17:57:10] [Server thread/WARN]: [Multiverse-Core] Spawn location from world.dat file was unsafe. Adjusting...
+[17:57:10] [Server thread/WARN]: [Multiverse-Core] Original Location: X: 3 Y: 38 Z: 10 P: 0 Y: 0 
+[17:57:10] [Server thread/INFO]: [Multiverse-Core] New Spawn for 'world_nether' is located at: world_nether:8.50,46.00,4.50:0.00:0.00
+[17:57:10] [Server thread/INFO]: [Multiverse-Core] Loading World & Settings - 'world_the_end' - Env: THE_END - Type: NORMAL & seed: 6371795715138767058
+[17:57:10] [Server thread/INFO]: Preparing start region for dimension minecraft:tv
+[17:57:11] [Server thread/INFO]: Preparing spawn area: 0%
+[17:57:11] [Server thread/INFO]: Time elapsed: 382 ms
+[17:57:11] [Server thread/INFO]: Preparing start region for dimension minecraft:bil2
+[17:57:12] [Server thread/INFO]: Preparing spawn area: 0%
+[17:57:12] [Server thread/INFO]: Preparing spawn area: 0%
+[17:57:13] [Server thread/INFO]: Preparing spawn area: 0%
+[17:57:13] [Server thread/INFO]: Preparing spawn area: 46%
+[17:57:13] [Server thread/INFO]: Time elapsed: 1705 ms
+[17:57:13] [Server thread/INFO]: Could not set generator for world 'Arcade': Plugin 'VoidWorld' does not exist
+[17:57:13] [Server thread/INFO]: Could not set generator for world 'Arcade': Plugin 'VoidWorld' does not exist
+[17:57:14] [Server thread/INFO]: [Multiverse-Core] 30 - World(s) loaded.
+[17:57:14] [Server thread/WARN]: [Multiverse-Core] Buscript failed to load! The script command will be disabled! If you would like not to see this message, use `/mv conf enablebuscript false` to disable Buscript from loading.
+[17:57:14] [Server thread/INFO]: [Multiverse-Core] Version 4.3.1-b861 (API v24) Enabled - By dumptruckman, Rigby, fernferret, lithium3141 and main--
+[17:57:14] [Server thread/INFO]: [Citizens] Enabling Citizens v2.0.26-SNAPSHOT (build 1952)
+[17:57:14] [Server thread/ERROR]: [Citizens] v2.0.26-SNAPSHOT (build 1952) is not compatible with Minecraft v1_16_R3 - try upgrading or downgrading Citizens. Disabling.
+[17:57:14] [Server thread/INFO]: [Citizens] Disabling Citizens v2.0.26-SNAPSHOT (build 1952)
+[17:57:14] [Server thread/INFO]: [Images] Enabling Images v2.1.7
+[17:57:14] [Server thread/INFO]: [ajLeaderboards] Enabling ajLeaderboards v2.8.0
+[17:57:14] [Server thread/INFO]: [ajLeaderboards] Using H2 flatfile for board cache. (h2)
+[17:57:15] [Server thread/INFO]: [ajLeaderboards] Loaded 0 boards
+[17:57:15] [Server thread/INFO]: [PlaceholderAPI] Successfully registered internal expansion: ajlb [2.8.0]
+[17:57:15] [Server thread/INFO]: [ajLeaderboards] PAPI placeholders successfully registered!
+[17:57:15] [Server thread/INFO]: [ajLeaderboards] ajLeaderboards v2.8.0 by ajgeiss0702 enabled!
+[17:57:15] [Server thread/INFO]: [TAB] Enabling TAB v4.1.4
+[17:57:15] [Server thread/INFO]: [TAB] Loaded NMS hook in 196ms
+[17:57:15] [Server thread/INFO]: [TAB] Enabled in 239ms
+[17:57:15] [Server thread/INFO]: [CommandNPC] Enabling CommandNPC v1.9.1*
+[17:57:15] [Server thread/INFO]: ---------------------{CommandNPC Error}---------------------
+[17:57:15] [Server thread/INFO]:                            Topic
+[17:57:15] [Server thread/INFO]:                    Required Dependencies
+[17:57:15] [Server thread/INFO]: 
+[17:57:15] [Server thread/INFO]:     Citizens 2 not found! commandnpc will now shut down. 
+[17:57:15] [Server thread/INFO]: 
+[17:57:15] [Server thread/INFO]:        Class: commandnpc   Method: onEnable() 
+[17:57:15] [Server thread/INFO]: 
+[17:57:15] [Server thread/INFO]: ---------------------{CommandNPC Error}---------------------
+[17:57:15] [Server thread/INFO]: [CommandNPC] Disabling CommandNPC v1.9.1
+[17:57:15] [Server thread/INFO]: [DeluxeHub] Enabling DeluxeHub v3.5.5
+[17:57:15] [Server thread/INFO]: [DeluxeHub]  _   _            _          _    _ 
+[17:57:15] [Server thread/INFO]: [DeluxeHub] | \ |_ |  | | \/ |_ |_| | | |_)   _)
+[17:57:15] [Server thread/INFO]: [DeluxeHub] |_/ |_ |_ |_| /\ |_ | | |_| |_)   _)
+[17:57:15] [Server thread/INFO]: [DeluxeHub] 
+[17:57:15] [Server thread/INFO]: [DeluxeHub] Version: 3.5.5
+[17:57:15] [Server thread/INFO]: [DeluxeHub] Author: ItsLewizzz
+[17:57:15] [Server thread/INFO]: [DeluxeHub] 
+[17:57:15] [Server thread/INFO]: [DeluxeHub]  Hooked into PlaceholderAPI
+[17:57:15] [Server thread/INFO]: [DeluxeHub] Loaded custom menu 'serverselector'.
+[17:57:15] [Server thread/INFO]: [NBTAPI] [NBTAPI] Found Spigot: v1_16_R3! Trying to find NMS support
+[17:57:15] [Server thread/INFO]: [NBTAPI] [NBTAPI] NMS support 'MC1_16_R3' loaded!
+[17:57:15] [Server thread/INFO]: [NBTAPI] [NBTAPI] Using the plugin 'DeluxeHub' to create a bStats instance!
+[17:57:15] [Server thread/INFO]: [DeluxeHub] Loaded 13 plugin modules.
+[17:57:15] [Server thread/INFO]: [DeluxeHub] 
+[17:57:15] [Server thread/INFO]: [DeluxeHub] Successfully loaded in 259ms
+[17:57:15] [Server thread/INFO]: [GadgetsMenu] Enabling GadgetsMenu v4.7.3
+[17:57:16] [Server thread/INFO]: [GadgetsMenu] ------------------------------------------------------
+[17:57:16] [Server thread/INFO]: [GadgetsMenu]         GadgetsMenu [Free] 4.7.3 is loading...
+[17:57:16] [Server thread/INFO]: [GadgetsMenu]          [server: git-Paper-794 (MC: 1.16.5)]
+[17:57:16] [Server thread/INFO]: [GadgetsMenu]                  Running Java 16.0.2
+[17:57:16] [Server thread/INFO]: [GadgetsMenu]                Plugin by Yap Zhen Yie.
+[17:57:16] [Server thread/INFO]: [GadgetsMenu]             Date Modified: 30 August 2022
+[17:57:16] [Server thread/INFO]: [GadgetsMenu]                            
+[17:57:16] [Server thread/INFO]: [GadgetsMenu]              Initializing module v1_16_R3
+[17:57:16] [Server thread/INFO]: [GadgetsMenu] ------------------------------------------------------
+[17:57:17] [Server thread/INFO]: [GadgetsMenu] Connecting to SQLite database...
+[17:57:17] [Server thread/INFO]: [GadgetsMenu] Successfully connected to SQLite database!
+[17:57:17] [Server thread/INFO]: [PlaceholderAPI] Successfully registered internal expansion: gadgetsmenu [1.0.2]
+[17:57:17] [Server thread/INFO]: [GadgetsMenu] [Placeholder] PlaceholderAPI hooked.
+[17:57:17] [Server thread/INFO]: [PartyGames] Enabling PartyGames v6.6.8
+[17:57:17] [Server thread/INFO]: [PlaceholderAPI] Successfully registered internal expansion: partygames [6.6.8]
+[17:57:17] [Server thread/INFO]: [PartyGames] Found PlaceholderAPI, Hooked: true
+[17:57:17] [Server thread/INFO]: =============================================
+[17:57:17] [Server thread/INFO]: [PartyGames] Plugin has been enabled (v6.6.8)
+[17:57:17] [Server thread/INFO]: =============================================
+[17:57:17] [Server thread/INFO]: *** Downloaded from https://leaks.tf ***
+[17:57:17] [Server thread/INFO]: [BuildBattlePro] Enabling BuildBattlePro v6.7.0
+[17:57:17] [Server thread/INFO]: 
+[17:57:17] [Server thread/INFO]:                         BuildBattlePro v.6.7.0
+[17:57:17] [Server thread/INFO]: 
+[17:57:17] [Server thread/INFO]: [Arcade]   Fallback servers loaded!
+[17:57:17] [Server thread/INFO]: [Arcade]   Restricted blocks loaded!
+[17:57:17] [Server thread/INFO]: [Arcade]   Loaded 7 Solo Themes!
+[17:57:17] [Server thread/INFO]: [Arcade]   Loaded 7 Team Themes!
+[17:57:17] [Server thread/INFO]: [Arcade]   Loaded 3 Restriced Themes!
+[17:57:18] [Server thread/INFO]: [Arcade]   Loaded 25 plots for arena &c&lSolo
+[17:57:18] [Server thread/INFO]: [Arcade]   Arena &c&lSolo loaded!
+[17:57:18] [Server thread/INFO]: [Arcade]   Loaded 6 plots for arena Double
+[17:57:18] [Server thread/INFO]: [Arcade]   Arena Double loaded!
+[17:57:18] [Server thread/INFO]: [Arcade]   Successfully hooked into WorldEdit version 7.2.12+6240-87f4ae1
+[17:57:18] [Server thread/WARN]: [BuildBattlePro] Loaded class com.sk89q.worldedit.WorldEditException from WorldEdit v7.2.12+6240-87f4ae1 which is not a depend, softdepend or loadbefore of this plugin.
+[17:57:18] [Server thread/INFO]: [Arcade]   Successfully hooked into HolographicDisplays version 3.0.4
+[17:57:18] [Server thread/INFO]: [Arcade]   Leaderboard at location bil//-470//24//77 loaded!
+[17:57:18] [Server thread/INFO]: [Arcade]   Leaderboard at location bil//-467//24//74 loaded!
+[17:57:18] [Server thread/INFO]: [Arcade]   Leaderboard at location bil//-470//24//71 loaded!
+[17:57:18] [Server thread/INFO]: [Arcade]   Leaderboard at location bil//-473//24//74 loaded!
+[17:57:18] [Server thread/INFO]: [Arcade]   Leaderboard at location bb//-642//113//-250 loaded!
+[17:57:18] [Server thread/INFO]: [Arcade]   Leaderboard at location bb//-637//113//-255 loaded!
+[17:57:18] [Server thread/INFO]: [Arcade]   Leaderboard at location bb//-642//113//-260 loaded!
+[17:57:18] [Server thread/INFO]: [Arcade]   Leaderboard at location bb//-647//113//-255 loaded!
+[17:57:18] [Server thread/INFO]: [Arcade]   Successfully hooked into Vault version 1.7.3-b131
+[17:57:18] [Server thread/INFO]: [Arcade]   [Warning] No economy implementation for Vault provided!
+[17:57:18] [Server thread/INFO]: [Arcade]   Successfully hooked into PlaceholderAPI version 2.11.6
+[17:57:18] [Server thread/INFO]: [PlaceholderAPI] Successfully registered internal expansion: buildbattlepro [git-Paper-794 (MC: 1.16.5)]
+[17:57:18] [Server thread/INFO]: [Arcade]   [Warning] No update was found, you are running the latest version!
+[17:57:18] [Server thread/INFO]: 
+[17:57:18] [Server thread/INFO]:                           by chochoco4777
+[17:57:18] [Server thread/INFO]: 
+[17:57:18] [Server thread/INFO]: [BuildBattlePro] Leaked by YOURNAME @ BlackSpigot.com
+[17:57:18] [Server thread/INFO]: [BlockParty] Enabling BlockParty v2.0.5-RELEASE
+[17:57:19] [Server thread/INFO]: [PlaceholderAPI] Placeholder expansion registration initializing...
+[17:57:19] [Server thread/INFO]: Running delayed init tasks
+[17:57:19] [Server thread/INFO]: [JumpPads] CleanUp found no JumpPads to delete!
+[17:57:19] [Craft Scheduler Thread - 9/WARN]: [MultiWorld] Plugin MultiWorld v4.5.4 generated an exception while executing task 6849
+java.lang.NoSuchMethodError: 'org.bukkit.entity.Player[] org.bukkit.Server.getOnlinePlayers()'
+	at multiworld.metrics.Metrics.postPlugin(Metrics.java:400) ~[?:?]
+	at multiworld.metrics.Metrics.access$400(Metrics.java:66) ~[?:?]
+	at multiworld.metrics.Metrics$1.run(Metrics.java:266) ~[?:?]
+	at org.bukkit.craftbukkit.v1_16_R3.scheduler.CraftTask.run(CraftTask.java:101) ~[patched_1.16.5.jar:git-Paper-794]
+	at org.bukkit.craftbukkit.v1_16_R3.scheduler.CraftAsyncTask.run(CraftAsyncTask.java:54) ~[patched_1.16.5.jar:git-Paper-794]
+	at com.destroystokyo.paper.ServerSchedulerReportingWrapper.run(ServerSchedulerReportingWrapper.java:22) ~[patched_1.16.5.jar:git-Paper-794]
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1130) ~[?:?]
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:630) ~[?:?]
+	at java.lang.Thread.run(Thread.java:831) [?:?]
+[17:57:19] [Server thread/INFO]: Done (48.246s)! For help, type "help"
+[17:57:19] [Server thread/INFO]: Timings Reset
+[17:57:19] [Craft Scheduler Thread - 10/INFO]: [ViaVersion] Finished mapping loading, shutting down loader executor!
+[17:57:19] [Craft Scheduler Thread - 12/INFO]: [GadgetsMenu] Checking for updates...
+[17:57:19] [Craft Scheduler Thread - 7/INFO]: [PartyGames] Found a new available version! download at https://bit.ly/3bGKi7l
+[17:57:19] [Craft Scheduler Thread - 17/INFO]: [Vault] Checking for Updates ... 
+[17:57:19] [Craft Scheduler Thread - 17/INFO]: [Vault] No new version available
+[17:57:19] [Craft Scheduler Thread - 5/INFO]: [33;1m[[32;22mSkinsRestorer[33;1m] [0;39m[32;1m----------------------------------------------[0;39m
+[17:57:19] [Craft Scheduler Thread - 5/INFO]: [33;1m[[32;22mSkinsRestorer[33;1m] [0;39m[32;1m    +==================+[0;39m
+[17:57:19] [Craft Scheduler Thread - 5/INFO]: [33;1m[[32;22mSkinsRestorer[33;1m] [0;39m[32;1m    |   SkinsRestorer  |[0;39m
+[17:57:19] [Craft Scheduler Thread - 5/INFO]: [33;1m[[32;22mSkinsRestorer[33;1m] [0;39m[32;1m    |------------------|[0;39m
+[17:57:19] [Craft Scheduler Thread - 5/INFO]: [33;1m[[32;22mSkinsRestorer[33;1m] [0;39m[32;1m    |  [34;1m[4m[21mStandalone Mode[0;39m[32;1m |[0;39m
+[17:57:19] [Craft Scheduler Thread - 5/INFO]: [33;1m[[32;22mSkinsRestorer[33;1m] [0;39m[32;1m    +==================+[0;39m
+[17:57:19] [Craft Scheduler Thread - 5/INFO]: [33;1m[[32;22mSkinsRestorer[33;1m] [0;39m[32;1m----------------------------------------------[0;39m
+[17:57:19] [Craft Scheduler Thread - 5/INFO]: [33;1m[[32;22mSkinsRestorer[33;1m] [0;39m[36;1m    Version: [32;1m15.0.13[0;39m
+[17:57:19] [Craft Scheduler Thread - 5/INFO]: [33;1m[[32;22mSkinsRestorer[33;1m] [0;39m[36;1m    Commit: [32;1m8e4c6e2[0;39m
+[17:57:19] [Craft Scheduler Thread - 5/INFO]: [33;1m[[32;22mSkinsRestorer[33;1m] [0;39m[32;1m    This is the latest version![0;39m
+[17:57:19] [Craft Scheduler Thread - 5/INFO]: [33;1m[[32;22mSkinsRestorer[33;1m] [0;39m[32;1m----------------------------------------------[0;39m
+[17:57:19] [Server thread/INFO]: [Arcade]   [Warning] Your server cannot recognize player with uuid: 530fa97a-357f-3c19-94d3-0c5c65c18fe8! Perhaps he has not played on your server yet ?
+[17:57:19] [Server thread/INFO]: [Arcade]   [Warning] Your server cannot recognize player with uuid: 20cf1db0-e54b-388d-8edc-76880a8b4ffa! Perhaps he has not played on your server yet ?
+[17:57:19] [Server thread/INFO]: [Arcade]   [Warning] Your server cannot recognize player with uuid: 530fa97a-357f-3c19-94d3-0c5c65c18fe8! Perhaps he has not played on your server yet ?
+[17:57:19] [Server thread/INFO]: [Arcade]   [Warning] Your server cannot recognize player with uuid: 20cf1db0-e54b-388d-8edc-76880a8b4ffa! Perhaps he has not played on your server yet ?
+[17:57:19] [Server thread/INFO]: [Arcade]   [Warning] Your server cannot recognize player with uuid: 20cf1db0-e54b-388d-8edc-76880a8b4ffa! Perhaps he has not played on your server yet ?
+[17:57:19] [Server thread/INFO]: [Arcade]   [Warning] Your server cannot recognize player with uuid: 530fa97a-357f-3c19-94d3-0c5c65c18fe8! Perhaps he has not played on your server yet ?
+[17:57:19] [Server thread/INFO]: [Arcade]   [Warning] Your server cannot recognize player with uuid: 530fa97a-357f-3c19-94d3-0c5c65c18fe8! Perhaps he has not played on your server yet ?
+[17:57:19] [Server thread/INFO]: [Arcade]   [Warning] Your server cannot recognize player with uuid: 20cf1db0-e54b-388d-8edc-76880a8b4ffa! Perhaps he has not played on your server yet ?
+[17:57:19] [Server thread/INFO]: [Arcade]   [Warning] Your server cannot recognize player with uuid: 530fa97a-357f-3c19-94d3-0c5c65c18fe8! Perhaps he has not played on your server yet ?
+[17:57:19] [Server thread/INFO]: [Arcade]   [Warning] Your server cannot recognize player with uuid: 20cf1db0-e54b-388d-8edc-76880a8b4ffa! Perhaps he has not played on your server yet ?
+[17:57:19] [Server thread/INFO]: [Arcade]   [Warning] Your server cannot recognize player with uuid: 530fa97a-357f-3c19-94d3-0c5c65c18fe8! Perhaps he has not played on your server yet ?
+[17:57:19] [Server thread/INFO]: [Arcade]   [Warning] Your server cannot recognize player with uuid: 20cf1db0-e54b-388d-8edc-76880a8b4ffa! Perhaps he has not played on your server yet ?
+[17:57:19] [Server thread/INFO]: [Arcade]   [Warning] Your server cannot recognize player with uuid: 20cf1db0-e54b-388d-8edc-76880a8b4ffa! Perhaps he has not played on your server yet ?
+[17:57:19] [Server thread/INFO]: [Arcade]   [Warning] Your server cannot recognize player with uuid: 530fa97a-357f-3c19-94d3-0c5c65c18fe8! Perhaps he has not played on your server yet ?
+[17:57:19] [Server thread/INFO]: [Arcade]   [Warning] Your server cannot recognize player with uuid: 530fa97a-357f-3c19-94d3-0c5c65c18fe8! Perhaps he has not played on your server yet ?
+[17:57:19] [Server thread/INFO]: [Arcade]   [Warning] Your server cannot recognize player with uuid: 20cf1db0-e54b-388d-8edc-76880a8b4ffa! Perhaps he has not played on your server yet ?
+[17:57:19] [Server thread/ERROR]: [PlaceholderAPI] Failed to load class files of expansion.
+java.util.concurrent.CompletionException: java.lang.UnsupportedClassVersionError: at/helpch/placeholderapi/expansion/server/ServerExpansion has been compiled by a more recent version of the Java Runtime (class file version 61.0), this version of the Java Runtime only recognizes class file versions up to 60.0
+	at java.util.concurrent.CompletableFuture.encodeThrowable(CompletableFuture.java:314) ~[?:?]
+	at java.util.concurrent.CompletableFuture.completeThrowable(CompletableFuture.java:319) ~[?:?]
+	at java.util.concurrent.CompletableFuture$AsyncSupply.run(CompletableFuture.java:1766) ~[?:?]
+	at java.util.concurrent.CompletableFuture$AsyncSupply.exec(CompletableFuture.java:1756) ~[?:?]
+	at java.util.concurrent.ForkJoinTask.doExec(ForkJoinTask.java:295) ~[?:?]
+	at java.util.concurrent.ForkJoinPool$WorkQueue.topLevelExec(ForkJoinPool.java:1016) ~[?:?]
+	at java.util.concurrent.ForkJoinPool.scan(ForkJoinPool.java:1665) ~[?:?]
+	at java.util.concurrent.ForkJoinPool.runWorker(ForkJoinPool.java:1598) ~[?:?]
+	at java.util.concurrent.ForkJoinWorkerThread.run(ForkJoinWorkerThread.java:183) ~[?:?]
+Caused by: java.lang.UnsupportedClassVersionError: at/helpch/placeholderapi/expansion/server/ServerExpansion has been compiled by a more recent version of the Java Runtime (class file version 61.0), this version of the Java Runtime only recognizes class file versions up to 60.0
+	at java.lang.ClassLoader.defineClass1(Native Method) ~[?:?]
+	at java.lang.ClassLoader.defineClass(ClassLoader.java:1010) ~[?:?]
+	at java.security.SecureClassLoader.defineClass(SecureClassLoader.java:150) ~[?:?]
+	at java.net.URLClassLoader.defineClass(URLClassLoader.java:512) ~[?:?]
+	at java.net.URLClassLoader$1.run(URLClassLoader.java:420) ~[?:?]
+	at java.net.URLClassLoader$1.run(URLClassLoader.java:414) ~[?:?]
+	at java.security.AccessController.doPrivileged(AccessController.java:691) ~[?:?]
+	at java.net.URLClassLoader.findClass(URLClassLoader.java:413) ~[?:?]
+	at java.lang.ClassLoader.loadClass(ClassLoader.java:586) ~[?:?]
+	at java.lang.ClassLoader.loadClass(ClassLoader.java:519) ~[?:?]
+	at me.clip.placeholderapi.util.FileUtil.findClass(FileUtil.java:62) ~[?:?]
+	at me.clip.placeholderapi.expansion.manager.LocalExpansionManager.lambda$findExpansionInFile$7(LocalExpansionManager.java:421) ~[?:?]
+	at java.util.concurrent.CompletableFuture$AsyncSupply.run(CompletableFuture.java:1764) ~[?:?]
+	... 6 more
+[17:57:19] [Craft Scheduler Thread - 10/WARN]: [PartyGames] Plugin PartyGames v6.6.8 generated an exception while executing task 9494
+java.lang.NullPointerException: Cannot invoke "java.awt.image.BufferedImage.getScaledInstance(int, int, int)" because the return value of "javax.imageio.ImageIO.read(java.net.URL)" is null
+	at me.wazup.partygames.custommaps.CombinedMapRenderer.loadImage(CombinedMapRenderer.java:37) ~[?:?]
+	at me.wazup.partygames.custommaps.CombinedMapRenderer.access$000(CombinedMapRenderer.java:17) ~[?:?]
+	at me.wazup.partygames.custommaps.CombinedMapRenderer$1.run(CombinedMapRenderer.java:28) ~[?:?]
+	at org.bukkit.craftbukkit.v1_16_R3.scheduler.CraftTask.run(CraftTask.java:101) ~[patched_1.16.5.jar:git-Paper-794]
+	at org.bukkit.craftbukkit.v1_16_R3.scheduler.CraftAsyncTask.run(CraftAsyncTask.java:54) ~[patched_1.16.5.jar:git-Paper-794]
+	at com.destroystokyo.paper.ServerSchedulerReportingWrapper.run(ServerSchedulerReportingWrapper.java:22) ~[patched_1.16.5.jar:git-Paper-794]
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1130) ~[?:?]
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:630) ~[?:?]
+	at java.lang.Thread.run(Thread.java:831) [?:?]
+[17:57:19] [Craft Scheduler Thread - 4/INFO]: [RoseGarden] [RoseGarden] An update for PlayerPoints (v3.2.7) is available! You are running v3.0.1.
+[17:57:19] [Craft Scheduler Thread - 12/INFO]: [GadgetsMenu] You have an old version of the plugin. You are using 4.7.3, available version 4.13.1.
+[17:57:21] [Server thread/INFO]: [PartyGames] HolographicDisplays has been detected! HolographicDisplays features are now accessible..
+[17:57:21] [Server thread/INFO]: [PartyGames] Loaded 0 arena(s) and 23 minigame(s) and 37 achievement(s) and 7 broadcaster message(s)
+[17:57:21] [Server thread/INFO]: [PartyGames] Updating leaderboards...
+[17:57:21] [Server thread/INFO]: [PartyGames] Couldn't find any valid top sign to update!
+[17:57:21] [Craft Scheduler Thread - 13/WARN]: Couldn't look up profile properties for com.mojang.authlib.GameProfile@28d0d049[id=39af6844-6809-4d2f-8ba4-7e92d087be18,name=MHF_Wither,properties={},legacy=false]
+com.mojang.authlib.exceptions.AuthenticationUnavailableException: Cannot contact authentication server
+	at com.mojang.authlib.yggdrasil.YggdrasilAuthenticationService.makeRequest(YggdrasilAuthenticationService.java:125) ~[patched_1.16.5.jar:git-Paper-794]
+	at com.mojang.authlib.yggdrasil.YggdrasilAuthenticationService.makeRequest(YggdrasilAuthenticationService.java:99) ~[patched_1.16.5.jar:git-Paper-794]
+	at com.mojang.authlib.yggdrasil.YggdrasilMinecraftSessionService.fillGameProfile(YggdrasilMinecraftSessionService.java:186) ~[patched_1.16.5.jar:git-Paper-794]
+	at com.destroystokyo.paper.profile.PaperMinecraftSessionService.fillGameProfile(PaperMinecraftSessionService.java:38) ~[patched_1.16.5.jar:git-Paper-794]
+	at com.mojang.authlib.yggdrasil.YggdrasilMinecraftSessionService.fillProfileProperties(YggdrasilMinecraftSessionService.java:179) ~[patched_1.16.5.jar:git-Paper-794]
+	at com.destroystokyo.paper.profile.PaperMinecraftSessionService.fillProfileProperties(PaperMinecraftSessionService.java:31) ~[patched_1.16.5.jar:git-Paper-794]
+	at net.minecraft.server.v1_16_R3.TileEntitySkull$1.load(TileEntitySkull.java:90) ~[patched_1.16.5.jar:git-Paper-794]
+	at net.minecraft.server.v1_16_R3.TileEntitySkull$1.load(TileEntitySkull.java:57) ~[patched_1.16.5.jar:git-Paper-794]
+	at com.google.common.cache.LocalCache$LoadingValueReference.loadFuture(LocalCache.java:3716) ~[patched_1.16.5.jar:git-Paper-794]
+	at com.google.common.cache.LocalCache$Segment.loadSync(LocalCache.java:2424) ~[patched_1.16.5.jar:git-Paper-794]
+	at com.google.common.cache.LocalCache$Segment.lockedGetOrLoad(LocalCache.java:2298) ~[patched_1.16.5.jar:git-Paper-794]
+	at com.google.common.cache.LocalCache$Segment.get(LocalCache.java:2211) ~[patched_1.16.5.jar:git-Paper-794]
+	at com.google.common.cache.LocalCache.get(LocalCache.java:4154) ~[patched_1.16.5.jar:git-Paper-794]
+	at com.google.common.cache.LocalCache.getOrLoad(LocalCache.java:4158) ~[patched_1.16.5.jar:git-Paper-794]
+	at com.google.common.cache.LocalCache$LocalLoadingCache.get(LocalCache.java:5147) ~[patched_1.16.5.jar:git-Paper-794]
+	at com.google.common.cache.LocalCache$LocalLoadingCache.getUnchecked(LocalCache.java:5153) ~[patched_1.16.5.jar:git-Paper-794]
+	at net.minecraft.server.v1_16_R3.TileEntitySkull$3.call(TileEntitySkull.java:231) ~[patched_1.16.5.jar:git-Paper-794]
+	at net.minecraft.server.v1_16_R3.TileEntitySkull$3.call(TileEntitySkull.java:228) ~[patched_1.16.5.jar:git-Paper-794]
+	at net.minecraft.server.v1_16_R3.TileEntitySkull.b(TileEntitySkull.java:247) ~[patched_1.16.5.jar:git-Paper-794]
+	at org.bukkit.craftbukkit.v1_16_R3.inventory.CraftMetaSkull.applyToItem(CraftMetaSkull.java:104) ~[patched_1.16.5.jar:git-Paper-794]
+	at org.bukkit.craftbukkit.v1_16_R3.inventory.CraftItemStack.setItemMeta(CraftItemStack.java:535) ~[patched_1.16.5.jar:git-Paper-794]
+	at org.bukkit.craftbukkit.v1_16_R3.inventory.CraftItemStack.asNMSCopy(CraftItemStack.java:42) ~[patched_1.16.5.jar:git-Paper-794]
+	at org.bukkit.craftbukkit.v1_16_R3.inventory.CraftInventory.setItem(CraftInventory.java:100) ~[patched_1.16.5.jar:git-Paper-794]
+	at net.choco.buildbattle.headsapi.CategoryPage.<init>(CategoryPage.java:43) ~[?:?]
+	at net.choco.buildbattle.headsapi.Category.<init>(Category.java:68) ~[?:?]
+	at net.choco.buildbattle.headsapi.HeadInventory$1.lambda$run$0(HeadInventory.java:88) ~[?:?]
+	at java.lang.Iterable.forEach(Iterable.java:75) ~[?:?]
+	at net.choco.buildbattle.headsapi.HeadInventory$1.run(HeadInventory.java:87) ~[?:?]
+	at org.bukkit.craftbukkit.v1_16_R3.scheduler.CraftTask.run(CraftTask.java:101) ~[patched_1.16.5.jar:git-Paper-794]
+	at org.bukkit.craftbukkit.v1_16_R3.scheduler.CraftAsyncTask.run(CraftAsyncTask.java:54) ~[patched_1.16.5.jar:git-Paper-794]
+	at com.destroystokyo.paper.ServerSchedulerReportingWrapper.run(ServerSchedulerReportingWrapper.java:22) ~[patched_1.16.5.jar:git-Paper-794]
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1130) ~[?:?]
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:630) ~[?:?]
+	at java.lang.Thread.run(Thread.java:831) [?:?]
+Caused by: com.google.gson.JsonSyntaxException: java.lang.IllegalStateException: Expected BEGIN_OBJECT but was STRING at line 1 column 1 path $
+	at com.google.gson.internal.bind.ReflectiveTypeAdapterFactory$Adapter.read(ReflectiveTypeAdapterFactory.java:224) ~[patched_1.16.5.jar:git-Paper-794]
+	at com.google.gson.Gson.fromJson(Gson.java:887) ~[patched_1.16.5.jar:git-Paper-794]
+	at com.google.gson.Gson.fromJson(Gson.java:852) ~[patched_1.16.5.jar:git-Paper-794]
+	at com.google.gson.Gson.fromJson(Gson.java:801) ~[patched_1.16.5.jar:git-Paper-794]
+	at com.google.gson.Gson.fromJson(Gson.java:773) ~[patched_1.16.5.jar:git-Paper-794]
+	at com.mojang.authlib.yggdrasil.YggdrasilAuthenticationService.makeRequest(YggdrasilAuthenticationService.java:105) ~[patched_1.16.5.jar:git-Paper-794]
+	... 33 more
+Caused by: java.lang.IllegalStateException: Expected BEGIN_OBJECT but was STRING at line 1 column 1 path $
+	at com.google.gson.stream.JsonReader.beginObject(JsonReader.java:385) ~[patched_1.16.5.jar:git-Paper-794]
+	at com.google.gson.internal.bind.ReflectiveTypeAdapterFactory$Adapter.read(ReflectiveTypeAdapterFactory.java:213) ~[patched_1.16.5.jar:git-Paper-794]
+	at com.google.gson.Gson.fromJson(Gson.java:887) ~[patched_1.16.5.jar:git-Paper-794]
+	at com.google.gson.Gson.fromJson(Gson.java:852) ~[patched_1.16.5.jar:git-Paper-794]
+	at com.google.gson.Gson.fromJson(Gson.java:801) ~[patched_1.16.5.jar:git-Paper-794]
+	at com.google.gson.Gson.fromJson(Gson.java:773) ~[patched_1.16.5.jar:git-Paper-794]
+	at com.mojang.authlib.yggdrasil.YggdrasilAuthenticationService.makeRequest(YggdrasilAuthenticationService.java:105) ~[patched_1.16.5.jar:git-Paper-794]
+	... 33 more
+[17:57:23] [Craft Scheduler Thread - 6/INFO]: [Images] Loaded 0 images...
+[17:57:29] [Craft Scheduler Thread - 13/ERROR]: [BuildBattlePro] The heads.yml could not be loaded.
+com.google.common.util.concurrent.UncheckedExecutionException: java.lang.NullPointerException: Cannot read the array length because the return value of "com.mojang.authlib.yggdrasil.response.ProfileSearchResultsResponse.getProfiles()" is null
+	at com.google.common.cache.LocalCache$Segment.get(LocalCache.java:2217) ~[patched_1.16.5.jar:git-Paper-794]
+	at com.google.common.cache.LocalCache.get(LocalCache.java:4154) ~[patched_1.16.5.jar:git-Paper-794]
+	at com.google.common.cache.LocalCache.getOrLoad(LocalCache.java:4158) ~[patched_1.16.5.jar:git-Paper-794]
+	at com.google.common.cache.LocalCache$LocalLoadingCache.get(LocalCache.java:5147) ~[patched_1.16.5.jar:git-Paper-794]
+	at com.google.common.cache.LocalCache$LocalLoadingCache.getUnchecked(LocalCache.java:5153) ~[patched_1.16.5.jar:git-Paper-794]
+	at net.minecraft.server.v1_16_R3.TileEntitySkull$3.call(TileEntitySkull.java:231) ~[patched_1.16.5.jar:git-Paper-794]
+	at net.minecraft.server.v1_16_R3.TileEntitySkull$3.call(TileEntitySkull.java:228) ~[patched_1.16.5.jar:git-Paper-794]
+	at net.minecraft.server.v1_16_R3.TileEntitySkull.b(TileEntitySkull.java:247) ~[patched_1.16.5.jar:git-Paper-794]
+	at org.bukkit.craftbukkit.v1_16_R3.inventory.CraftMetaSkull.applyToItem(CraftMetaSkull.java:104) ~[patched_1.16.5.jar:git-Paper-794]
+	at org.bukkit.craftbukkit.v1_16_R3.inventory.CraftItemStack.setItemMeta(CraftItemStack.java:535) ~[patched_1.16.5.jar:git-Paper-794]
+	at org.bukkit.craftbukkit.v1_16_R3.inventory.CraftItemStack.asNMSCopy(CraftItemStack.java:42) ~[patched_1.16.5.jar:git-Paper-794]
+	at org.bukkit.craftbukkit.v1_16_R3.inventory.CraftInventory.setItem(CraftInventory.java:100) ~[patched_1.16.5.jar:git-Paper-794]
+	at net.choco.buildbattle.headsapi.CategoryPage.<init>(CategoryPage.java:43) ~[?:?]
+	at net.choco.buildbattle.headsapi.Category.<init>(Category.java:68) ~[?:?]
+	at net.choco.buildbattle.headsapi.HeadInventory$1.lambda$run$0(HeadInventory.java:88) ~[?:?]
+	at java.lang.Iterable.forEach(Iterable.java:75) ~[?:?]
+	at net.choco.buildbattle.headsapi.HeadInventory$1.run(HeadInventory.java:87) ~[?:?]
+	at org.bukkit.craftbukkit.v1_16_R3.scheduler.CraftTask.run(CraftTask.java:101) ~[patched_1.16.5.jar:git-Paper-794]
+	at org.bukkit.craftbukkit.v1_16_R3.scheduler.CraftAsyncTask.run(CraftAsyncTask.java:54) ~[patched_1.16.5.jar:git-Paper-794]
+	at com.destroystokyo.paper.ServerSchedulerReportingWrapper.run(ServerSchedulerReportingWrapper.java:22) ~[patched_1.16.5.jar:git-Paper-794]
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1130) ~[?:?]
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:630) ~[?:?]
+	at java.lang.Thread.run(Thread.java:831) [?:?]
+Caused by: java.lang.NullPointerException: Cannot read the array length because the return value of "com.mojang.authlib.yggdrasil.response.ProfileSearchResultsResponse.getProfiles()" is null
+	at com.mojang.authlib.yggdrasil.YggdrasilGameProfileRepository.findProfilesByNames(YggdrasilGameProfileRepository.java:59) ~[patched_1.16.5.jar:git-Paper-794]
+	at com.destroystokyo.paper.profile.PaperGameProfileRepository.findProfilesByNames(PaperGameProfileRepository.java:44) ~[patched_1.16.5.jar:git-Paper-794]
+	at net.minecraft.server.v1_16_R3.TileEntitySkull$1.load(TileEntitySkull.java:75) ~[patched_1.16.5.jar:git-Paper-794]
+	at net.minecraft.server.v1_16_R3.TileEntitySkull$1.load(TileEntitySkull.java:57) ~[patched_1.16.5.jar:git-Paper-794]
+	at com.google.common.cache.LocalCache$LoadingValueReference.loadFuture(LocalCache.java:3716) ~[patched_1.16.5.jar:git-Paper-794]
+	at com.google.common.cache.LocalCache$Segment.loadSync(LocalCache.java:2424) ~[patched_1.16.5.jar:git-Paper-794]
+	at com.google.common.cache.LocalCache$Segment.lockedGetOrLoad(LocalCache.java:2298) ~[patched_1.16.5.jar:git-Paper-794]
+	at com.google.common.cache.LocalCache$Segment.get(LocalCache.java:2211) ~[patched_1.16.5.jar:git-Paper-794]
+	... 22 more
