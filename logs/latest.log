@@ -502,3 +502,11 @@ Caused by: java.lang.NullPointerException: Cannot read the array length because 
 [20:52:58] [User Authenticator #3/INFO]: UUID of player Detiven is efff1d05-18ce-32f8-be37-5c7d95632da8
 [20:52:58] [Server thread/INFO]: + Detiven Connected
 [20:52:58] [Server thread/INFO]: Detiven[/[0:0:0:0:0:0:0:1%0]:33906] logged in with entity id 3590 at ([world]25.5, 69.0, 236.5)
+[20:58:42] [Server thread/INFO]: [Arcade]   [Warning] Your server cannot recognize player with uuid: 530fa97a-357f-3c19-94d3-0c5c65c18fe8! Perhaps he has not played on your server yet ?
+[20:58:42] [Server thread/INFO]: [Arcade]   [Warning] Your server cannot recognize player with uuid: 530fa97a-357f-3c19-94d3-0c5c65c18fe8! Perhaps he has not played on your server yet ?
+[20:58:42] [Server thread/INFO]: [Arcade]   [Warning] Your server cannot recognize player with uuid: 530fa97a-357f-3c19-94d3-0c5c65c18fe8! Perhaps he has not played on your server yet ?
+[20:58:42] [Server thread/INFO]: [Arcade]   [Warning] Your server cannot recognize player with uuid: 530fa97a-357f-3c19-94d3-0c5c65c18fe8! Perhaps he has not played on your server yet ?
+[20:58:42] [Server thread/INFO]: [Arcade]   [Warning] Your server cannot recognize player with uuid: 530fa97a-357f-3c19-94d3-0c5c65c18fe8! Perhaps he has not played on your server yet ?
+[20:58:42] [Server thread/INFO]: [Arcade]   [Warning] Your server cannot recognize player with uuid: 530fa97a-357f-3c19-94d3-0c5c65c18fe8! Perhaps he has not played on your server yet ?
+[20:58:42] [Server thread/INFO]: [Arcade]   [Warning] Your server cannot recognize player with uuid: 530fa97a-357f-3c19-94d3-0c5c65c18fe8! Perhaps he has not played on your server yet ?
+[20:58:42] [Server thread/INFO]: [Arcade]   [Warning] Your server cannot recognize player with uuid: 530fa97a-357f-3c19-94d3-0c5c65c18fe8! Perhaps he has not played on your server yet ?
