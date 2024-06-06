@@ -1,18 +1,18 @@
-[19:33:36] [Server thread/INFO]: Starting minecraft server version 1.8.8
-[19:33:36] [Server thread/INFO]: Loading properties
-[19:33:36] [Server thread/INFO]: Default game type: SURVIVAL
-[19:33:36] [Server thread/INFO]: This server is running PandaSpigot version git-PandaSpigot-119 (MC: 1.8.8) (Implementing API version 1.8.8-R0.1-SNAPSHOT) (Git: 858ab0f)
-[19:33:36] [Server thread/INFO]: Debug logging is disabled
-[19:33:36] [Server thread/INFO]: Server Ping Player Sample Count: 12
+[20:09:27] [Server thread/INFO]: Starting minecraft server version 1.8.8
+[20:09:27] [Server thread/INFO]: Loading properties
+[20:09:27] [Server thread/INFO]: Default game type: SURVIVAL
+[20:09:27] [Server thread/INFO]: This server is running PandaSpigot version git-PandaSpigot-119 (MC: 1.8.8) (Implementing API version 1.8.8-R0.1-SNAPSHOT) (Git: 858ab0f)
+[20:09:28] [Server thread/INFO]: Debug logging is disabled
+[20:09:28] [Server thread/INFO]: Server Ping Player Sample Count: 12
 
-[19:33:36] [Server thread/INFO]: Spigot Timings: true - Verbose: true - Interval: 5m - Length: 60m
-[19:33:36] [Server thread/INFO]: Using 4 threads for Netty based IO
-[19:33:36] [Server thread/INFO]: Data value allowed items: 
-[19:33:36] [Server thread/INFO]: Generating keypair
-[19:33:36] [Server thread/INFO]: Starting Minecraft server on *:25565
-[19:33:36] [Server thread/INFO]: Using epoll channel type
-[19:33:36] [Server thread/INFO]: Set PluginClassLoader as parallel capable
-[19:33:36] [Server thread/ERROR]: Could not load 'plugins/murdermystery-2.0.7.jar' in folder 'plugins'
+[20:09:28] [Server thread/INFO]: Spigot Timings: true - Verbose: true - Interval: 5m - Length: 60m
+[20:09:28] [Server thread/INFO]: Using 4 threads for Netty based IO
+[20:09:28] [Server thread/INFO]: Data value allowed items: 
+[20:09:28] [Server thread/INFO]: Generating keypair
+[20:09:28] [Server thread/INFO]: Starting Minecraft server on *:25565
+[20:09:28] [Server thread/INFO]: Using epoll channel type
+[20:09:28] [Server thread/INFO]: Set PluginClassLoader as parallel capable
+[20:09:28] [Server thread/ERROR]: Could not load 'plugins/murdermystery-2.0.7.jar' in folder 'plugins'
 org.bukkit.plugin.InvalidPluginException: java.lang.UnsupportedClassVersionError: plugily/projects/murdermystery/Main has been compiled by a more recent version of the Java Runtime (class file version 61.0), this version of the Java Runtime only recognizes class file versions up to 60.0
 	at org.bukkit.plugin.java.JavaPluginLoader.loadPlugin(JavaPluginLoader.java:133) ~[patched_1.8.8.jar:git-PandaSpigot-119]
 	at org.bukkit.plugin.SimplePluginManager.loadPlugin(SimplePluginManager.java:340) ~[patched_1.8.8.jar:git-PandaSpigot-119]
@@ -40,7 +40,7 @@ Caused by: java.lang.UnsupportedClassVersionError: plugily/projects/murdermyster
 	at org.bukkit.plugin.java.PluginClassLoader.<init>(PluginClassLoader.java:65) ~[patched_1.8.8.jar:git-PandaSpigot-119]
 	at org.bukkit.plugin.java.JavaPluginLoader.loadPlugin(JavaPluginLoader.java:129) ~[patched_1.8.8.jar:git-PandaSpigot-119]
 	... 7 more
-[19:33:36] [Server thread/ERROR]: Could not load 'plugins/worldedit-bukkit-7.2.12.jar' in folder 'plugins'
+[20:09:28] [Server thread/ERROR]: Could not load 'plugins/worldedit-bukkit-7.2.12.jar' in folder 'plugins'
 org.bukkit.plugin.InvalidPluginException: java.lang.ExceptionInInitializerError
 	at org.bukkit.plugin.java.JavaPluginLoader.loadPlugin(JavaPluginLoader.java:133) ~[patched_1.8.8.jar:git-PandaSpigot-119]
 	at org.bukkit.plugin.SimplePluginManager.loadPlugin(SimplePluginManager.java:340) ~[patched_1.8.8.jar:git-PandaSpigot-119]
@@ -68,7 +68,7 @@ Caused by: java.lang.IllegalStateException:
 	at org.bukkit.plugin.java.PluginClassLoader.<init>(PluginClassLoader.java:65) ~[patched_1.8.8.jar:git-PandaSpigot-119]
 	at org.bukkit.plugin.java.JavaPluginLoader.loadPlugin(JavaPluginLoader.java:129) ~[patched_1.8.8.jar:git-PandaSpigot-119]
 	... 7 more
-[19:33:36] [Server thread/ERROR]: Could not load 'plugins/ProJumpPads-4.0 beta.jar' in folder 'plugins'
+[20:09:28] [Server thread/ERROR]: Could not load 'plugins/ProJumpPads-4.0 beta.jar' in folder 'plugins'
 org.bukkit.plugin.InvalidPluginException: java.lang.UnsupportedClassVersionError: me/sedattr/projumppads/ProJumpPads has been compiled by a more recent version of the Java Runtime (class file version 61.0), this version of the Java Runtime only recognizes class file versions up to 60.0
 	at org.bukkit.plugin.java.JavaPluginLoader.loadPlugin(JavaPluginLoader.java:133) ~[patched_1.8.8.jar:git-PandaSpigot-119]
 	at org.bukkit.plugin.SimplePluginManager.loadPlugin(SimplePluginManager.java:340) ~[patched_1.8.8.jar:git-PandaSpigot-119]
@@ -96,7 +96,7 @@ Caused by: java.lang.UnsupportedClassVersionError: me/sedattr/projumppads/ProJum
 	at org.bukkit.plugin.java.PluginClassLoader.<init>(PluginClassLoader.java:65) ~[patched_1.8.8.jar:git-PandaSpigot-119]
 	at org.bukkit.plugin.java.JavaPluginLoader.loadPlugin(JavaPluginLoader.java:129) ~[patched_1.8.8.jar:git-PandaSpigot-119]
 	... 7 more
-[19:33:36] [Server thread/ERROR]: Could not load 'plugins/tnt-run-2.4.9.jar' in folder 'plugins'
+[20:09:28] [Server thread/ERROR]: Could not load 'plugins/tnt-run-2.4.9.jar' in folder 'plugins'
 org.bukkit.plugin.InvalidPluginException: java.lang.UnsupportedClassVersionError: me/despical/tntrun/Main has been compiled by a more recent version of the Java Runtime (class file version 61.0), this version of the Java Runtime only recognizes class file versions up to 60.0
 	at org.bukkit.plugin.java.JavaPluginLoader.loadPlugin(JavaPluginLoader.java:133) ~[patched_1.8.8.jar:git-PandaSpigot-119]
 	at org.bukkit.plugin.SimplePluginManager.loadPlugin(SimplePluginManager.java:340) ~[patched_1.8.8.jar:git-PandaSpigot-119]
@@ -124,158 +124,132 @@ Caused by: java.lang.UnsupportedClassVersionError: me/despical/tntrun/Main has b
 	at org.bukkit.plugin.java.PluginClassLoader.<init>(PluginClassLoader.java:65) ~[patched_1.8.8.jar:git-PandaSpigot-119]
 	at org.bukkit.plugin.java.JavaPluginLoader.loadPlugin(JavaPluginLoader.java:129) ~[patched_1.8.8.jar:git-PandaSpigot-119]
 	... 7 more
-[19:33:36] [Server thread/INFO]: [JumpPads] Loading JumpPads v1.25.13
-[19:33:36] [Server thread/INFO]: [PlaceholderAPI] Loading PlaceholderAPI v2.11.6
-[19:33:36] [Server thread/INFO]: [HolographicDisplays] Loading HolographicDisplays v3.0.4
-[19:33:36] [Server thread/INFO]: [ViaVersion] Loading ViaVersion v4.10.2
-[19:33:36] [Server thread/INFO]: [ViaVersion] ViaVersion 4.10.2 is now loaded. Registering protocol transformers and injecting...
-[19:33:37] [Via-Mappingloader-0/INFO]: [ViaVersion] Loading block connection mappings ...
-[19:33:37] [Server thread/INFO]: [ViaBackwards] Loading translations...
-[19:33:37] [Server thread/INFO]: [ViaBackwards] Registering protocols...
-[19:33:37] [Server thread/INFO]: [ViaRewind] Registering protocols...
-[19:33:37] [Server thread/INFO]: [ViaBackwards] Loading ViaBackwards v4.10.2
-[19:33:37] [Server thread/INFO]: [ViaRewind] Loading ViaRewind v3.1.2
-[19:33:37] [Server thread/INFO]: [LuckPerms] Loading LuckPerms v5.4.40
-[19:33:37] [Server thread/INFO]: [HolographicExtension] Loading HolographicExtension v1.10.9
-[19:33:37] [Server thread/INFO]: [Vault] Loading Vault v1.7.3-b131
-[19:33:37] [Server thread/INFO]: [MyCommand] Loading MyCommand v5.7.4
-[19:33:37] [Server thread/INFO]: [LPC] Loading LPC v3.6.0
-[19:33:37] [Server thread/INFO]: [gs] Loading GlobalStats v5.1
-[19:33:37] [Server thread/INFO]: [PlayerPoints] Loading PlayerPoints v3.0.1
-[19:33:37] [Server thread/INFO]: [Multiverse-Core] Loading Multiverse-Core v4.3.1-b861
-[19:33:37] [Server thread/INFO]: [Citizens] Loading Citizens v2.0.33-SNAPSHOT (build 3287)
-[19:33:37] [Server thread/INFO]: [Images] Loading Images v2.1.7
-[19:33:37] [Server thread/INFO]: [ajLeaderboards] Loading ajLeaderboards v2.8.0
-[19:33:37] [Server thread/INFO]: [ajLeaderboards] Verifying checksum for gson
-[19:33:37] [Server thread/INFO]: [ajLeaderboards] Checksum matched for gson
-[19:33:37] [Server thread/INFO]: [ajLeaderboards] Verifying checksum for jar-relocator
-[19:33:37] [Server thread/INFO]: [ajLeaderboards] Checksum matched for jar-relocator
-[19:33:37] [Server thread/INFO]: [ajLeaderboards] Verifying checksum for asm
-[19:33:37] [Server thread/INFO]: [ajLeaderboards] Checksum matched for asm
-[19:33:37] [Server thread/INFO]: [ajLeaderboards] Verifying checksum for asm-commons
-[19:33:37] [Server thread/INFO]: [ajLeaderboards] Checksum matched for asm-commons
-[19:33:37] [Server thread/INFO]: [ajLeaderboards] Verifying checksum for gson
-[19:33:37] [Server thread/INFO]: [ajLeaderboards] Checksum matched for gson
-[19:33:38] [Server thread/INFO]: [ajLeaderboards] Verifying checksum for HikariCP
-[19:33:38] [Server thread/INFO]: [ajLeaderboards] Checksum matched for HikariCP
-[19:33:38] [Server thread/INFO]: [ajLeaderboards] Verifying checksum for slf4j-api
-[19:33:38] [Server thread/INFO]: [ajLeaderboards] Checksum matched for slf4j-api
-[19:33:38] [Server thread/INFO]: [ajLeaderboards] Verifying checksum for h2
-[19:33:38] [Server thread/INFO]: [ajLeaderboards] Checksum matched for h2
-[19:33:38] [Server thread/INFO]: [DeluxeHub] Loading DeluxeHub v3.5.5
-[19:33:38] [Server thread/INFO]: [GadgetsMenu] Loading GadgetsMenu v4.7.3
-[19:33:38] [Server thread/INFO]: [PartyGames] Loading PartyGames v6.6.8
-[19:33:38] [Server thread/INFO]: [BuildBattlePro] Loading BuildBattlePro v6.7.0
-[19:33:38] [Server thread/INFO]: [BlockParty] Loading BlockParty v2.0.5-RELEASE
-[19:33:38] [Server thread/INFO]: [BlockParty] Using BlockPlacer version v1_8_R3
-[19:33:38] [Server thread/INFO]: [BlockParty] Loading VersionedMaterial.
-[19:33:38] [Server thread/INFO]: [BlockParty] Using materials.Sign version v1_8_R3
-[19:33:38] [Server thread/INFO]: [BlockParty] Using materials.Door version v1_8_R3
-[19:33:38] [Server thread/INFO]: [BlockParty] Using materials.FireCharge version v1_8_R3
-[19:33:38] [Server thread/INFO]: [BlockParty] Using materials.SkeletonSkull version v1_8_R3
-[19:33:38] [Server thread/INFO]: [BlockParty] Using materials.Terracotta version v1_8_R3
-[19:33:38] [Server thread/INFO]: [BlockParty] Using materials.Wool version v1_8_R3
-[19:33:38] [Server thread/INFO]: [BlockParty] Using materials.Carpet version v1_8_R3
-[19:33:38] [Server thread/INFO]: [BlockParty] Using materials.StainedGlass version v1_8_R3
-[19:33:38] [Server thread/INFO]: [BlockParty] Using materials.StainedGlassPane version v1_8_R3
-[19:33:38] [Server thread/INFO]: [BlockParty] Using materials.MusicDisc version v1_8_R3
-[19:33:38] [Server thread/INFO]: *******************************
-[19:33:38] [Server thread/INFO]: *  BlockParty v2.0.5-RELEASE
-[19:33:38] [Server thread/INFO]: *  Authors: [Leon167, pauhull]
-[19:33:38] [Server thread/INFO]: *  Music Server: Online
-[19:33:38] [Server thread/INFO]: *******************************
-[19:33:38] [Server thread/INFO]: [ViaRewind] Enabling ViaRewind v3.1.2
-[19:33:38] [Server thread/INFO]: [LuckPerms] Enabling LuckPerms v5.4.40
-[19:33:38] [Server thread/INFO]:         __    
-[19:33:38] [Server thread/INFO]:   |    |__)   LuckPerms v5.4.40
-[19:33:38] [Server thread/INFO]:   |___ |      Running on Bukkit - PandaSpigot
-[19:33:38] [Server thread/INFO]: 
-[19:33:38] [Server thread/INFO]: [LuckPerms] Loading configuration...
-[19:33:38] [Server thread/INFO]: [LuckPerms] Loading storage provider... [H2]
-[19:33:38] [Server thread/INFO]: [LuckPerms] Loading internal permission managers...
-[19:33:38] [Server thread/INFO]: [LuckPerms] Performing initial data load...
-[19:33:39] [Server thread/INFO]: [LuckPerms] Successfully enabled. (took 906ms)
-[19:33:39] [Server thread/INFO]: [Vault] Enabling Vault v1.7.3-b131
-[19:33:39] [Server thread/INFO]: [Vault] [Permission] SuperPermissions loaded as backup permission system.
-[19:33:39] [Server thread/INFO]: [Vault] Enabled Version 1.7.3-b131
-[19:33:39] [Server thread/INFO]: [LuckPerms] Registered Vault permission & chat hook.
-[19:33:39] [Server thread/WARN]: **** SERVER IS RUNNING IN OFFLINE/INSECURE MODE!
-[19:33:39] [Server thread/WARN]: The server will make no attempt to authenticate usernames. Beware.
-[19:33:39] [Server thread/WARN]: While this makes the game possible to play without internet access, it also opens up the ability for hackers to connect with any username they choose.
-[19:33:39] [Server thread/WARN]: To change this, set "online-mode" to "true" in the server.properties file.
-[19:33:39] [Server thread/INFO]: **** Beginning UUID conversion, this may take A LONG time ****
-[19:33:39] [Server thread/INFO]: Preparing level "world"
-[19:33:39] [Server thread/INFO]: -------- World Settings For [world] --------
-[19:33:39] [Server thread/INFO]: Keep spawn chunk loaded: true
-[19:33:39] [Server thread/INFO]: WorldServer TickNextTick cap set at 10000
-[19:33:39] [Server thread/INFO]: WorldServer TickNextTickList cap always processes redstone: false
-[19:33:39] [Server thread/INFO]: World async lighting: false
-[19:33:39] [Server thread/INFO]: Max height for cactus growth 3. Max height for reed growth 3
-[19:33:39] [Server thread/INFO]: Living Entity Despawn Ranges:  Soft: 32 Hard: 128
-[19:33:39] [Server thread/INFO]: Player blocking damage multiplier set to 0.5
-[19:33:39] [Server thread/INFO]: Remove invalid mob spawner tile entities: true
-[19:33:39] [Server thread/INFO]: Squids will spawn between Y: 45.0 and Y: 0.0
-[19:33:39] [Server thread/INFO]: Water over lava flow speed: 5
-[19:33:39] [Server thread/INFO]: Fix TNT cannons: false
-[19:33:39] [Server thread/INFO]: Allow undead horse types to be leashed: false
-[19:33:39] [Server thread/WARN]: java.io.EOFException
+[20:09:28] [Server thread/INFO]: [JumpPads] Loading JumpPads v1.25.13
+[20:09:28] [Server thread/INFO]: [PlaceholderAPI] Loading PlaceholderAPI v2.11.6
+[20:09:28] [Server thread/INFO]: [HolographicDisplays] Loading HolographicDisplays v3.0.4
+[20:09:28] [Server thread/INFO]: [ViaVersion] Loading ViaVersion v4.10.2
+[20:09:28] [Server thread/INFO]: [ViaVersion] ViaVersion 4.10.2 is now loaded. Registering protocol transformers and injecting...
+[20:09:29] [Via-Mappingloader-0/INFO]: [ViaVersion] Loading block connection mappings ...
+[20:09:29] [Server thread/INFO]: [ViaBackwards] Loading translations...
+[20:09:29] [Server thread/INFO]: [ViaBackwards] Registering protocols...
+[20:09:29] [Server thread/INFO]: [ViaRewind] Registering protocols...
+[20:09:29] [Server thread/INFO]: [ViaBackwards] Loading ViaBackwards v4.10.2
+[20:09:29] [Server thread/INFO]: [ViaRewind] Loading ViaRewind v3.1.2
+[20:09:29] [Server thread/INFO]: [LuckPerms] Loading LuckPerms v5.4.40
+[20:09:29] [Server thread/INFO]: [HolographicExtension] Loading HolographicExtension v1.10.9
+[20:09:29] [Server thread/INFO]: [Vault] Loading Vault v1.7.3-b131
+[20:09:29] [Server thread/INFO]: [MyCommand] Loading MyCommand v5.7.4
+[20:09:29] [Server thread/INFO]: [LPC] Loading LPC v3.6.0
+[20:09:29] [Server thread/INFO]: [gs] Loading GlobalStats v5.1
+[20:09:29] [Server thread/INFO]: [PlayerPoints] Loading PlayerPoints v3.0.1
+[20:09:29] [Server thread/INFO]: [Multiverse-Core] Loading Multiverse-Core v4.3.1-b861
+[20:09:29] [Server thread/INFO]: [Citizens] Loading Citizens v2.0.33-SNAPSHOT (build 3287)
+[20:09:29] [Server thread/INFO]: [Images] Loading Images v2.1.7
+[20:09:29] [Server thread/INFO]: [ajLeaderboards] Loading ajLeaderboards v2.8.0
+[20:09:29] [Server thread/INFO]: [ajLeaderboards] Verifying checksum for gson
+[20:09:29] [Server thread/INFO]: [ajLeaderboards] Checksum matched for gson
+[20:09:29] [Server thread/INFO]: [ajLeaderboards] Verifying checksum for jar-relocator
+[20:09:29] [Server thread/INFO]: [ajLeaderboards] Checksum matched for jar-relocator
+[20:09:29] [Server thread/INFO]: [ajLeaderboards] Verifying checksum for asm
+[20:09:29] [Server thread/INFO]: [ajLeaderboards] Checksum matched for asm
+[20:09:29] [Server thread/INFO]: [ajLeaderboards] Verifying checksum for asm-commons
+[20:09:29] [Server thread/INFO]: [ajLeaderboards] Checksum matched for asm-commons
+[20:09:29] [Server thread/INFO]: [ajLeaderboards] Verifying checksum for gson
+[20:09:29] [Server thread/INFO]: [ajLeaderboards] Checksum matched for gson
+[20:09:30] [Server thread/INFO]: [ajLeaderboards] Verifying checksum for HikariCP
+[20:09:30] [Server thread/INFO]: [ajLeaderboards] Checksum matched for HikariCP
+[20:09:30] [Server thread/INFO]: [ajLeaderboards] Verifying checksum for slf4j-api
+[20:09:30] [Server thread/INFO]: [ajLeaderboards] Checksum matched for slf4j-api
+[20:09:30] [Server thread/INFO]: [ajLeaderboards] Verifying checksum for h2
+[20:09:30] [Server thread/INFO]: [ajLeaderboards] Checksum matched for h2
+[20:09:30] [Server thread/INFO]: [DeluxeHub] Loading DeluxeHub v3.5.5
+[20:09:30] [Server thread/INFO]: [GadgetsMenu] Loading GadgetsMenu v4.7.3
+[20:09:30] [Server thread/INFO]: [PartyGames] Loading PartyGames v6.6.8
+[20:09:30] [Server thread/INFO]: [BuildBattlePro] Loading BuildBattlePro v6.7.0
+[20:09:30] [Server thread/INFO]: [BlockParty] Loading BlockParty v2.0.5-RELEASE
+[20:09:30] [Server thread/INFO]: [BlockParty] Using BlockPlacer version v1_8_R3
+[20:09:30] [Server thread/INFO]: [BlockParty] Loading VersionedMaterial.
+[20:09:30] [Server thread/INFO]: [BlockParty] Using materials.Sign version v1_8_R3
+[20:09:30] [Server thread/INFO]: [BlockParty] Using materials.Door version v1_8_R3
+[20:09:30] [Server thread/INFO]: [BlockParty] Using materials.FireCharge version v1_8_R3
+[20:09:30] [Server thread/INFO]: [BlockParty] Using materials.SkeletonSkull version v1_8_R3
+[20:09:30] [Server thread/INFO]: [BlockParty] Using materials.Terracotta version v1_8_R3
+[20:09:30] [Server thread/INFO]: [BlockParty] Using materials.Wool version v1_8_R3
+[20:09:30] [Server thread/INFO]: [BlockParty] Using materials.Carpet version v1_8_R3
+[20:09:30] [Server thread/INFO]: [BlockParty] Using materials.StainedGlass version v1_8_R3
+[20:09:30] [Server thread/INFO]: [BlockParty] Using materials.StainedGlassPane version v1_8_R3
+[20:09:30] [Server thread/INFO]: [BlockParty] Using materials.MusicDisc version v1_8_R3
+[20:09:30] [Server thread/INFO]: *******************************
+[20:09:30] [Server thread/INFO]: *  BlockParty v2.0.5-RELEASE
+[20:09:30] [Server thread/INFO]: *  Authors: [Leon167, pauhull]
+[20:09:30] [Server thread/INFO]: *  Music Server: Online
+[20:09:30] [Server thread/INFO]: *******************************
+[20:09:30] [Server thread/INFO]: [ViaRewind] Enabling ViaRewind v3.1.2
+[20:09:30] [Server thread/INFO]: [LuckPerms] Enabling LuckPerms v5.4.40
+[20:09:30] [Server thread/INFO]:         __    
+[20:09:30] [Server thread/INFO]:   |    |__)   LuckPerms v5.4.40
+[20:09:30] [Server thread/INFO]:   |___ |      Running on Bukkit - PandaSpigot
+[20:09:30] [Server thread/INFO]: 
+[20:09:30] [Server thread/INFO]: [LuckPerms] Loading configuration...
+[20:09:30] [Server thread/INFO]: [LuckPerms] Loading storage provider... [H2]
+[20:09:31] [Server thread/INFO]: [LuckPerms] Loading internal permission managers...
+[20:09:31] [Server thread/INFO]: [LuckPerms] Performing initial data load...
+[20:09:31] [Server thread/INFO]: [LuckPerms] Successfully enabled. (took 1028ms)
+[20:09:31] [Server thread/INFO]: [Vault] Enabling Vault v1.7.3-b131
+[20:09:31] [Server thread/INFO]: [Vault] [Permission] SuperPermissions loaded as backup permission system.
+[20:09:31] [Server thread/INFO]: [Vault] Enabled Version 1.7.3-b131
+[20:09:31] [Server thread/INFO]: [LuckPerms] Registered Vault permission & chat hook.
+[20:09:31] [Server thread/WARN]: **** SERVER IS RUNNING IN OFFLINE/INSECURE MODE!
+[20:09:31] [Server thread/WARN]: The server will make no attempt to authenticate usernames. Beware.
+[20:09:31] [Server thread/WARN]: While this makes the game possible to play without internet access, it also opens up the ability for hackers to connect with any username they choose.
+[20:09:31] [Server thread/WARN]: To change this, set "online-mode" to "true" in the server.properties file.
+[20:09:31] [Server thread/INFO]: **** Beginning UUID conversion, this may take A LONG time ****
+[20:09:31] [Server thread/INFO]: Preparing level "world"
+[20:09:31] [Server thread/INFO]: -------- World Settings For [world] --------
+[20:09:31] [Server thread/INFO]: Keep spawn chunk loaded: true
+[20:09:31] [Server thread/INFO]: WorldServer TickNextTick cap set at 10000
+[20:09:31] [Server thread/INFO]: WorldServer TickNextTickList cap always processes redstone: false
+[20:09:31] [Server thread/INFO]: World async lighting: false
+[20:09:31] [Server thread/INFO]: Max height for cactus growth 3. Max height for reed growth 3
+[20:09:31] [Server thread/INFO]: Living Entity Despawn Ranges:  Soft: 32 Hard: 128
+[20:09:31] [Server thread/INFO]: Player blocking damage multiplier set to 0.5
+[20:09:31] [Server thread/INFO]: Remove invalid mob spawner tile entities: true
+[20:09:31] [Server thread/INFO]: Squids will spawn between Y: 45.0 and Y: 0.0
+[20:09:31] [Server thread/INFO]: Water over lava flow speed: 5
+[20:09:31] [Server thread/INFO]: Fix TNT cannons: false
+[20:09:31] [Server thread/INFO]: Allow undead horse types to be leashed: false
+[20:09:31] [Server thread/WARN]: java.io.EOFException
 
-[19:33:39] [Server thread/WARN]: 	at java.base/java.io.DataInputStream.readFully(DataInputStream.java:203)
+[20:09:31] [Server thread/WARN]: 	at java.base/java.io.DataInputStream.readFully(DataInputStream.java:203)
 
-[19:33:39] [Server thread/WARN]: 	at java.base/java.io.DataInputStream.readUTF(DataInputStream.java:615)
+[20:09:31] [Server thread/WARN]: 	at java.base/java.io.DataInputStream.readUTF(DataInputStream.java:615)
 
-[19:33:39] [Server thread/WARN]: 	at java.base/java.io.DataInputStream.readUTF(DataInputStream.java:570)
+[20:09:31] [Server thread/WARN]: 	at java.base/java.io.DataInputStream.readUTF(DataInputStream.java:570)
 
-[19:33:39] [Server thread/WARN]: 	at net.minecraft.server.v1_8_R3.NBTCompressedStreamTools.a(NBTCompressedStreamTools.java:82)
+[20:09:31] [Server thread/WARN]: 	at net.minecraft.server.v1_8_R3.NBTCompressedStreamTools.a(NBTCompressedStreamTools.java:82)
 
-[19:33:39] [Server thread/WARN]: 	at net.minecraft.server.v1_8_R3.NBTCompressedStreamTools.a(NBTCompressedStreamTools.java:55)
+[20:09:31] [Server thread/WARN]: 	at net.minecraft.server.v1_8_R3.NBTCompressedStreamTools.a(NBTCompressedStreamTools.java:55)
 
-[19:33:39] [Server thread/WARN]: 	at net.minecraft.server.v1_8_R3.NBTCompressedStreamTools.a(NBTCompressedStreamTools.java:45)
+[20:09:31] [Server thread/WARN]: 	at net.minecraft.server.v1_8_R3.NBTCompressedStreamTools.a(NBTCompressedStreamTools.java:45)
 
-[19:33:39] [Server thread/WARN]: 	at net.minecraft.server.v1_8_R3.PersistentCollection.b(PersistentCollection.java:127)
+[20:09:31] [Server thread/WARN]: 	at net.minecraft.server.v1_8_R3.PersistentCollection.b(PersistentCollection.java:127)
 
-[19:33:39] [Server thread/WARN]: 	at net.minecraft.server.v1_8_R3.PersistentCollection.<init>(PersistentCollection.java:30)
+[20:09:31] [Server thread/WARN]: 	at net.minecraft.server.v1_8_R3.PersistentCollection.<init>(PersistentCollection.java:30)
 
-[19:33:39] [Server thread/WARN]: 	at net.minecraft.server.v1_8_R3.WorldServer.b(WorldServer.java:77)
+[20:09:31] [Server thread/WARN]: 	at net.minecraft.server.v1_8_R3.WorldServer.b(WorldServer.java:77)
 
-[19:33:39] [Server thread/WARN]: 	at net.minecraft.server.v1_8_R3.MinecraftServer.a(MinecraftServer.java:295)
+[20:09:31] [Server thread/WARN]: 	at net.minecraft.server.v1_8_R3.MinecraftServer.a(MinecraftServer.java:295)
 
-[19:33:39] [Server thread/WARN]: 	at net.minecraft.server.v1_8_R3.DedicatedServer.init(DedicatedServer.java:301)
+[20:09:31] [Server thread/WARN]: 	at net.minecraft.server.v1_8_R3.DedicatedServer.init(DedicatedServer.java:301)
 
-[19:33:39] [Server thread/WARN]: 	at net.minecraft.server.v1_8_R3.MinecraftServer.run(MinecraftServer.java:603)
+[20:09:31] [Server thread/WARN]: 	at net.minecraft.server.v1_8_R3.MinecraftServer.run(MinecraftServer.java:603)
 
-[19:33:39] [Server thread/WARN]: 	at net.minecraft.server.v1_8_R3.MinecraftServer.lambda$spin$0(MinecraftServer.java:133)
+[20:09:31] [Server thread/WARN]: 	at net.minecraft.server.v1_8_R3.MinecraftServer.lambda$spin$0(MinecraftServer.java:133)
 
-[19:33:39] [Server thread/WARN]: 	at java.base/java.lang.Thread.run(Thread.java:831)
+[20:09:31] [Server thread/WARN]: 	at java.base/java.lang.Thread.run(Thread.java:831)
 
-[19:33:39] [Server thread/INFO]: -------- World Settings For [world_nether] --------
-[19:33:39] [Server thread/INFO]: Keep spawn chunk loaded: true
-[19:33:39] [Server thread/INFO]: WorldServer TickNextTick cap set at 10000
-[19:33:39] [Server thread/INFO]: WorldServer TickNextTickList cap always processes redstone: false
-[19:33:39] [Server thread/INFO]: World async lighting: false
-[19:33:39] [Server thread/INFO]: Max height for cactus growth 3. Max height for reed growth 3
-[19:33:39] [Server thread/INFO]: Living Entity Despawn Ranges:  Soft: 32 Hard: 128
-[19:33:39] [Server thread/INFO]: Player blocking damage multiplier set to 0.5
-[19:33:39] [Server thread/INFO]: Remove invalid mob spawner tile entities: true
-[19:33:39] [Server thread/INFO]: Squids will spawn between Y: 45.0 and Y: 0.0
-[19:33:39] [Server thread/INFO]: Water over lava flow speed: 5
-[19:33:39] [Server thread/INFO]: Fix TNT cannons: false
-[19:33:39] [Server thread/INFO]: Allow undead horse types to be leashed: false
-[19:33:39] [Server thread/INFO]: -------- World Settings For [world_the_end] --------
-[19:33:39] [Server thread/INFO]: Keep spawn chunk loaded: true
-[19:33:39] [Server thread/INFO]: WorldServer TickNextTick cap set at 10000
-[19:33:39] [Server thread/INFO]: WorldServer TickNextTickList cap always processes redstone: false
-[19:33:39] [Server thread/INFO]: World async lighting: false
-[19:33:39] [Server thread/INFO]: Max height for cactus growth 3. Max height for reed growth 3
-[19:33:39] [Server thread/INFO]: Living Entity Despawn Ranges:  Soft: 32 Hard: 128
-[19:33:39] [Server thread/INFO]: Player blocking damage multiplier set to 0.5
-[19:33:39] [Server thread/INFO]: Remove invalid mob spawner tile entities: true
-[19:33:39] [Server thread/INFO]: Squids will spawn between Y: 45.0 and Y: 0.0
-[19:33:39] [Server thread/INFO]: Water over lava flow speed: 5
-[19:33:39] [Server thread/INFO]: Fix TNT cannons: false
-[19:33:39] [Server thread/INFO]: Allow undead horse types to be leashed: false
-[19:33:39] [Server thread/INFO]: Preparing start region for level 0 (Seed: 0)
-[19:33:39] [Server thread/ERROR]: Encountered an unexpected exception
+[20:09:31] [Server thread/INFO]: Preparing start region for level 0 (Seed: 0)
+[20:09:31] [Server thread/ERROR]: Encountered an unexpected exception
 java.lang.NullPointerException: Cannot invoke "net.minecraft.server.v1_8_R3.NBTBase.load(java.io.DataInput, int, net.minecraft.server.v1_8_R3.NBTReadLimiter)" because "nbtbase" is null
 	at net.minecraft.server.v1_8_R3.NBTTagCompound.a(NBTTagCompound.java:331) ~[patched_1.8.8.jar:git-PandaSpigot-119]
 	at net.minecraft.server.v1_8_R3.NBTTagCompound.load(NBTTagCompound.java:45) ~[patched_1.8.8.jar:git-PandaSpigot-119]
@@ -302,16 +276,14 @@ java.lang.NullPointerException: Cannot invoke "net.minecraft.server.v1_8_R3.NBTB
 	at net.minecraft.server.v1_8_R3.MinecraftServer.run(MinecraftServer.java:603) ~[patched_1.8.8.jar:git-PandaSpigot-119]
 	at net.minecraft.server.v1_8_R3.MinecraftServer.lambda$spin$0(MinecraftServer.java:133) ~[patched_1.8.8.jar:git-PandaSpigot-119]
 	at java.lang.Thread.run(Thread.java:831) [?:?]
-[19:33:39] [Server thread/ERROR]: This crash report has been saved to: /home/runner/work/github-mcserver/github-mcserver/./crash-reports/crash-2024-06-06_19.33.39-server.txt
-[19:33:39] [Server thread/INFO]: Stopping server
-[19:33:39] [Server thread/INFO]: [Vault] Disabling Vault v1.7.3-b131
-[19:33:39] [Server thread/INFO]: [LuckPerms] Disabling LuckPerms v5.4.40
-[19:33:39] [Server thread/INFO]: [LuckPerms] Starting shutdown process...
-[19:33:39] [Server thread/INFO]: [LuckPerms] Closing storage...
-[19:33:39] [Server thread/INFO]: [LuckPerms] Goodbye!
-[19:33:39] [Server thread/INFO]: [ViaRewind] Disabling ViaRewind v3.1.2
-[19:33:39] [Server thread/INFO]: Saving players
-[19:33:40] [Server thread/INFO]: Saving worlds
-[19:33:40] [Server thread/INFO]: Saving chunks for level 'world'/Overworld
-[19:33:40] [Server thread/INFO]: Saving chunks for level 'world_nether'/Nether
-[19:33:40] [Server thread/INFO]: Saving chunks for level 'world_the_end'/The End
+[20:09:31] [Server thread/ERROR]: This crash report has been saved to: /home/runner/work/github-mcserver/github-mcserver/./crash-reports/crash-2024-06-06_20.09.31-server.txt
+[20:09:31] [Server thread/INFO]: Stopping server
+[20:09:31] [Server thread/INFO]: [Vault] Disabling Vault v1.7.3-b131
+[20:09:31] [Server thread/INFO]: [LuckPerms] Disabling LuckPerms v5.4.40
+[20:09:31] [Server thread/INFO]: [LuckPerms] Starting shutdown process...
+[20:09:31] [Server thread/INFO]: [LuckPerms] Closing storage...
+[20:09:33] [Server thread/INFO]: [LuckPerms] Goodbye!
+[20:09:33] [Server thread/INFO]: [ViaRewind] Disabling ViaRewind v3.1.2
+[20:09:33] [Server thread/INFO]: Saving players
+[20:09:33] [Server thread/INFO]: Saving worlds
+[20:09:33] [Server thread/INFO]: Saving chunks for level 'world'/Overworld
