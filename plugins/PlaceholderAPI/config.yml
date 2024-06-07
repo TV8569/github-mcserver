@@ -17,6 +17,35 @@ boolean:
 date_format: MM/dd/yy HH:mm:ss
 debug: false
 expansions:
+  localtime:
+    date_format: dd/MM/yyyy hh:mma
+  player:
+    ping_value:
+      high: 100
+      medium: 50
+    direction:
+      north: N
+      south: S
+      north_west: NW
+      north_east: NE
+      east: E
+      south_east: SE
+      west: W
+      south_west: SW
+    ping_color:
+      medium: '&e'
+      high: '&c'
+      low: '&a'
+  playerlist:
+    offline-text: Offline
+    argument-separator: ','
+    lists:
+      staff:
+        type: ONLINE
+        included: true
+        filters:
+        - PERMISSION:group.staff
+        - CANSEE
   server:
     server_name: A Minecraft Server
     time:
@@ -37,22 +66,3 @@ expansions:
     Rounding: half-up
     Decimals: 3
     Debug: false
-  pinger:
-    offline: '&cOffline'
-    check_interval: 30
-    online: '&aOnline'
-  tempdata:
-    default-hex-format: '&#<hex-color>'
-    player-cache:
-      player:
-        duration: 5
-        time-unit: MINUTES
-      data:
-        duration: 1
-        time-unit: MINUTES
-    global-cache:
-      duration: 5
-      time-unit: MINUTES
-      max-size: 100
-  localtime:
-    date_format: dd/MM/yyyy hh:mma

@@ -4,3 +4,12 @@ Tutorial-Messages:
 - that break blocks and make others fall
 Display-Name: Splegg
 Round-Duration: 90
+Maps:
+  Splegg#1:
+    Map-Cuboid: sp1, 65, 29, -268, 184, 74, -124
+    Spawnpoint: sp1, 137.5, 68, -183.5, -273.30164, 2.550026
+    Losing-Cuboid: sp1, 74, 44, -228, 158, 70, -142
+  Splegg#@:
+    Map-Cuboid: sp2, -838, 8, -1337, -752, 34, -1249
+    Spawnpoint: sp2, -798.5, 33, -1265.5, 179.25026, 0.3000185
+    Losing-Cuboid: sp2, -838, 8, -1337, -752, 34, -1249

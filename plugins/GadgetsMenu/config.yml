@@ -86,7 +86,7 @@ Menu-Item:
   # Material: https://github.com/OnlyNoobDied/GadgetsMenu/wiki/Material-Syntax
   Material: CHEST
   # Slot: 0-8
-  Slot: 4
+  Slot: 8
   # Should give player menu selector when they join the server.
   Give-On-Join: true
   # The way to open menu selector.

@@ -100,7 +100,7 @@ BLOCKS:
     - OAK_DOOR
     PHYSICAL_INTERACTION:
     - STONE_PRESSURE_PLATE
-    - OAK_PRESSURE_PLATE
+    - SEA_LANTERN
     - DETECTOR_RAIL
 # MYSQL support for PlayerData's values storage only.
 MYSQL: 

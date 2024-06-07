@@ -1,3 +1,85 @@
 # Citizens NPC Storage
 
-last-created-npc-id: 2
+last-created-npc-id: 4
+npc:
+  '3':
+    metadata:
+      nameplate-visible: 'false'
+    name: Splegg
+    uuid: 3a3979f9-1a8c-4199-99da-cb1b8dd22a4a
+    traits:
+      commandtrait:
+        cost: -1.0
+        executionMode: LINEAR
+        experienceCost: -1
+        hideErrorMessages: false
+        persistSequence: false
+        commands:
+          '0':
+            command: pg join splegg
+            hand: RIGHT
+            player: true
+            op: true
+            cooldown: 0
+            globalcooldown: 0
+            n: -1
+            delay: 0
+            cost: '-1.0'
+            experienceCost: -1
+      location:
+        bodyYaw: 136.21904
+        world: crmapin
+        x: '-101.5361'
+        y: '155.0'
+        z: '34.652'
+        yaw: '156.219'
+        pitch: '-19.6642'
+      lookclose:
+        range: '10.0'
+        disablewhilenavigating: true
+        enabled: true
+        enableRandomLook: false
+        headonly: false
+        linkedbody: false
+        perplayer: false
+        randomLookDelay: 60
+        randomSwitchTargets: false
+        realisticlooking: false
+        targetnpcs: false
+        randomPitchRange:
+          '0': 0.0
+          '1': 0.0
+        randomYawRange:
+          '0': 0.0
+          '1': 360.0
+      skintrait:
+        fetchDefaultSkin: true
+        updateSkins: false
+      hologramtrait:
+        lineHeight: -1.0
+        viewRange: -1
+        lines:
+          '0':
+            text: '&e%math_{server_online_sp2}+{server_online_sp1}% Playesrs'
+            margin:
+              top: '0.0'
+              bottom: '0.0'
+          '1':
+            text: '&3Splegg'
+            margin:
+              top: '0.0'
+              bottom: '0.0'
+          '2':
+            text: '&6CLICK HERE TO JOIN'
+            margin:
+              top: '0.0'
+              bottom: '0.0'
+      type: PLAYER
+      owner:
+        uuid: 20cf1db0-e54b-388d-8edc-76880a8b4ffa
+      spawned: true
+    traitnames: lookclose,mounttrait,rotationtrait,hologramtrait,scoreboardtrait,location,commandtrait,type,inventory,spawned,owner,skintrait
+    navigator:
+      speedmodifier: '1.0'
+      avoidwater: false
+      usedefaultstuckaction: false

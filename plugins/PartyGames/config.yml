@@ -84,7 +84,7 @@ Hotbar-Items:
       enabled: true
       slot: 1
     Shop:
-      enabled: true
+      enabled: false
       slot: 7
     Party:
       enabled: true
@@ -93,7 +93,7 @@ Hotbar-Items:
       enabled: true
       slot: 8
     Quit:
-      enabled: true
+      enabled: false
       slot: 9
     Boosters:
       enabled: true
@@ -172,22 +172,22 @@ Scoreboards:
       enabled: false
       interval: 8
       frames:
-      - '&b&lPartyGames'
-      - '&e&lPartyGames'
-      - '&b&lPartyGames'
-      - '&a&lPartyGames'
-      - '&b&lPartyGames'
-      - '&c&lPartyGames'
-      - '&e&lP&b&lartyGames'
-      - '&b&lP&e&la&b&lrtyGames'
-      - '&b&lPa&e&lr&b&ltyGames'
-      - '&b&lPar&e&lt&b&lyGames'
-      - '&b&lPart&e&ly&b&lGames'
-      - '&b&lParty&e&lG&b&lames'
-      - '&b&lPartyG&e&la&b&lmes'
-      - '&b&lPartyGa&e&lm&b&les'
-      - '&b&lPartyGam&e&le&b&ls'
-      - '&b&lPartyGame&e&ls'
+      - '&b&lArcade'
+      - '&e&lArcade'
+      - '&b&lArcade'
+      - '&a&lArcade'
+      - '&b&lArcade'
+      - '&c&lArcade'
+      - '&e&lA&b&lrcade'
+      - '&b&lAr&e&la&b&lcade'
+      - '&b&lAr&e&lr&b&lcade'
+      - '&b&lArc&e&lt&b&lyade'
+      - '&b&lArca&e&ly&b&lde'
+      - '&b&lArcad&e&lG&b&le'
+      - '&b&lArcade'
+      - '&b&lArcade'
+      - '&b&lArcade'
+      - '&b&lArcade'
   Arena:
     enabled: true
 Titles:
@@ -207,7 +207,7 @@ Custom-Maps:
     image: ''
 Play-Again-Message:
   enabled: true
-  header: '&b&m---------&e PartyGames &b&m---------'
+  header: '&a&m---------&3Arcade &a&m---------'
   content:
   - ' '
   - '          &6Click to play again!'
@@ -215,5 +215,3 @@ Play-Again-Message:
   footer: '&b&m-----------------------------'
 Active-Boosters: []
 Lobby: crmapin, -110.5, 158, -9.5, -0.3939209, -0.45000228
-Holographic-Leaderboard: crmapin, -145.0, 159, 30.0, 273.0559, -4.500016
-Holographic-Stats: crmapin, -145.0, 160, 24.0, 271.25574, 6.4499564
