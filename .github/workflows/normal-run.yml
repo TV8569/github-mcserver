@@ -6,11 +6,11 @@ permissions:
 env:
   NGROK_AUTH_TOKEN: ${{ secrets.NGROK_AUTH_TOKEN }}
   ###### Configs :
-  JAVA_VERSION: 17
+  JAVA_VERSION: 10
   # Backup to be repeated every few seconds?
-  BACKUP_TIME: 300
+  BACKUP_TIME: 200
   # How much RAM should be given to the game server? (Enter value in Gigabyte)
-  SERVER_RAM: 4
+  SERVER_RAM: 8
 
 jobs:
   build:
