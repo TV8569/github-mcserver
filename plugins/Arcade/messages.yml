@@ -1,4 +1,14 @@
 Messages:
+  ColorRed: Red
+  ColorBlue: Blue
+  ColorGreen: Green
+  ColorYellow: Yellow
+  ColorOrange: Orange
+  ColorPurple: Purple
+  ColorBlack: Black
+  ColorWhite: White
+  ColorPink: Pink
+  ColorAqua: Aqua
   GameNotFound: '&cNo game found!'
   GameChatFormat: '&7%1$s&f: %2$s'
   SpectatorTeleporter: Teleporter

@@ -3,6 +3,13 @@ Settings:
     Delay: 4
     Burst: 2
     Velocity: 1.5
+  ShootDelay: 4
+  EggsBurst: 2
+  Waiting: 60
+  Ending: 20
+  EggSpeed: 1.5
+  SpectatorPlayAgain: true
+  SpectatorSettings: true
 Reward:
   Enabled: false
   First:
