@@ -29,7 +29,7 @@ AutoJoin:
   FallbackServer: Hub
   ShutdownAtEnd: false
 MySQL:
-  SSL: true
+  SSL: false
   TrustServerCertificates: true
   AutoReconnect: true
   Enabled: false
