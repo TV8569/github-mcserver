@@ -37,10 +37,6 @@ console:
   enable-brigadier-completions: true
   enable-brigadier-highlighting: true
   has-all-permissions: false
-data-value-allowed-items: []
-effect-modifiers:
-  strength: 1.3
-  weakness: -0.5
 item-validation:
   book:
     author: 8192
@@ -85,7 +81,6 @@ packet-limiter:
       action: DROP
       interval: 4.0
       max-packet-rate: 5.0
-play-in-use-item-spam-threshold: 300
 player-auto-save:
   max-per-tick: -1
   rate: -1
@@ -104,18 +99,13 @@ spam-limiter:
   incoming-packet-threshold: 300
   recipe-spam-increment: 1
   recipe-spam-limit: 20
-  tab-spam-increment: 1
+  tab-spam-increment: 2
   tab-spam-limit: 500
-stackable-buckets:
-  lava: false
-  milk: false
-  water: false
 timings:
   enabled: true
   hidden-config-entries:
   - database
   - settings.bungeecord-addresses
-  - settings.velocity-support.secret
   - proxies.velocity.secret
   history-interval: 300
   history-length: 3600
