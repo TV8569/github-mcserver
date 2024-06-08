@@ -457,3 +457,8 @@ java.lang.IllegalStateException: Invalid pool element found
 [20:59:31] [Server thread/INFO]: Named entity EntityBat['Ouch!'/6802, uuid='159059a5-f954-492c-8f93-a84f58e56e64', l='ServerLevel[Arcade]', x=-2199.59, y=99.03, z=-1199.87, cpos=[-138, -75], tl=271, v=true] died: Ouch! was slain by amirabbas8585
 [20:59:39] [Server thread/INFO]: Named entity EntityBat['Ouch!'/6710, uuid='0f8fdc78-c597-4563-b710-94cc6a769c12', l='ServerLevel[Arcade]', x=-2198.28, y=99.57, z=-1195.35, cpos=[-138, -75], tl=1205, v=true] died: Ouch! was slain by amirabbas8585
 [20:59:39] [Server thread/INFO]: Named entity EntityBat['Ouch!'/6748, uuid='b6649040-76c3-4f4e-bb61-f1532c5ef90a', l='ServerLevel[Arcade]', x=-2202.23, y=100.21, z=-1201.45, cpos=[-138, -76], tl=1211, v=true] died: Ouch! was slain by Walter1389
+[21:02:43] [Async Chat Thread - #2/INFO]: [ELITE]amirabbas8585: gg
+[21:03:12] [Async Chat Thread - #2/INFO]: [ELITE]amirabbas8585: gg
+[21:04:00] [Server thread/INFO]: amirabbas8585 issued server command: /arcade setlobby
+[21:04:27] [Server thread/INFO]: amirabbas8585 issued server command: /qk start
+[21:04:30] [Server thread/INFO]: amirabbas8585 issued server command: /qk start 2

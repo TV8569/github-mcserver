@@ -27,3 +27,5 @@ MySQL:
   Username: Fr33styler
   Password: '12345'
   Port: 3306
+Database:
+  Spawn: crmapin,-110.53,158.00,-9.62,0.00,3.75

@@ -50,12 +50,21 @@
   "minecraft:adventure/adventuring_time": {
     "criteria": {
       "minecraft:birch_forest": "2024-06-08 20:54:51 +0000",
+      "minecraft:dark_forest": "2024-06-08 20:59:52 +0000",
       "minecraft:snowy_taiga": "2024-06-08 20:56:02 +0000",
+      "minecraft:swamp": "2024-06-08 21:00:50 +0000",
       "minecraft:forest": "2024-06-08 20:57:21 +0000",
       "minecraft:frozen_ocean": "2024-06-08 15:29:58 +0000",
+      "minecraft:jungle": "2024-06-08 21:02:46 +0000",
       "minecraft:plains": "2024-06-06 18:03:48 +0000"
     },
     "done": false
+  },
+  "minecraft:recipes/misc/book": {
+    "criteria": {
+      "has_paper": "2024-06-08 21:03:33 +0000"
+    },
+    "done": true
   },
   "minecraft:recipes/decorations/gray_stained_glass_pane_from_glass_pane": {
     "criteria": {
@@ -81,6 +90,12 @@
     },
     "done": true
   },
+  "minecraft:recipes/decorations/cartography_table": {
+    "criteria": {
+      "has_paper": "2024-06-08 21:03:33 +0000"
+    },
+    "done": true
+  },
   "minecraft:recipes/decorations/painting": {
     "criteria": {
       "has_wool": "2024-06-06 19:12:33 +0000"
@@ -96,6 +111,12 @@
   "minecraft:recipes/decorations/pink_bed": {
     "criteria": {
       "has_pink_wool": "2024-06-06 19:12:33 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/building_blocks/snow_block": {
+    "criteria": {
+      "has_snowball": "2024-06-08 21:00:55 +0000"
     },
     "done": true
   },
@@ -120,6 +141,12 @@
   "minecraft:recipes/decorations/gray_carpet_from_white_carpet": {
     "criteria": {
       "has_gray_dye": "2024-06-08 15:30:58 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/decorations/snow": {
+    "criteria": {
+      "has_snowball": "2024-06-08 21:00:55 +0000"
     },
     "done": true
   },
