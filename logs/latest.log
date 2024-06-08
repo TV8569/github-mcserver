@@ -462,3 +462,7 @@ java.lang.IllegalStateException: Invalid pool element found
 [21:04:00] [Server thread/INFO]: amirabbas8585 issued server command: /arcade setlobby
 [21:04:27] [Server thread/INFO]: amirabbas8585 issued server command: /qk start
 [21:04:30] [Server thread/INFO]: amirabbas8585 issued server command: /qk start 2
+[21:14:00] [Server thread/INFO]: amirabbas8585 lost connection: Disconnected
+[21:14:00] [Server thread/INFO]: - amirabbas8585 Disconnected
+[21:14:09] [Server thread/INFO]: Walter1389 lost connection: Disconnected
+[21:14:09] [Server thread/INFO]: - Walter1389 Disconnected
