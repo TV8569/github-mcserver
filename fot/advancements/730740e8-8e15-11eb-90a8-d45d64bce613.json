@@ -1,8 +1,0 @@
-{
-  "minecraft:recipes/misc/gold_ingot_from_block": {
-    "criteria": {
-      "has_gold_block": "2022-01-27 00:02:13 -0800"
-    },
-    "done": true
-  }
-}
