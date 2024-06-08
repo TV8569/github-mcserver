@@ -65,34 +65,13 @@ world-settings:
       disable-extreme-hills-emeralds: false
       disable-extreme-hills-monster-eggs: false
       disable-mesa-additional-gold: false
+    save-queue-limit-for-auto-save: 50
+    queue-light-updates: false
     prevent-moving-into-unloaded-chunks: false
     use-vanilla-world-scoreboard-name-coloring: false
-    portal-search-radius: 128
-    queue-light-updates: false
-    optimize-explosions: false
-    use-chunk-inhabited-timer: true
-    delay-chunk-unloads-by: 10s
     max-auto-save-chunks-per-tick: 24
-    save-queue-limit-for-auto-save: 50
-    remove-corrupt-tile-entities: false
     max-chunk-sends-per-tick: 81
-    max-chunk-gens-per-tick: 10
-    game-mechanics:
-      allow-permanent-chunk-loaders: false
-      scan-for-legacy-ender-dragon: true
-      shield-blocking-delay: 5
-      disable-end-credits: false
-      disable-player-crits: false
-      disable-sprint-interruption-on-attack: false
-      disable-chest-cat-detection: false
-      disable-unloaded-chunk-enderpearl-exploit: true
-      village-sieges-enabled: true
-    max-growth-height:
-      cactus: 3
-      reeds: 3
-    fishing-time-range:
-      MinimumTicks: 100
-      MaximumTicks: 600
+    delay-chunk-unloads-by: 10s
     despawn-ranges:
       soft: 32
       hard: 128
@@ -105,6 +84,7 @@ world-settings:
     lava-flow-speed:
       normal: 30
       nether: 10
+    portal-search-radius: 128
     lootables:
       auto-replenish: false
       restrict-player-reloot: true
@@ -121,6 +101,26 @@ world-settings:
       push-based: false
     duplicate-uuid-resolver: saferegen
     duplicate-uuid-saferegen-delete-range: 32
+    optimize-explosions: false
+    use-chunk-inhabited-timer: true
+    remove-corrupt-tile-entities: false
+    max-chunk-gens-per-tick: 10
+    game-mechanics:
+      allow-permanent-chunk-loaders: false
+      scan-for-legacy-ender-dragon: true
+      disable-end-credits: false
+      disable-player-crits: false
+      disable-sprint-interruption-on-attack: false
+      shield-blocking-delay: 5
+      disable-chest-cat-detection: false
+      disable-unloaded-chunk-enderpearl-exploit: true
+      village-sieges-enabled: true
+    max-growth-height:
+      cactus: 3
+      reeds: 3
+    fishing-time-range:
+      MinimumTicks: 100
+      MaximumTicks: 600
     keep-spawn-loaded-range: 8
     auto-save-interval: -1
     nether-ceiling-void-damage: false
@@ -137,8 +137,8 @@ world-settings:
     grass-spread-tick-rate: 1
     use-alternate-fallingblock-onGround-detection: false
     bed-search-radius: 1
-    prevent-tnt-from-moving-in-water: false
     non-player-arrow-despawn-rate: -1
+    prevent-tnt-from-moving-in-water: false
     armor-stands-tick: true
     keep-spawn-loaded: true
     anti-xray:
@@ -171,11 +171,11 @@ world-settings:
     skeleton-horse-thunder-spawn-chance: 0.01
     disable-ice-and-snow: false
     fire-physics-event-for-redstone: false
-    baby-zombie-movement-speed: 0.5
     spawner-nerfed-mobs-should-jump: false
+    baby-zombie-movement-speed: 0.5
     allow-leashing-undead-horse: false
-    all-chunks-are-slime-chunks: false
     mob-spawner-tick-rate: 1
+    all-chunks-are-slime-chunks: false
     squid-spawn-height:
       maximum: 0.0
     disable-teleportation-suffocation-check: false
