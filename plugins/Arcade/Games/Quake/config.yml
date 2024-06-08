@@ -1,0 +1,20 @@
+Reward:
+  Enabled: false
+  First:
+  - eco give %player% 50
+  Second:
+  - eco give %player% 30
+  Third:
+  - eco give %player% 15
+  Participation:
+  - eco give %player% 5
+Settings:
+  SpectatorPlayAgain: true
+  ScoreToWin: 25
+  Invincibility: 100
+  Ending: 20
+  Waiting: 60
+  PlayTime: 600
+  ShotDelay: 30
+  SpectatorSettings: true
+  DashDelay: 60
