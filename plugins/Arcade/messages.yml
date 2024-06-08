@@ -1,4 +1,15 @@
 Messages:
+  GameNotFound: '&cNo game found!'
+  GameChatFormat: '&7%1$s&f: %2$s'
+  SpectatorTeleporter: Teleporter
+  SpectatorTeleporterPage: Teleporter (Page %page%)
+  SpectatorTarget: '&fTarget: &a&l%name% &aLEFT CLICK for menu  &cSNEAK to exit'
+  SpectatorTargetFirstPerson: '&fTarget: &a&l%name% &fDistance: &a&l%distance%'
+  SpectatorSpectate: '&7Left-click to spectate!'
+  SpectatorSpectateTitle: '&aSpectating &b%name%'
+  SpectatorSpectateSubtitle: '&aLEFT CLICK for menu  &cSNEAK to exit'
+  SpectatorPage: Page %page%
+  SpectatorExit: '&eExiting Spectator mode'
   GameIsFull: '&cThe game is full!'
   GameIsReseting: '&cThe game is reseting!'
   GameIsStarted: '&cThe game is already started!'
@@ -17,18 +28,6 @@ Messages:
   GameStart: '&eThe game starts in &c%seconds%&e seconds.'
   GameStartCancelled: '&cWe don''t have enough players! Start cancelled.'
   GameNoMap: '&cNo map set yet!'
-  GameNotFound: '&cNo game found!'
-  GameChatFormat: '&7%1$s&f: %2$s'
-  ColorRed: Red
-  ColorBlue: Blue
-  ColorGreen: Green
-  ColorYellow: Yellow
-  ColorOrange: Orange
-  ColorPurple: Purple
-  ColorBlack: Black
-  ColorWhite: White
-  ColorPink: Pink
-  ColorAqua: Aqua
   ItemLeave: '&c&lReturn to Lobby &7(Right click)'
   ItemPlayAgain: '&b&lPlay Again &7(Right click)'
   ItemSettings: '&b&lSpectator Settings &7(Right click)'
@@ -41,8 +40,8 @@ Messages:
   LeaderboardLifetime: Lifetime
   LeaderboardGame: '&7%game%'
   LeaderboardWins: '&b&l%position% Wins'
-  LeaderboardTop: '&e%rank%. &b%name% &7- &e%score%'
-  LeaderboardRank: '&e&l%rank%. &b%name% &7- &e%score%'
+  LeaderboardTop: '&e%rank%. &7%name% &7- &e%score%'
+  LeaderboardRank: '&e&l%rank%. &7%name% &7- &e%score%'
   LeaderboardClick: '&6&lClick to toggle!'
   LeaderboardLoading: Loading..
   LeaderboardNoData: '&7No data found!'
@@ -50,15 +49,8 @@ Messages:
   LeaderboardPosition: <LIFETIME=&a&l#&7>Lifetime <MONTHLY=&a&l#&7>Monthly <WEEKLY=&a&l#&7>Weekly
   LeaderboardShowPosition: '&aShowing &b&l%position%&a positions!'
   LeaderboardTogglerClick: '&b&l&nClick to toggle!'
-  SpectatorTeleporter: Teleporter
-  SpectatorTeleporterPage: Teleporter (Page %page%)
-  SpectatorTarget: '&fTarget: &a&l%name% &aLEFT CLICK for menu  &cSNEAK to exit'
-  SpectatorTargetFirstPerson: '&fTarget: &a&l%name% &fDistance: &a&l%distance%'
-  SpectatorSpectate: '&7Left-click to spectate!'
-  SpectatorSpectateTitle: '&aSpectating &b%name%'
-  SpectatorSpectateSubtitle: '&aLEFT CLICK for menu  &cSNEAK to exit'
-  SpectatorPage: Page %page%
-  SpectatorExit: '&eExiting Spectator mode'
+  SpectatorTitle: '&c&lYOU LOST!'
+  SpectatorSubtitle: '&aYou are now a spectator.'
   SpectatorSettingTitle: Spectator settings
   SpectatorSettingItemNoSpeed: '&aNo speed'
   SpectatorSettingItemSpeed: '&aSpeed %tier%'
@@ -87,22 +79,22 @@ MessagesList:
   ItemTeleporterLore:
   - '&7Right-click to spectate players!'
   SidebarLines:
-  - '&7%date% &8%id%'
+  - '&7%date% '
   - ' '
-  - 'Map: &a%name%'
-  - 'Players: &a%size%/%max%'
+  - ''
+  - 'Players: &3%size%/%max%'
   - ' '
-  - Starting in &a%timer%&f <STARTING=to#if>
-  - <STARTING=allow time for#&a%required%&f more players join>
+  - Start Ta &3%timer%&f <STARTING=to#va>
+  - <STARTING=allow time for#&3%required%&f player Digar>
   - <STARTING=additional players#>
   - ' '
-  - '&ewww.spigotmc.org'
+  - '&3Play.GalaxyMC.Ir'
   JoinSign:
-  - '%type%'
-  - '%name%'
+  - '%type_color%&l&n%type%'
+  - '%id%'
   - '&5• &f&l%state% &5•'
-  - '&c»&e&l%size%/%max%&c«'
+  - '&c»&8&l%size%/%max%&c«'
   JoinNPC:
-  - '&e&lCLICK TO PLAY'
-  - '&b%type%'
-  - '&e&l%players% Players'
+  - '&6&lCLICK HERE TO JOIN'
+  - '&3%type%'
+  - '&e%players% Players'

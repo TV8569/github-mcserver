@@ -1,7 +1,7 @@
 Messages:
+  Draw: '&6Draw'
   Won: '&aYOU WON!'
   Lost: '&cYOU LOST!'
-  Draw: '&6Draw'
   TeamRed: Red
   TeamBlue: Blue
   PlayerKilledByBorder: '%player% &ewas killed by the border!'
@@ -10,7 +10,7 @@ Messages:
 MessagesList:
   Top:
   - '&a%line%'
-  - '    &lBomb Lobbers'
+  - '    &5&lBomb Lobbers'
   - ' '
   - '  &eWinning Team: %winner%'
   - ' '
@@ -50,8 +50,6 @@ MessagesList:
   SidebarLines:
   - '&7%date%'
   - ' '
-  - '&7Time Left: &a%timer%'
-  - ' '
   - '&7Kills: &a%score%'
   - '&7Your Team: &a%team%'
   - ' '
@@ -59,4 +57,4 @@ MessagesList:
   - ' '
   - '&bBlue Alive: &a%blue_alive%'
   - ' '
-  - '&ewww.spigotmc.org'
+  - '&3Play.GalaxyMC.ir'

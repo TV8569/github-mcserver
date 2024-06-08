@@ -1,160 +1,48 @@
 Party Games:
   Enabled: true
   WaitingTime: 60
-  DisplayName: Party Games
-  RequirePermission: false
-  Command: partygames
-  Alias: pg
   Skin:
-    Helmet: AIR
-    Chestplate: AIR
-    Leggings: AIR
-    Boots: AIR
-    Hand: AIR
-    OffHand: AIR
     Value: eyJ0aW1lc3RhbXAiOjE1NzI5MTE2ODQ3NzQsInByb2ZpbGVJZCI6IjkzNzllNGRkZDE1NjRhYzViZjg2YTJlYWZlZTIxYTIyIiwicHJvZmlsZU5hbWUiOiIwMEhhcHB5TWFuMDAiLCJzaWduYXR1cmVSZXF1aXJlZCI6dHJ1ZSwidGV4dHVyZXMiOnsiU0tJTiI6eyJ1cmwiOiJodHRwOi8vdGV4dHVyZXMubWluZWNyYWZ0Lm5ldC90ZXh0dXJlL2UzN2JiOWM2MGU0OGM5MTZhMzM4YzZiMzZiMDQzNDJkNWNmMjlmZDdlOTE2YzU2ZmNmNjRmOGI1ZWMyMDhiYzMifX19
     Signature: a/+GoOE7Kk2sFt8fJfSDDNcABY6ioss6UBLBwpKr6/jYHwXfamOpeAIvdbM9BV8/AlWPb8gThO08j49vJrrYtqY/i12ubJgS+UasO6O0Ol4RdwFNM3lfVyU/cy61RGqIS3X//QnuelWJS5q4YZSZMN1a18ONznJ7YKGa6woitg9o4BRV+fEzCqKdqd+TyzfV/HRb12BPJRpqILkNj03zT50XPZtcBpGRPf3lpkUGMV1jenGVV/Dxa91vdmc6VlsuQ+qA1lgFNnQemVWdDYVE9mjFTiu9rpXyMLovYU2hkc0xtKgG/cw0uFXH8Kp45bP1Jwv5IG/tdckBCzeOT4e9OOTDItni1ICEDYOKOUYDMDnvmGdKiisQCHU00Kd1fsJfg7CcfFHA6c6aojFhhj4T17AXTVqdd8Bh6wB8e+xktRSlQDH4NEiMmAtjaRkgnH3pxhlDqRMn+3TyH5/C2V34AO73jHbY4rUHpMD16377Un1hJGAKXB/AOtVm8AGZJQdp9TzRE0LrNqdQldnOA2gxtPGNoebE0//gCt2JCSNsa8LucE9CsP2BdYpap//wFNfkAeyGygtL5N56TV48Soqit+6obbS1nvXEUv6yOrvdq6yJgF5NbrR1XkhANht622bVs1iFCA8jIhV2MQLpfLqh/67CapZrTQARIjt9mqdSSms=
 Mini Walls:
   Enabled: true
   WaitingTime: 60
-  DisplayName: Mini Walls
-  RequirePermission: false
-  Command: miniwalls
-  Alias: mw
   Skin:
-    Helmet: AIR
-    Chestplate: AIR
-    Leggings: AIR
-    Boots: AIR
-    Hand: AIR
-    OffHand: AIR
     Value: eyJ0aW1lc3RhbXAiOjE1ODQ1NjQzMzQ0NDQsInByb2ZpbGVJZCI6IjgyYzYwNmM1YzY1MjRiNzk4YjkxYTEyZDNhNjE2OTc3IiwicHJvZmlsZU5hbWUiOiJOb3ROb3RvcmlvdXNOZW1vIiwic2lnbmF0dXJlUmVxdWlyZWQiOnRydWUsInRleHR1cmVzIjp7IlNLSU4iOnsidXJsIjoiaHR0cDovL3RleHR1cmVzLm1pbmVjcmFmdC5uZXQvdGV4dHVyZS82M2I2YmI1M2UzM2RiMmMxOWFlODhiNWNlN2UyNGU4YjVmMzEzN2M0MTFiNGY3MDRmMGFlYmQ1ZGVlZTE1Njk0In19fQ==
     Signature: sY6AwX/5tRjNUI3Rcb4bHV6c40joChfGVrAAjYtQp35c3p7qszcGF3IPyIGGqArnIUat4ldNYP8cHOCazXRvpThHcK9nX6jCBp1J7DfRPdLAL7ag9tdxA19bQY+BFA6koy2OLy1c7wkeBJptZNZwYlT7tnhTC4Gs7NYsduJBIqN3TN02MDXhKthwAyYoMwXD+EzDvYRyy5UixD0wx1v810a0QJKutrzezm3IalL5aNRC7MNqXP23He+auzZGV3OpJX79K+NuiWHefGTctAKV6f2G+hRYJ/IxlpPoPn61+WhKa5+pI1XVeEJm1Wn3Bk3ohil+5YuAjn8u8WOy6gefKLJER3qbObvH06RgOmvSfKShsy8z+bhW3TD9W+fvQqXnYdL+IgjgATvIJP/wqsX7ECot18YOyNbgiXhZ77n3iBRGNPY7u5BodLPCFvOXERl5kdFIoCtRoPUJRPxDPVs0EcT+7nVAb9yFh1EdbU5ndAiCUMUDI0/+Fib7NWwKkNi9j1RnhFCOWpULQTzyBhQ7bPGdB41a/etGT/diBKtfv/e610vqePww++2bYkm6n75bwCReG7Yj+Fe3fq/tkirwho9mUUU/nOWbzlaaIcH9CguJDbIC2ODg1Cv130NtC2iOGDrorAahmg9i8H7rmqlLGR3HErCbRQijsvqLIAbopXg=
 Splegg:
   Enabled: true
   WaitingTime: 60
-  DisplayName: Splegg
-  RequirePermission: false
-  Command: splegg
-  Alias: spg
   Skin:
-    Helmet: AIR
-    Chestplate: AIR
-    Leggings: AIR
-    Boots: AIR
-    Hand: AIR
-    OffHand: AIR
     Value: eyJ0aW1lc3RhbXAiOjE1NzI5OTYzMjkwNjcsInByb2ZpbGVJZCI6IjIwYWM0NTY1M2Y5MTRjOTA4NjRjNTMxNDg4ZjMwMzlhIiwicHJvZmlsZU5hbWUiOiJGcjMzc3R5bGVyTUMiLCJzaWduYXR1cmVSZXF1aXJlZCI6dHJ1ZSwidGV4dHVyZXMiOnsiU0tJTiI6eyJ1cmwiOiJodHRwOi8vdGV4dHVyZXMubWluZWNyYWZ0Lm5ldC90ZXh0dXJlL2U1YTdhNzFkNjE0NDg5NzBhMjRjZTBjZWQzZjJkNDZlYmViMDNiY2FhMmEyOGQ3Y2ZjMDUzNWVkZTdiZmNjMDMifX19
     Signature: M/5/yD+5mnZw2YVerU8ZmvqAnjYwsw01BuMiqmox05ppnLlKSpRsawaQVPRuC0ScKXfAUMLzdp1GL34EqIuECbK7uu9k7KMKm0pk2DH1C94zp4hqn+EfGU303pW9n6Sz1NDem+cimwdCROYy8BWXc2O/jFNLtqAJp/TnEZaQLbUkzXTXhuPmqXVoMDfahX+WsuRIzyCQNosYF5axeGyetPcW3VJsUHEHheaIjkGuIMd1ZpyXYEUpFZVZa9RQ+V0gVVgmtU6fPDnROZtztwigoWuUVoV7g3PVHRaVQNpmk6G7tjhLd+mQnoDFB3hWKtKX297Lss0hJs2FOKzA6M0hJUP3SJ2tqKoqr2x6FY4CDCoCCYrMigAIY8RA3i2npYiZmNN5VyPTYr+QWb6wFI4PaMj8/7L7zASvYyC8WSgAyiiu/VdVuqPGosvANZ6eBlfXLd9oNY9TBJhdCUYnSGCbjf9Kb1heKb+P4952UnRB0zS3iyNHY3TqelQYaAGriKuwTK15Nc+YB3fFlQcdW0+uYXmoxjJqXYwfDtDVvw5ph4U2XdZxhIHL3qaNLjZf9Sa0GtkZZ+NjnjH1u3XH0wtgt4gUjq0WSGG5ymd+GwzbjZneCLe3QGItEW9L+B/Zws4iU76cKlbk79yms2NvA4HxB4vUq5PAeWd5ZwFe9V7gHwk=
 Temple Run:
   Enabled: true
   WaitingTime: 60
-  DisplayName: Temple Run
-  RequirePermission: false
-  Command: templerun
-  Alias: tr
   Skin:
-    Helmet: AIR
-    Chestplate: AIR
-    Leggings: AIR
-    Boots: AIR
-    Hand: AIR
-    OffHand: AIR
     Value: eyJ0aW1lc3RhbXAiOjE1ODQ1NTAwMjU0MzAsInByb2ZpbGVJZCI6ImQ2MGYzNDczNmExMjQ3YTI5YjgyY2M3MTViMDA0OGRiIiwicHJvZmlsZU5hbWUiOiJCSl9EYW5pZWwiLCJzaWduYXR1cmVSZXF1aXJlZCI6dHJ1ZSwidGV4dHVyZXMiOnsiU0tJTiI6eyJ1cmwiOiJodHRwOi8vdGV4dHVyZXMubWluZWNyYWZ0Lm5ldC90ZXh0dXJlLzFmMDZhMmFlYWYyYWE3MGUyOGIyYjg0YTk3OTU4N2JlZTA3ZWIxYTlmZDNhZDFjODJiZjc5ZjZkNjc2YWU5NWQifX19
     Signature: JV+90cdrDHa3QDonVcbQYd9FCmdZ4RFNbGHvo1y6JrC/taktdOUpFXi2pbZPV2cO+xmtdLeZfwQG2yH0dO2473vImoq4CYDVFueQ34wHihDObZzVE1ys1EXpe62khxkVEma4Pq/VXBnEwKNUmptSfLQWpn9y0mjGxZyF9OJSftfr9N3PKHqNVZqvVyF3flgoEZV6BljQqkrYBWSB2jneDbjMPWr8hMT79QqSPkPDEdD0ORhpDrulvFZRWJYD/uo9hy7LcdMBbgDni00gNUPtWNxsK2t8JhrSbUyCoAb488EyQnFu4oJXdIXwgQT9jYhseYaYqbndSJQOeO/zsj/xLGN3w9RTibttkZq5Ux3iuO46UollTdOBF5V3zcV9z51NLUoFPbI0x11M8kkIne1pgoY07fAYs/aOQsGk1KV19U+ntZt/W8wv3/tgrKniU+rJgFx6wEvkfr7JG0OmqanRZrY4MUVEMTDrbwNxHdZRYaN0zbqQSGkqieAMS6PLDKjFZYbhgM5hyfBrQqZ+GAUlbk4+nYFigkh/QkUBEcOEvRtpXDEzez7nVEvHQZvZQAbbCUm1S/F7lt5aXU9eyyp9Ye3rgZN8EXG3ze7YUn+Zg7sn6Sp6oiK49WReQs1VE0QxoWYO91sU0D6Bo1CIf6q10L8eeLwJfmM8ao6Ebi/wt7I=
 Bomb Lobbers:
   Enabled: true
   WaitingTime: 60
-  DisplayName: Bomb Lobbers
-  RequirePermission: false
-  Command: bomblobbers
-  Alias: bl
   Skin:
-    Helmet: AIR
-    Chestplate: AIR
-    Leggings: AIR
-    Boots: AIR
-    Hand: AIR
-    OffHand: AIR
     Value: eyJ0aW1lc3RhbXAiOjE1ODQ1Njg5MzE2NjksInByb2ZpbGVJZCI6IjczODJkZGZiZTQ4NTQ1NWM4MjVmOTAwZjg4ZmQzMmY4IiwicHJvZmlsZU5hbWUiOiJZYU9PUCIsInNpZ25hdHVyZVJlcXVpcmVkIjp0cnVlLCJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvNjQzNTAwNzU4M2Q0NDczNzc2NjU4NTk0Zjk2OTQxNzZmZDljOTgxOTk3NGRkYzRkNzRiOTU4YWViMjJjOTE5NiJ9fX0=
     Signature: fmf5Zl9a0d+8ly5PVopTshsiLeFMKKpRPkaQpcEpYUnZKzR8mGsIvyTqiIsfbkiHk8w11DPInbSCXIzZfhpJYKo635R8+/jzteV4YXtPpaEZUAnwTXPsr8qJc+sz7jkj0DRyWcdadM/SpEbG3V+kv70J5d7EqzgmyO5CBCRzQo6ZpgHTMYpRDWk60H1frdJRfqYPC6u8i3RWClgwbzLM006gTtDcH9uJoHcjxMC22o1iAzc+wyYoZoCaXEfaISQ2FBETpKjKuvm1k63R3P5Etnvvfs6OWMUYaoeSEFZFg1qAorSdXYEZ+iHGUIH4fb5CyPWJB41UnTI/XK2XVtWfwvzC8D9X5cXDET0vzjDEfLsAWzpo1Ke8QAFKrPBfRxba8VWuPVkO3x2q5v5XuJvUyLTnFuFax00O9NAfhUAmwhZbpmJsaDzv7wmwt+EK+uniYkdFExHDmU4a47l6YGnj9PRvVAKVW8eiO6nQoLNa3S7Sl8wsS7Qu1u4XUSvEzowLsNtXZVoH9czbSWFr1r+1CiQT5j4kRuJIvg5977zTClxmxn76uKK8xkW+B96OtgCKStCtjBXShDSK5e3fLLr5GnsMVuKmXPobXxt4e4piB/PVTEug3Z8RFZ2eG1GNlhvZ6hOide6jSOCSdr+xozQnNsX6ZQk3G8xwM/dMse5zUX4=
-TNT Run:
-  Enabled: true
-  WaitingTime: 60
-  DisplayName: TNT Run
-  RequirePermission: false
-  Command: tntrun
-  Alias: trun
-  Skin:
-    Helmet: AIR
-    Chestplate: AIR
-    Leggings: AIR
-    Boots: AIR
-    Hand: AIR
-    OffHand: AIR
-    Value: ewogICJ0aW1lc3RhbXAiIDogMTYwNzAwNTAyNTg3NiwKICAicHJvZmlsZUlkIiA6ICJhYTZhNDA5NjU4YTk0MDIwYmU3OGQwN2JkMzVlNTg5MyIsCiAgInByb2ZpbGVOYW1lIiA6ICJiejE0IiwKICAic2lnbmF0dXJlUmVxdWlyZWQiIDogdHJ1ZSwKICAidGV4dHVyZXMiIDogewogICAgIlNLSU4iIDogewogICAgICAidXJsIiA6ICJodHRwOi8vdGV4dHVyZXMubWluZWNyYWZ0Lm5ldC90ZXh0dXJlLzU4YzM1YzE1NmFmNGVhMmQ0MjVlNmY1MjcxNTE3YmQzNWQwNDc5MTgxNDgwMjE3YzM3ZmZjMTJiMTY5YzY0YTIiCiAgICB9CiAgfQp9
-    Signature: CZ1R9iBZ+T3+wtT4Ls3MioEcLVfYnC1y1Eu2DjKuhUdkMVdKziyS/E/Y/t4fcDP9Z//d2gusRkCxcIq9UP/EBCWijH3Hebd8oqaWMXXxbuBwzgcNQhWjK+dbavo/besJXjymMyV0QYVM8dfdGK5LER3NPXH8pKI8hbHj4squptWlA+APjzeNvibHsGPb7tbUZsud0GT0av0buwPKSd+GME+8SQIM0gRhCboyWhD3jJOdYg3qmGmOcVe9s+9CsZIR7yGdifpWzttRURnzEsfuKzVeWspcpBTdQDEWAbkEQcL6VtAbHx20QHfCZz0SC+1X1gAK0tMdlkIbJ/1RQhyqJyiybFR25JZ208XFVTJ1toVxkM9nxryVKSg5B556xFehhqcrxzSc3zLNk8C51ZROJZV7PzGOpKStAIPYTMPai2eCzV4sXUhHrmhfv8UV/ax7d1WM38xhOiPt7Lub0FQsqPKWfuNQtHu0WHTW32lpFNMgp5rk0UgJ6FbvnLwAxqQ0ZH8rLwJ8VZ75ISiFd6mP9Iz9j57DgnaSLfqYUg0Nnt+R9Ccmonw3UrWTM7zjmCPBceh20T0iCiE0TFL5Bb0EVgOdYc+KnKn+SzGhCOMWSD1f9TFzAxJMppmoCl6BOvqkCv+dAq9WFfFk2htNEcPTAYevEq+I+P/vZK/Iv06YDfM=
 Prop Hunt:
   Enabled: true
   WaitingTime: 60
-  DisplayName: Prop Hunt
-  RequirePermission: false
-  Command: prophunt
-  Alias: ph
   Skin:
-    Helmet: AIR
-    Chestplate: AIR
-    Leggings: AIR
-    Boots: AIR
-    Hand: AIR
-    OffHand: AIR
     Value: eyJ0aW1lc3RhbXAiOjE1ODUxNzM0NzM2MzUsInByb2ZpbGVJZCI6ImMxYWYxODI5MDYwZTQ0OGRhNjYwOWRmZGM2OGEzOWE4IiwicHJvZmlsZU5hbWUiOiJCQVJLeDQiLCJzaWduYXR1cmVSZXF1aXJlZCI6dHJ1ZSwidGV4dHVyZXMiOnsiU0tJTiI6eyJ1cmwiOiJodHRwOi8vdGV4dHVyZXMubWluZWNyYWZ0Lm5ldC90ZXh0dXJlL2MxMjAyNmU5OTRhYzI5NTBiODMwYTQxZTY5NTQzOTNmMmQ4YzFkY2E4YzU2ZWU1MWIyZDE1M2FkODYyZjVkNTIifX19
     Signature: W4H9H8ibiYumltADjAo/dNvu8rlKcrNRPXCQmhAiOTHkn8lR/DUnvyHhg89K943RhcG9VSmIFu23qcdXuKkYagVF/1VAES23lBNW3OeT28lBrMffjMK4Bwx2PJGcArFoRP06k3Pdd4ZIV5y7HdmY/xIEXV/vLp1jEtHMeCLildi1KNAONPUDbbHn1u0Yf7JMYBBiGutOznKnG+wq7P/qS7jW4GgQUaNS9gWG1sHZwVG0lj3siDB1bYVFSZ1lJfxqucoumLjpWXMIKbmuz/iE2P6UmPYIDE2y/BHQNEv+3i4+uXKCoxzsHZOc/fwi9waSeBA0DzAY6x3CUfrvAGZtZMVODkNLHnm722SUpMhF9zBI5WK+udIZEU3Hx6VSHBKMeYUpFuwSgLY0qjEZTqzkxLYw7cPd0EvlftSRRWiGCSwTMq2qRyWYrHk0Yrs78xA+TIH1JLNKtoYwuPXJElzTe5AE4Atxe0QDHP6bdQ9OQGgQgK+6n/S6Vg/lKRZvh+pnP/CnkDOLkiohmrNGbJTcK0Pl1bxswcHfq96Z5zHrwK8CyHqKwbF0R2tvps23IBp3Jm0CA4+1LuOnt/pu0h/wGVEqo4Pa9UfWX859TYSogno1tWcBH6XhDkBT3kFeCbyKgoT7tzBJi8J29wRx+x+aDOL8pvOFSDQP+EEpapRUodM=
 Quake:
   Enabled: true
   WaitingTime: 60
-  DisplayName: Quake
-  RequirePermission: false
-  Command: quake
-  Alias: qk
   Skin:
-    Helmet: AIR
-    Chestplate: AIR
-    Leggings: AIR
-    Boots: AIR
-    Hand: AIR
-    OffHand: AIR
     Value: eyJ0aW1lc3RhbXAiOjE1MTAwNjQ2MDUxNjMsInByb2ZpbGVJZCI6ImJiMDgwOTFhOTJlZDQzYWQ5NGYxZWRmZDc0NmIwYTJjIiwicHJvZmlsZU5hbWUiOiJJcDRuZHgiLCJzaWduYXR1cmVSZXF1aXJlZCI6dHJ1ZSwidGV4dHVyZXMiOnsiU0tJTiI6eyJ1cmwiOiJodHRwOi8vdGV4dHVyZXMubWluZWNyYWZ0Lm5ldC90ZXh0dXJlL2M0YzNmYzMyZGI0NWZjMzg1Njk5YjMwZTk1ZTkzYzI1OGMzNjkzMTA1MzE5NDcxMDU2MjM0ZTQzOTU1YWE5In19fQ==
     Signature: Zsoht/4NQPfEWTi6F22yocO0iysTBousvEx4M/Jj+a47igThF1XNGwPHM9L4fNkH9zCDi4XmksvRp60pCpbD1vH5cdgjkKcC9ih9zbcJKNSpycJc/xg7B2elK8mpM5QG048gpYhpgkJJm1e7H12EJ8Z28r9DwqeWBXMbGUsMSBKLjiHU+Sakghf7lDnb9qZB/P1WpJ/QZkkx9d7oGgYJx53K/C+0ZSxBnJXokaUzHBUsxAJ8pGUIO5FM5Z4COWtEa4LusuyZQLK0i5QCb9a3tw7F0ZczbhexkqjrD5yH5OaotDIjG9I+IFXh1+bqT9RBLTEGS6Mjpf/R3SpDAqz7Rhmb36rsUVHXAherNqcHWOtuPzlFTOphj/EfiL+7CRGO/Y0pOScpADlAQkqymGSExcijrB7Zc6fYCOKK+Vwp3OCdu97vXR0WldH0hQZxAkmVEBtDoYp2IZvnuOt3aYXNPGVilr9+Wf+CWhlYxtSo7jYA3+NifNyLMCm6g7de6pyyCIhphqNld6441ZFONB7qbWGEbsTwNejB2/PhfFGy8sQAY+hjHYS75Bx/25ntFZZt4bCovbXu8RkmkIoTso4xs++VVDEUoDdYsrEhBXvi0577tieI76pXrvNCKs+LNveOaoW/BFt8LO0lcYiTIrScO5eter5wR+HbC7Roxa4v08o=
-Block Party:
-  Enabled: true
-  WaitingTime: 60
-  DisplayName: Block Party
-  RequirePermission: false
-  Command: blockparty
-  Alias: bp
-  Skin:
-    Helmet: AIR
-    Chestplate: AIR
-    Leggings: AIR
-    Boots: AIR
-    Hand: AIR
-    OffHand: AIR
-    Value: ewogICJ0aW1lc3RhbXAiIDogMTYwNzY5NjQwNDk1NSwKICAicHJvZmlsZUlkIiA6ICJhYzczNzMyYmEzZTY0M2IxODE2ZDA2MDQ0M2U3ODhkOCIsCiAgInByb2ZpbGVOYW1lIiA6ICJUZXhXYXJkIiwKICAic2lnbmF0dXJlUmVxdWlyZWQiIDogdHJ1ZSwKICAidGV4dHVyZXMiIDogewogICAgIlNLSU4iIDogewogICAgICAidXJsIiA6ICJodHRwOi8vdGV4dHVyZXMubWluZWNyYWZ0Lm5ldC90ZXh0dXJlLzg0NWQ5OGEwM2U5YmE3NTI5NThhYmQwZDdlYTVmMTFmNmZiOGQyNmI4ZGRkMDViYThmMWYxNjRlMDM0ZDEwNWQiCiAgICB9CiAgfQp9
-    Signature: H4RnfkJxzasLN8dmnOdyzqVqj8XoKT9/BrBnMthRhqcXEGZbLHx96lgSbKXHwBGFMVFJ3L8CaP0pWFH+IkNvLqzaKrIxIZ0ZggbpLl4OqEcOpT/KeQwU3apgv6ddCEq9WVGnrfRhKMM0E0o8QPVuUlp27zI9dyBb50g0zxHLdY/bQ9m41j7f1ZQS1wjxuWKdtXiQ4PUXDn5TVqvT5aVX1EEn3zxSBBvgMcJdxI04OnzWkg9wHaQuJex5yFUL0ZF6WNlVmw8letKsOjaH+7t5XSQCFqaGOWv3I8u6gdchBXZIlIxSLo/+SYixGzvFDw6JiQ+/nfKFRvC0DRdoXyOooDB9o7DlKrDq3HHfDy7MponDlheELBw45gF6oZKD0YWJwgQIjEq3J5DZ9PbK/tevPe4XpAgAODk9qe344Yk2STMx4ZCPXNlVgRe8Fo2waVDHt0zqFFjl5Mko2UXGdp3ttP5o14NkmlzHyhkdUJEDUQU9bZWS14VzH8CDL6ARhY31zeoHUngHnp3Gt2axxlrHnevArkrGVkW9jzKK8buhu1og8YMsleO5eOK/XUkwvT/DSNTLyC8YJW8n9KauNJtBUw/mwZ71p+QxxxOVoXKxOFgwXw2iYEA8Z9Apvoog2ugOKV2wqCKgGzE0yjqmoZhs4v1Gmd9Mmc7BN+uwhcXVUXU=
 TNT Tag:
   Enabled: true
   WaitingTime: 60
-  DisplayName: TNT Tag
-  RequirePermission: false
-  Command: tnttag
-  Alias: tg
   Skin:
-    Helmet: AIR
-    Chestplate: AIR
-    Leggings: AIR
-    Boots: AIR
-    Hand: AIR
-    OffHand: AIR
     Value: eyJ0aW1lc3RhbXAiOjE1NTkxNTQyODQ2MjYsInByb2ZpbGVJZCI6ImIwZDRiMjhiYzFkNzQ4ODlhZjBlODY2MWNlZTk2YWFiIiwicHJvZmlsZU5hbWUiOiJ4RmFpaUxlUiIsInNpZ25hdHVyZVJlcXVpcmVkIjp0cnVlLCJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvYjMwNjIxZjZlZDc2MDRjNjI3MDZjODFkY2NlZjk3Mjg3Y2NmYTgwOTFlNjlkZjJmZjM1MDBlMDkyYTdiOTAxZSJ9fX0=
     Signature: DzUYP0tirMAl+af7ToaiR/L+l1xi2QDd3Ob7jqhZyk7JSh9K7xlZRtcsqiyuRprwXpfR+XU5ss1b+ddvMkMso2Z0Sn+dEzz8FZLh55AFjxk3Wvs3Qdgp5Po4I1UnCy+Gt2KEFJARefN/PUH7A0KxFNlivsvA+UHliHwbDy/Rmwm5n1eyKSom15Q+TvqMfO5iFAeh+4rDisUpcejpbrPKjdv3B6gnwDlHQT++lP8lu2sLOfWdggO/HXec9oZv9hBmwYoLYst6klt8+m9NqdGF0XIxo3KKIdctoAZ2/GA/C+IwIFvBBebAlrfe3+lvpVtnCaJs+YRDW5mxoeWjklLVxQhYjVAyZ5XKM3fJ+Qg7MhHQrBQJFB27ZlWtpHe07D0ydEpy6xhqtEkHeyr5gXnaaNclS/R6aO2BMaKPXsiYbcsGrM647uHqpyAohJ6xN0laqw8mYCEvTYkByFshjOISFSYh9cowZ0GO/k6p6i3gvGUTejTjALQa7R1qb6cbu3ddLHBg6iaGlLXuZQ3AlfeI4OnSf4J1x3vlmYvFZs3yjivXWXJT/aOmkFad3dZVv659AePt5U9LyP5RiBQSVNERsGZsCZpsxKpja5bb27Bsys7G9gIt32oT66/qs3kg0MmadngtWxWUb4BWhBreg5seVGJfq1LoQAZrtkQIdEvSPBg=

@@ -1,3 +1,8 @@
+Settings:
+  EggLauncher:
+    Delay: 4
+    Burst: 2
+    Velocity: 1.5
 Reward:
   Enabled: false
   First:
@@ -8,11 +13,3 @@ Reward:
   - eco give %player% 15
   Participation:
   - eco give %player% 5
-Settings:
-  SpectatorPlayAgain: true
-  ShootDelay: 4
-  EggsBurst: 2
-  Ending: 20
-  Waiting: 60
-  SpectatorSettings: true
-  EggSpeed: 1.5

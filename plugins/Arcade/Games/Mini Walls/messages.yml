@@ -77,9 +77,9 @@ MessagesList:
   - 'Kills: &a%kills%'
   - 'Final Kills: &a%final_kills%'
   - ' '
-  - 'Map: &a%name%'
+  - 'Map: &a%id%'
   - ' '
-  - '&ewww.spigotmc.org'
+  - '&e&3Play.GalaxyMC.ir'
   WaitingTitle:
   - '&e&lMini Walls'
   - '&6&lM&e&lini Walls'

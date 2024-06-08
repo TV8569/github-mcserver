@@ -3,30 +3,29 @@ Game:
   - arc
   - arcade
   ChatPrivate: true
-  LeaveDelay: true
   LeaveMaterial: RED_BED
-  RollbackQuantity: 100
-  RollbackInTicksEach: 5
-  CommandsPermission: false
-  ViaBackwards: false
+ChatPrivate: true
+Whitelist:
+- arc
+- arcade
+JoinItems:
+  Party:
+    Enabled: true
+    Slot: 0
+    Material: NETHER_STAR
+    Name: '&aParty &7(Right Click)'
 AutoJoin:
-  Enabled: false
-  AutoScale: true
-  MixedMode: false
+  Enabled: true
+  FallbackServer: Hub
   ShutdownAtEnd: false
-  KickPlayer: false
-  HubServers:
-  - Hub
 MySQL:
   Enabled: false
   Host: 127.0.0.1
-  Database: database
-  SSL: true
-  TrustServerCertificates: true
-  AutoReconnect: true
+  Database: base
   Username: Fr33styler
   Password: '12345'
   Port: 3306
 Database:
-  Leaderboard: crmapin,-144.71,156.00,30.53,-91.35,0.90
-  Toggler: crmapin,-144.86,156.00,24.56,-88.65,-3.30
+  Leaderboard: crmapin,-144.55,156.00,30.50,268.05,-0.00
+  Toggler: crmapin,-144.41,156.00,24.59,131.40,90.00
+  Spawn: crmapin,-110.54,158.00,-9.87,-0.30,78.00

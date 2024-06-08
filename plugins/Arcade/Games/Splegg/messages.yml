@@ -48,10 +48,10 @@ MessagesList:
   SidebarLines:
   - '&7%date%'
   - ' '
-  - '&7Time Left: &a%timer%'
+  - '&7Timer: &a%timer%'
   - '&7Players Left: &a%left%'
   - ' '
   - '&7Eggs fired: &a%fired%'
   - '&7Blocks broken: &a%broken%'
   - ' '
-  - '&ewww.spigotmc.org'
+  - '&3Play.GalaxyMC.ir'

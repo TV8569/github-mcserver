@@ -10,7 +10,7 @@ Messages:
 MessagesList:
   Top:
   - '&a%line%'
-  - '    &lTemple Run'
+  - '    &2&lTemple Run'
   - ' '
   - '<FIRST=  &e&l1st Place&f: %first%#>'
   - '<SECOND=  &6&l2nd Place&f: %second%#>'
@@ -55,4 +55,4 @@ MessagesList:
   - <IN_TOP=#...>
   - '<IN_TOP=#%player%&f: &a%score%>'
   - ' '
-  - '&ewww.spigotmc.org'
+  - '&3Play.GalaxyMC.ir'

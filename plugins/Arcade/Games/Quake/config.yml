@@ -1,3 +1,9 @@
+Settings:
+  PlayTime: 600
+  Invincibility: 100
+  DashCooldown: 60
+  ShootCooldown: 30
+  ScoreToWin: 25
 Reward:
   Enabled: false
   First:
@@ -8,13 +14,3 @@ Reward:
   - eco give %player% 15
   Participation:
   - eco give %player% 5
-Settings:
-  SpectatorPlayAgain: true
-  ScoreToWin: 25
-  Invincibility: 100
-  Ending: 20
-  Waiting: 60
-  PlayTime: 600
-  ShotDelay: 30
-  SpectatorSettings: true
-  DashDelay: 60
