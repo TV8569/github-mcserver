@@ -1,0 +1,25 @@
+Reward:
+  Enabled: false
+  First:
+  - eco give %player% 50
+  Second:
+  - eco give %player% 30
+  Third:
+  - eco give %player% 15
+  Participation:
+  - eco give %player% 5
+Settings:
+  SpectatorPlayAgain: true
+  VolcanoBlocksPerSecond: 20
+  MinecartRacingSpeed: 0.15
+  PunchTheBatsPlayTime: 60
+  SpectatorSettings: true
+  FrozenFloorPlayTime: 60
+  HoeHoeHoePlayTime: 60
+  AnimalSlaughterPlayTime: 60
+  ParkourPlayTime: 90
+  Ending: 20
+  TrampolinoScoreToWin: 40
+  PigFishingPlayTime: 60
+  Waiting: 60
+  MaxPartyGames: 8

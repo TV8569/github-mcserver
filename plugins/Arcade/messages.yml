@@ -1,0 +1,108 @@
+Messages:
+  GameIsFull: '&cThe game is full!'
+  GameIsReseting: '&cThe game is reseting!'
+  GameIsStarted: '&cThe game is already started!'
+  GameUnavailable: '&cYou can''t join this game!'
+  GameAlreadyStarted: '&cThe game is already started!'
+  GameAlreadyIngame: '&cYou''re already in a game!'
+  GameNotIngame: '&cYou''re not in a game!'
+  GameRestrictedCommand: '&cYou can''t use commands while in game!'
+  GameBroadcastJoin: '&7%player% &ehas joined. (&b%size%&e/&b%max%&e)'
+  GameBroadcastLeave: '&7%player% &ehas quit.'
+  GameMinRequired: '&cThe game can''t start without a minimum of 2 players!'
+  GameIncomplete: '&cThe game setup hasn''t been finished yet!'
+  GameLeaveDelay: '&a&lTeleporting you to the lobby in 3 seconds... Right-click again
+    to cancel the teleport!'
+  GameLeaveCancelled: '&c&lTeleport cancelled!'
+  GameStart: '&eThe game starts in &c%seconds%&e seconds.'
+  GameStartCancelled: '&cWe don''t have enough players! Start cancelled.'
+  GameNoMap: '&cNo map set yet!'
+  GameNotFound: '&cNo game found!'
+  GameChatFormat: '&7%1$s&f: %2$s'
+  ColorRed: Red
+  ColorBlue: Blue
+  ColorGreen: Green
+  ColorYellow: Yellow
+  ColorOrange: Orange
+  ColorPurple: Purple
+  ColorBlack: Black
+  ColorWhite: White
+  ColorPink: Pink
+  ColorAqua: Aqua
+  ItemLeave: '&c&lReturn to Lobby &7(Right click)'
+  ItemPlayAgain: '&b&lPlay Again &7(Right click)'
+  ItemSettings: '&b&lSpectator Settings &7(Right click)'
+  ItemTeleporter: '&a&lTeleporter &7(Right click)'
+  StateWaiting: WAITING
+  StateIngame: IN GAME
+  StateReseting: RESETING
+  LeaderboardWeekly: Weekly
+  LeaderboardMonthly: Monthly
+  LeaderboardLifetime: Lifetime
+  LeaderboardGame: '&7%game%'
+  LeaderboardWins: '&b&l%position% Wins'
+  LeaderboardTop: '&e%rank%. &b%name% &7- &e%score%'
+  LeaderboardRank: '&e&l%rank%. &b%name% &7- &e%score%'
+  LeaderboardClick: '&6&lClick to toggle!'
+  LeaderboardLoading: Loading..
+  LeaderboardNoData: '&7No data found!'
+  LeaderboardNone: None
+  LeaderboardPosition: <LIFETIME=&a&l#&7>Lifetime <MONTHLY=&a&l#&7>Monthly <WEEKLY=&a&l#&7>Weekly
+  LeaderboardShowPosition: '&aShowing &b&l%position%&a positions!'
+  LeaderboardTogglerClick: '&b&l&nClick to toggle!'
+  SpectatorTeleporter: Teleporter
+  SpectatorTeleporterPage: Teleporter (Page %page%)
+  SpectatorTarget: '&fTarget: &a&l%name% &aLEFT CLICK for menu  &cSNEAK to exit'
+  SpectatorTargetFirstPerson: '&fTarget: &a&l%name% &fDistance: &a&l%distance%'
+  SpectatorSpectate: '&7Left-click to spectate!'
+  SpectatorSpectateTitle: '&aSpectating &b%name%'
+  SpectatorSpectateSubtitle: '&aLEFT CLICK for menu  &cSNEAK to exit'
+  SpectatorPage: Page %page%
+  SpectatorExit: '&eExiting Spectator mode'
+  SpectatorSettingTitle: Spectator settings
+  SpectatorSettingItemNoSpeed: '&aNo speed'
+  SpectatorSettingItemSpeed: '&aSpeed %tier%'
+  SpectatorSettingItemTeleportOn: '&aEnable Auto Teleport'
+  SpectatorSettingItemTeleportOff: '&cDisable Auto Teleport'
+  SpectatorSettingItemNightVisionOn: '&aEnable Night Vision'
+  SpectatorSettingItemNightVisionOff: '&cDisable Night Vision'
+  SpectatorSettingItemFirstPersonOn: '&aEnable First Person'
+  SpectatorSettingItemFirstPersonOff: '&cDisable First Person'
+  SpectatorSettingNoSpeed: '&cYou no longer have any speed effects!'
+  SpectatorSettingSpeed: '&aYou now have Speed %tier%'
+  SpectatorSettingTeleportOn: '&aOnce you select a player using your compass, it will
+    auto teleport you to them!'
+  SpectatorSettingTeleportOff: '&cYou will no longer auto teleport to targets!'
+  SpectatorSettingNightVisionOn: '&aYou now have night vision!'
+  SpectatorSettingNightVisionOff: '&cYou no longer have night vision!'
+  SpectatorSettingFirstPersonOn: '&aYou will now by default use First Person spectating!'
+  SpectatorSettingFirstPersonOff: '&cYou will now by default use Third Person spectating!'
+MessagesList:
+  ItemLeaveLore:
+  - '&7Right-click to leave the lobby!'
+  ItemPlayAgainLore:
+  - '&7Right-click to play another game!'
+  ItemSettingsLore:
+  - '&7Right-click to change your spectator settings!'
+  ItemTeleporterLore:
+  - '&7Right-click to spectate players!'
+  SidebarLines:
+  - '&7%date% &8%id%'
+  - ' '
+  - 'Map: &a%name%'
+  - 'Players: &a%size%/%max%'
+  - ' '
+  - Starting in &a%timer%&f <STARTING=to#if>
+  - <STARTING=allow time for#&a%required%&f more players join>
+  - <STARTING=additional players#>
+  - ' '
+  - '&ewww.spigotmc.org'
+  JoinSign:
+  - '%type%'
+  - '%name%'
+  - '&5• &f&l%state% &5•'
+  - '&c»&e&l%size%/%max%&c«'
+  JoinNPC:
+  - '&e&lCLICK TO PLAY'
+  - '&b%type%'
+  - '&e&l%players% Players'
