@@ -9,3 +9,10 @@ Reward:
   - eco give %player% 15
   Participation:
   - eco give %player% 5
+Settings:
+  CheckpointAt: 15
+  PlayTime: 600
+  Waiting: 60
+  Ending: 20
+  SpectatorPlayAgain: true
+  SpectatorSettings: true

@@ -1,4 +1,9 @@
 Game:
+  LeaveDelay: true
+  RollbackQuantity: 100
+  RollbackInTicksEach: 5
+  CommandsPermission: false
+  ViaBackwards: false
   Whitelist:
   - arc
   - arcade
@@ -15,10 +20,18 @@ JoinItems:
     Material: NETHER_STAR
     Name: '&aParty &7(Right Click)'
 AutoJoin:
+  AutoScale: true
+  MixedMode: false
+  KickPlayer: false
+  HubServers:
+  - Hub
   Enabled: true
   FallbackServer: Hub
   ShutdownAtEnd: false
 MySQL:
+  SSL: true
+  TrustServerCertificates: true
+  AutoReconnect: true
   Enabled: false
   Host: 127.0.0.1
   Database: base

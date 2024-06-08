@@ -1,5 +1,11 @@
 Settings:
   PlayTime: 600
+  Waiting: 60
+  Ending: 20
+  BombReplenishCooldown: 100
+  SpectatorPlayAgain: true
+  SpectatorSettings: true
+  BombMaxAmount: 3
 Reward:
   Enabled: false
   Winner:

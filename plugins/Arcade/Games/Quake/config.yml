@@ -4,6 +4,12 @@ Settings:
   DashCooldown: 60
   ShootCooldown: 30
   ScoreToWin: 25
+  Waiting: 60
+  Ending: 20
+  ShotDelay: 30
+  DashDelay: 60
+  SpectatorPlayAgain: true
+  SpectatorSettings: true
 Reward:
   Enabled: false
   First:
