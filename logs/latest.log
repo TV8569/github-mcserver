@@ -362,3 +362,10 @@ java.lang.IllegalStateException: Invalid pool element found
 [19:54:52] [Server thread/INFO]: 12 placeholder hook(s) registered! 1 placeholder hook(s) have an update available.
 [19:55:01] [Craft Scheduler Thread - 5 - ProJumpPads/INFO]: [ProJumpPads] Loaded 1 jump pad successfully!
 [19:55:01] [Craft Scheduler Thread - 5 - ProJumpPads/INFO]: [ProJumpPads] Plugin is up to date!
+[19:57:48] [User Authenticator #1/INFO]: UUID of player amirabbas8585 is 20cf1db0-e54b-388d-8edc-76880a8b4ffa
+[19:57:48] [Server thread/INFO]: + amirabbas8585 Connected
+[19:57:48] [Server thread/INFO]: amirabbas8585[/[0:0:0:0:0:0:0:1%0]:39242] logged in with entity id 8 at ([crmapin]-110.84188446198117, 154.5, 1.9145532115897992)
+[19:57:51] [Craft Scheduler Thread - 22 - PlaceholderAPI/INFO]: [LocalTime] Couldn't get amirabbas8585's timezone. Will use default timezone.
+[19:57:56] [Server thread/INFO]: amirabbas8585 issued server command: /pl
+[19:58:01] [Server thread/INFO]: amirabbas8585 issued server command: /tnttag addnpc
+[19:58:08] [Server thread/INFO]: amirabbas8585 issued server command: /tnttag removenpc
