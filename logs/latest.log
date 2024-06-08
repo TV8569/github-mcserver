@@ -1,372 +1,136 @@
-[16:31:53] [ServerMain/INFO]: Building unoptimized datafixer
-[16:31:54] [ServerMain/INFO]: Environment: authHost='https://authserver.mojang.com', accountsHost='https://api.mojang.com', sessionHost='https://sessionserver.mojang.com', servicesHost='https://api.minecraftservices.com', name='PROD'
-[16:31:57] [ServerMain/INFO]: Loaded 7 recipes
-[16:31:58] [Server thread/INFO]: Starting minecraft server version 1.19
-[16:31:58] [Server thread/INFO]: Loading properties
-[16:31:58] [Server thread/INFO]: This server is running Paper version git-Paper-81 (MC: 1.19) (Implementing API version 1.19-R0.1-SNAPSHOT) (Git: 86f87ba)
-[16:31:58] [Server thread/INFO]: Server Ping Player Sample Count: 12
-[16:31:58] [Server thread/INFO]: Using 4 threads for Netty based IO
-[16:31:58] [Server thread/INFO]: Default game type: SURVIVAL
-[16:31:58] [Server thread/INFO]: Generating keypair
-[16:31:59] [Server thread/INFO]: Starting Minecraft server on *:25565
-[16:31:59] [Server thread/INFO]: Using epoll channel type
-[16:31:59] [Server thread/INFO]: Paper: Using libdeflate (Linux x86_64) compression from Velocity.
-[16:31:59] [Server thread/INFO]: Paper: Using OpenSSL 1.1.x (Linux x86_64) cipher from Velocity.
-[16:31:59] [Server thread/ERROR]: Could not load 'plugins/images.jar' in folder 'plugins'
+[17:01:41] [Server thread/INFO]: Starting minecraft server version 1.12.2
+[17:01:41] [Server thread/INFO]: Loading properties
+[17:01:41] [Server thread/INFO]: Default game type: SURVIVAL
+[17:01:41] [Server thread/INFO]: This server is running Paper version git-Paper-1620 (MC: 1.12.2) (Implementing API version 1.12.2-R0.1-SNAPSHOT)
+[17:01:41] [Server thread/INFO]: Debug logging is disabled
+[17:01:41] [Server thread/INFO]: Server Ping Player Sample Count: 12
+[17:01:41] [Server thread/INFO]: Using 4 threads for Netty based IO
+[17:01:41] [Server thread/INFO]: Generating keypair
+[17:01:41] [Server thread/INFO]: Starting Minecraft server on *:25565
+[17:01:41] [Server thread/INFO]: Using epoll channel type
+[17:01:41] [Server thread/INFO]: Set PluginClassLoader as parallel capable
+[17:01:41] [Server thread/ERROR]: Could not load 'plugins/worldedit-bukkit-7.2.12.jar' in folder 'plugins'
 org.bukkit.plugin.InvalidPluginException: java.lang.ExceptionInInitializerError
-	at org.bukkit.plugin.java.JavaPluginLoader.loadPlugin(JavaPluginLoader.java:157) ~[paper-api-1.19-R0.1-SNAPSHOT.jar:?]
-	at org.bukkit.plugin.SimplePluginManager.loadPlugin(SimplePluginManager.java:411) ~[paper-api-1.19-R0.1-SNAPSHOT.jar:?]
-	at org.bukkit.plugin.SimplePluginManager.loadPlugins(SimplePluginManager.java:319) ~[paper-api-1.19-R0.1-SNAPSHOT.jar:?]
-	at org.bukkit.craftbukkit.v1_19_R1.CraftServer.loadPlugins(CraftServer.java:421) ~[paper-1.19.jar:git-Paper-81]
-	at net.minecraft.server.dedicated.DedicatedServer.initServer(DedicatedServer.java:278) ~[paper-1.19.jar:git-Paper-81]
-	at net.minecraft.server.MinecraftServer.runServer(MinecraftServer.java:1122) ~[paper-1.19.jar:git-Paper-81]
-	at net.minecraft.server.MinecraftServer.lambda$spin$0(MinecraftServer.java:303) ~[paper-1.19.jar:git-Paper-81]
-	at java.lang.Thread.run(Thread.java:840) ~[?:?]
+	at org.bukkit.plugin.java.JavaPluginLoader.loadPlugin(JavaPluginLoader.java:131) ~[patched_1.12.2.jar:git-Paper-1620]
+	at org.bukkit.plugin.SimplePluginManager.loadPlugin(SimplePluginManager.java:329) ~[patched_1.12.2.jar:git-Paper-1620]
+	at org.bukkit.plugin.SimplePluginManager.loadPlugins(SimplePluginManager.java:251) ~[patched_1.12.2.jar:git-Paper-1620]
+	at org.bukkit.craftbukkit.v1_12_R1.CraftServer.loadPlugins(CraftServer.java:318) ~[patched_1.12.2.jar:git-Paper-1620]
+	at net.minecraft.server.v1_12_R1.DedicatedServer.init(DedicatedServer.java:222) ~[patched_1.12.2.jar:git-Paper-1620]
+	at net.minecraft.server.v1_12_R1.MinecraftServer.run(MinecraftServer.java:616) ~[patched_1.12.2.jar:git-Paper-1620]
+	at java.lang.Thread.run(Thread.java:840) [?:?]
 Caused by: java.lang.ExceptionInInitializerError
-	at com.andavin.images.Versioned.<clinit>(Versioned.java:42) ~[images.jar:?]
-	at com.andavin.images.Images.<clinit>(Images.java:97) ~[images.jar:?]
 	at java.lang.Class.forName0(Native Method) ~[?:?]
 	at java.lang.Class.forName(Class.java:467) ~[?:?]
-	at org.bukkit.plugin.java.PluginClassLoader.<init>(PluginClassLoader.java:71) ~[paper-api-1.19-R0.1-SNAPSHOT.jar:?]
-	at org.bukkit.plugin.java.JavaPluginLoader.loadPlugin(JavaPluginLoader.java:153) ~[paper-api-1.19-R0.1-SNAPSHOT.jar:?]
-	... 7 more
-Caused by: java.lang.UnsupportedOperationException: Version v1_19 is not supported.
-	at com.andavin.util.MinecraftVersion.<clinit>(MinecraftVersion.java:151) ~[images.jar:?]
-	at com.andavin.images.Versioned.<clinit>(Versioned.java:42) ~[images.jar:?]
-	at com.andavin.images.Images.<clinit>(Images.java:97) ~[images.jar:?]
+	at org.bukkit.plugin.java.PluginClassLoader.<init>(PluginClassLoader.java:82) ~[patched_1.12.2.jar:git-Paper-1620]
+	at org.bukkit.plugin.java.JavaPluginLoader.loadPlugin(JavaPluginLoader.java:127) ~[patched_1.12.2.jar:git-Paper-1620]
+	... 6 more
+Caused by: java.lang.IllegalStateException: 
+**********************************************
+** This Minecraft version (git-Paper-1620 (MC: 1.12.2)) is not supported by this version of WorldEdit.
+** Please download an OLDER version of WorldEdit which does.
+**********************************************
+
+	at com.sk89q.worldedit.bukkit.WorldEditPlugin.<clinit>(WorldEditPlugin.java:112) ~[?:?]
 	at java.lang.Class.forName0(Native Method) ~[?:?]
 	at java.lang.Class.forName(Class.java:467) ~[?:?]
-	at org.bukkit.plugin.java.PluginClassLoader.<init>(PluginClassLoader.java:71) ~[paper-api-1.19-R0.1-SNAPSHOT.jar:?]
-	at org.bukkit.plugin.java.JavaPluginLoader.loadPlugin(JavaPluginLoader.java:153) ~[paper-api-1.19-R0.1-SNAPSHOT.jar:?]
-	... 7 more
-Caused by: java.lang.IllegalArgumentException: No enum constant com.andavin.util.MinecraftVersion.v1_19
-	at java.lang.Enum.valueOf(Enum.java:273) ~[?:?]
-	at com.andavin.util.MinecraftVersion.valueOf(MinecraftVersion.java:60) ~[images.jar:?]
-	at com.andavin.util.MinecraftVersion.<clinit>(MinecraftVersion.java:149) ~[images.jar:?]
-	at com.andavin.images.Versioned.<clinit>(Versioned.java:42) ~[images.jar:?]
-	at com.andavin.images.Images.<clinit>(Images.java:97) ~[images.jar:?]
-	at java.lang.Class.forName0(Native Method) ~[?:?]
-	at java.lang.Class.forName(Class.java:467) ~[?:?]
-	at org.bukkit.plugin.java.PluginClassLoader.<init>(PluginClassLoader.java:71) ~[paper-api-1.19-R0.1-SNAPSHOT.jar:?]
-	at org.bukkit.plugin.java.JavaPluginLoader.loadPlugin(JavaPluginLoader.java:153) ~[paper-api-1.19-R0.1-SNAPSHOT.jar:?]
-	... 7 more
-[16:31:59] [Server thread/INFO]: [WorldEdit] Loading WorldEdit v7.2.12+6240-87f4ae1
-[16:32:00] [Server thread/INFO]: Got request to register class com.sk89q.worldedit.bukkit.BukkitServerInterface with WorldEdit [com.sk89q.worldedit.extension.platform.PlatformManager@68ebca13]
-[16:32:00] [Server thread/INFO]: [JumpPads] Loading JumpPads v1.25.13
-[16:32:00] [Server thread/INFO]: [PlaceholderAPI] Loading PlaceholderAPI v2.11.6
-[16:32:00] [Server thread/INFO]: [ViaVersion] Loading ViaVersion v4.10.2
-[16:32:00] [Server thread/INFO]: [ViaVersion] ViaVersion 4.10.2 is now loaded. Registering protocol transformers and injecting...
-[16:32:00] [Via-Mappingloader-0/INFO]: [ViaVersion] Loading block connection mappings ...
-[16:32:00] [Via-Mappingloader-0/INFO]: [ViaVersion] Using FastUtil Long2ObjectOpenHashMap for block connections
-[16:32:00] [Server thread/INFO]: [ViaBackwards] Loading translations...
-[16:32:00] [Server thread/INFO]: [ViaBackwards] Registering protocols...
-[16:32:01] [Server thread/INFO]: [ViaRewind] Registering protocols...
-[16:32:01] [Server thread/INFO]: [HolographicDisplays] Loading HolographicDisplays v3.0.4
-[16:32:01] [Server thread/INFO]: [PlayerPoints] Loading PlayerPoints v3.0.1
-[16:32:01] [Server thread/INFO]: [ViaBackwards] Loading ViaBackwards v4.10.2
-[16:32:01] [Server thread/INFO]: [MyCommand] Loading MyCommand v5.7.4
-[16:32:01] [Server thread/INFO]: [Multiverse-Core] Loading Multiverse-Core v4.3.1-b861
-[16:32:01] [Server thread/INFO]: [ViaRewind] Loading ViaRewind v3.1.2
-[16:32:01] [Server thread/INFO]: [LuckPerms] Loading LuckPerms v5.4.40
-[16:32:01] [Server thread/INFO]: [ProJumpPads] Loading ProJumpPads v4.0
-[16:32:01] [Server thread/INFO]: [gs] Loading GlobalStats v5.1
-[16:32:01] [Server thread/INFO]: [HolographicExtension] Loading HolographicExtension v1.10.9
-[16:32:01] [Server thread/INFO]: [DeluxeHub] Loading DeluxeHub v3.5.5
-[16:32:01] [Server thread/INFO]: [ajLeaderboards] Loading ajLeaderboards v2.8.0
-[16:32:01] [Server thread/INFO]: [ajLeaderboards] Verifying checksum for gson
-[16:32:01] [Server thread/INFO]: [ajLeaderboards] Checksum matched for gson
-[16:32:01] [Server thread/INFO]: [ajLeaderboards] Verifying checksum for jar-relocator
-[16:32:01] [Server thread/INFO]: [ajLeaderboards] Checksum matched for jar-relocator
-[16:32:01] [Server thread/INFO]: [ajLeaderboards] Verifying checksum for asm
-[16:32:01] [Server thread/INFO]: [ajLeaderboards] Checksum matched for asm
-[16:32:01] [Server thread/INFO]: [ajLeaderboards] Verifying checksum for asm-commons
-[16:32:01] [Server thread/INFO]: [ajLeaderboards] Checksum matched for asm-commons
-[16:32:01] [Server thread/INFO]: [ajLeaderboards] Verifying checksum for gson
-[16:32:01] [Server thread/INFO]: [ajLeaderboards] Checksum matched for gson
-[16:32:01] [Server thread/INFO]: [ajLeaderboards] Verifying checksum for HikariCP
-[16:32:01] [Server thread/INFO]: [ajLeaderboards] Checksum matched for HikariCP
-[16:32:01] [Server thread/INFO]: [ajLeaderboards] Verifying checksum for slf4j-api
-[16:32:01] [Server thread/INFO]: [ajLeaderboards] Checksum matched for slf4j-api
-[16:32:01] [Server thread/INFO]: [ajLeaderboards] Verifying checksum for h2
-[16:32:01] [Server thread/INFO]: [ajLeaderboards] Checksum matched for h2
-[16:32:01] [Server thread/INFO]: [Arcade] Loading Arcade v1.53
-[16:32:01] [Server thread/INFO]: [GadgetsMenu] Loading GadgetsMenu v4.7.3
-[16:32:01] [Server thread/INFO]: [LPC] Loading LPC v3.6.0
-[16:32:01] [Server thread/INFO]: Server permissions file permissions.yml is empty, ignoring it
-[16:32:01] [Server thread/INFO]: [WorldEdit] Enabling WorldEdit v7.2.12+6240-87f4ae1
-[16:32:01] [Server thread/INFO]: Registering commands with com.sk89q.worldedit.bukkit.BukkitServerInterface
-[16:32:02] [Server thread/INFO]: WEPIF: Using the Bukkit Permissions API.
-[16:32:02] [Server thread/INFO]: Using com.sk89q.worldedit.bukkit.adapter.impl.v1_19_R1.PaperweightAdapter as the Bukkit adapter
-[16:32:03] [Server thread/INFO]: [ViaRewind] Enabling ViaRewind v3.1.2
-[16:32:03] [Server thread/INFO]: [LuckPerms] Enabling LuckPerms v5.4.40
-[16:32:04] [Server thread/INFO]:         __    
-[16:32:04] [Server thread/INFO]:   |    |__)   LuckPerms v5.4.40
-[16:32:04] [Server thread/INFO]:   |___ |      Running on Bukkit - Paper
-[16:32:04] [Server thread/INFO]: 
-[16:32:04] [Server thread/INFO]: [LuckPerms] Loading configuration...
-[16:32:04] [Server thread/INFO]: [LuckPerms] Loading storage provider... [H2]
-[16:32:05] [Server thread/INFO]: [LuckPerms] Loading internal permission managers...
-[16:32:05] [Server thread/INFO]: [LuckPerms] Performing initial data load...
-[16:32:05] [Server thread/INFO]: [LuckPerms] Successfully enabled. (took 1974ms)
-[16:32:05] [Server thread/WARN]: **** SERVER IS RUNNING IN OFFLINE/INSECURE MODE!
-[16:32:05] [Server thread/WARN]: The server will make no attempt to authenticate usernames. Beware.
-[16:32:05] [Server thread/WARN]: While this makes the game possible to play without internet access, it also opens up the ability for hackers to connect with any username they choose.
-[16:32:05] [Server thread/WARN]: To change this, set "online-mode" to "true" in the server.properties file.
-[16:32:05] [Server thread/INFO]: Preparing level "world"
-[16:32:06] [Server thread/INFO]: Preparing start region for dimension minecraft:overworld
-[16:32:07] [Server thread/INFO]: Time elapsed: 447 ms
-[16:32:07] [Server thread/INFO]: [JumpPads] Enabling JumpPads v1.25.13
-[16:32:07] [Server thread/INFO]: [PlaceholderAPI] Enabling PlaceholderAPI v2.11.6
-[16:32:07] [Server thread/INFO]: [PlaceholderAPI] Fetching available expansion information...
-[16:32:07] [Server thread/INFO]: [ViaVersion] Enabling ViaVersion v4.10.2
-[16:32:07] [Server thread/INFO]: [ViaVersion] ViaVersion detected server version: 1.19 (759)
-[16:32:07] [Server thread/INFO]: [HolographicDisplays] Enabling HolographicDisplays v3.0.4
-[16:32:07] [Server thread/INFO]: [PlayerPoints] Enabling PlayerPoints v3.0.1
-[16:32:07] [Server thread/INFO]: [PlayerPoints] Initializing using RoseGarden v1.0.5-SNAPSHOT
-[16:32:08] [Server thread/INFO]: [PlayerPoints] Data handler connected using SQLite.
-[16:32:08] [Server thread/INFO]: [PlaceholderAPI] Successfully registered internal expansion: playerpoints [3.0.1]
-[16:32:08] [Server thread/INFO]: [ViaBackwards] Enabling ViaBackwards v4.10.2
-[16:32:08] [Server thread/INFO]: [MyCommand] Enabling MyCommand v5.7.4
-[16:32:08] [Server thread/INFO]: *-=-=-=-=-=-=-=-=-* MyCommand v.5.7.4*-=-=-=-=-=-=-=-=-=-*
-[16:32:08] [Server thread/INFO]: | Vault plugin not found. Using BukkitPermissions
-[16:32:08] [Server thread/INFO]: | No Economy support without Vault!
-[16:32:08] [Server thread/INFO]: | Logs Directory Created /MyCommand/logs/
-[16:32:08] [Server thread/INFO]: | PlayerData Directory Created /MyCommand/playerdata/
-[16:32:08] [Server thread/INFO]: | Command file(s) found : 1
-[16:32:08] [Server thread/INFO]: | Config : Ready.
-[16:32:08] [Server thread/INFO]: | ProtocolLib not found.
-[16:32:08] [Server thread/INFO]: [PlaceholderAPI] Successfully registered internal expansion: mycommand [1.0.0]
-[16:32:08] [Server thread/INFO]: | Placeholder_API : Hooked, Ok.
-[16:32:08] [Server thread/INFO]: | Custom commands loaded : 44
-[16:32:08] [Server thread/INFO]: | You're running the latest version of MyCommand.
-[16:32:08] [Server thread/INFO]: |          by emmerrei a.k.a. ivanfromitaly.           
-[16:32:08] [Server thread/INFO]: *-=-=-=-=-=-=-=-=-=-*   Done!   *-=-=-=-=-=-=-=-=-=-=-*
-[16:32:08] [Server thread/INFO]: [Multiverse-Core] Enabling Multiverse-Core v4.3.1-b861
-[16:32:08] [Server thread/WARN]: [Multiverse-Core] "Multiverse-Core v4.3.1-b861" has registered a listener for org.bukkit.event.entity.EntityCreatePortalEvent on method "public void com.onarandombox.MultiverseCore.listeners.MVPortalListener.entityPortalCreate(org.bukkit.event.entity.EntityCreatePortalEvent)", but the event is Deprecated. "Server performance will be affected"; please notify the authors [dumptruckman, Rigby, fernferret, lithium3141, main--].
-[16:32:08] [Server thread/INFO]: [Multiverse-Core] §aWe are aware of the warning about the deprecated event. There is no alternative that allows us to do what we need to do and performance impact is negligible. It is safe to ignore.
-[16:32:17] [Server thread/INFO]: Preparing start region for dimension minecraft:q1
-[16:32:18] [Server thread/INFO]: Preparing spawn area: 0%
-[16:32:18] [Server thread/INFO]: Preparing spawn area: 0%
-[16:32:18] [Server thread/INFO]: Time elapsed: 637 ms
-[16:32:18] [Server thread/INFO]: Preparing start region for dimension minecraft:t4
-[16:32:19] [Server thread/INFO]: Time elapsed: 456 ms
-[16:32:20] [Server thread/INFO]: Preparing start region for dimension minecraft:bb
-[16:32:20] [Server thread/INFO]: Preparing spawn area: 0%
-[16:32:20] [Server thread/INFO]: Time elapsed: 474 ms
-[16:32:20] [Server thread/INFO]: Preparing start region for dimension minecraft:q2
-[16:32:20] [Server thread/INFO]: Time elapsed: 209 ms
-[16:32:20] [Server thread/INFO]: Preparing start region for dimension minecraft:tv
-[16:32:21] [Server thread/INFO]: Time elapsed: 361 ms
-[16:32:21] [Server thread/INFO]: Preparing start region for dimension minecraft:bil2
-[16:32:21] [Server thread/INFO]: Time elapsed: 268 ms
-[16:32:22] [Server thread/INFO]: Preparing start region for dimension minecraft:bil
-[16:32:22] [Server thread/INFO]: Time elapsed: 224 ms
-[16:32:22] [Server thread/INFO]: Preparing start region for dimension minecraft:crmapin
-[16:32:22] [Server thread/INFO]: Time elapsed: 179 ms
-[16:32:22] [Server thread/INFO]: Preparing start region for dimension minecraft:arcade
-[16:32:23] [Server thread/INFO]: Time elapsed: 171 ms
-[16:32:33] [Server thread/INFO]: Preparing start region for dimension minecraft:tt1
-[16:32:33] [Server thread/INFO]: Preparing spawn area: 0%
-[16:32:33] [Server thread/INFO]: Time elapsed: 334 ms
-[16:32:33] [Server thread/INFO]: Preparing start region for dimension minecraft:tt3
-[16:32:33] [Server thread/INFO]: Time elapsed: 170 ms
-[16:32:35] [Server thread/INFO]: Preparing start region for dimension minecraft:tt2
-[16:32:35] [Server thread/INFO]: Preparing spawn area: 0%
-[16:32:35] [Server thread/INFO]: Time elapsed: 266 ms
-[16:32:35] [Server thread/INFO]: Preparing start region for dimension minecraft:sp2
-[16:32:35] [Server thread/INFO]: Time elapsed: 167 ms
-[16:32:36] [Server thread/INFO]: Preparing start region for dimension minecraft:sp1
-[16:32:36] [Server thread/INFO]: Time elapsed: 371 ms
-[16:32:36] [Server thread/INFO]: Preparing start region for dimension minecraft:tt4
-[16:32:36] [Server thread/INFO]: Time elapsed: 131 ms
-[16:32:36] [Server thread/INFO]: Preparing start region for dimension minecraft:block
-[16:32:36] [Server thread/INFO]: Time elapsed: 136 ms
-[16:32:37] [Server thread/INFO]: Preparing start region for dimension minecraft:t1
-[16:32:37] [Server thread/INFO]: Time elapsed: 232 ms
-[16:32:37] [Server thread/INFO]: Preparing start region for dimension minecraft:t2
-[16:32:37] [Server thread/INFO]: Time elapsed: 123 ms
-[16:32:37] [Server thread/INFO]: Preparing start region for dimension minecraft:t3
-[16:32:37] [Server thread/INFO]: Time elapsed: 114 ms
-[16:32:37] [Server thread/INFO]: [Multiverse-Core] 20 - World(s) loaded.
-[16:32:37] [Server thread/WARN]: [Multiverse-Core] Buscript failed to load! The script command will be disabled! If you would like not to see this message, use `/mv conf enablebuscript false` to disable Buscript from loading.
-[16:32:37] [Server thread/INFO]: [Multiverse-Core] Version 4.3.1-b861 (API v24) Enabled - By dumptruckman, Rigby, fernferret, lithium3141 and main--
-[16:32:37] [Server thread/INFO]: [ProJumpPads] Enabling ProJumpPads v4.0
-[16:32:37] [Server thread/INFO]: [PlaceholderAPI] Successfully registered internal expansion: jumppads [2.0]
-[16:32:37] [Server thread/INFO]: [ProJumpPads] Jump pads will load after 10 seconds...
-[16:32:37] [Server thread/INFO]: [gs] Enabling GlobalStats v5.1
-[16:32:38] [Server thread/INFO]: [com.morelaid.shaded.gstats.ormlite.table.TableUtils] creating table 'globalstats_data'
-[16:32:38] [Server thread/INFO]: [PlaceholderAPI] Successfully registered internal expansion: gs [5.1]
-[16:32:38] [Server thread/INFO]: [gs] Version 5.1 is enabled!
-[16:32:38] [Server thread/INFO]: [HolographicExtension] Enabling HolographicExtension v1.10.9
-[16:32:38] [Server thread/INFO]: [HolographicExtension] Starting HolographicExtension v1.10.9
-[16:32:38] [Server thread/INFO]: [HolographicExtension] Registering placeholder 'example' from config.
-[16:32:38] [Server thread/INFO]: [HolographicExtension] Registering placeholder 'scroller' from config.
-[16:32:38] [Server thread/INFO]: [HolographicExtension] Registering placeholder 'typing' from config.
-[16:32:38] [Server thread/INFO]: [HolographicExtension] Registering placeholder 'rainbow' from config.
-[16:32:38] [Server thread/INFO]: [HolographicExtension] If you want to use the placeholder extension, please install ProtocolLib and PlaceholderAPI
-[16:32:38] [Server thread/INFO]: [DeluxeHub] Enabling DeluxeHub v3.5.5
-[16:32:38] [Server thread/INFO]: [DeluxeHub]  _   _            _          _    _ 
-[16:32:38] [Server thread/INFO]: [DeluxeHub] | \ |_ |  | | \/ |_ |_| | | |_)   _)
-[16:32:38] [Server thread/INFO]: [DeluxeHub] |_/ |_ |_ |_| /\ |_ | | |_| |_)   _)
-[16:32:38] [Server thread/INFO]: [DeluxeHub] 
-[16:32:38] [Server thread/INFO]: [DeluxeHub] Version: 3.5.5
-[16:32:38] [Server thread/INFO]: [DeluxeHub] Author: ItsLewizzz
-[16:32:38] [Server thread/INFO]: [DeluxeHub] 
-[16:32:38] [Server thread/INFO]: [DeluxeHub]  Hooked into PlaceholderAPI
-[16:32:38] [Server thread/INFO]: [DeluxeHub] Loaded custom menu 'serverselector'.
-[16:32:38] [Server thread/INFO]: [NBTAPI] [NBTAPI] Found Spigot: v1_19_R1! Trying to find NMS support
-[16:32:38] [Server thread/INFO]: [NBTAPI] [NBTAPI] NMS support 'MC1_19_R1' loaded!
-[16:32:38] [Server thread/INFO]: [NBTAPI] [NBTAPI] Using the plugin 'DeluxeHub' to create a bStats instance!
-[16:32:38] [Server thread/INFO]: [DeluxeHub] Loaded 13 plugin modules.
-[16:32:38] [Server thread/INFO]: [DeluxeHub] 
-[16:32:38] [Server thread/INFO]: [DeluxeHub] Successfully loaded in 335ms
-[16:32:38] [Server thread/INFO]: [ajLeaderboards] Enabling ajLeaderboards v2.8.0
-[16:32:39] [Server thread/INFO]: [ajLeaderboards] Using H2 flatfile for board cache. (h2)
-[16:32:39] [Server thread/INFO]: [ajLeaderboards] Loaded 0 boards
-[16:32:39] [Server thread/INFO]: [PlaceholderAPI] Successfully registered internal expansion: ajlb [2.8.0]
-[16:32:39] [Server thread/INFO]: [ajLeaderboards] PAPI placeholders successfully registered!
-[16:32:39] [Server thread/INFO]: [ajLeaderboards] ajLeaderboards v2.8.0 by ajgeiss0702 enabled!
-[16:32:39] [Server thread/INFO]: [Arcade] Enabling Arcade v1.53
-[16:32:39] [Server thread/INFO]: [Arcade] [STDOUT] [36m[Spigotunlocked.net] - -Michy-
-[16:32:39] [Server thread/WARN]: Nag author(s): '[Fr33styler]' of 'Arcade' about their usage of System.out/err.print. Please use your plugin's logger instead (JavaPlugin#getLogger).
-[16:32:39] [Server thread/INFO]: =-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=
-[16:32:39] [Server thread/INFO]: Arcade plugin is loading... 
-[16:32:39] [Server thread/INFO]:  Author: Fr33styler
-[16:32:39] [Server thread/INFO]:  Version: 1.53
-[16:32:39] [Server thread/INFO]:  - Loading engine...
-[16:32:39] [Server thread/INFO]:  - Loading database...
-[16:32:39] [Paper Async Chunk Task Thread #0/ERROR]: No key placement in MapLike[{config:{blacklist:[],block_placer:{type:"minecraft:simple_block_placer"},can_replace:0b,need_water:0b,project:1b,state_provider:{type:"minecraft:plain_flower_provider"},tries:64,whitelist:[],xspread:7,yspread:3,zspread:7},type:"minecraft:flower"}]; No key feature in MapLike[{config:{blacklist:[],block_placer:{type:"minecraft:simple_block_placer"},can_replace:0b,need_water:0b,project:1b,state_provider:{type:"minecraft:plain_flower_provider"},tries:64,whitelist:[],xspread:7,yspread:3,zspread:7},type:"minecraft:flower"}]
-[16:32:39] [Paper Async Chunk Task Thread #0/ERROR]: Exception loading structure piece with id minecraft:jigsaw
-java.lang.IllegalStateException: Invalid pool element found
-	at net.minecraft.world.level.levelgen.structure.PoolElementStructurePiece.lambda$new$0(PoolElementStructurePiece.java:51) ~[?:?]
-	at java.util.Optional.orElseThrow(Optional.java:403) ~[?:?]
-	at net.minecraft.world.level.levelgen.structure.PoolElementStructurePiece.lambda$new$0(PoolElementStructurePiece.java:51) ~[?:?]
-	at net.minecraft.world.level.levelgen.structure.pieces.PiecesContainer.load(PiecesContainer.java:65) ~[paper-1.19.jar:git-Paper-81]
-	at net.minecraft.world.level.levelgen.structure.StructureStart.loadStaticStart(StructureStart.java:56) ~[paper-1.19.jar:git-Paper-81]
-	at net.minecraft.world.level.chunk.storage.ChunkSerializer.unpackStructureStart(ChunkSerializer.java:830) ~[?:?]
-	at net.minecraft.world.level.chunk.storage.ChunkSerializer.loadChunk(ChunkSerializer.java:390) ~[?:?]
-	at com.destroystokyo.paper.io.chunk.ChunkLoadTask.executeTask(ChunkLoadTask.java:117) ~[paper-1.19.jar:git-Paper-81]
-	at com.destroystokyo.paper.io.chunk.ChunkLoadTask.run(ChunkLoadTask.java:42) ~[paper-1.19.jar:git-Paper-81]
-	at com.destroystokyo.paper.io.QueueExecutorThread.pollTasks(QueueExecutorThread.java:118) ~[paper-1.19.jar:git-Paper-81]
-	at com.destroystokyo.paper.io.QueueExecutorThread.run(QueueExecutorThread.java:51) ~[paper-1.19.jar:git-Paper-81]
-[16:32:39] [Paper Async Chunk Task Thread #0/ERROR]: No key placement in MapLike[{config:{blacklist:[],block_placer:{type:"minecraft:simple_block_placer"},can_replace:0b,need_water:0b,project:1b,state_provider:{type:"minecraft:plain_flower_provider"},tries:64,whitelist:[],xspread:7,yspread:3,zspread:7},type:"minecraft:flower"}]; No key feature in MapLike[{config:{blacklist:[],block_placer:{type:"minecraft:simple_block_placer"},can_replace:0b,need_water:0b,project:1b,state_provider:{type:"minecraft:plain_flower_provider"},tries:64,whitelist:[],xspread:7,yspread:3,zspread:7},type:"minecraft:flower"}]
-[16:32:39] [Paper Async Chunk Task Thread #0/ERROR]: Exception loading structure piece with id minecraft:jigsaw
-java.lang.IllegalStateException: Invalid pool element found
-	at net.minecraft.world.level.levelgen.structure.PoolElementStructurePiece.lambda$new$0(PoolElementStructurePiece.java:51) ~[?:?]
-	at java.util.Optional.orElseThrow(Optional.java:403) ~[?:?]
-	at net.minecraft.world.level.levelgen.structure.PoolElementStructurePiece.lambda$new$0(PoolElementStructurePiece.java:51) ~[?:?]
-	at net.minecraft.world.level.levelgen.structure.pieces.PiecesContainer.load(PiecesContainer.java:65) ~[paper-1.19.jar:git-Paper-81]
-	at net.minecraft.world.level.levelgen.structure.StructureStart.loadStaticStart(StructureStart.java:56) ~[paper-1.19.jar:git-Paper-81]
-	at net.minecraft.world.level.chunk.storage.ChunkSerializer.unpackStructureStart(ChunkSerializer.java:830) ~[?:?]
-	at net.minecraft.world.level.chunk.storage.ChunkSerializer.loadChunk(ChunkSerializer.java:390) ~[?:?]
-	at com.destroystokyo.paper.io.chunk.ChunkLoadTask.executeTask(ChunkLoadTask.java:117) ~[paper-1.19.jar:git-Paper-81]
-	at com.destroystokyo.paper.io.chunk.ChunkLoadTask.run(ChunkLoadTask.java:42) ~[paper-1.19.jar:git-Paper-81]
-	at com.destroystokyo.paper.io.QueueExecutorThread.pollTasks(QueueExecutorThread.java:118) ~[paper-1.19.jar:git-Paper-81]
-	at com.destroystokyo.paper.io.QueueExecutorThread.run(QueueExecutorThread.java:51) ~[paper-1.19.jar:git-Paper-81]
-[16:32:39] [Paper Async Chunk Task Thread #0/ERROR]: Invalid bounding box data, inverted bounds for: StructureBoundingBox{minX=2147483647, minY=2147483647, minZ=2147483647, maxX=-2147483648, maxY=-2147483648, maxZ=-2147483648}
-[16:32:39] [Paper Async Chunk Task Thread #0/ERROR]: Exception loading structure piece with id minecraft:jigsaw
-java.lang.IllegalStateException: Invalid call to EmtyPoolElement.getBoundingBox, filter me!
-	at net.minecraft.world.level.levelgen.structure.pools.EmptyPoolElement.getBoundingBox(EmptyPoolElement.java:39) ~[?:?]
-	at net.minecraft.world.level.levelgen.structure.PoolElementStructurePiece.<init>(PoolElementStructurePiece.java:55) ~[?:?]
-	at net.minecraft.world.level.levelgen.structure.pieces.PiecesContainer.load(PiecesContainer.java:65) ~[paper-1.19.jar:git-Paper-81]
-	at net.minecraft.world.level.levelgen.structure.StructureStart.loadStaticStart(StructureStart.java:56) ~[paper-1.19.jar:git-Paper-81]
-	at net.minecraft.world.level.chunk.storage.ChunkSerializer.unpackStructureStart(ChunkSerializer.java:830) ~[?:?]
-	at net.minecraft.world.level.chunk.storage.ChunkSerializer.loadChunk(ChunkSerializer.java:390) ~[?:?]
-	at com.destroystokyo.paper.io.chunk.ChunkLoadTask.executeTask(ChunkLoadTask.java:117) ~[paper-1.19.jar:git-Paper-81]
-	at com.destroystokyo.paper.io.chunk.ChunkLoadTask.run(ChunkLoadTask.java:42) ~[paper-1.19.jar:git-Paper-81]
-	at com.destroystokyo.paper.io.QueueExecutorThread.pollTasks(QueueExecutorThread.java:118) ~[paper-1.19.jar:git-Paper-81]
-	at com.destroystokyo.paper.io.QueueExecutorThread.run(QueueExecutorThread.java:51) ~[paper-1.19.jar:git-Paper-81]
-[16:32:39] [Paper Async Chunk Task Thread #0/ERROR]: Invalid bounding box data, inverted bounds for: StructureBoundingBox{minX=2147483647, minY=2147483647, minZ=2147483647, maxX=-2147483648, maxY=-2147483648, maxZ=-2147483648}
-[16:32:39] [Paper Async Chunk Task Thread #0/ERROR]: Exception loading structure piece with id minecraft:jigsaw
-java.lang.IllegalStateException: Invalid call to EmtyPoolElement.getBoundingBox, filter me!
-	at net.minecraft.world.level.levelgen.structure.pools.EmptyPoolElement.getBoundingBox(EmptyPoolElement.java:39) ~[?:?]
-	at net.minecraft.world.level.levelgen.structure.PoolElementStructurePiece.<init>(PoolElementStructurePiece.java:55) ~[?:?]
-	at net.minecraft.world.level.levelgen.structure.pieces.PiecesContainer.load(PiecesContainer.java:65) ~[paper-1.19.jar:git-Paper-81]
-	at net.minecraft.world.level.levelgen.structure.StructureStart.loadStaticStart(StructureStart.java:56) ~[paper-1.19.jar:git-Paper-81]
-	at net.minecraft.world.level.chunk.storage.ChunkSerializer.unpackStructureStart(ChunkSerializer.java:830) ~[?:?]
-	at net.minecraft.world.level.chunk.storage.ChunkSerializer.loadChunk(ChunkSerializer.java:390) ~[?:?]
-	at com.destroystokyo.paper.io.chunk.ChunkLoadTask.executeTask(ChunkLoadTask.java:117) ~[paper-1.19.jar:git-Paper-81]
-	at com.destroystokyo.paper.io.chunk.ChunkLoadTask.run(ChunkLoadTask.java:42) ~[paper-1.19.jar:git-Paper-81]
-	at com.destroystokyo.paper.io.QueueExecutorThread.pollTasks(QueueExecutorThread.java:118) ~[paper-1.19.jar:git-Paper-81]
-	at com.destroystokyo.paper.io.QueueExecutorThread.run(QueueExecutorThread.java:51) ~[paper-1.19.jar:git-Paper-81]
-[16:32:39] [Paper Async Chunk Task Thread #0/ERROR]: No key placement in MapLike[{config:{blacklist:[],block_placer:{type:"minecraft:simple_block_placer"},can_replace:0b,need_water:0b,project:1b,state_provider:{type:"minecraft:plain_flower_provider"},tries:64,whitelist:[],xspread:7,yspread:3,zspread:7},type:"minecraft:flower"}]; No key feature in MapLike[{config:{blacklist:[],block_placer:{type:"minecraft:simple_block_placer"},can_replace:0b,need_water:0b,project:1b,state_provider:{type:"minecraft:plain_flower_provider"},tries:64,whitelist:[],xspread:7,yspread:3,zspread:7},type:"minecraft:flower"}]
-[16:32:39] [Paper Async Chunk Task Thread #0/ERROR]: Exception loading structure piece with id minecraft:jigsaw
-java.lang.IllegalStateException: Invalid pool element found
-	at net.minecraft.world.level.levelgen.structure.PoolElementStructurePiece.lambda$new$0(PoolElementStructurePiece.java:51) ~[?:?]
-	at java.util.Optional.orElseThrow(Optional.java:403) ~[?:?]
-	at net.minecraft.world.level.levelgen.structure.PoolElementStructurePiece.lambda$new$0(PoolElementStructurePiece.java:51) ~[?:?]
-	at net.minecraft.world.level.levelgen.structure.pieces.PiecesContainer.load(PiecesContainer.java:65) ~[paper-1.19.jar:git-Paper-81]
-	at net.minecraft.world.level.levelgen.structure.StructureStart.loadStaticStart(StructureStart.java:56) ~[paper-1.19.jar:git-Paper-81]
-	at net.minecraft.world.level.chunk.storage.ChunkSerializer.unpackStructureStart(ChunkSerializer.java:830) ~[?:?]
-	at net.minecraft.world.level.chunk.storage.ChunkSerializer.loadChunk(ChunkSerializer.java:390) ~[?:?]
-	at com.destroystokyo.paper.io.chunk.ChunkLoadTask.executeTask(ChunkLoadTask.java:117) ~[paper-1.19.jar:git-Paper-81]
-	at com.destroystokyo.paper.io.chunk.ChunkLoadTask.run(ChunkLoadTask.java:42) ~[paper-1.19.jar:git-Paper-81]
-	at com.destroystokyo.paper.io.QueueExecutorThread.pollTasks(QueueExecutorThread.java:118) ~[paper-1.19.jar:git-Paper-81]
-	at com.destroystokyo.paper.io.QueueExecutorThread.run(QueueExecutorThread.java:51) ~[paper-1.19.jar:git-Paper-81]
-[16:32:39] [Server thread/INFO]:  - Loading Party Games...
-[16:32:41] [Server thread/INFO]:  - Loading Mini Walls...
-[16:32:41] [Server thread/INFO]:  - Loading Splegg...
-[16:32:41] [Server thread/INFO]:  - Loading Temple Run...
-[16:32:41] [Server thread/INFO]:  - Loading Bomb Lobbers...
-[16:32:41] [Server thread/INFO]:  - Loading TNT Run...
-[16:32:41] [Server thread/INFO]:  - Loading Prop Hunt...
-[16:32:41] [Server thread/INFO]:  - Loading Quake...
-[16:32:41] [Server thread/INFO]:  - Loading Block Party...
-[16:32:42] [Server thread/INFO]:  - Loading TNT Tag...
-[16:32:42] [Server thread/INFO]: [PlaceholderAPI] Successfully registered internal expansion: arcade [null]
-[16:32:42] [Server thread/INFO]: Arcade has been loaded!
-[16:32:42] [Server thread/INFO]: =-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=
-[16:32:42] [Server thread/INFO]: [GadgetsMenu] Enabling GadgetsMenu v4.7.3
-[16:32:42] [Server thread/INFO]: [GadgetsMenu] ------------------------------------------------------
-[16:32:42] [Server thread/INFO]: [GadgetsMenu]         GadgetsMenu [Free] 4.7.3 is loading...
-[16:32:42] [Server thread/INFO]: [GadgetsMenu]           [server: git-Paper-81 (MC: 1.19)]
-[16:32:42] [Server thread/INFO]: [GadgetsMenu]                  Running Java 17.0.11
-[16:32:42] [Server thread/INFO]: [GadgetsMenu]                Plugin by Yap Zhen Yie.
-[16:32:42] [Server thread/INFO]: [GadgetsMenu]             Date Modified: 30 August 2022
-[16:32:42] [Server thread/INFO]: [GadgetsMenu]                            
-[16:32:42] [Server thread/INFO]: [GadgetsMenu]              Initializing module v1_19_R1
-[16:32:42] [Server thread/INFO]: [GadgetsMenu] ------------------------------------------------------
-[16:32:43] [Server thread/INFO]: [GadgetsMenu] Connecting to SQLite database...
-[16:32:43] [Server thread/INFO]: [GadgetsMenu] Successfully connected to SQLite database!
-[16:32:43] [Server thread/INFO]: [PlaceholderAPI] Successfully registered internal expansion: gadgetsmenu [1.0.2]
-[16:32:43] [Server thread/INFO]: [GadgetsMenu] [Placeholder] PlaceholderAPI hooked.
-[16:32:43] [Server thread/INFO]: [LPC] Enabling LPC v3.6.0
-[16:32:44] [Server thread/INFO]: [PlaceholderAPI] Placeholder expansion registration initializing...
-[16:32:44] [Server thread/INFO]: Running delayed init tasks
-[16:32:44] [Server thread/INFO]: [JumpPads] CleanUp found no JumpPads to delete!
-[16:32:44] [Server thread/INFO]: Done (45.848s)! For help, type "help"
-[16:32:44] [Server thread/INFO]: Timings Reset
-[16:32:44] [Craft Scheduler Thread - 6 - ViaVersion/INFO]: [ViaVersion] Finished mapping loading, shutting down loader executor!
-[16:32:44] [Craft Scheduler Thread - 4 - PlayerPoints/INFO]: [RoseGarden] [RoseGarden] An update for PlayerPoints (v3.2.7) is available! You are running v3.0.1.
-[16:32:44] [Craft Scheduler Thread - 6 - GadgetsMenu/INFO]: [GadgetsMenu] Checking for updates...
-[16:32:44] [Craft Scheduler Thread - 6 - GadgetsMenu/INFO]: [GadgetsMenu] You have an old version of the plugin. You are using 4.7.3, available version 4.13.1.
-[16:32:44] [Server thread/INFO]: [PlaceholderAPI] Successfully registered external expansion: math [2.0.2]
-[16:32:44] [Server thread/WARN]: [PlaceholderAPI] Cannot load expansion playertime due to a missing plugin: PlayerTime
-[16:32:44] [Server thread/WARN]: [PlaceholderAPI] Loaded class com.onarandombox.MultiverseCore.MultiverseCore from Multiverse-Core v4.3.1-b861 which is not a depend or softdepend of this plugin.
-[16:32:44] [Server thread/INFO]: [PlaceholderAPI] Successfully registered external expansion: multiverse [1.0.1]
-[16:32:44] [Server thread/INFO]: [PlaceholderAPI] Successfully registered external expansion: otherplayer [2.1.0]
-[16:32:44] [Server thread/INFO]: [PlaceholderAPI] Successfully registered external expansion: gg [1.0.0]
-[16:32:44] [Server thread/INFO]: [PlaceholderAPI] Successfully registered external expansion: server [2.7.2]
-[16:32:44] [Server thread/INFO]: [PlaceholderAPI] Successfully registered external expansion: pinger [1.0.1]
-[16:32:44] [Server thread/INFO]: [PlaceholderAPI] Successfully registered external expansion: gradient [1.0]
-[16:32:44] [Server thread/WARN]: [PlaceholderAPI] Cannot load expansion thirst due to a missing plugin: Thirst
-[16:32:44] [Server thread/INFO]: [PlaceholderAPI] Successfully registered external expansion: player [2.0.8]
-[16:32:44] [Server thread/WARN]: [PlaceholderAPI] Cannot load expansion tp due to a missing plugin: ThemePark
-[16:32:44] [Server thread/INFO]: [PlaceholderAPI] Successfully registered external expansion: localtime [1.2]
-[16:32:44] [Server thread/WARN]: [PlaceholderAPI] Loaded class net.luckperms.api.LuckPerms from LuckPerms v5.4.40 which is not a depend or softdepend of this plugin.
-[16:32:44] [Server thread/INFO]: [PlaceholderAPI] Successfully registered external expansion: luckperms [5.4-R2]
-[16:32:44] [Server thread/INFO]: [PlaceholderAPI] Successfully registered external expansion: playerlist [3.0.7]
-[16:32:44] [Server thread/INFO]: [PlaceholderAPI] Successfully registered external expansion: tempdata [0.1-BETA]
-[16:32:44] [Server thread/WARN]: [PlaceholderAPI] Cannot load expansion playerstats due to a missing plugin: PlayerStats
-[16:32:44] [Server thread/INFO]: 12 placeholder hook(s) registered! 1 placeholder hook(s) have an update available.
-[16:32:54] [Craft Scheduler Thread - 7 - ProJumpPads/INFO]: [ProJumpPads] Loaded 1 jump pad successfully!
-[16:32:54] [Craft Scheduler Thread - 7 - ProJumpPads/INFO]: [ProJumpPads] Plugin is up to date!
-[16:33:13] [User Authenticator #1/INFO]: UUID of player amirabbas8585 is 20cf1db0-e54b-388d-8edc-76880a8b4ffa
-[16:33:13] [Server thread/INFO]: amirabbas8585[/[0:0:0:0:0:0:0:1%0]:58856] logged in with entity id 399 at ([crmapin]-110.54, 158.0, -9.87)
-[16:33:15] [Craft Scheduler Thread - 9 - PlaceholderAPI/INFO]: [LocalTime] Couldn't get amirabbas8585's timezone. Will use default timezone.
-[16:33:22] [Server thread/INFO]: amirabbas8585 issued server command: /pl
-[16:33:40] [Server thread/INFO]: amirabbas8585 issued server command: /tntrun leave
-[16:33:43] [Server thread/INFO]: amirabbas8585 issued server command: /arc
-[16:34:02] [Server thread/INFO]: amirabbas8585 issued server command: /kick amirabbas8585
-[16:34:05] [Server thread/INFO]: amirabbas8585 lost connection: Disconnected
-[16:34:05] [Server thread/INFO]: - amirabbas8585 Disconnected
+	at org.bukkit.plugin.java.PluginClassLoader.<init>(PluginClassLoader.java:82) ~[patched_1.12.2.jar:git-Paper-1620]
+	at org.bukkit.plugin.java.JavaPluginLoader.loadPlugin(JavaPluginLoader.java:127) ~[patched_1.12.2.jar:git-Paper-1620]
+	... 6 more
+[17:01:41] [Server thread/INFO]: [JumpPads] Loading JumpPads v1.25.13
+[17:01:41] [Server thread/INFO]: [PlaceholderAPI] Loading PlaceholderAPI v2.11.6
+[17:01:41] [Server thread/INFO]: [ViaVersion] Loading ViaVersion v4.10.2
+[17:01:41] [Server thread/INFO]: [ViaVersion] ViaVersion 4.10.2 is now loaded. Registering protocol transformers and injecting...
+[17:01:42] [Via-Mappingloader-0/INFO]: [ViaVersion] Loading block connection mappings ...
+[17:01:42] [Via-Mappingloader-0/INFO]: [ViaVersion] Using FastUtil Long2ObjectOpenHashMap for block connections
+[17:01:42] [Server thread/INFO]: [ViaBackwards] Loading translations...
+[17:01:42] [Server thread/INFO]: [ViaBackwards] Registering protocols...
+[17:01:42] [Server thread/INFO]: [ViaRewind] Registering protocols...
+[17:01:42] [Server thread/INFO]: [HolographicDisplays] Loading HolographicDisplays v3.0.4
+[17:01:42] [Server thread/INFO]: [PlayerPoints] Loading PlayerPoints v3.0.1
+[17:01:42] [Server thread/INFO]: [ViaBackwards] Loading ViaBackwards v4.10.2
+[17:01:42] [Server thread/INFO]: [MyCommand] Loading MyCommand v5.7.4
+[17:01:42] [Server thread/INFO]: [Multiverse-Core] Loading Multiverse-Core v4.3.1-b861
+[17:01:42] [Server thread/INFO]: [ViaRewind] Loading ViaRewind v3.1.2
+[17:01:42] [Server thread/INFO]: [LuckPerms] Loading LuckPerms v5.4.40
+[17:01:42] [Server thread/INFO]: [ProJumpPads] Loading ProJumpPads v4.0
+[17:01:42] [Server thread/INFO]: [gs] Loading GlobalStats v5.1
+[17:01:42] [Server thread/INFO]: [HolographicExtension] Loading HolographicExtension v1.10.9
+[17:01:42] [Server thread/INFO]: [Images] Loading Images v2.1.7
+[17:01:42] [Server thread/INFO]: [DeluxeHub] Loading DeluxeHub v3.5.5
+[17:01:42] [Server thread/INFO]: [ajLeaderboards] Loading ajLeaderboards v2.8.0
+[17:01:42] [Server thread/INFO]: [ajLeaderboards] Verifying checksum for gson
+[17:01:42] [Server thread/INFO]: [ajLeaderboards] Checksum matched for gson
+[17:01:43] [Server thread/INFO]: [ajLeaderboards] Verifying checksum for jar-relocator
+[17:01:43] [Server thread/INFO]: [ajLeaderboards] Checksum matched for jar-relocator
+[17:01:43] [Server thread/INFO]: [ajLeaderboards] Verifying checksum for asm
+[17:01:43] [Server thread/INFO]: [ajLeaderboards] Checksum matched for asm
+[17:01:43] [Server thread/INFO]: [ajLeaderboards] Verifying checksum for asm-commons
+[17:01:43] [Server thread/INFO]: [ajLeaderboards] Checksum matched for asm-commons
+[17:01:43] [Server thread/INFO]: [ajLeaderboards] Verifying checksum for gson
+[17:01:43] [Server thread/INFO]: [ajLeaderboards] Checksum matched for gson
+[17:01:43] [Server thread/INFO]: [ajLeaderboards] Verifying checksum for HikariCP
+[17:01:43] [Server thread/INFO]: [ajLeaderboards] Checksum matched for HikariCP
+[17:01:43] [Server thread/INFO]: [ajLeaderboards] Verifying checksum for slf4j-api
+[17:01:43] [Server thread/INFO]: [ajLeaderboards] Checksum matched for slf4j-api
+[17:01:43] [Server thread/INFO]: [ajLeaderboards] Verifying checksum for h2
+[17:01:43] [Server thread/INFO]: [ajLeaderboards] Checksum matched for h2
+[17:01:43] [Server thread/INFO]: [GadgetsMenu] Loading GadgetsMenu v4.7.3
+[17:01:43] [Server thread/INFO]: [LPC] Loading LPC v3.6.0
+[17:01:43] [Server thread/INFO]: Server permissions file permissions.yml is empty, ignoring it
+[17:01:43] [Server thread/INFO]: [ViaRewind] Enabling ViaRewind v3.1.2
+[17:01:43] [Server thread/INFO]: [LuckPerms] Enabling LuckPerms v5.4.40
+[17:01:43] [Server thread/INFO]:         __    
+[17:01:43] [Server thread/INFO]:   |    |__)   LuckPerms v5.4.40
+[17:01:43] [Server thread/INFO]:   |___ |      Running on Bukkit - Paper
+[17:01:43] [Server thread/INFO]: 
+[17:01:43] [Server thread/INFO]: [LuckPerms] Loading configuration...
+[17:01:43] [Server thread/INFO]: [LuckPerms] Loading storage provider... [H2]
+[17:01:43] [Server thread/INFO]: [LuckPerms] Loading internal permission managers...
+[17:01:43] [Server thread/INFO]: [LuckPerms] Performing initial data load...
+[17:01:44] [Server thread/INFO]: [LuckPerms] Successfully enabled. (took 959ms)
+[17:01:44] [Server thread/WARN]: **** SERVER IS RUNNING IN OFFLINE/INSECURE MODE!
+[17:01:44] [Server thread/WARN]: The server will make no attempt to authenticate usernames. Beware.
+[17:01:44] [Server thread/WARN]: While this makes the game possible to play without internet access, it also opens up the ability for hackers to connect with any username they choose.
+[17:01:44] [Server thread/WARN]: To change this, set "online-mode" to "true" in the server.properties file.
+[17:01:44] [Server thread/INFO]: **** Beginning UUID conversion, this may take A LONG time ****
+[17:01:44] [Server thread/INFO]: Preparing level "world"
+[17:01:44] [Server thread/WARN]: java.io.EOFException
+[17:01:44] [Server thread/WARN]: 	at java.base/java.io.DataInputStream.readFully(DataInputStream.java:203)
+[17:01:44] [Server thread/WARN]: 	at java.base/java.io.DataInputStream.readUTF(DataInputStream.java:602)
+[17:01:44] [Server thread/WARN]: 	at java.base/java.io.DataInputStream.readUTF(DataInputStream.java:558)
+[17:01:44] [Server thread/WARN]: 	at net.minecraft.server.v1_12_R1.NBTCompressedStreamTools.a(NBTCompressedStreamTools.java:82)
+[17:01:44] [Server thread/WARN]: 	at net.minecraft.server.v1_12_R1.NBTCompressedStreamTools.a(NBTCompressedStreamTools.java:54)
+[17:01:44] [Server thread/WARN]: 	at net.minecraft.server.v1_12_R1.NBTCompressedStreamTools.a(NBTCompressedStreamTools.java:44)
+[17:01:44] [Server thread/WARN]: 	at net.minecraft.server.v1_12_R1.PersistentCollection.b(PersistentCollection.java:124)
+[17:01:44] [Server thread/WARN]: 	at net.minecraft.server.v1_12_R1.PersistentCollection.<init>(PersistentCollection.java:28)
+[17:01:44] [Server thread/WARN]: 	at net.minecraft.server.v1_12_R1.WorldServer.b(WorldServer.java:81)
+[17:01:44] [Server thread/WARN]: 	at net.minecraft.server.v1_12_R1.MinecraftServer.a(MinecraftServer.java:277)
+[17:01:44] [Server thread/WARN]: 	at net.minecraft.server.v1_12_R1.DedicatedServer.init(DedicatedServer.java:289)
+[17:01:44] [Server thread/WARN]: 	at net.minecraft.server.v1_12_R1.MinecraftServer.run(MinecraftServer.java:616)
+[17:01:44] [Server thread/WARN]: 	at java.base/java.lang.Thread.run(Thread.java:840)
+[17:01:44] [Server thread/INFO]: Preparing start region for level 0 (Seed: 0)
+[17:01:44] [Server thread/WARN]: Invalid chunk: (29, 26) Offset: 776 Length: 2 runs off end file. ./world/region/r.-1.0.mca
+[17:01:44] [Server thread/ERROR]: Region file /home/runner/work/github-mcserver/github-mcserver/./world/region/r.-1.0.mca was corrupt. Backing up to /home/runner/work/github-mcserver/github-mcserver/./world/region/r.-1.0.mca.2024-06-08.corrupt and repairing
+[17:01:44] [Server thread/ERROR]: Deleted corrupt chunk (idx:861 - 0,215 - offset: 776 - len: 2) /home/runner/work/github-mcserver/github-mcserver/./world/region/r.-1.0.mca
+[17:01:44] [Server thread/WARN]: java.lang.RuntimeException: Server attempted to load chunk saved with newer version of minecraft! 3105 > 1343
+[17:01:44] [Server thread/WARN]: 	at net.minecraft.server.v1_12_R1.ChunkRegionLoader.a(ChunkRegionLoader.java:104)
+[17:01:44] [Server thread/WARN]: 	at net.minecraft.server.v1_12_R1.ChunkRegionLoader.loadChunk(ChunkRegionLoader.java:83)
+[17:01:44] [Server thread/WARN]: 	at org.bukkit.craftbukkit.v1_12_R1.chunkio.ChunkIOProvider.callStage1(ChunkIOProvider.java:23)
+[17:01:44] [Server thread/WARN]: 	at org.bukkit.craftbukkit.v1_12_R1.chunkio.ChunkIOProvider.callStage1(ChunkIOProvider.java:16)
+[17:01:44] [Server thread/WARN]: 	at org.bukkit.craftbukkit.v1_12_R1.util.AsynchronousExecutor.skipQueue(AsynchronousExecutor.java:336)
+[17:01:44] [Server thread/WARN]: 	at org.bukkit.craftbukkit.v1_12_R1.util.AsynchronousExecutor.getSkipQueue(AsynchronousExecutor.java:295)
+[17:01:44] [Server thread/WARN]: 	at org.bukkit.craftbukkit.v1_12_R1.chunkio.ChunkIOExecutor.lambda$syncChunkLoad$0(ChunkIOExecutor.java:18)
+[17:01:44] [Server thread/WARN]: 	at net.minecraft.server.v1_12_R1.MCUtil.ensureMain(MCUtil.java:69)
+[17:01:44] [Server thread/WARN]: 	at org.bukkit.craftbukkit.v1_12_R1.chunkio.ChunkIOExecutor.syncChunkLoad(ChunkIOExecutor.java:18)
+[17:01:44] [Server thread/WARN]: 	at net.minecraft.server.v1_12_R1.ChunkProviderServer.getChunkAt(ChunkProviderServer.java:170)
+[17:01:44] [Server thread/WARN]: 	at net.minecraft.server.v1_12_R1.ChunkProviderServer.getChunkAt(ChunkProviderServer.java:153)
+[17:01:44] [Server thread/WARN]: 	at net.minecraft.server.v1_12_R1.ChunkProviderServer.getChunkAt(ChunkProviderServer.java:149)
+[17:01:44] [Server thread/WARN]: 	at net.minecraft.server.v1_12_R1.MinecraftServer.l(MinecraftServer.java:394)
+[17:01:44] [Server thread/WARN]: 	at net.minecraft.server.v1_12_R1.MinecraftServer.a(MinecraftServer.java:341)
+[17:01:44] [Server thread/WARN]: 	at net.minecraft.server.v1_12_R1.DedicatedServer.init(DedicatedServer.java:289)
+[17:01:44] [Server thread/WARN]: 	at net.minecraft.server.v1_12_R1.MinecraftServer.run(MinecraftServer.java:616)
+[17:01:44] [Server thread/WARN]: 	at java.base/java.lang.Thread.run(Thread.java:840)
+[17:01:44] [Thread-1/INFO]: Stopping server
+[17:01:44] [Thread-1/INFO]: [LuckPerms] Disabling LuckPerms v5.4.40
+[17:01:44] [Thread-1/INFO]: [LuckPerms] Starting shutdown process...
+[17:01:44] [Thread-1/INFO]: [LuckPerms] Closing storage...
