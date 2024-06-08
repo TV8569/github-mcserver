@@ -103,6 +103,6 @@ MessagesList:
   - '&5• &f&l%state% &5•'
   - '&c»&e&l%size%/%max%&c«'
   JoinNPC:
-  - '&e&lCLICK TO PLAY'
-  - '&b%type%'
-  - '&e&l%players% Players'
+  - '&6&lCLICK HERE TO JOIN'
+  - '&3%type%'
+  - '&e%players% Players'

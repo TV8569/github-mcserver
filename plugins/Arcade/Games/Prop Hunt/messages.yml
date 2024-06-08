@@ -37,7 +37,7 @@ Messages:
   AbilityStunUsedByYou: '&aYou used &eStun&a!'
   AbilityStunNoHit: '&cYou did not hit any Seekers with Stun!'
   AbilityStunYouHit: '&aYou hit &c%hit%&a with &eStun&a!'
-  AbilityCooldown: '&cPlease wait &e%left%s&c before using &e%ability%&c!'
+  AbilityCooldown: '&cPlease wait &e%left%s&c before using &e%ability%&c!"'
   HiderTeam: Hider
   SeekerTeam: Seeker
   HiderPropStick: '&6Prop Stick'
@@ -75,29 +75,29 @@ Messages:
 MessagesList:
   HiderAbilityExplodeLore:
   - '&7Ability: &aExplode'
-  - '  &8%dot% &7Knockback nearby Seekers by'
+  - '  &8* &7Knockback nearby Seekers by'
   - '    &7exploding in place.'
   - ' '
-  - '&eLEFT CLICK &7to use your ability.'
-  - '&eRIGHT CLICK &7a prop to swap with it.'
+  - LEFT CLICK to use your ability.
+  - RIGHT CLICK a prop to swap with it.
   HiderAbilityCamouflageLore:
   - '&7Ability: &aCamouflage'
-  - '  &8%dot% &7Blend in with the map by'
+  - '  &8* &7Blend in with the map by'
   - '    &7temporarily turning yourself'
   - '    &7into the block you are disguised'
   - '    &7as.'
   - ' '
-  - '&eLEFT CLICK &7to use your ability.'
-  - '&eRIGHT CLICK &7a prop to swap with it.'
+  - LEFT CLICK to use your ability.
+  - RIGHT CLICK a prop to swap with it.
   HiderAbilityStunLore:
   - '&7Ability: &aStun'
-  - '  &8%dot% &7Stun nearby Seekers, temporarily'
+  - '  &8* &7Stun nearby Seekers, temporarily'
   - '    &7preventing them from moving and'
   - '    &7hitting Hiders.'
   - '    &7as.'
   - ' '
-  - '&eLEFT CLICK &7to use your ability.'
-  - '&eRIGHT CLICK &7a prop to swap with it.'
+  - LEFT CLICK to use your ability.
+  - RIGHT CLICK a prop to swap with it.
   SeekerMarkingToolLore:
   - '&7Click to cycle marking a'
   - '&7prop as &achecked&7,'
@@ -137,7 +137,7 @@ MessagesList:
   - '  &eLeft click to use your ability!'
   - ' '
   - '&a%line%'
-  - '&aYou are disguised as &e%disguise%�a! Right click other props to swap disguises!'
+  - '&aYou are disguised as &e%disguise%§a! Right click other props to swap disguises!'
   - '&eThe seeker will be released in 20s! Find a good hiding spot or swap with other
     props on the map!'
   WaitingTitle:
@@ -169,4 +169,4 @@ MessagesList:
   - ' '
   - '<SEEKER=Kills: &a%score%#>'
   - '<SEEKER= #>'
-  - '&ewww.spigotmc.org'
+  - '&3Play.GalaxyMC.ir'

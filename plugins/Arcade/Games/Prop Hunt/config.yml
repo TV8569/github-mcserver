@@ -5,7 +5,7 @@ Reward:
   Participation:
   - eco give %player% 5
 Settings:
-  SpectatorPlayAgain: true
   Waiting: 60
-  SpectatorSettings: true
   Ending: 20
+  SpectatorPlayAgain: true
+  SpectatorSettings: true
