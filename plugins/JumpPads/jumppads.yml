@@ -5,15 +5,18 @@ JumpPads:
     plate: LIGHT_WEIGHTED_PRESSURE_PLATE
     power: 15.0
     angle: 45.0
+    color: '&3'
   crmapin, -111, 158, -4:
     owners:
     - 20cf1db0-e54b-388d-8edc-76880a8b4ffa
     plate: LIGHT_WEIGHTED_PRESSURE_PLATE
     power: 15.0
     angle: 45.0
+    color: '&3'
   crmapin, -112, 158, -4:
     owners:
     - 20cf1db0-e54b-388d-8edc-76880a8b4ffa
     plate: LIGHT_WEIGHTED_PRESSURE_PLATE
     power: 15.0
     angle: 45.0
+    color: '&3'
