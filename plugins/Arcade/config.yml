@@ -1,0 +1,29 @@
+Game:
+  Whitelist:
+  - arc
+  - arcade
+  ChatPrivate: true
+  LeaveDelay: true
+  LeaveMaterial: RED_BED
+  RollbackQuantity: 100
+  RollbackInTicksEach: 5
+  CommandsPermission: false
+  ViaBackwards: false
+AutoJoin:
+  Enabled: false
+  AutoScale: true
+  MixedMode: false
+  ShutdownAtEnd: false
+  KickPlayer: false
+  HubServers:
+  - Hub
+MySQL:
+  Enabled: false
+  Host: 127.0.0.1
+  Database: database
+  SSL: true
+  TrustServerCertificates: true
+  AutoReconnect: true
+  Username: Fr33styler
+  Password: '12345'
+  Port: 3306

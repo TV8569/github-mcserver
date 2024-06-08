@@ -1,0 +1,18 @@
+Reward:
+  Enabled: false
+  First:
+  - eco give %player% 50
+  Second:
+  - eco give %player% 30
+  Third:
+  - eco give %player% 15
+  Participation:
+  - eco give %player% 5
+Settings:
+  SpectatorPlayAgain: true
+  ShootDelay: 4
+  EggSpeed: 1.5
+  Waiting: 60
+  SpectatorSettings: true
+  EggsBurst: 2
+  Ending: 20

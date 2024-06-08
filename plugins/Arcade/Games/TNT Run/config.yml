@@ -1,0 +1,13 @@
+Reward:
+  Enabled: false
+  Winner:
+  - eco give %player% 50
+  Participation:
+  - eco give %player% 5
+Settings:
+  CoinsEvery: 15
+  SpectatorPlayAgain: true
+  DoubleJumps: 5
+  Waiting: 60
+  SpectatorSettings: true
+  Ending: 20
