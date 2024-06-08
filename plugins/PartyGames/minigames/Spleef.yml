@@ -1,8 +1,0 @@
-Tutorial-Messages:
-- '&2 --------- &aSpleef &2--------- '
-- '- Use your shovel to break blocks below'
-- other players to eliminate them
-Display-Name: Spleef
-Shovel: 'DIAMOND_SPADE : 1 : enchant:DIG_SPEED:4'
-Round-Duration: 90
-Give-Snowballs-On-Break: true

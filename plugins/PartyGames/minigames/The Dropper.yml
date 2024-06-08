@@ -1,7 +1,0 @@
-Tutorial-Messages:
-- '&2 --------- &aThe Dropper &2--------- '
-- '- Get to the bottom as quickly as possible without dying'
-Display-Name: The Dropper
-Round-Duration: 60
-Potion-Effects:
-- 'REGENERATION : 99999 : 3'

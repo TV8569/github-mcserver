@@ -1,7 +1,0 @@
-Tutorial-Messages:
-- '&2 --------- &aPig Fishing &2--------- '
-- '- Pull pigs into your area to win the game!'
-Display-Name: Pig Fishing
-Round-Duration: 40
-Spawned-Pigs: 20
-Prevent-Players-From-Dropping: true
