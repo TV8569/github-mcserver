@@ -1,14 +1,14 @@
+Settings:
+  PlayTime: 600
+  Waiting: 60
+  Ending: 20
+  BombReplenishCooldown: 100
+  SpectatorPlayAgain: true
+  SpectatorSettings: true
+  BombMaxAmount: 3
 Reward:
   Enabled: false
   Winner:
-  - eco give %player% 50
+  - eco give %player% 10
   Participation:
   - eco give %player% 5
-Settings:
-  SpectatorPlayAgain: true
-  BombReplenishCooldown: 100
-  BombMaxAmount: 3
-  Waiting: 60
-  SpectatorSettings: true
-  PlayTime: 600
-  Ending: 20

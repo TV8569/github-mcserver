@@ -1,3 +1,21 @@
+AnimalSlaughter:
+  Timer: 60
+FrozenFloor:
+  Timer: 60
+HoeHoeHoe:
+  Timer: 60
+MinecartRacing:
+  Speed: 0.15
+PigFishing:
+  Timer: 60
+PunchTheBats:
+  Timer: 60
+Trampolino:
+  Score: 40
+Volcano:
+  Blocks: 20
+Parkour:
+  Timer: 90
 Reward:
   Enabled: false
   First:
@@ -9,17 +27,17 @@ Reward:
   Participation:
   - eco give %player% 5
 Settings:
-  MaxPartyGames: 8
-  AnimalSlaughterPlayTime: 60
-  SpectatorSettings: true
-  MinecartRacingSpeed: 0.15
-  Ending: 20
-  PunchTheBatsPlayTime: 60
-  SpectatorPlayAgain: true
-  HoeHoeHoePlayTime: 60
   Waiting: 60
-  VolcanoBlocksPerSecond: 20
-  PigFishingPlayTime: 60
   ParkourPlayTime: 90
-  TrampolinoScoreToWin: 40
+  PunchTheBatsPlayTime: 60
+  AnimalSlaughterPlayTime: 60
+  SpectatorPlayAgain: true
+  PigFishingPlayTime: 60
+  Ending: 20
   FrozenFloorPlayTime: 60
+  MinecartRacingSpeed: 0.15
+  VolcanoBlocksPerSecond: 20
+  MaxPartyGames: 8
+  SpectatorSettings: true
+  TrampolinoScoreToWin: 40
+  HoeHoeHoePlayTime: 60

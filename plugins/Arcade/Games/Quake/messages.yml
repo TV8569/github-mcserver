@@ -13,7 +13,6 @@ MessagesList:
   Start:
   - '&a%line%'
   - '     &lQuake'
-  - ' '
   - '  &eRight-Click with your Railgun to shoot'
   - '  &ethe enemy before they shoot you!'
   - '  &eLeft-click with it to Dash and dodge!'
@@ -50,4 +49,4 @@ MessagesList:
   - <IN_TOP=#...>
   - '<IN_TOP=#%player%&f: &a%score%>'
   - ' '
-  - '&ewww.spigotmc.org'
+  - '&3Play.GalaxyMC.ir'

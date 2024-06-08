@@ -1,4 +1,8 @@
 Messages:
+  PigFishingTimeLeft: '&6&lTime Left: &c&l%timer%'
+  ParkourFinished: '&7%player% &ehas finished the parkour!'
+  ParkourCheckpoint: '&a&lCheckpoint!'
+  ParkourTimeLeft: '&6&lTime Left: &c&l%timer%'
   ColorRed: Red
   ColorBlue: Blue
   ColorGreen: Green
@@ -18,15 +22,11 @@ Messages:
   HoeHoeHoeYour: '%color% You are %color_name%'
   HoeHoeHoeOnly: '&cYou can only hoe next to %color%%color_name% &ccolor!'
   HoeHoeHoeTimeLeft: '&6&lHoe Time Left: &c&l%timer%'
-  ParkourFinished: '&7%player% &ehas finished the parkour!'
-  ParkourCheckpoint: '&a&lCheckpoint!'
-  ParkourTimeLeft: '&6&lTime Left: &c&l%timer%'
   PunchTheBatsBat: '&aPunch Me!'
   PunchTheBatsBonusBat: '&6Bonus!'
   PunchTheBatsKilled: '&cOuch!'
   PunchTheBatsTimeLeft: '&6&lPunch Time Left: &c&l%timer%'
   PigFishingSuperBacon: '&cSuper Bacon'
-  PigFishingTimeLeft: '&6&lTime Left: &c&l%timer%'
   AnimalSlaughterTimeLeft: '&6&lSlay them all: &c&l%timer%'
   MinecartRacingBPS: '&b&lCurrent Speed: &6&l%bps% Blocks/s'
 MessagesList:
@@ -38,6 +38,14 @@ MessagesList:
   - '  &eA collection of 8 random Mini-Games. Earn'
   - '  &estars/points in each game to be the final'
   - '  &ewinner'
+  - ' '
+  - '&a%line%'
+  ParkourStart:
+  - '&a%line%'
+  - ' '
+  - '    &f&l%partygame%'
+  - ' '
+  - '  &e&lBeat the parkour by keeping a good rhythm!'
   - ' '
   - '&a%line%'
   AvalancheStart:
@@ -56,14 +64,6 @@ MessagesList:
   - '    &f&lHoe Hoe Hoe'
   - ' '
   - '  &e&lGoal: Claim as much land as possible with your hoe!'
-  - ' '
-  - '&a%line%'
-  ParkourStart:
-  - '&a%line%'
-  - ' '
-  - '    &f&l%partygame%'
-  - ' '
-  - '  &e&lBeat the parkour by keeping a good rhythm!'
   - ' '
   - '&a%line%'
   PunchTheBatsStart:
@@ -143,7 +143,7 @@ MessagesList:
   - 'Games: &a%current%/%games%'
   - 'Stars: &a%score%&e%star%'
   - ' '
-  - '&ewww.spigotmc.org'
+  - '&ewww.cxstudios.xyz'
   VolcanoSidebar:
   - '&7%date%'
   - ' '
@@ -157,7 +157,7 @@ MessagesList:
   - 'Games: &a%current%/%games%'
   - 'Stars: &a%score%&e%star%'
   - ' '
-  - '&ewww.spigotmc.org'
+  - '&ewww.cxstudios.xyz'
   FrozenFloorSidebar:
   - '&7%date%'
   - ' '
@@ -171,7 +171,7 @@ MessagesList:
   - 'Games: &a%current%/%games%'
   - 'Stars: &a%score%&e%star%'
   - ' '
-  - '&ewww.spigotmc.org'
+  - '&ewww.cxstudios.xyz'
   PartyGameSidebar:
   - '&7%date%'
   - ' '
@@ -187,7 +187,7 @@ MessagesList:
   - 'Games: &a%current%/%games%'
   - 'Stars: &a%score%&e%star%'
   - ' '
-  - '&ewww.spigotmc.org'
+  - '&ewww.cxstudios.xyz'
   Top:
   - '&a%line%'
   - '      &f&lParty Games'
@@ -242,4 +242,4 @@ MessagesList:
   - 'Games: &a%current%/%games%'
   - 'Stars: &a%score%&e%star%'
   - ' '
-  - '&ewww.spigotmc.org'
+  - '&3Play.GalaxyMC.ir'
