@@ -66,3 +66,20 @@ expansions:
     Rounding: half-up
     Decimals: 3
     Debug: false
+  pinger:
+    offline: '&cOffline'
+    check_interval: 30
+    online: '&aOnline'
+  tempdata:
+    default-hex-format: '&#<hex-color>'
+    player-cache:
+      player:
+        duration: 5
+        time-unit: MINUTES
+      data:
+        duration: 1
+        time-unit: MINUTES
+    global-cache:
+      duration: 5
+      time-unit: MINUTES
+      max-size: 100
