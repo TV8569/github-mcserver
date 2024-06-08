@@ -12,9 +12,10 @@
 
 config-version: 11
 settings:
-  debug: false
   save-user-cache-on-stop-only: false
   sample-count: 12
+  bungeecord: false
+  late-bind: false
   player-shuffle: 0
   filter-creative-items: true
   user-cache-size: 1000
@@ -22,8 +23,6 @@ settings:
   moved-wrongly-threshold: 0.0625
   moved-too-quickly-multiplier: 10.0
   item-dirty-ticks: 20
-  bungeecord: false
-  late-bind: false
   timeout-time: 60
   restart-on-crash: true
   restart-script: ./start.sh
@@ -35,11 +34,13 @@ settings:
       max: 2048.0
     attackDamage:
       max: 2048.0
+  debug: false
   log-named-deaths: true
   moved-too-quickly-threshold: 100.0
   log-villager-deaths: true
 commands:
   tab-complete: 0
+  log: true
   spam-exclusions:
   - /skill
   silent-commandblock-console: false
@@ -48,7 +49,6 @@ commands:
   - summon
   - testforblock
   - tellraw
-  log: true
   send-namespaced: true
 messages:
   whitelist: You are not whitelisted on this server!
@@ -146,11 +146,11 @@ world-settings:
       entity: 50
     squid-spawn-range:
       min: 45.0
+    view-distance: default
     item-despawn-rate: 6000
     merge-radius:
       item: 2.5
       exp: 3.0
-    view-distance: default
     arrow-despawn-rate: 1200
     enable-zombie-pigmen-portal-spawns: true
     wither-spawn-sound-radius: 0
