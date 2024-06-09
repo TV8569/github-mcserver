@@ -93,17 +93,17 @@ scoreboard:
   title: "&3&lArcade"
   lines:
     - ""
-    - "&3&lPlayer INFO"
+    - "&9&lPlayer INFO"
     - ""
     - "&7• &fTime: &3%localtime_time%"
     - "&7• &fName: &7%player%"
     - "&7• &fRole: %luckperms_prefix%"
     - ""
-    - "&3&lSERVER"
+    - "&9&lSERVER INFO"
     - "&7• &fOnline: &3%online%"
     - "&7• &fGames: &311"
     - ""
-    - "     &3&lPlay.GalaxyMC.Ir"
+    - "     &3Play.GalaxyMC.Ir"
 
 # ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~#
 # |TABLIST                                   |
@@ -372,7 +372,7 @@ custom_join_items:
 
 player_hider:
   # Should the player hider feature be enabled?
-  enabled: true
+  enabled: false
   # Slot the item should be given to?
   slot: 0
   # Should we prevent them from moving/dropping the item?

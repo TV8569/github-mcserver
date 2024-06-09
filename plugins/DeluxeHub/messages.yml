@@ -4,7 +4,7 @@
 
 Messages:
   GENERAL:
-    PREFIX: "&0[&5Arcade&0] &F"
+    PREFIX: "&9[&3Arcade&9] &F"
     NO_PERMISSION: "%prefix% &cYou are forbidden to use this."
     CUSTOM_COMMAND_NO_PERMISSION: "&cYou are not allowed to execute this command."
     INVALID_PLAYER: "%prefix% &c%player% is not online!"

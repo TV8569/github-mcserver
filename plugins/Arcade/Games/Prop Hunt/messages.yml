@@ -1,0 +1,172 @@
+Messages:
+  SidebarTitle: '&e&lProp Hunt'
+  SeekerWarmupExpired: '&aYou can now kill the Hiders!'
+  HiderWarmupExpired: '&cThe Seeker is on the loose!'
+  HiderWarmupTimer: '&cThe Seeker will be released in &e%left%s&c!'
+  SeekerStartTitle: '&aYou are the Seeker!'
+  SeekerStartSubtitle: '&aYou will be teleported in &e%left%s&a!'
+  HiderStartTitle: '&bROLE: HIDER'
+  HiderStartSubtitle: '&6Don''t get caught by the Seeker!'
+  SeekerWinTitle: '&cSeekers WIN!'
+  SeekerWinSubtitle: '&eAll Hiders have been found!'
+  HiderWinTitle: '&bHiders WIN!'
+  HiderWinSubtitle: '&eThe Seekers ran out of time!'
+  HiderWinByQuitSubtitle: '&eAll Seekers have died!'
+  HiderAbilityActionbar: '&e&lLEFT CLICK&e to use &a%ability%   &e&lRIGHT CLICK a
+    prop to swap!'
+  HiderAbilityActionbarCooldown: '&7LEFT CLICK to use %ability% (&c%left%&7) &e&lRIGHT
+    CLICK a prop to swap!'
+  HiderDiscoveredByKiller: '%gamer% &7was discovered by %killer%'
+  HiderKilledTitle: '&cYou are now a Seeker!'
+  HiderKilledSubtitle: '%killer% &7discovered you!'
+  MarkedChecked: '&a%mark% CHECKED'
+  MarkedSuspicious: '&c%mark% SUSPICIOUS'
+  MarkedAsChecked: '&eYou marked &a%disguise% &eas &achecked&e. Remember, Hiders can
+    swap what they are disguised as!'
+  MarkedAsSuspicious: '&eYou marked &a%disguise% &eas &csuspicious&e. Remember, Hiders
+    can swap what they are disguised as!'
+  MarkedAsNone: '&eYou unmarked &a%disguise%'
+  PropAlreadyOwned: '&cThat prop is already controlled by %owner%&c!'
+  PropDisguisedAs: '&aYou have disguised yourself as &e%disguise%&a!'
+  AbilityExplosedUsedOnYou: '%gamer% &cused &eExplode&c on you!'
+  AbilityExplosedUsedByYou: '&aYou used &eExplode&a!'
+  AbilityExplosedNoHit: '&cYou did not hit any Seekers with Explode!'
+  AbilityExplosedYouHit: '&aYou hit &c%hit%&a with &eExplode&a!'
+  AbilityStunUsedOnYou: '%gamer% &cused &eStun&c on you!'
+  AbilityStunnedFor: '&cYou have been stunned for &e3s&c!'
+  AbilityStunUsedByYou: '&aYou used &eStun&a!'
+  AbilityStunNoHit: '&cYou did not hit any Seekers with Stun!'
+  AbilityStunYouHit: '&aYou hit &c%hit%&a with &eStun&a!'
+  AbilityCooldown: '&cPlease wait &e%left%s&c before using &e%ability%&c!"'
+  HiderTeam: Hider
+  SeekerTeam: Seeker
+  HiderPropStick: '&6Prop Stick'
+  SeekerSword: '&cSeeker''s Sword'
+  SeekerBow: '&cSeeker''s Bow'
+  SeekerMarkingTool: '&6Marking Tool'
+  Hearthbeat1st: '&c(<3)'
+  Hearthbeat2nd: '&c( <3 )'
+  DisguiseIronSword: Iron Sword
+  DisguiseDiamondSword: Diamond Sword
+  DisguiseIronPickaxe: Iron Pickaxe
+  DisguiseDiamondPickaxe: Diamond Pickaxe
+  DisguiseIronAxe: Iron Axe
+  DisguiseDiamondAxe: Diamond Axe
+  DisguiseIronHoe: Iron Hoe
+  DisguiseDiamondHoe: Diamond Hoe
+  DisguiseStick: Stick
+  DisguiseTNT: TNT
+  DisguiseFurnace: Furnace
+  DisguiseBookshelf: Bookshelf
+  DisguiseCoalOre: Coal Ore
+  DisguiseOakLog: Oak Log
+  DisguiseOakPlanks: Oak Planks
+  DisguiseBirchLog: Birch Log
+  DisguiseBirchPlanks: Birch Planks
+  DisguiseJungleLog: Jungle Log
+  DisguiseJunglePlanks: Jungle Planks
+  DisguiseDarkOakLog: Dark Oak Log
+  DisguiseDarkOakPlanks: Dark Oak Planks
+  DisguiseNoteBlock: Note Block
+  DisguiseHayBlock: Hay Block
+  DisguiseEmeraldBlock: Emerald Block
+  DisguiseCraftingTable: Crafting Table
+  DisguiseEnchantingTable: Enchanting Table
+MessagesList:
+  HiderAbilityExplodeLore:
+  - '&7Ability: &aExplode'
+  - '  &8* &7Knockback nearby Seekers by'
+  - '    &7exploding in place.'
+  - ' '
+  - LEFT CLICK to use your ability.
+  - RIGHT CLICK a prop to swap with it.
+  HiderAbilityCamouflageLore:
+  - '&7Ability: &aCamouflage'
+  - '  &8* &7Blend in with the map by'
+  - '    &7temporarily turning yourself'
+  - '    &7into the block you are disguised'
+  - '    &7as.'
+  - ' '
+  - LEFT CLICK to use your ability.
+  - RIGHT CLICK a prop to swap with it.
+  HiderAbilityStunLore:
+  - '&7Ability: &aStun'
+  - '  &8* &7Stun nearby Seekers, temporarily'
+  - '    &7preventing them from moving and'
+  - '    &7hitting Hiders.'
+  - '    &7as.'
+  - ' '
+  - LEFT CLICK to use your ability.
+  - RIGHT CLICK a prop to swap with it.
+  SeekerMarkingToolLore:
+  - '&7Click to cycle marking a'
+  - '&7prop as &achecked&7,'
+  - '&csuspicious&7 or unmarked.'
+  Top:
+  - '&a%line%'
+  - '    &lProp Hunt'
+  - ' '
+  - '  &lWinner: %winner%'
+  - ' '
+  - '<FIRST=  &e&l1st Seeker&f: %first% &7(&6%first_score%&7)#>'
+  - '<SECOND=  &6&l2nd Seeker&f: %second% &7(&6%second_score%&7)#>'
+  - '<THIRD=  &c&l3rd Seeker&f: %third% &7(&6%third_score%&7)#>'
+  - ' '
+  - '&a%line%'
+  SeekerStart:
+  - '&a%line%'
+  - '    &lProp Hunt'
+  - ' '
+  - '  &b&lYou are the &c&lSEEKER&b&l!'
+  - ' '
+  - '  &eFind and kill all the Hiders to win the game!'
+  - '  &eBeware of Hiders'' tricks!'
+  - ' '
+  - '&a%line%'
+  - '&aYou were chosen as the &cSeeker&a!'
+  - '&aAfter &e20s&a, you will be teleported into the game. Kill all Hiders to win!'
+  HiderStart:
+  - '&a%line%'
+  - '    &lProp Hunt'
+  - ' '
+  - '  &b&lYou are a &a&lHIDER&b&l!'
+  - ' '
+  - '  &eDon''t get caught by the Seeker!'
+  - '  &eRight click a prop to swap places.'
+  - ' '
+  - '  &eLeft click to use your ability!'
+  - ' '
+  - '&a%line%'
+  - '&aYou are disguised as &e%disguise%§a! Right click other props to swap disguises!'
+  - '&eThe seeker will be released in 20s! Find a good hiding spot or swap with other
+    props on the map!'
+  WaitingTitle:
+  - '&e&lProp Hunt'
+  - '&6&lP&e&lrop Hunt'
+  - '&lP&6&lr&e&lop Hunt'
+  - '&lPr&6&lo&e&lp Hunt'
+  - '&lPro&6&lp&e&l Hunt'
+  - '&lProp&6&l &e&lHunt'
+  - '&lProp &6&lH&e&lunt'
+  - '&lProp H&6&lu&e&lnt'
+  - '&lProp Hu&6&ln&e&lt'
+  - '&lProp Hun&6&lt'
+  - '&lProp Hunt'
+  - '&l&lProp Hunt'
+  - '&lProp Hunt'
+  - '&e&lProp Hunt'
+  - '&lProp Hunt'
+  SidebarLines:
+  - '&7%date%'
+  - ' '
+  - 'Role: %team%'
+  - '<SEEKER=#Disguise: &a%disguise%>'
+  - ' '
+  - 'Time Left: &b%countdown%'
+  - ' '
+  - 'Hiders Left: &b%hider_left%'
+  - 'Seekers Left: &b%seeker_left%'
+  - ' '
+  - '<SEEKER=Kills: &a%score%#>'
+  - '<SEEKER= #>'
+  - '&3Play.GalaxyMC.ir'

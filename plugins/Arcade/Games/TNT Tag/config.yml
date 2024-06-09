@@ -1,0 +1,17 @@
+Round: 50
+RoundScaling: -5
+RoundMaxScaling: -30
+Reward:
+  Enabled: false
+  Winner:
+  - eco give %player% 50
+  Participation:
+  - eco give %player% 5
+Settings:
+  Waiting: 60
+  Ending: 20
+  RoundMaxScaling: -30
+  SpectatorPlayAgain: true
+  SpectatorSettings: true
+  Round: 50
+  RoundScaling: -5

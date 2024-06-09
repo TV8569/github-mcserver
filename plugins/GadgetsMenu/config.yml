@@ -86,7 +86,7 @@ Menu-Item:
   # Material: https://github.com/OnlyNoobDied/GadgetsMenu/wiki/Material-Syntax
   Material: CHEST
   # Slot: 0-8
-  Slot: 8
+  Slot: 4
   # Should give player menu selector when they join the server.
   Give-On-Join: true
   # The way to open menu selector.
@@ -97,10 +97,6 @@ Menu-Item:
   Lore:
   - '&7Mystery Dust: &b{MYSTERY_DUST}'
   - ''
-  - '&7Enjoy fun cosmetic features!'
-  - '&7More stuff will be added over time,'
-  - '&7make sure to check our update forums!'
-  - '&7Thanks you for supporting our server.'
 # List of the worlds where cosmetics are enabled!
 Enabled-Worlds:
 - crmapin

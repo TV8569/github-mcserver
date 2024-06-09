@@ -1,0 +1,27 @@
+Games:
+  Apartement:
+    Min: 2
+    Max: 16
+    Lobby: Arcade,-0.54,128.00,1000.45,89.81,0.75
+    Signs:
+    - Arcade,26.50,132.50,27.50,0.00,0.00
+    Walls:
+    - Arcade,-2,87,971,0,110,1029
+    - Arcade,-30,87,999,28,110,1001
+    PlayZone: Arcade,-44,74,964,38,122,1040
+    Spectator: Arcade,-0.35,111.00,1000.42,-359.59,19.80
+    Teams:
+      RED:
+        Spawn: Arcade,16.56,88.56,1017.39,-226.40,3.00
+        WitherSpawn: Arcade,19.83,88.50,1020.89,-224.29,2.25
+      BLUE:
+        Spawn: Arcade,-17.54,88.56,983.51,-45.80,1.65
+        WitherSpawn: Arcade,-21.00,88.50,980.02,-45.03,-0.15
+      GREEN:
+        Spawn: Arcade,-17.49,88.56,1017.56,-133.08,2.85
+        WitherSpawn: Arcade,-21.04,88.50,1021.00,-133.24,1.05
+      YELLOW:
+        Spawn: Arcade,16.51,88.56,983.42,-315.20,-0.00
+        WitherSpawn: Arcade,19.99,88.50,980.01,-314.29,1.05
+JoinNPC:
+- crmapin,-119.50,155.00,34.50,-179.40,-2.70

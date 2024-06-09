@@ -1,0 +1,11 @@
+Reward:
+  Enabled: false
+  Winner:
+  - eco give %player% 50
+  Participation:
+  - eco give %player% 5
+Settings:
+  Waiting: 60
+  Ending: 20
+  SpectatorPlayAgain: true
+  SpectatorSettings: true

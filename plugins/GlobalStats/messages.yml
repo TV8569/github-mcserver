@@ -1,7 +1,0 @@
-Messages:
-  Reload: '&2The configuration was reloaded!'
-  Refresh: '&2Generating Top list.... This can take some time!'
-  KeyToFile: '&2A file with all current keys was created in your plugins folder!'
-  KeyAdded: '&6New key was added to GlobalStats! &rUse ["/gs reload"](/gs reload)
-    or wait for the next refresh.'
-  CleanDatabase: '&6The CleanDatabase mode was started and is executed in the background... '
