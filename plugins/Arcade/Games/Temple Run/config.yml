@@ -1,3 +1,4 @@
+PlayTime: 600
 Reward:
   Enabled: false
   First:
@@ -9,9 +10,9 @@ Reward:
   Participation:
   - eco give %player% 5
 Settings:
-  SpectatorPlayAgain: true
   CheckpointAt: 15
-  Waiting: 60
-  SpectatorSettings: true
   PlayTime: 600
+  Waiting: 60
   Ending: 20
+  SpectatorPlayAgain: true
+  SpectatorSettings: true

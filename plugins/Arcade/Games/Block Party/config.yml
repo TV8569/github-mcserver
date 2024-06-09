@@ -6,6 +6,6 @@ Reward:
   - eco give %player% 5
 Settings:
   SpectatorPlayAgain: true
+  Ending: 20
   Waiting: 60
   SpectatorSettings: true
-  Ending: 20

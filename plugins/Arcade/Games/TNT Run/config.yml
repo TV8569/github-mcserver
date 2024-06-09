@@ -5,9 +5,9 @@ Reward:
   Participation:
   - eco give %player% 5
 Settings:
-  CoinsEvery: 15
   SpectatorPlayAgain: true
-  DoubleJumps: 5
-  Waiting: 60
-  SpectatorSettings: true
+  CoinsEvery: 15
   Ending: 20
+  Waiting: 60
+  DoubleJumps: 5
+  SpectatorSettings: true
