@@ -323,3 +323,6 @@ java.lang.IllegalStateException: Invalid pool element found
 [22:07:04] [Server thread/INFO]: amirabbas8585 issued server command: /gamemode adventure
 [22:07:12] [Server thread/INFO]: amirabbas8585 issued server command: /gamemode creative
 [22:08:19] [Server thread/INFO]: amirabbas8585 issued server command: /pl
+[22:09:42] [Server thread/INFO]: amirabbas8585 issued server command: /gamemode adventure
+[22:10:54] [Server thread/INFO]: amirabbas8585 issued server command: /gms
+[22:10:59] [Server thread/INFO]: amirabbas8585 issued server command: /gmc
