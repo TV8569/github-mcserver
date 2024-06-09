@@ -1,4 +1,4 @@
-Messages:
+    Messages:
   GameIsFull: '&cThe game is full!'
   GameIsReseting: '&cThe game is reseting!'
   GameIsStarted: '&cThe game is already started!'
@@ -96,7 +96,7 @@ MessagesList:
   - <STARTING=allow time for#&a%required%&f more players join>
   - <STARTING=additional players#>
   - ' '
-  - '&ewww.spigotmc.org'
+  - '&3Play.GalaxyMC.ir'
   JoinSign:
   - '%type%'
   - '%name%'

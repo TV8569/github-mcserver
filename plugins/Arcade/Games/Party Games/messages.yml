@@ -143,7 +143,7 @@ MessagesList:
   - 'Games: &a%current%/%games%'
   - 'Stars: &a%score%&e%star%'
   - ' '
-  - '&ewww.cxstudios.xyz'
+  - '&3Play.GalaxyMC.ir'
   VolcanoSidebar:
   - '&7%date%'
   - ' '
@@ -171,7 +171,7 @@ MessagesList:
   - 'Games: &a%current%/%games%'
   - 'Stars: &a%score%&e%star%'
   - ' '
-  - '&ewww.cxstudios.xyz'
+  - '&3Play.GalaxyMC.ir'
   PartyGameSidebar:
   - '&7%date%'
   - ' '
@@ -187,7 +187,7 @@ MessagesList:
   - 'Games: &a%current%/%games%'
   - 'Stars: &a%score%&e%star%'
   - ' '
-  - '&ewww.cxstudios.xyz'
+  - '&3Play.GalaxyMC.ir'
   Top:
   - '&a%line%'
   - '      &f&lParty Games'

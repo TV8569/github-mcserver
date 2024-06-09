@@ -25,7 +25,6 @@ MessagesList:
   Start:
   - '&a%line%'
   - '     &lTNT Tag'
-  - ' '
   - '  &eAvoid players with TNT on their heads! if'
   - '  &ethey hit you, try to tag another player'
   - '  &ebefore the TNT explodes!'
@@ -69,4 +68,4 @@ MessagesList:
   - 'Alive: &a%alive% Players'
   - ' '
   - '&7%date%'
-  - '&ewww.spigotmc.org'
+  - '&&3Play.GalaxyMC.ir'
