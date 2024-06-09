@@ -1,12 +1,12 @@
 Games:
   '1':
-    Min: 4
+    Min: 2
     Max: 12
     Name: blcok
     Lobby: block,-28.61,20.50,-52.06,89.70,-4.35
     Signs: []
     Settings:
-      Enabled: false
+      Enabled: true
       SpectatorSettings: true
       Ending: 20
       Waiting: 60

@@ -22,9 +22,9 @@ Messages:
 
   FLIGHT:
     ENABLE: "%prefix% &aYou have enabled flight"
-    DISABLE: "%prefix% &cYou have disabled flight"
+    DISABLE: ""
     ENABLE_OTHER: "%prefix% &cYou have enabled flight for &7%player%"
-    DISABLE_OTHER: "%prefix% &cYou have disabled flight for &7%player%"
+    DISABLE_OTHER: ""
 
   PLAYER_HIDER:
     HIDDEN: "%prefix% &cPlayer visibility disabled"
