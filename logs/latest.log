@@ -470,3 +470,5 @@ java.lang.IllegalStateException: Invalid pool element found
 [06:48:08] [Server thread/INFO]: amirabbas8585 issued server command: /quake start
 [06:48:11] [Server thread/INFO]: amirabbas8585 issued server command: /quake start 1
 [06:48:13] [Server thread/INFO]: amirabbas8585 issued server command: /quake start 2
+[06:54:46] [Server thread/INFO]: amirabbas8585 issued server command: /time set day
+[06:54:46] [Server thread/INFO]: [amirabbas8585: Set the time to 1000]
