@@ -463,3 +463,138 @@ java.lang.IllegalStateException: Invalid pool element found
 [06:37:20] [Server thread/INFO]: + amirabbas8585 Connected
 [06:37:20] [Server thread/INFO]: amirabbas8585[/[0:0:0:0:0:0:0:1%0]:41262] logged in with entity id 22 at ([crmapin]-117.69999998807907, 158.0, -2.6680697842477885)
 [06:37:23] [Craft Scheduler Thread - 17 - PlaceholderAPI/INFO]: [LocalTime] Couldn't get amirabbas8585's timezone. Will use default timezone.
+[06:37:57] [Server thread/INFO]: amirabbas8585 issued server command: /arcade reload
+[06:37:57] [Server thread/INFO]: =-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=
+[06:37:57] [Server thread/INFO]: Arcade plugin is disabling... 
+[06:37:57] [Server thread/INFO]: Closing the database...
+[06:37:57] [Server thread/INFO]: Arcade plugin has been disabled... 
+[06:37:57] [Server thread/INFO]: =-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=
+[06:37:57] [Server thread/INFO]: [Arcade] [STDOUT] [36m[Spigotunlocked.net] - -Michy-
+[06:37:57] [Server thread/INFO]: =-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=
+[06:37:57] [Server thread/INFO]: Arcade plugin is loading... 
+[06:37:57] [Server thread/INFO]:  Author: Fr33styler
+[06:37:57] [Server thread/INFO]:  Version: 1.53
+[06:37:57] [Server thread/INFO]:  - Loading engine...
+[06:37:57] [Server thread/WARN]: org.bukkit.configuration.InvalidConfigurationException: expected '<document start>', but found '<block mapping start>'
+[06:37:57] [Server thread/WARN]:  in 'reader', line 2, column 3:
+[06:37:57] [Server thread/WARN]:       GameIsFull: '&cThe game is full!'
+[06:37:57] [Server thread/WARN]:       ^
+[06:37:57] [Server thread/WARN]: 
+[06:37:57] [Server thread/WARN]: 	at org.bukkit.configuration.file.YamlConfiguration.loadFromString(YamlConfiguration.java:104)
+[06:37:57] [Server thread/WARN]: 	at org.bukkit.configuration.file.FileConfiguration.load(FileConfiguration.java:160)
+[06:37:57] [Server thread/WARN]: 	at org.bukkit.configuration.file.FileConfiguration.load(FileConfiguration.java:128)
+[06:37:57] [Server thread/WARN]: 	at Arcade_1.19_FIX.jar//ro.fr33styler.arcade.q.<init>(a:34)
+[06:37:57] [Server thread/WARN]: 	at Arcade_1.19_FIX.jar//ro.fr33styler.arcade.Arcade.onEnable(a:96)
+[06:37:57] [Server thread/WARN]: 	at Arcade_1.19_FIX.jar//ro.fr33styler.arcade.l.a(a:30)
+[06:37:57] [Server thread/WARN]: 	at Arcade_1.19_FIX.jar//ro.fr33styler.arcade.g.execute(a:80)
+[06:37:57] [Server thread/WARN]: 	at org.bukkit.command.SimpleCommandMap.dispatch(SimpleCommandMap.java:155)
+[06:37:57] [Server thread/WARN]: 	at org.bukkit.craftbukkit.v1_19_R1.CraftServer.dispatchCommand(CraftServer.java:909)
+[06:37:57] [Server thread/WARN]: 	at net.minecraft.server.network.PlayerConnection.handleCommand(PlayerConnection.java:2382)
+[06:37:57] [Server thread/WARN]: 	at net.minecraft.server.network.PlayerConnection.lambda$handleChatCommand$18(PlayerConnection.java:2153)
+[06:37:57] [Server thread/WARN]: 	at net.minecraft.server.TickTask.run(TickTask.java:18)
+[06:37:57] [Server thread/WARN]: 	at net.minecraft.util.thread.IAsyncTaskHandler.d(IAsyncTaskHandler.java:153)
+[06:37:57] [Server thread/WARN]: 	at net.minecraft.util.thread.IAsyncTaskHandlerReentrant.d(IAsyncTaskHandlerReentrant.java:24)
+[06:37:57] [Server thread/WARN]: 	at net.minecraft.server.MinecraftServer.b(MinecraftServer.java:1359)
+[06:37:57] [Server thread/WARN]: 	at net.minecraft.server.MinecraftServer.d(MinecraftServer.java:183)
+[06:37:57] [Server thread/WARN]: 	at net.minecraft.util.thread.IAsyncTaskHandler.x(IAsyncTaskHandler.java:126)
+[06:37:57] [Server thread/WARN]: 	at net.minecraft.server.MinecraftServer.bh(MinecraftServer.java:1336)
+[06:37:57] [Server thread/WARN]: 	at net.minecraft.server.MinecraftServer.x(MinecraftServer.java:1329)
+[06:37:57] [Server thread/WARN]: 	at net.minecraft.util.thread.IAsyncTaskHandler.c(IAsyncTaskHandler.java:136)
+[06:37:57] [Server thread/WARN]: 	at net.minecraft.server.MinecraftServer.w(MinecraftServer.java:1307)
+[06:37:57] [Server thread/WARN]: 	at net.minecraft.server.MinecraftServer.v(MinecraftServer.java:1192)
+[06:37:57] [Server thread/WARN]: 	at net.minecraft.server.MinecraftServer.lambda$spin$0(MinecraftServer.java:303)
+[06:37:57] [Server thread/WARN]: 	at java.base/java.lang.Thread.run(Thread.java:840)
+[06:37:57] [Server thread/WARN]: Caused by: expected '<document start>', but found '<block mapping start>'
+[06:37:57] [Server thread/WARN]:  in 'reader', line 2, column 3:
+[06:37:57] [Server thread/WARN]:       GameIsFull: '&cThe game is full!'
+[06:37:57] [Server thread/WARN]:       ^
+[06:37:57] [Server thread/WARN]: 
+[06:37:57] [Server thread/WARN]: 	at org.yaml.snakeyaml.parser.ParserImpl$ParseDocumentStart.produce(ParserImpl.java:259)
+[06:37:57] [Server thread/WARN]: 	at org.yaml.snakeyaml.parser.ParserImpl.peekEvent(ParserImpl.java:166)
+[06:37:57] [Server thread/WARN]: 	at org.yaml.snakeyaml.parser.ParserImpl.checkEvent(ParserImpl.java:156)
+[06:37:57] [Server thread/WARN]: 	at org.yaml.snakeyaml.composer.Composer.getSingleNode(Composer.java:145)
+[06:37:57] [Server thread/WARN]: 	at org.yaml.snakeyaml.Yaml.compose(Yaml.java:575)
+[06:37:57] [Server thread/WARN]: 	at org.bukkit.configuration.file.YamlConfiguration.loadFromString(YamlConfiguration.java:102)
+[06:37:57] [Server thread/WARN]: 	... 23 more
+[06:37:57] [Server thread/INFO]: [Arcade] [STDOUT] Error loading message: Messages.SpectatorSettingItemTeleportOn
+[06:37:57] [Server thread/INFO]: [Arcade] [STDOUT] Error loading message: Messages.GameIsFull
+[06:37:57] [Server thread/INFO]: [Arcade] [STDOUT] Error loading message: Messages.LeaderboardLifetime
+[06:37:57] [Server thread/INFO]: [Arcade] [STDOUT] Error loading message: Messages.SpectatorTeleporterPage
+[06:37:57] [Server thread/INFO]: [Arcade] [STDOUT] Error loading message: Messages.GameBroadcastLeave
+[06:37:57] [Server thread/INFO]: [Arcade] [STDOUT] Error loading message: Messages.SpectatorTarget
+[06:37:57] [Server thread/INFO]: [Arcade] [STDOUT] Error loading message: Messages.SpectatorSettingItemNightVisionOff
+[06:37:57] [Server thread/INFO]: [Arcade] [STDOUT] Error loading message: Messages.LeaderboardNoData
+[06:37:57] [Server thread/INFO]: [Arcade] [STDOUT] Error loading message: Messages.SpectatorSpectateSubtitle
+[06:37:57] [Server thread/INFO]: [Arcade] [STDOUT] Error loading message: Messages.LeaderboardWeekly
+[06:37:57] [Server thread/INFO]: [Arcade] [STDOUT] Error loading message: MessagesList.SidebarLines
+[06:37:57] [Server thread/INFO]: [Arcade] [STDOUT] Error loading message: MessagesList.ItemLeaveLore
+[06:37:57] [Server thread/INFO]: [Arcade] [STDOUT] Error loading message: Messages.GameIsStarted
+[06:37:57] [Server thread/INFO]: [Arcade] [STDOUT] Error loading message: Messages.GameStartCancelled
+[06:37:57] [Server thread/INFO]: [Arcade] [STDOUT] Error loading message: Messages.GameLeaveDelay
+[06:37:57] [Server thread/INFO]: [Arcade] [STDOUT] Error loading message: Messages.LeaderboardNone
+[06:37:57] [Server thread/INFO]: [Arcade] [STDOUT] Error loading message: Messages.LeaderboardTogglerClick
+[06:37:57] [Server thread/INFO]: [Arcade] [STDOUT] Error loading message: Messages.SpectatorSettingItemSpeed
+[06:37:57] [Server thread/INFO]: [Arcade] [STDOUT] Error loading message: Messages.SpectatorSettingItemTeleportOff
+[06:37:57] [Server thread/INFO]: [Arcade] [STDOUT] Error loading message: MessagesList.ItemPlayAgainLore
+[06:37:57] [Server thread/INFO]: [Arcade] [STDOUT] Error loading message: Messages.GameLeaveCancelled
+[06:37:57] [Server thread/INFO]: [Arcade] [STDOUT] Error loading message: Messages.ItemSettings
+[06:37:57] [Server thread/INFO]: [Arcade] [STDOUT] Error loading message: Messages.LeaderboardGame
+[06:37:57] [Server thread/INFO]: [Arcade] [STDOUT] Error loading message: Messages.SpectatorTeleporter
+[06:37:57] [Server thread/INFO]: [Arcade] [STDOUT] Error loading message: Messages.GameRestrictedCommand
+[06:37:57] [Server thread/INFO]: [Arcade] [STDOUT] Error loading message: Messages.SpectatorSettingNightVisionOn
+[06:37:57] [Server thread/INFO]: [Arcade] [STDOUT] Error loading message: Messages.GameBroadcastJoin
+[06:37:57] [Server thread/INFO]: [Arcade] [STDOUT] Error loading message: Messages.SpectatorSettingTeleportOn
+[06:37:57] [Server thread/INFO]: [Arcade] [STDOUT] Error loading message: Messages.GameStart
+[06:37:57] [Server thread/INFO]: [Arcade] [STDOUT] Error loading message: Messages.SpectatorExit
+[06:37:57] [Server thread/INFO]: [Arcade] [STDOUT] Error loading message: Messages.SpectatorSettingItemNightVisionOn
+[06:37:57] [Server thread/INFO]: [Arcade] [STDOUT] Error loading message: Messages.GameAlreadyIngame
+[06:37:57] [Server thread/INFO]: [Arcade] [STDOUT] Error loading message: Messages.LeaderboardPosition
+[06:37:57] [Server thread/INFO]: [Arcade] [STDOUT] Error loading message: Messages.SpectatorSpectateTitle
+[06:37:57] [Server thread/INFO]: [Arcade] [STDOUT] Error loading message: Messages.ItemLeave
+[06:37:57] [Server thread/INFO]: [Arcade] [STDOUT] Error loading message: Messages.SpectatorSettingFirstPersonOff
+[06:37:57] [Server thread/INFO]: [Arcade] [STDOUT] Error loading message: Messages.StateReseting
+[06:37:57] [Server thread/INFO]: [Arcade] [STDOUT] Error loading message: Messages.GameChatFormat
+[06:37:57] [Server thread/INFO]: [Arcade] [STDOUT] Error loading message: MessagesList.JoinSign
+[06:37:57] [Server thread/INFO]: [Arcade] [STDOUT] Error loading message: Messages.LeaderboardClick
+[06:37:57] [Server thread/INFO]: [Arcade] [STDOUT] Error loading message: Messages.LeaderboardShowPosition
+[06:37:57] [Server thread/INFO]: [Arcade] [STDOUT] Error loading message: Messages.SpectatorSettingNightVisionOff
+[06:37:57] [Server thread/INFO]: [Arcade] [STDOUT] Error loading message: Messages.SpectatorSettingFirstPersonOn
+[06:37:57] [Server thread/INFO]: [Arcade] [STDOUT] Error loading message: MessagesList.ItemSettingsLore
+[06:37:57] [Server thread/INFO]: [Arcade] [STDOUT] Error loading message: Messages.SpectatorSettingTitle
+[06:37:57] [Server thread/INFO]: [Arcade] [STDOUT] Error loading message: Messages.SpectatorSettingTeleportOff
+[06:37:57] [Server thread/INFO]: [Arcade] [STDOUT] Error loading message: Messages.StateIngame
+[06:37:57] [Server thread/INFO]: [Arcade] [STDOUT] Error loading message: Messages.ItemPlayAgain
+[06:37:57] [Server thread/INFO]: [Arcade] [STDOUT] Error loading message: Messages.SpectatorSettingNoSpeed
+[06:37:57] [Server thread/INFO]: [Arcade] [STDOUT] Error loading message: Messages.LeaderboardMonthly
+[06:37:57] [Server thread/INFO]: [Arcade] [STDOUT] Error loading message: Messages.SpectatorSettingSpeed
+[06:37:57] [Server thread/INFO]: [Arcade] [STDOUT] Error loading message: Messages.GameNotFound
+[06:37:57] [Server thread/INFO]: [Arcade] [STDOUT] Error loading message: Messages.LeaderboardTop
+[06:37:57] [Server thread/INFO]: [Arcade] [STDOUT] Error loading message: Messages.SpectatorPage
+[06:37:57] [Server thread/INFO]: [Arcade] [STDOUT] Error loading message: Messages.SpectatorSettingItemFirstPersonOn
+[06:37:57] [Server thread/INFO]: [Arcade] [STDOUT] Error loading message: Messages.SpectatorTargetFirstPerson
+[06:37:57] [Server thread/INFO]: [Arcade] [STDOUT] Error loading message: Messages.LeaderboardRank
+[06:37:57] [Server thread/INFO]: [Arcade] [STDOUT] Error loading message: Messages.SpectatorSpectate
+[06:37:57] [Server thread/INFO]: [Arcade] [STDOUT] Error loading message: Messages.SpectatorSettingItemNoSpeed
+[06:37:57] [Server thread/INFO]: [Arcade] [STDOUT] Error loading message: Messages.SpectatorSettingItemFirstPersonOff
+[06:37:57] [Server thread/INFO]: [Arcade] [STDOUT] Error loading message: Messages.StateWaiting
+[06:37:57] [Server thread/INFO]: [Arcade] [STDOUT] Error loading message: MessagesList.JoinNPC
+[06:37:57] [Server thread/INFO]: [Arcade] [STDOUT] Error loading message: Messages.LeaderboardWins
+[06:37:57] [Server thread/INFO]: [Arcade] [STDOUT] Error loading message: Messages.LeaderboardLoading
+[06:37:57] [Server thread/INFO]:  - Loading database...
+[06:37:57] [Server thread/INFO]:  - Loading Party Games...
+[06:37:57] [Server thread/INFO]:  - Loading Mini Walls...
+[06:37:57] [Server thread/INFO]:  - Loading Splegg...
+[06:37:57] [Server thread/INFO]:  - Loading Temple Run...
+[06:37:57] [Server thread/INFO]:  - Loading Bomb Lobbers...
+[06:37:57] [Server thread/INFO]:  - Loading TNT Run...
+[06:37:57] [Server thread/INFO]:  - Loading Prop Hunt...
+[06:37:57] [Server thread/INFO]:  - Loading Quake...
+[06:37:57] [Server thread/INFO]:  - Loading Block Party...
+[06:37:58] [Server thread/INFO]:  - Loading TNT Tag...
+[06:37:58] [Server thread/INFO]: [PlaceholderAPI] Successfully registered internal expansion: arcade [null]
+[06:37:58] [Server thread/INFO]: Arcade has been loaded!
+[06:37:58] [Server thread/INFO]: =-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=
+[06:38:26] [User Authenticator #2/INFO]: UUID of player Walter1389 is dc679653-70a9-30b1-9ef7-e24320742ebe
+[06:38:26] [Server thread/INFO]: + Walter1389 Connected
+[06:38:26] [Server thread/INFO]: Walter1389[/[0:0:0:0:0:0:0:1%0]:41976] logged in with entity id 850 at ([crmapin]-110.53096151296127, 158.0, -9.624678432472459)
+[06:38:29] [Craft Scheduler Thread - 18 - PlaceholderAPI/INFO]: [LocalTime] Couldn't get Walter1389's timezone. Will use default timezone.
