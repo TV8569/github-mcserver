@@ -1,18 +1,18 @@
-[20:51:58] [ServerMain/INFO]: Building unoptimized datafixer
-[20:51:59] [ServerMain/INFO]: Environment: authHost='https://authserver.mojang.com', accountsHost='https://api.mojang.com', sessionHost='https://sessionserver.mojang.com', servicesHost='https://api.minecraftservices.com', name='PROD'
-[20:52:01] [ServerMain/INFO]: Loaded 7 recipes
-[20:52:02] [Server thread/INFO]: Starting minecraft server version 1.19
-[20:52:02] [Server thread/INFO]: Loading properties
-[20:52:02] [Server thread/INFO]: This server is running Paper version git-Paper-81 (MC: 1.19) (Implementing API version 1.19-R0.1-SNAPSHOT) (Git: 86f87ba)
-[20:52:02] [Server thread/INFO]: Server Ping Player Sample Count: 12
-[20:52:02] [Server thread/INFO]: Using 4 threads for Netty based IO
-[20:52:03] [Server thread/INFO]: Default game type: SURVIVAL
-[20:52:03] [Server thread/INFO]: Generating keypair
-[20:52:03] [Server thread/INFO]: Starting Minecraft server on *:25565
-[20:52:03] [Server thread/INFO]: Using epoll channel type
-[20:52:03] [Server thread/INFO]: Paper: Using libdeflate (Linux x86_64) compression from Velocity.
-[20:52:03] [Server thread/INFO]: Paper: Using OpenSSL 1.1.x (Linux x86_64) cipher from Velocity.
-[20:52:03] [Server thread/ERROR]: Could not load 'plugins/images.jar' in folder 'plugins'
+[06:34:38] [ServerMain/INFO]: Building unoptimized datafixer
+[06:34:40] [ServerMain/INFO]: Environment: authHost='https://authserver.mojang.com', accountsHost='https://api.mojang.com', sessionHost='https://sessionserver.mojang.com', servicesHost='https://api.minecraftservices.com', name='PROD'
+[06:34:41] [ServerMain/INFO]: Loaded 7 recipes
+[06:34:43] [Server thread/INFO]: Starting minecraft server version 1.19
+[06:34:43] [Server thread/INFO]: Loading properties
+[06:34:43] [Server thread/INFO]: This server is running Paper version git-Paper-81 (MC: 1.19) (Implementing API version 1.19-R0.1-SNAPSHOT) (Git: 86f87ba)
+[06:34:43] [Server thread/INFO]: Server Ping Player Sample Count: 12
+[06:34:43] [Server thread/INFO]: Using 4 threads for Netty based IO
+[06:34:43] [Server thread/INFO]: Default game type: SURVIVAL
+[06:34:43] [Server thread/INFO]: Generating keypair
+[06:34:43] [Server thread/INFO]: Starting Minecraft server on *:25565
+[06:34:43] [Server thread/INFO]: Using epoll channel type
+[06:34:43] [Server thread/INFO]: Paper: Using libdeflate (Linux x86_64) compression from Velocity.
+[06:34:43] [Server thread/INFO]: Paper: Using OpenSSL 1.1.x (Linux x86_64) cipher from Velocity.
+[06:34:44] [Server thread/ERROR]: Could not load 'plugins/images.jar' in folder 'plugins'
 org.bukkit.plugin.InvalidPluginException: java.lang.ExceptionInInitializerError
 	at org.bukkit.plugin.java.JavaPluginLoader.loadPlugin(JavaPluginLoader.java:157) ~[paper-api-1.19-R0.1-SNAPSHOT.jar:?]
 	at org.bukkit.plugin.SimplePluginManager.loadPlugin(SimplePluginManager.java:411) ~[paper-api-1.19-R0.1-SNAPSHOT.jar:?]
@@ -50,186 +50,292 @@ Caused by: java.lang.IllegalArgumentException: No enum constant com.andavin.util
 	at org.bukkit.plugin.java.PluginClassLoader.<init>(PluginClassLoader.java:71) ~[paper-api-1.19-R0.1-SNAPSHOT.jar:?]
 	at org.bukkit.plugin.java.JavaPluginLoader.loadPlugin(JavaPluginLoader.java:153) ~[paper-api-1.19-R0.1-SNAPSHOT.jar:?]
 	... 7 more
-[20:52:03] [Server thread/INFO]: [WorldEdit] Loading WorldEdit v7.2.12+6240-87f4ae1
-[20:52:04] [Server thread/INFO]: Got request to register class com.sk89q.worldedit.bukkit.BukkitServerInterface with WorldEdit [com.sk89q.worldedit.extension.platform.PlatformManager@44fb6252]
-[20:52:04] [Server thread/INFO]: [JumpPads] Loading JumpPads v1.25.13
-[20:52:04] [Server thread/INFO]: [PlaceholderAPI] Loading PlaceholderAPI v2.11.6
-[20:52:04] [Server thread/INFO]: [ViaVersion] Loading ViaVersion v4.10.2
-[20:52:04] [Server thread/INFO]: [ViaVersion] ViaVersion 4.10.2 is now loaded. Registering protocol transformers and injecting...
-[20:52:04] [Via-Mappingloader-0/INFO]: [ViaVersion] Loading block connection mappings ...
-[20:52:05] [Via-Mappingloader-0/INFO]: [ViaVersion] Using FastUtil Long2ObjectOpenHashMap for block connections
-[20:52:05] [Server thread/INFO]: [ViaBackwards] Loading translations...
-[20:52:05] [Server thread/INFO]: [ViaBackwards] Registering protocols...
-[20:52:05] [Server thread/INFO]: [ViaRewind] Registering protocols...
-[20:52:05] [Server thread/INFO]: [HolographicDisplays] Loading HolographicDisplays v3.0.4
-[20:52:05] [Server thread/INFO]: [PlayerPoints] Loading PlayerPoints v3.0.1
-[20:52:05] [Server thread/INFO]: [ViaBackwards] Loading ViaBackwards v4.10.2
-[20:52:05] [Server thread/INFO]: [MyCommand] Loading MyCommand v5.7.4
-[20:52:05] [Server thread/INFO]: [Multiverse-Core] Loading Multiverse-Core v4.3.1-b861
-[20:52:05] [Server thread/INFO]: [ViaRewind] Loading ViaRewind v3.1.2
-[20:52:05] [Server thread/INFO]: [LuckPerms] Loading LuckPerms v5.4.40
-[20:52:05] [Server thread/INFO]: [ProJumpPads] Loading ProJumpPads v4.0
-[20:52:05] [Server thread/INFO]: [gs] Loading GlobalStats v5.1
-[20:52:05] [Server thread/INFO]: [HolographicExtension] Loading HolographicExtension v1.10.9
-[20:52:05] [Server thread/INFO]: [DeluxeHub] Loading DeluxeHub v3.5.5
-[20:52:05] [Server thread/INFO]: [ajLeaderboards] Loading ajLeaderboards v2.8.0
-[20:52:05] [Server thread/INFO]: [ajLeaderboards] Verifying checksum for gson
-[20:52:05] [Server thread/INFO]: [ajLeaderboards] Checksum matched for gson
-[20:52:06] [Server thread/INFO]: [ajLeaderboards] Verifying checksum for jar-relocator
-[20:52:06] [Server thread/INFO]: [ajLeaderboards] Checksum matched for jar-relocator
-[20:52:06] [Server thread/INFO]: [ajLeaderboards] Verifying checksum for asm
-[20:52:06] [Server thread/INFO]: [ajLeaderboards] Checksum matched for asm
-[20:52:06] [Server thread/INFO]: [ajLeaderboards] Verifying checksum for asm-commons
-[20:52:06] [Server thread/INFO]: [ajLeaderboards] Checksum matched for asm-commons
-[20:52:06] [Server thread/INFO]: [ajLeaderboards] Verifying checksum for gson
-[20:52:06] [Server thread/INFO]: [ajLeaderboards] Checksum matched for gson
-[20:52:06] [Server thread/INFO]: [ajLeaderboards] Verifying checksum for HikariCP
-[20:52:06] [Server thread/INFO]: [ajLeaderboards] Checksum matched for HikariCP
-[20:52:06] [Server thread/INFO]: [ajLeaderboards] Verifying checksum for slf4j-api
-[20:52:06] [Server thread/INFO]: [ajLeaderboards] Checksum matched for slf4j-api
-[20:52:06] [Server thread/INFO]: [ajLeaderboards] Verifying checksum for h2
-[20:52:06] [Server thread/INFO]: [ajLeaderboards] Checksum matched for h2
-[20:52:06] [Server thread/INFO]: [Arcade] Loading Arcade v1.53
-[20:52:06] [Server thread/INFO]: [GadgetsMenu] Loading GadgetsMenu v4.7.3
-[20:52:06] [Server thread/INFO]: [LPC] Loading LPC v3.6.0
-[20:52:06] [Server thread/INFO]: Server permissions file permissions.yml is empty, ignoring it
-[20:52:06] [Server thread/INFO]: [WorldEdit] Enabling WorldEdit v7.2.12+6240-87f4ae1
-[20:52:06] [Server thread/INFO]: Registering commands with com.sk89q.worldedit.bukkit.BukkitServerInterface
-[20:52:06] [Server thread/INFO]: WEPIF: Using the Bukkit Permissions API.
-[20:52:06] [Server thread/INFO]: Using com.sk89q.worldedit.bukkit.adapter.impl.v1_19_R1.PaperweightAdapter as the Bukkit adapter
-[20:52:07] [Server thread/INFO]: [ViaRewind] Enabling ViaRewind v3.1.2
-[20:52:07] [Server thread/INFO]: [LuckPerms] Enabling LuckPerms v5.4.40
-[20:52:08] [Server thread/INFO]:         __    
-[20:52:08] [Server thread/INFO]:   |    |__)   LuckPerms v5.4.40
-[20:52:08] [Server thread/INFO]:   |___ |      Running on Bukkit - Paper
-[20:52:08] [Server thread/INFO]: 
-[20:52:08] [Server thread/INFO]: [LuckPerms] Loading configuration...
-[20:52:08] [Server thread/INFO]: [LuckPerms] Loading storage provider... [H2]
-[20:52:09] [Server thread/INFO]: [LuckPerms] Loading internal permission managers...
-[20:52:09] [Server thread/INFO]: [LuckPerms] Performing initial data load...
-[20:52:09] [Server thread/INFO]: [LuckPerms] Successfully enabled. (took 1776ms)
-[20:52:09] [Server thread/WARN]: **** SERVER IS RUNNING IN OFFLINE/INSECURE MODE!
-[20:52:09] [Server thread/WARN]: The server will make no attempt to authenticate usernames. Beware.
-[20:52:09] [Server thread/WARN]: While this makes the game possible to play without internet access, it also opens up the ability for hackers to connect with any username they choose.
-[20:52:09] [Server thread/WARN]: To change this, set "online-mode" to "true" in the server.properties file.
-[20:52:09] [Server thread/INFO]: Preparing level "world"
-[20:52:10] [Server thread/INFO]: Preparing start region for dimension minecraft:overworld
-[20:52:11] [Server thread/INFO]: Time elapsed: 377 ms
-[20:52:11] [Server thread/INFO]: [JumpPads] Enabling JumpPads v1.25.13
-[20:52:11] [Server thread/INFO]: [PlaceholderAPI] Enabling PlaceholderAPI v2.11.6
-[20:52:11] [Server thread/INFO]: [PlaceholderAPI] Fetching available expansion information...
-[20:52:11] [Server thread/INFO]: [ViaVersion] Enabling ViaVersion v4.10.2
-[20:52:11] [Server thread/INFO]: [ViaVersion] ViaVersion detected server version: 1.19 (759)
-[20:52:11] [Server thread/INFO]: [HolographicDisplays] Enabling HolographicDisplays v3.0.4
-[20:52:11] [Server thread/INFO]: [PlayerPoints] Enabling PlayerPoints v3.0.1
-[20:52:11] [Server thread/INFO]: [PlayerPoints] Initializing using RoseGarden v1.0.5-SNAPSHOT
-[20:52:11] [Server thread/INFO]: [PlayerPoints] Data handler connected using SQLite.
-[20:52:11] [Server thread/INFO]: [PlaceholderAPI] Successfully registered internal expansion: playerpoints [3.0.1]
-[20:52:11] [Server thread/INFO]: [ViaBackwards] Enabling ViaBackwards v4.10.2
-[20:52:11] [Server thread/INFO]: [MyCommand] Enabling MyCommand v5.7.4
-[20:52:11] [Server thread/INFO]: *-=-=-=-=-=-=-=-=-* MyCommand v.5.7.4*-=-=-=-=-=-=-=-=-=-*
-[20:52:11] [Server thread/INFO]: | Vault plugin not found. Using BukkitPermissions
-[20:52:11] [Server thread/INFO]: | No Economy support without Vault!
-[20:52:11] [Server thread/INFO]: | Logs Directory Created /MyCommand/logs/
-[20:52:11] [Server thread/INFO]: | PlayerData Directory Created /MyCommand/playerdata/
-[20:52:11] [Server thread/INFO]: | Command file(s) found : 1
-[20:52:11] [Server thread/INFO]: | Config : Ready.
-[20:52:11] [Server thread/INFO]: | ProtocolLib not found.
-[20:52:12] [Server thread/INFO]: [PlaceholderAPI] Successfully registered internal expansion: mycommand [1.0.0]
-[20:52:12] [Server thread/INFO]: | Placeholder_API : Hooked, Ok.
-[20:52:12] [Server thread/INFO]: | Custom commands loaded : 44
-[20:52:12] [Server thread/INFO]: | You're running the latest version of MyCommand.
-[20:52:12] [Server thread/INFO]: |          by emmerrei a.k.a. ivanfromitaly.           
-[20:52:12] [Server thread/INFO]: *-=-=-=-=-=-=-=-=-=-*   Done!   *-=-=-=-=-=-=-=-=-=-=-*
-[20:52:12] [Server thread/INFO]: [Multiverse-Core] Enabling Multiverse-Core v4.3.1-b861
-[20:52:12] [Server thread/WARN]: [Multiverse-Core] "Multiverse-Core v4.3.1-b861" has registered a listener for org.bukkit.event.entity.EntityCreatePortalEvent on method "public void com.onarandombox.MultiverseCore.listeners.MVPortalListener.entityPortalCreate(org.bukkit.event.entity.EntityCreatePortalEvent)", but the event is Deprecated. "Server performance will be affected"; please notify the authors [dumptruckman, Rigby, fernferret, lithium3141, main--].
-[20:52:12] [Server thread/INFO]: [Multiverse-Core] §aWe are aware of the warning about the deprecated event. There is no alternative that allows us to do what we need to do and performance impact is negligible. It is safe to ignore.
-[20:52:21] [Server thread/INFO]: Preparing start region for dimension minecraft:q1
-[20:52:22] [Server thread/INFO]: Preparing spawn area: 0%
-[20:52:22] [Server thread/INFO]: Time elapsed: 409 ms
-[20:52:22] [Server thread/INFO]: Preparing start region for dimension minecraft:t4
-[20:52:22] [Server thread/INFO]: Time elapsed: 214 ms
-[20:52:23] [Server thread/INFO]: Preparing start region for dimension minecraft:bb
-[20:52:23] [Server thread/INFO]: Preparing spawn area: 0%
-[20:52:23] [Server thread/INFO]: Time elapsed: 377 ms
-[20:52:23] [Server thread/INFO]: Preparing start region for dimension minecraft:q2
-[20:52:24] [Server thread/INFO]: Time elapsed: 260 ms
-[20:52:24] [Server thread/INFO]: Preparing start region for dimension minecraft:tv
-[20:52:24] [Server thread/INFO]: Time elapsed: 351 ms
-[20:52:24] [Server thread/INFO]: Preparing start region for dimension minecraft:bil2
-[20:52:24] [Server thread/INFO]: Time elapsed: 215 ms
-[20:52:25] [Server thread/INFO]: Preparing start region for dimension minecraft:bil
-[20:52:25] [Server thread/INFO]: Time elapsed: 134 ms
-[20:52:25] [Server thread/INFO]: Preparing start region for dimension minecraft:crmapin
-[20:52:25] [Server thread/INFO]: Time elapsed: 173 ms
-[20:52:25] [Server thread/INFO]: Preparing start region for dimension minecraft:arcade
-[20:52:25] [Server thread/INFO]: Time elapsed: 108 ms
-[20:52:36] [Server thread/INFO]: Preparing start region for dimension minecraft:tt1
-[20:52:36] [Server thread/INFO]: Preparing spawn area: 0%
-[20:52:36] [Server thread/INFO]: Time elapsed: 242 ms
-[20:52:36] [Server thread/INFO]: Preparing start region for dimension minecraft:tt3
-[20:52:36] [Server thread/INFO]: Time elapsed: 184 ms
-[20:52:37] [Server thread/INFO]: Preparing start region for dimension minecraft:tt2
-[20:52:37] [Server thread/INFO]: Preparing spawn area: 0%
-[20:52:37] [Server thread/INFO]: Time elapsed: 200 ms
-[20:52:37] [Server thread/INFO]: Preparing start region for dimension minecraft:sp2
-[20:52:37] [Server thread/INFO]: Time elapsed: 135 ms
-[20:52:37] [Server thread/INFO]: Preparing start region for dimension minecraft:sp1
-[20:52:37] [Server thread/INFO]: Time elapsed: 239 ms
-[20:52:37] [Server thread/INFO]: Preparing start region for dimension minecraft:tt4
-[20:52:38] [Server thread/INFO]: Time elapsed: 214 ms
-[20:52:38] [Server thread/INFO]: Preparing start region for dimension minecraft:block
-[20:52:38] [Server thread/INFO]: Time elapsed: 117 ms
-[20:52:38] [Server thread/INFO]: Preparing start region for dimension minecraft:t1
-[20:52:38] [Server thread/INFO]: Time elapsed: 357 ms
-[20:52:38] [Server thread/INFO]: Preparing start region for dimension minecraft:t2
-[20:52:39] [Server thread/INFO]: Time elapsed: 206 ms
-[20:52:39] [Server thread/INFO]: Preparing start region for dimension minecraft:t3
-[20:52:39] [Server thread/INFO]: Time elapsed: 111 ms
-[20:52:39] [Server thread/INFO]: [Multiverse-Core] 20 - World(s) loaded.
-[20:52:39] [Server thread/WARN]: [Multiverse-Core] Buscript failed to load! The script command will be disabled! If you would like not to see this message, use `/mv conf enablebuscript false` to disable Buscript from loading.
-[20:52:39] [Server thread/INFO]: [Multiverse-Core] Version 4.3.1-b861 (API v24) Enabled - By dumptruckman, Rigby, fernferret, lithium3141 and main--
-[20:52:39] [Server thread/INFO]: [ProJumpPads] Enabling ProJumpPads v4.0
-[20:52:39] [Server thread/INFO]: [PlaceholderAPI] Successfully registered internal expansion: jumppads [2.0]
-[20:52:39] [Server thread/INFO]: [ProJumpPads] Jump pads will load after 10 seconds...
-[20:52:39] [Server thread/INFO]: [gs] Enabling GlobalStats v5.1
-[20:52:39] [Server thread/INFO]: [com.morelaid.shaded.gstats.ormlite.table.TableUtils] creating table 'globalstats_data'
-[20:52:39] [Server thread/INFO]: [PlaceholderAPI] Successfully registered internal expansion: gs [5.1]
-[20:52:39] [Server thread/INFO]: [gs] Version 5.1 is enabled!
-[20:52:39] [Server thread/INFO]: [HolographicExtension] Enabling HolographicExtension v1.10.9
-[20:52:39] [Server thread/INFO]: [HolographicExtension] Starting HolographicExtension v1.10.9
-[20:52:39] [Server thread/INFO]: [HolographicExtension] Registering placeholder 'example' from config.
-[20:52:39] [Server thread/INFO]: [HolographicExtension] Registering placeholder 'scroller' from config.
-[20:52:39] [Server thread/INFO]: [HolographicExtension] Registering placeholder 'typing' from config.
-[20:52:39] [Server thread/INFO]: [HolographicExtension] Registering placeholder 'rainbow' from config.
-[20:52:39] [Server thread/INFO]: [HolographicExtension] If you want to use the placeholder extension, please install ProtocolLib and PlaceholderAPI
-[20:52:39] [Server thread/INFO]: [DeluxeHub] Enabling DeluxeHub v3.5.5
-[20:52:39] [Server thread/INFO]: [DeluxeHub]  _   _            _          _    _ 
-[20:52:39] [Server thread/INFO]: [DeluxeHub] | \ |_ |  | | \/ |_ |_| | | |_)   _)
-[20:52:39] [Server thread/INFO]: [DeluxeHub] |_/ |_ |_ |_| /\ |_ | | |_| |_)   _)
-[20:52:39] [Server thread/INFO]: [DeluxeHub] 
-[20:52:39] [Server thread/INFO]: [DeluxeHub] Version: 3.5.5
-[20:52:39] [Server thread/INFO]: [DeluxeHub] Author: ItsLewizzz
-[20:52:39] [Server thread/INFO]: [DeluxeHub] 
-[20:52:39] [Server thread/INFO]: [DeluxeHub]  Hooked into PlaceholderAPI
-[20:52:39] [Server thread/INFO]: [DeluxeHub] Loaded custom menu 'serverselector'.
-[20:52:39] [Server thread/INFO]: [NBTAPI] [NBTAPI] Found Spigot: v1_19_R1! Trying to find NMS support
-[20:52:39] [Server thread/INFO]: [NBTAPI] [NBTAPI] NMS support 'MC1_19_R1' loaded!
-[20:52:39] [Server thread/INFO]: [NBTAPI] [NBTAPI] Using the plugin 'DeluxeHub' to create a bStats instance!
-[20:52:39] [Server thread/INFO]: [DeluxeHub] Loaded 13 plugin modules.
-[20:52:39] [Server thread/INFO]: [DeluxeHub] 
-[20:52:39] [Server thread/INFO]: [DeluxeHub] Successfully loaded in 401ms
-[20:52:39] [Server thread/INFO]: [ajLeaderboards] Enabling ajLeaderboards v2.8.0
-[20:52:40] [Server thread/INFO]: [ajLeaderboards] Using H2 flatfile for board cache. (h2)
-[20:52:40] [Server thread/INFO]: [ajLeaderboards] Loaded 0 boards
-[20:52:40] [Server thread/INFO]: [PlaceholderAPI] Successfully registered internal expansion: ajlb [2.8.0]
-[20:52:40] [Server thread/INFO]: [ajLeaderboards] PAPI placeholders successfully registered!
-[20:52:40] [Server thread/INFO]: [ajLeaderboards] ajLeaderboards v2.8.0 by ajgeiss0702 enabled!
-[20:52:40] [Server thread/INFO]: [Arcade] Enabling Arcade v1.53
-[20:52:40] [Server thread/INFO]: [Arcade] [STDOUT] [36m[Spigotunlocked.net] - -Michy-
-[20:52:40] [Server thread/WARN]: Nag author(s): '[Fr33styler]' of 'Arcade' about their usage of System.out/err.print. Please use your plugin's logger instead (JavaPlugin#getLogger).
-[20:52:40] [Paper Async Chunk Task Thread #0/ERROR]: No key placement in MapLike[{config:{blacklist:[],block_placer:{type:"minecraft:simple_block_placer"},can_replace:0b,need_water:0b,project:1b,state_provider:{type:"minecraft:plain_flower_provider"},tries:64,whitelist:[],xspread:7,yspread:3,zspread:7},type:"minecraft:flower"}]; No key feature in MapLike[{config:{blacklist:[],block_placer:{type:"minecraft:simple_block_placer"},can_replace:0b,need_water:0b,project:1b,state_provider:{type:"minecraft:plain_flower_provider"},tries:64,whitelist:[],xspread:7,yspread:3,zspread:7},type:"minecraft:flower"}]
-[20:52:40] [Paper Async Chunk Task Thread #0/ERROR]: Exception loading structure piece with id minecraft:jigsaw
+[06:34:44] [Server thread/INFO]: [WorldEdit] Loading WorldEdit v7.2.12+6240-87f4ae1
+[06:34:45] [Server thread/INFO]: Got request to register class com.sk89q.worldedit.bukkit.BukkitServerInterface with WorldEdit [com.sk89q.worldedit.extension.platform.PlatformManager@5f3be229]
+[06:34:45] [Server thread/INFO]: [JumpPads] Loading JumpPads v1.25.13
+[06:34:45] [Server thread/INFO]: [PlaceholderAPI] Loading PlaceholderAPI v2.11.6
+[06:34:45] [Server thread/INFO]: [ViaVersion] Loading ViaVersion v4.10.2
+[06:34:45] [Server thread/INFO]: [ViaVersion] ViaVersion 4.10.2 is now loaded. Registering protocol transformers and injecting...
+[06:34:45] [Via-Mappingloader-0/INFO]: [ViaVersion] Loading block connection mappings ...
+[06:34:45] [Via-Mappingloader-0/INFO]: [ViaVersion] Using FastUtil Long2ObjectOpenHashMap for block connections
+[06:34:45] [Server thread/INFO]: [ViaBackwards] Loading translations...
+[06:34:45] [Server thread/INFO]: [ViaBackwards] Registering protocols...
+[06:34:46] [Server thread/INFO]: [ViaRewind] Registering protocols...
+[06:34:46] [Server thread/INFO]: [HolographicDisplays] Loading HolographicDisplays v3.0.4
+[06:34:46] [Server thread/INFO]: [PlayerPoints] Loading PlayerPoints v3.0.1
+[06:34:46] [Server thread/INFO]: [ViaBackwards] Loading ViaBackwards v4.10.2
+[06:34:46] [Server thread/INFO]: [MyCommand] Loading MyCommand v5.7.4
+[06:34:46] [Server thread/INFO]: [Multiverse-Core] Loading Multiverse-Core v4.3.1-b861
+[06:34:46] [Server thread/INFO]: [ViaRewind] Loading ViaRewind v3.1.2
+[06:34:46] [Server thread/INFO]: [LuckPerms] Loading LuckPerms v5.4.40
+[06:34:46] [Server thread/INFO]: [ProJumpPads] Loading ProJumpPads v4.0
+[06:34:46] [Server thread/INFO]: [gs] Loading GlobalStats v5.1
+[06:34:46] [Server thread/INFO]: [HolographicExtension] Loading HolographicExtension v1.10.9
+[06:34:46] [Server thread/INFO]: [DeluxeHub] Loading DeluxeHub v3.5.5
+[06:34:46] [Server thread/INFO]: [ajLeaderboards] Loading ajLeaderboards v2.8.0
+[06:34:46] [Server thread/INFO]: [ajLeaderboards] Verifying checksum for gson
+[06:34:46] [Server thread/INFO]: [ajLeaderboards] Checksum matched for gson
+[06:34:46] [Server thread/INFO]: [ajLeaderboards] Verifying checksum for jar-relocator
+[06:34:46] [Server thread/INFO]: [ajLeaderboards] Checksum matched for jar-relocator
+[06:34:46] [Server thread/INFO]: [ajLeaderboards] Verifying checksum for asm
+[06:34:46] [Server thread/INFO]: [ajLeaderboards] Checksum matched for asm
+[06:34:46] [Server thread/INFO]: [ajLeaderboards] Verifying checksum for asm-commons
+[06:34:46] [Server thread/INFO]: [ajLeaderboards] Checksum matched for asm-commons
+[06:34:46] [Server thread/INFO]: [ajLeaderboards] Verifying checksum for gson
+[06:34:46] [Server thread/INFO]: [ajLeaderboards] Checksum matched for gson
+[06:34:46] [Server thread/INFO]: [ajLeaderboards] Verifying checksum for HikariCP
+[06:34:46] [Server thread/INFO]: [ajLeaderboards] Checksum matched for HikariCP
+[06:34:46] [Server thread/INFO]: [ajLeaderboards] Verifying checksum for slf4j-api
+[06:34:46] [Server thread/INFO]: [ajLeaderboards] Checksum matched for slf4j-api
+[06:34:46] [Server thread/INFO]: [ajLeaderboards] Verifying checksum for h2
+[06:34:46] [Server thread/INFO]: [ajLeaderboards] Checksum matched for h2
+[06:34:46] [Server thread/INFO]: [Arcade] Loading Arcade v1.53
+[06:34:46] [Server thread/INFO]: [GadgetsMenu] Loading GadgetsMenu v4.7.3
+[06:34:46] [Server thread/INFO]: [LPC] Loading LPC v3.6.0
+[06:34:46] [Server thread/INFO]: Server permissions file permissions.yml is empty, ignoring it
+[06:34:46] [Server thread/INFO]: [WorldEdit] Enabling WorldEdit v7.2.12+6240-87f4ae1
+[06:34:46] [Server thread/INFO]: Registering commands with com.sk89q.worldedit.bukkit.BukkitServerInterface
+[06:34:46] [Server thread/INFO]: WEPIF: Using the Bukkit Permissions API.
+[06:34:47] [Server thread/INFO]: Using com.sk89q.worldedit.bukkit.adapter.impl.v1_19_R1.PaperweightAdapter as the Bukkit adapter
+[06:34:48] [Server thread/INFO]: [ViaRewind] Enabling ViaRewind v3.1.2
+[06:34:48] [Server thread/INFO]: [LuckPerms] Enabling LuckPerms v5.4.40
+[06:34:48] [Server thread/INFO]:         __    
+[06:34:48] [Server thread/INFO]:   |    |__)   LuckPerms v5.4.40
+[06:34:48] [Server thread/INFO]:   |___ |      Running on Bukkit - Paper
+[06:34:48] [Server thread/INFO]: 
+[06:34:48] [Server thread/INFO]: [LuckPerms] Loading configuration...
+[06:34:49] [Server thread/INFO]: [LuckPerms] Loading storage provider... [H2]
+[06:34:49] [Server thread/INFO]: [LuckPerms] Loading internal permission managers...
+[06:34:50] [Server thread/INFO]: [LuckPerms] Performing initial data load...
+[06:34:50] [Server thread/INFO]: [LuckPerms] Successfully enabled. (took 1942ms)
+[06:34:50] [Server thread/WARN]: **** SERVER IS RUNNING IN OFFLINE/INSECURE MODE!
+[06:34:50] [Server thread/WARN]: The server will make no attempt to authenticate usernames. Beware.
+[06:34:50] [Server thread/WARN]: While this makes the game possible to play without internet access, it also opens up the ability for hackers to connect with any username they choose.
+[06:34:50] [Server thread/WARN]: To change this, set "online-mode" to "true" in the server.properties file.
+[06:34:50] [Server thread/INFO]: Preparing level "world"
+[06:34:51] [Server thread/INFO]: Preparing start region for dimension minecraft:overworld
+[06:34:51] [Server thread/INFO]: Time elapsed: 362 ms
+[06:34:51] [Server thread/INFO]: [JumpPads] Enabling JumpPads v1.25.13
+[06:34:52] [Server thread/INFO]: [PlaceholderAPI] Enabling PlaceholderAPI v2.11.6
+[06:34:52] [Server thread/INFO]: [PlaceholderAPI] Fetching available expansion information...
+[06:34:52] [Server thread/INFO]: [ViaVersion] Enabling ViaVersion v4.10.2
+[06:34:52] [Server thread/INFO]: [ViaVersion] ViaVersion detected server version: 1.19 (759)
+[06:34:52] [Server thread/INFO]: [HolographicDisplays] Enabling HolographicDisplays v3.0.4
+[06:34:52] [Server thread/INFO]: [PlayerPoints] Enabling PlayerPoints v3.0.1
+[06:34:52] [Server thread/INFO]: [PlayerPoints] Initializing using RoseGarden v1.0.5-SNAPSHOT
+[06:34:52] [Server thread/INFO]: [PlayerPoints] Data handler connected using SQLite.
+[06:34:52] [Server thread/INFO]: [PlaceholderAPI] Successfully registered internal expansion: playerpoints [3.0.1]
+[06:34:52] [Server thread/INFO]: [ViaBackwards] Enabling ViaBackwards v4.10.2
+[06:34:52] [Server thread/INFO]: [MyCommand] Enabling MyCommand v5.7.4
+[06:34:52] [Server thread/INFO]: *-=-=-=-=-=-=-=-=-* MyCommand v.5.7.4*-=-=-=-=-=-=-=-=-=-*
+[06:34:52] [Server thread/INFO]: | Vault plugin not found. Using BukkitPermissions
+[06:34:52] [Server thread/INFO]: | No Economy support without Vault!
+[06:34:52] [Server thread/INFO]: | Logs Directory Created /MyCommand/logs/
+[06:34:52] [Server thread/INFO]: | PlayerData Directory Created /MyCommand/playerdata/
+[06:34:52] [Server thread/INFO]: | Command file(s) found : 1
+[06:34:52] [Server thread/INFO]: | Config : Ready.
+[06:34:52] [Server thread/INFO]: | ProtocolLib not found.
+[06:34:52] [Server thread/INFO]: [PlaceholderAPI] Successfully registered internal expansion: mycommand [1.0.0]
+[06:34:52] [Server thread/INFO]: | Placeholder_API : Hooked, Ok.
+[06:34:52] [Server thread/INFO]: | Custom commands loaded : 44
+[06:34:53] [Server thread/INFO]: | You're running the latest version of MyCommand.
+[06:34:53] [Server thread/INFO]: |          by emmerrei a.k.a. ivanfromitaly.           
+[06:34:53] [Server thread/INFO]: *-=-=-=-=-=-=-=-=-=-*   Done!   *-=-=-=-=-=-=-=-=-=-=-*
+[06:34:53] [Server thread/INFO]: [Multiverse-Core] Enabling Multiverse-Core v4.3.1-b861
+[06:34:53] [Server thread/WARN]: [Multiverse-Core] "Multiverse-Core v4.3.1-b861" has registered a listener for org.bukkit.event.entity.EntityCreatePortalEvent on method "public void com.onarandombox.MultiverseCore.listeners.MVPortalListener.entityPortalCreate(org.bukkit.event.entity.EntityCreatePortalEvent)", but the event is Deprecated. "Server performance will be affected"; please notify the authors [dumptruckman, Rigby, fernferret, lithium3141, main--].
+[06:34:53] [Server thread/INFO]: [Multiverse-Core] §aWe are aware of the warning about the deprecated event. There is no alternative that allows us to do what we need to do and performance impact is negligible. It is safe to ignore.
+[06:35:02] [Server thread/INFO]: Preparing start region for dimension minecraft:bb
+[06:35:02] [Server thread/INFO]: Preparing spawn area: 0%
+[06:35:02] [Server thread/INFO]: Time elapsed: 395 ms
+[06:35:02] [Server thread/INFO]: Preparing start region for dimension minecraft:t4
+[06:35:02] [Server thread/INFO]: Time elapsed: 216 ms
+[06:35:03] [Server thread/INFO]: Preparing start region for dimension minecraft:q1
+[06:35:03] [Server thread/INFO]: Preparing spawn area: 0%
+[06:35:03] [Server thread/INFO]: Preparing spawn area: 18%
+[06:35:03] [Server thread/INFO]: Time elapsed: 614 ms
+[06:35:04] [Server thread/INFO]: Preparing start region for dimension minecraft:q2
+[06:35:04] [Server thread/INFO]: Preparing spawn area: 0%
+[06:35:04] [Server thread/INFO]: Time elapsed: 202 ms
+[06:35:04] [Server thread/INFO]: Preparing start region for dimension minecraft:tv
+[06:35:04] [Server thread/INFO]: Time elapsed: 189 ms
+[06:35:04] [Server thread/INFO]: Preparing start region for dimension minecraft:bil2
+[06:35:05] [Server thread/INFO]: Time elapsed: 217 ms
+[06:35:05] [Server thread/INFO]: Preparing start region for dimension minecraft:bil
+[06:35:05] [Server thread/INFO]: Time elapsed: 126 ms
+[06:35:05] [Server thread/INFO]: Preparing start region for dimension minecraft:crmapin
+[06:35:05] [Server thread/INFO]: Time elapsed: 148 ms
+[06:35:05] [Server thread/INFO]: Preparing start region for dimension minecraft:arcade
+[06:35:05] [Server thread/INFO]: Time elapsed: 264 ms
+[06:35:14] [Server thread/INFO]: Preparing start region for dimension minecraft:tt1
+[06:35:14] [Server thread/INFO]: Preparing spawn area: 0%
+[06:35:15] [Server thread/INFO]: Time elapsed: 239 ms
+[06:35:15] [Server thread/INFO]: Preparing start region for dimension minecraft:tt3
+[06:35:15] [Server thread/INFO]: Time elapsed: 124 ms
+[06:35:15] [Server thread/INFO]: Preparing start region for dimension minecraft:tt2
+[06:35:16] [Server thread/INFO]: Preparing spawn area: 0%
+[06:35:16] [Server thread/INFO]: Time elapsed: 210 ms
+[06:35:16] [Server thread/INFO]: Preparing start region for dimension minecraft:sp2
+[06:35:16] [Server thread/INFO]: Time elapsed: 132 ms
+[06:35:16] [Server thread/INFO]: Preparing start region for dimension minecraft:tt4
+[06:35:16] [Server thread/INFO]: Time elapsed: 304 ms
+[06:35:16] [Server thread/INFO]: Preparing start region for dimension minecraft:sp1
+[06:35:17] [Server thread/INFO]: Time elapsed: 297 ms
+[06:35:17] [Server thread/INFO]: Preparing start region for dimension minecraft:block
+[06:35:17] [Server thread/INFO]: Time elapsed: 196 ms
+[06:35:17] [Server thread/INFO]: Preparing start region for dimension minecraft:t1
+[06:35:17] [Server thread/INFO]: Time elapsed: 145 ms
+[06:35:17] [Server thread/INFO]: Preparing start region for dimension minecraft:t2
+[06:35:18] [Server thread/INFO]: Time elapsed: 447 ms
+[06:35:18] [Server thread/INFO]: Preparing start region for dimension minecraft:t3
+[06:35:18] [Server thread/INFO]: Time elapsed: 137 ms
+[06:35:18] [Server thread/INFO]: [Multiverse-Core] 20 - World(s) loaded.
+[06:35:18] [Server thread/WARN]: [Multiverse-Core] Buscript failed to load! The script command will be disabled! If you would like not to see this message, use `/mv conf enablebuscript false` to disable Buscript from loading.
+[06:35:18] [Server thread/INFO]: [Multiverse-Core] Version 4.3.1-b861 (API v24) Enabled - By dumptruckman, Rigby, fernferret, lithium3141 and main--
+[06:35:18] [Server thread/INFO]: [ProJumpPads] Enabling ProJumpPads v4.0
+[06:35:18] [Server thread/INFO]: [PlaceholderAPI] Successfully registered internal expansion: jumppads [2.0]
+[06:35:18] [Server thread/INFO]: [ProJumpPads] Jump pads will load after 10 seconds...
+[06:35:18] [Server thread/INFO]: [gs] Enabling GlobalStats v5.1
+[06:35:18] [Server thread/INFO]: [com.morelaid.shaded.gstats.ormlite.table.TableUtils] creating table 'globalstats_data'
+[06:35:18] [Server thread/INFO]: [PlaceholderAPI] Successfully registered internal expansion: gs [5.1]
+[06:35:18] [Server thread/INFO]: [gs] Version 5.1 is enabled!
+[06:35:18] [Server thread/INFO]: [HolographicExtension] Enabling HolographicExtension v1.10.9
+[06:35:18] [Server thread/INFO]: [HolographicExtension] Starting HolographicExtension v1.10.9
+[06:35:18] [Server thread/INFO]: [HolographicExtension] Registering placeholder 'example' from config.
+[06:35:18] [Server thread/INFO]: [HolographicExtension] Registering placeholder 'scroller' from config.
+[06:35:18] [Server thread/INFO]: [HolographicExtension] Registering placeholder 'typing' from config.
+[06:35:18] [Server thread/INFO]: [HolographicExtension] Registering placeholder 'rainbow' from config.
+[06:35:18] [Server thread/INFO]: [HolographicExtension] If you want to use the placeholder extension, please install ProtocolLib and PlaceholderAPI
+[06:35:18] [Server thread/INFO]: [DeluxeHub] Enabling DeluxeHub v3.5.5
+[06:35:18] [Server thread/INFO]: [DeluxeHub]  _   _            _          _    _ 
+[06:35:18] [Server thread/INFO]: [DeluxeHub] | \ |_ |  | | \/ |_ |_| | | |_)   _)
+[06:35:18] [Server thread/INFO]: [DeluxeHub] |_/ |_ |_ |_| /\ |_ | | |_| |_)   _)
+[06:35:18] [Server thread/INFO]: [DeluxeHub] 
+[06:35:18] [Server thread/INFO]: [DeluxeHub] Version: 3.5.5
+[06:35:18] [Server thread/INFO]: [DeluxeHub] Author: ItsLewizzz
+[06:35:18] [Server thread/INFO]: [DeluxeHub] 
+[06:35:18] [Server thread/INFO]: [DeluxeHub]  Hooked into PlaceholderAPI
+[06:35:18] [Server thread/INFO]: [DeluxeHub] Loaded custom menu 'serverselector'.
+[06:35:18] [Server thread/INFO]: [NBTAPI] [NBTAPI] Found Spigot: v1_19_R1! Trying to find NMS support
+[06:35:18] [Server thread/INFO]: [NBTAPI] [NBTAPI] NMS support 'MC1_19_R1' loaded!
+[06:35:18] [Server thread/INFO]: [NBTAPI] [NBTAPI] Using the plugin 'DeluxeHub' to create a bStats instance!
+[06:35:18] [Server thread/INFO]: [DeluxeHub] Loaded 13 plugin modules.
+[06:35:18] [Server thread/INFO]: [DeluxeHub] 
+[06:35:18] [Server thread/INFO]: [DeluxeHub] Successfully loaded in 297ms
+[06:35:18] [Server thread/INFO]: [ajLeaderboards] Enabling ajLeaderboards v2.8.0
+[06:35:19] [Server thread/INFO]: [ajLeaderboards] Using H2 flatfile for board cache. (h2)
+[06:35:19] [Server thread/INFO]: [ajLeaderboards] Loaded 0 boards
+[06:35:19] [Server thread/INFO]: [PlaceholderAPI] Successfully registered internal expansion: ajlb [2.8.0]
+[06:35:19] [Server thread/INFO]: [ajLeaderboards] PAPI placeholders successfully registered!
+[06:35:19] [Server thread/INFO]: [ajLeaderboards] ajLeaderboards v2.8.0 by ajgeiss0702 enabled!
+[06:35:19] [Server thread/INFO]: [Arcade] Enabling Arcade v1.53
+[06:35:19] [Server thread/INFO]: [Arcade] [STDOUT] [36m[Spigotunlocked.net] - -Michy-
+[06:35:19] [Server thread/WARN]: Nag author(s): '[Fr33styler]' of 'Arcade' about their usage of System.out/err.print. Please use your plugin's logger instead (JavaPlugin#getLogger).
+[06:35:19] [Server thread/INFO]: =-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=
+[06:35:19] [Server thread/INFO]: Arcade plugin is loading... 
+[06:35:19] [Server thread/INFO]:  Author: Fr33styler
+[06:35:19] [Server thread/INFO]:  Version: 1.53
+[06:35:19] [Server thread/INFO]:  - Loading engine...
+[06:35:19] [Server thread/WARN]: org.bukkit.configuration.InvalidConfigurationException: expected '<document start>', but found '<block mapping start>'
+[06:35:19] [Server thread/WARN]:  in 'reader', line 2, column 3:
+[06:35:19] [Server thread/WARN]:       GameIsFull: '&cThe game is full!'
+[06:35:19] [Server thread/WARN]:       ^
+[06:35:19] [Server thread/WARN]: 
+[06:35:19] [Server thread/WARN]: 	at org.bukkit.configuration.file.YamlConfiguration.loadFromString(YamlConfiguration.java:104)
+[06:35:19] [Server thread/WARN]: 	at org.bukkit.configuration.file.FileConfiguration.load(FileConfiguration.java:160)
+[06:35:19] [Server thread/WARN]: 	at org.bukkit.configuration.file.FileConfiguration.load(FileConfiguration.java:128)
+[06:35:19] [Server thread/WARN]: 	at Arcade_1.19_FIX.jar//ro.fr33styler.arcade.q.<init>(a:34)
+[06:35:19] [Server thread/WARN]: 	at Arcade_1.19_FIX.jar//ro.fr33styler.arcade.Arcade.onEnable(a:96)
+[06:35:19] [Server thread/WARN]: 	at org.bukkit.plugin.java.JavaPlugin.setEnabled(JavaPlugin.java:264)
+[06:35:19] [Server thread/WARN]: 	at org.bukkit.plugin.java.JavaPluginLoader.enablePlugin(JavaPluginLoader.java:370)
+[06:35:19] [Server thread/WARN]: 	at org.bukkit.plugin.SimplePluginManager.enablePlugin(SimplePluginManager.java:542)
+[06:35:19] [Server thread/WARN]: 	at org.bukkit.craftbukkit.v1_19_R1.CraftServer.enablePlugin(CraftServer.java:563)
+[06:35:19] [Server thread/WARN]: 	at org.bukkit.craftbukkit.v1_19_R1.CraftServer.enablePlugins(CraftServer.java:477)
+[06:35:19] [Server thread/WARN]: 	at net.minecraft.server.MinecraftServer.loadWorld0(MinecraftServer.java:634)
+[06:35:19] [Server thread/WARN]: 	at net.minecraft.server.MinecraftServer.loadLevel(MinecraftServer.java:420)
+[06:35:19] [Server thread/WARN]: 	at net.minecraft.server.dedicated.DedicatedServer.e(DedicatedServer.java:306)
+[06:35:19] [Server thread/WARN]: 	at net.minecraft.server.MinecraftServer.v(MinecraftServer.java:1122)
+[06:35:19] [Server thread/WARN]: 	at net.minecraft.server.MinecraftServer.lambda$spin$0(MinecraftServer.java:303)
+[06:35:19] [Server thread/WARN]: 	at java.base/java.lang.Thread.run(Thread.java:840)
+[06:35:19] [Server thread/WARN]: Caused by: expected '<document start>', but found '<block mapping start>'
+[06:35:19] [Server thread/WARN]:  in 'reader', line 2, column 3:
+[06:35:19] [Server thread/WARN]:       GameIsFull: '&cThe game is full!'
+[06:35:19] [Server thread/WARN]:       ^
+[06:35:19] [Server thread/WARN]: 
+[06:35:19] [Server thread/WARN]: 	at org.yaml.snakeyaml.parser.ParserImpl$ParseDocumentStart.produce(ParserImpl.java:259)
+[06:35:19] [Server thread/WARN]: 	at org.yaml.snakeyaml.parser.ParserImpl.peekEvent(ParserImpl.java:166)
+[06:35:19] [Server thread/WARN]: 	at org.yaml.snakeyaml.parser.ParserImpl.checkEvent(ParserImpl.java:156)
+[06:35:19] [Server thread/WARN]: 	at org.yaml.snakeyaml.composer.Composer.getSingleNode(Composer.java:145)
+[06:35:19] [Server thread/WARN]: 	at org.yaml.snakeyaml.Yaml.compose(Yaml.java:575)
+[06:35:19] [Server thread/WARN]: 	at org.bukkit.configuration.file.YamlConfiguration.loadFromString(YamlConfiguration.java:102)
+[06:35:19] [Server thread/WARN]: 	... 15 more
+[06:35:19] [Server thread/INFO]: [Arcade] [STDOUT] Error loading message: Messages.SpectatorSettingItemTeleportOn
+[06:35:19] [Server thread/INFO]: [Arcade] [STDOUT] Error loading message: Messages.GameIsFull
+[06:35:19] [Server thread/INFO]: [Arcade] [STDOUT] Error loading message: Messages.LeaderboardLifetime
+[06:35:19] [Server thread/INFO]: [Arcade] [STDOUT] Error loading message: Messages.SpectatorTeleporterPage
+[06:35:19] [Server thread/INFO]: [Arcade] [STDOUT] Error loading message: Messages.GameBroadcastLeave
+[06:35:19] [Server thread/INFO]: [Arcade] [STDOUT] Error loading message: Messages.SpectatorTarget
+[06:35:19] [Server thread/INFO]: [Arcade] [STDOUT] Error loading message: Messages.SpectatorSettingItemNightVisionOff
+[06:35:19] [Server thread/INFO]: [Arcade] [STDOUT] Error loading message: Messages.LeaderboardNoData
+[06:35:19] [Server thread/INFO]: [Arcade] [STDOUT] Error loading message: Messages.SpectatorSpectateSubtitle
+[06:35:19] [Server thread/INFO]: [Arcade] [STDOUT] Error loading message: Messages.LeaderboardWeekly
+[06:35:19] [Server thread/INFO]: [Arcade] [STDOUT] Error loading message: MessagesList.SidebarLines
+[06:35:19] [Server thread/INFO]: [Arcade] [STDOUT] Error loading message: MessagesList.ItemLeaveLore
+[06:35:19] [Server thread/INFO]: [Arcade] [STDOUT] Error loading message: Messages.GameIsStarted
+[06:35:19] [Server thread/INFO]: [Arcade] [STDOUT] Error loading message: Messages.GameStartCancelled
+[06:35:19] [Server thread/INFO]: [Arcade] [STDOUT] Error loading message: Messages.GameLeaveDelay
+[06:35:19] [Server thread/INFO]: [Arcade] [STDOUT] Error loading message: Messages.LeaderboardNone
+[06:35:19] [Server thread/INFO]: [Arcade] [STDOUT] Error loading message: Messages.LeaderboardTogglerClick
+[06:35:19] [Server thread/INFO]: [Arcade] [STDOUT] Error loading message: Messages.SpectatorSettingItemSpeed
+[06:35:19] [Server thread/INFO]: [Arcade] [STDOUT] Error loading message: Messages.SpectatorSettingItemTeleportOff
+[06:35:19] [Server thread/INFO]: [Arcade] [STDOUT] Error loading message: MessagesList.ItemPlayAgainLore
+[06:35:19] [Server thread/INFO]: [Arcade] [STDOUT] Error loading message: Messages.GameLeaveCancelled
+[06:35:19] [Server thread/INFO]: [Arcade] [STDOUT] Error loading message: Messages.ItemSettings
+[06:35:19] [Server thread/INFO]: [Arcade] [STDOUT] Error loading message: Messages.LeaderboardGame
+[06:35:19] [Server thread/INFO]: [Arcade] [STDOUT] Error loading message: Messages.SpectatorTeleporter
+[06:35:19] [Server thread/INFO]: [Arcade] [STDOUT] Error loading message: Messages.GameRestrictedCommand
+[06:35:19] [Server thread/INFO]: [Arcade] [STDOUT] Error loading message: Messages.SpectatorSettingNightVisionOn
+[06:35:19] [Server thread/INFO]: [Arcade] [STDOUT] Error loading message: Messages.GameBroadcastJoin
+[06:35:19] [Server thread/INFO]: [Arcade] [STDOUT] Error loading message: Messages.SpectatorSettingTeleportOn
+[06:35:19] [Server thread/INFO]: [Arcade] [STDOUT] Error loading message: Messages.GameStart
+[06:35:19] [Server thread/INFO]: [Arcade] [STDOUT] Error loading message: Messages.SpectatorExit
+[06:35:19] [Server thread/INFO]: [Arcade] [STDOUT] Error loading message: Messages.SpectatorSettingItemNightVisionOn
+[06:35:19] [Server thread/INFO]: [Arcade] [STDOUT] Error loading message: Messages.GameAlreadyIngame
+[06:35:19] [Server thread/INFO]: [Arcade] [STDOUT] Error loading message: Messages.LeaderboardPosition
+[06:35:19] [Server thread/INFO]: [Arcade] [STDOUT] Error loading message: Messages.SpectatorSpectateTitle
+[06:35:19] [Server thread/INFO]: [Arcade] [STDOUT] Error loading message: Messages.ItemLeave
+[06:35:19] [Server thread/INFO]: [Arcade] [STDOUT] Error loading message: Messages.SpectatorSettingFirstPersonOff
+[06:35:19] [Server thread/INFO]: [Arcade] [STDOUT] Error loading message: Messages.StateReseting
+[06:35:19] [Server thread/INFO]: [Arcade] [STDOUT] Error loading message: Messages.GameChatFormat
+[06:35:19] [Server thread/INFO]: [Arcade] [STDOUT] Error loading message: MessagesList.JoinSign
+[06:35:19] [Server thread/INFO]: [Arcade] [STDOUT] Error loading message: Messages.LeaderboardClick
+[06:35:19] [Server thread/INFO]: [Arcade] [STDOUT] Error loading message: Messages.LeaderboardShowPosition
+[06:35:19] [Server thread/INFO]: [Arcade] [STDOUT] Error loading message: Messages.SpectatorSettingNightVisionOff
+[06:35:19] [Server thread/INFO]: [Arcade] [STDOUT] Error loading message: Messages.SpectatorSettingFirstPersonOn
+[06:35:19] [Server thread/INFO]: [Arcade] [STDOUT] Error loading message: MessagesList.ItemSettingsLore
+[06:35:19] [Server thread/INFO]: [Arcade] [STDOUT] Error loading message: Messages.SpectatorSettingTitle
+[06:35:19] [Server thread/INFO]: [Arcade] [STDOUT] Error loading message: Messages.SpectatorSettingTeleportOff
+[06:35:19] [Server thread/INFO]: [Arcade] [STDOUT] Error loading message: Messages.StateIngame
+[06:35:19] [Server thread/INFO]: [Arcade] [STDOUT] Error loading message: Messages.ItemPlayAgain
+[06:35:19] [Server thread/INFO]: [Arcade] [STDOUT] Error loading message: Messages.SpectatorSettingNoSpeed
+[06:35:19] [Server thread/INFO]: [Arcade] [STDOUT] Error loading message: Messages.LeaderboardMonthly
+[06:35:19] [Server thread/INFO]: [Arcade] [STDOUT] Error loading message: Messages.SpectatorSettingSpeed
+[06:35:19] [Server thread/INFO]: [Arcade] [STDOUT] Error loading message: Messages.GameNotFound
+[06:35:19] [Server thread/INFO]: [Arcade] [STDOUT] Error loading message: Messages.LeaderboardTop
+[06:35:19] [Server thread/INFO]: [Arcade] [STDOUT] Error loading message: Messages.SpectatorPage
+[06:35:19] [Server thread/INFO]: [Arcade] [STDOUT] Error loading message: Messages.SpectatorSettingItemFirstPersonOn
+[06:35:19] [Server thread/INFO]: [Arcade] [STDOUT] Error loading message: Messages.SpectatorTargetFirstPerson
+[06:35:19] [Server thread/INFO]: [Arcade] [STDOUT] Error loading message: Messages.LeaderboardRank
+[06:35:19] [Server thread/INFO]: [Arcade] [STDOUT] Error loading message: Messages.SpectatorSpectate
+[06:35:19] [Server thread/INFO]: [Arcade] [STDOUT] Error loading message: Messages.SpectatorSettingItemNoSpeed
+[06:35:19] [Server thread/INFO]: [Arcade] [STDOUT] Error loading message: Messages.SpectatorSettingItemFirstPersonOff
+[06:35:19] [Server thread/INFO]: [Arcade] [STDOUT] Error loading message: Messages.StateWaiting
+[06:35:19] [Server thread/INFO]: [Arcade] [STDOUT] Error loading message: MessagesList.JoinNPC
+[06:35:19] [Server thread/INFO]: [Arcade] [STDOUT] Error loading message: Messages.LeaderboardWins
+[06:35:19] [Server thread/INFO]: [Arcade] [STDOUT] Error loading message: Messages.LeaderboardLoading
+[06:35:19] [Server thread/INFO]:  - Loading database...
+[06:35:19] [Server thread/INFO]:  - Loading Party Games...
+[06:35:19] [Paper Async Chunk Task Thread #0/ERROR]: No key placement in MapLike[{config:{blacklist:[],block_placer:{type:"minecraft:simple_block_placer"},can_replace:0b,need_water:0b,project:1b,state_provider:{type:"minecraft:plain_flower_provider"},tries:64,whitelist:[],xspread:7,yspread:3,zspread:7},type:"minecraft:flower"}]; No key feature in MapLike[{config:{blacklist:[],block_placer:{type:"minecraft:simple_block_placer"},can_replace:0b,need_water:0b,project:1b,state_provider:{type:"minecraft:plain_flower_provider"},tries:64,whitelist:[],xspread:7,yspread:3,zspread:7},type:"minecraft:flower"}]
+[06:35:19] [Paper Async Chunk Task Thread #0/ERROR]: Exception loading structure piece with id minecraft:jigsaw
 java.lang.IllegalStateException: Invalid pool element found
 	at net.minecraft.world.level.levelgen.structure.PoolElementStructurePiece.lambda$new$0(PoolElementStructurePiece.java:51) ~[?:?]
 	at java.util.Optional.orElseThrow(Optional.java:403) ~[?:?]
@@ -241,9 +347,9 @@ java.lang.IllegalStateException: Invalid pool element found
 	at com.destroystokyo.paper.io.chunk.ChunkLoadTask.executeTask(ChunkLoadTask.java:117) ~[paper-1.19.jar:git-Paper-81]
 	at com.destroystokyo.paper.io.chunk.ChunkLoadTask.run(ChunkLoadTask.java:42) ~[paper-1.19.jar:git-Paper-81]
 	at com.destroystokyo.paper.io.QueueExecutorThread.pollTasks(QueueExecutorThread.java:118) ~[paper-1.19.jar:git-Paper-81]
-	at com.destroystokyo.paper.io.QueueExecutorThread.run(QueueExecutorThread.java:51) ~[paper-1.19.jar:git-Paper-81]
-[20:52:40] [Paper Async Chunk Task Thread #0/ERROR]: No key placement in MapLike[{config:{blacklist:[],block_placer:{type:"minecraft:simple_block_placer"},can_replace:0b,need_water:0b,project:1b,state_provider:{type:"minecraft:plain_flower_provider"},tries:64,whitelist:[],xspread:7,yspread:3,zspread:7},type:"minecraft:flower"}]; No key feature in MapLike[{config:{blacklist:[],block_placer:{type:"minecraft:simple_block_placer"},can_replace:0b,need_water:0b,project:1b,state_provider:{type:"minecraft:plain_flower_provider"},tries:64,whitelist:[],xspread:7,yspread:3,zspread:7},type:"minecraft:flower"}]
-[20:52:40] [Paper Async Chunk Task Thread #0/ERROR]: Exception loading structure piece with id minecraft:jigsaw
+	at com.destroystokyo.paper.io.QueueExecutorThread.run(QueueExecutorThread.java:62) ~[paper-1.19.jar:git-Paper-81]
+[06:35:19] [Paper Async Chunk Task Thread #0/ERROR]: No key placement in MapLike[{config:{blacklist:[],block_placer:{type:"minecraft:simple_block_placer"},can_replace:0b,need_water:0b,project:1b,state_provider:{type:"minecraft:plain_flower_provider"},tries:64,whitelist:[],xspread:7,yspread:3,zspread:7},type:"minecraft:flower"}]; No key feature in MapLike[{config:{blacklist:[],block_placer:{type:"minecraft:simple_block_placer"},can_replace:0b,need_water:0b,project:1b,state_provider:{type:"minecraft:plain_flower_provider"},tries:64,whitelist:[],xspread:7,yspread:3,zspread:7},type:"minecraft:flower"}]
+[06:35:19] [Paper Async Chunk Task Thread #0/ERROR]: Exception loading structure piece with id minecraft:jigsaw
 java.lang.IllegalStateException: Invalid pool element found
 	at net.minecraft.world.level.levelgen.structure.PoolElementStructurePiece.lambda$new$0(PoolElementStructurePiece.java:51) ~[?:?]
 	at java.util.Optional.orElseThrow(Optional.java:403) ~[?:?]
@@ -255,9 +361,9 @@ java.lang.IllegalStateException: Invalid pool element found
 	at com.destroystokyo.paper.io.chunk.ChunkLoadTask.executeTask(ChunkLoadTask.java:117) ~[paper-1.19.jar:git-Paper-81]
 	at com.destroystokyo.paper.io.chunk.ChunkLoadTask.run(ChunkLoadTask.java:42) ~[paper-1.19.jar:git-Paper-81]
 	at com.destroystokyo.paper.io.QueueExecutorThread.pollTasks(QueueExecutorThread.java:118) ~[paper-1.19.jar:git-Paper-81]
-	at com.destroystokyo.paper.io.QueueExecutorThread.run(QueueExecutorThread.java:51) ~[paper-1.19.jar:git-Paper-81]
-[20:52:40] [Paper Async Chunk Task Thread #0/ERROR]: Invalid bounding box data, inverted bounds for: StructureBoundingBox{minX=2147483647, minY=2147483647, minZ=2147483647, maxX=-2147483648, maxY=-2147483648, maxZ=-2147483648}
-[20:52:40] [Paper Async Chunk Task Thread #0/ERROR]: Exception loading structure piece with id minecraft:jigsaw
+	at com.destroystokyo.paper.io.QueueExecutorThread.run(QueueExecutorThread.java:62) ~[paper-1.19.jar:git-Paper-81]
+[06:35:19] [Paper Async Chunk Task Thread #0/ERROR]: Invalid bounding box data, inverted bounds for: StructureBoundingBox{minX=2147483647, minY=2147483647, minZ=2147483647, maxX=-2147483648, maxY=-2147483648, maxZ=-2147483648}
+[06:35:19] [Paper Async Chunk Task Thread #0/ERROR]: Exception loading structure piece with id minecraft:jigsaw
 java.lang.IllegalStateException: Invalid call to EmtyPoolElement.getBoundingBox, filter me!
 	at net.minecraft.world.level.levelgen.structure.pools.EmptyPoolElement.getBoundingBox(EmptyPoolElement.java:39) ~[?:?]
 	at net.minecraft.world.level.levelgen.structure.PoolElementStructurePiece.<init>(PoolElementStructurePiece.java:55) ~[?:?]
@@ -268,9 +374,9 @@ java.lang.IllegalStateException: Invalid call to EmtyPoolElement.getBoundingBox,
 	at com.destroystokyo.paper.io.chunk.ChunkLoadTask.executeTask(ChunkLoadTask.java:117) ~[paper-1.19.jar:git-Paper-81]
 	at com.destroystokyo.paper.io.chunk.ChunkLoadTask.run(ChunkLoadTask.java:42) ~[paper-1.19.jar:git-Paper-81]
 	at com.destroystokyo.paper.io.QueueExecutorThread.pollTasks(QueueExecutorThread.java:118) ~[paper-1.19.jar:git-Paper-81]
-	at com.destroystokyo.paper.io.QueueExecutorThread.run(QueueExecutorThread.java:51) ~[paper-1.19.jar:git-Paper-81]
-[20:52:40] [Paper Async Chunk Task Thread #0/ERROR]: Invalid bounding box data, inverted bounds for: StructureBoundingBox{minX=2147483647, minY=2147483647, minZ=2147483647, maxX=-2147483648, maxY=-2147483648, maxZ=-2147483648}
-[20:52:40] [Paper Async Chunk Task Thread #0/ERROR]: Exception loading structure piece with id minecraft:jigsaw
+	at com.destroystokyo.paper.io.QueueExecutorThread.run(QueueExecutorThread.java:62) ~[paper-1.19.jar:git-Paper-81]
+[06:35:19] [Paper Async Chunk Task Thread #0/ERROR]: Invalid bounding box data, inverted bounds for: StructureBoundingBox{minX=2147483647, minY=2147483647, minZ=2147483647, maxX=-2147483648, maxY=-2147483648, maxZ=-2147483648}
+[06:35:19] [Paper Async Chunk Task Thread #0/ERROR]: Exception loading structure piece with id minecraft:jigsaw
 java.lang.IllegalStateException: Invalid call to EmtyPoolElement.getBoundingBox, filter me!
 	at net.minecraft.world.level.levelgen.structure.pools.EmptyPoolElement.getBoundingBox(EmptyPoolElement.java:39) ~[?:?]
 	at net.minecraft.world.level.levelgen.structure.PoolElementStructurePiece.<init>(PoolElementStructurePiece.java:55) ~[?:?]
@@ -281,9 +387,9 @@ java.lang.IllegalStateException: Invalid call to EmtyPoolElement.getBoundingBox,
 	at com.destroystokyo.paper.io.chunk.ChunkLoadTask.executeTask(ChunkLoadTask.java:117) ~[paper-1.19.jar:git-Paper-81]
 	at com.destroystokyo.paper.io.chunk.ChunkLoadTask.run(ChunkLoadTask.java:42) ~[paper-1.19.jar:git-Paper-81]
 	at com.destroystokyo.paper.io.QueueExecutorThread.pollTasks(QueueExecutorThread.java:118) ~[paper-1.19.jar:git-Paper-81]
-	at com.destroystokyo.paper.io.QueueExecutorThread.run(QueueExecutorThread.java:51) ~[paper-1.19.jar:git-Paper-81]
-[20:52:40] [Paper Async Chunk Task Thread #0/ERROR]: No key placement in MapLike[{config:{blacklist:[],block_placer:{type:"minecraft:simple_block_placer"},can_replace:0b,need_water:0b,project:1b,state_provider:{type:"minecraft:plain_flower_provider"},tries:64,whitelist:[],xspread:7,yspread:3,zspread:7},type:"minecraft:flower"}]; No key feature in MapLike[{config:{blacklist:[],block_placer:{type:"minecraft:simple_block_placer"},can_replace:0b,need_water:0b,project:1b,state_provider:{type:"minecraft:plain_flower_provider"},tries:64,whitelist:[],xspread:7,yspread:3,zspread:7},type:"minecraft:flower"}]
-[20:52:40] [Paper Async Chunk Task Thread #0/ERROR]: Exception loading structure piece with id minecraft:jigsaw
+	at com.destroystokyo.paper.io.QueueExecutorThread.run(QueueExecutorThread.java:62) ~[paper-1.19.jar:git-Paper-81]
+[06:35:19] [Paper Async Chunk Task Thread #0/ERROR]: No key placement in MapLike[{config:{blacklist:[],block_placer:{type:"minecraft:simple_block_placer"},can_replace:0b,need_water:0b,project:1b,state_provider:{type:"minecraft:plain_flower_provider"},tries:64,whitelist:[],xspread:7,yspread:3,zspread:7},type:"minecraft:flower"}]; No key feature in MapLike[{config:{blacklist:[],block_placer:{type:"minecraft:simple_block_placer"},can_replace:0b,need_water:0b,project:1b,state_provider:{type:"minecraft:plain_flower_provider"},tries:64,whitelist:[],xspread:7,yspread:3,zspread:7},type:"minecraft:flower"}]
+[06:35:19] [Paper Async Chunk Task Thread #0/ERROR]: Exception loading structure piece with id minecraft:jigsaw
 java.lang.IllegalStateException: Invalid pool element found
 	at net.minecraft.world.level.levelgen.structure.PoolElementStructurePiece.lambda$new$0(PoolElementStructurePiece.java:51) ~[?:?]
 	at java.util.Optional.orElseThrow(Optional.java:403) ~[?:?]
@@ -295,174 +401,200 @@ java.lang.IllegalStateException: Invalid pool element found
 	at com.destroystokyo.paper.io.chunk.ChunkLoadTask.executeTask(ChunkLoadTask.java:117) ~[paper-1.19.jar:git-Paper-81]
 	at com.destroystokyo.paper.io.chunk.ChunkLoadTask.run(ChunkLoadTask.java:42) ~[paper-1.19.jar:git-Paper-81]
 	at com.destroystokyo.paper.io.QueueExecutorThread.pollTasks(QueueExecutorThread.java:118) ~[paper-1.19.jar:git-Paper-81]
-	at com.destroystokyo.paper.io.QueueExecutorThread.run(QueueExecutorThread.java:51) ~[paper-1.19.jar:git-Paper-81]
-[20:52:41] [Server thread/INFO]: =-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=
-[20:52:41] [Server thread/INFO]: Arcade plugin is loading... 
-[20:52:41] [Server thread/INFO]:  Author: Fr33styler
-[20:52:41] [Server thread/INFO]:  Version: 1.53
-[20:52:41] [Server thread/INFO]:  - Loading engine...
-[20:52:41] [Server thread/INFO]:  - Loading database...
-[20:52:41] [Server thread/INFO]:  - Loading Party Games...
-[20:52:41] [Server thread/INFO]:  - Loading Mini Walls...
-[20:52:41] [Server thread/INFO]:  - Loading Splegg...
-[20:52:41] [Server thread/INFO]:  - Loading Temple Run...
-[20:52:41] [Server thread/INFO]:  - Loading Bomb Lobbers...
-[20:52:41] [Server thread/INFO]:  - Loading TNT Run...
-[20:52:41] [Server thread/INFO]:  - Loading Prop Hunt...
-[20:52:41] [Server thread/INFO]:  - Loading Quake...
-[20:52:41] [Server thread/INFO]:  - Loading Block Party...
-[20:52:42] [Server thread/INFO]:  - Loading TNT Tag...
-[20:52:42] [Server thread/INFO]: [PlaceholderAPI] Successfully registered internal expansion: arcade [null]
-[20:52:42] [Server thread/INFO]: Arcade has been loaded!
-[20:52:42] [Server thread/INFO]: =-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=
-[20:52:42] [Server thread/INFO]: [GadgetsMenu] Enabling GadgetsMenu v4.7.3
-[20:52:42] [Server thread/INFO]: [GadgetsMenu] ------------------------------------------------------
-[20:52:42] [Server thread/INFO]: [GadgetsMenu]         GadgetsMenu [Free] 4.7.3 is loading...
-[20:52:42] [Server thread/INFO]: [GadgetsMenu]           [server: git-Paper-81 (MC: 1.19)]
-[20:52:42] [Server thread/INFO]: [GadgetsMenu]                  Running Java 17.0.11
-[20:52:42] [Server thread/INFO]: [GadgetsMenu]                Plugin by Yap Zhen Yie.
-[20:52:42] [Server thread/INFO]: [GadgetsMenu]             Date Modified: 30 August 2022
-[20:52:42] [Server thread/INFO]: [GadgetsMenu]                            
-[20:52:42] [Server thread/INFO]: [GadgetsMenu]              Initializing module v1_19_R1
-[20:52:42] [Server thread/INFO]: [GadgetsMenu] ------------------------------------------------------
-[20:52:43] [Server thread/INFO]: [GadgetsMenu] Connecting to SQLite database...
-[20:52:43] [Server thread/INFO]: [GadgetsMenu] Successfully connected to SQLite database!
-[20:52:43] [Server thread/INFO]: [PlaceholderAPI] Successfully registered internal expansion: gadgetsmenu [1.0.2]
-[20:52:43] [Server thread/INFO]: [GadgetsMenu] [Placeholder] PlaceholderAPI hooked.
-[20:52:43] [Server thread/INFO]: [LPC] Enabling LPC v3.6.0
-[20:52:44] [Server thread/INFO]: [PlaceholderAPI] Placeholder expansion registration initializing...
-[20:52:44] [Server thread/INFO]: Running delayed init tasks
-[20:52:44] [Server thread/INFO]: [JumpPads] CleanUp found no JumpPads to delete!
-[20:52:44] [Craft Scheduler Thread - 6 - ViaVersion/INFO]: [ViaVersion] Finished mapping loading, shutting down loader executor!
-[20:52:44] [Craft Scheduler Thread - 12 - GadgetsMenu/INFO]: [GadgetsMenu] Checking for updates...
-[20:52:44] [Server thread/INFO]: Done (41.414s)! For help, type "help"
-[20:52:44] [Server thread/INFO]: Timings Reset
-[20:52:44] [Craft Scheduler Thread - 8 - PlayerPoints/INFO]: [RoseGarden] [RoseGarden] An update for PlayerPoints (v3.2.7) is available! You are running v3.0.1.
-[20:52:44] [Server thread/INFO]: [PlaceholderAPI] Successfully registered external expansion: math [2.0.2]
-[20:52:44] [Server thread/WARN]: [PlaceholderAPI] Cannot load expansion playertime due to a missing plugin: PlayerTime
-[20:52:44] [Craft Scheduler Thread - 12 - GadgetsMenu/INFO]: [GadgetsMenu] You have an old version of the plugin. You are using 4.7.3, available version 4.13.1.
-[20:52:44] [Server thread/WARN]: [PlaceholderAPI] Loaded class com.onarandombox.MultiverseCore.MultiverseCore from Multiverse-Core v4.3.1-b861 which is not a depend or softdepend of this plugin.
-[20:52:44] [Server thread/INFO]: [PlaceholderAPI] Successfully registered external expansion: multiverse [1.0.1]
-[20:52:44] [Server thread/INFO]: [PlaceholderAPI] Successfully registered external expansion: otherplayer [2.1.0]
-[20:52:44] [Server thread/INFO]: [PlaceholderAPI] Successfully registered external expansion: gg [1.0.0]
-[20:52:44] [Server thread/INFO]: [PlaceholderAPI] Successfully registered external expansion: server [2.7.2]
-[20:52:44] [Server thread/INFO]: [PlaceholderAPI] Successfully registered external expansion: pinger [1.0.1]
-[20:52:44] [Server thread/INFO]: [PlaceholderAPI] Successfully registered external expansion: gradient [1.0]
-[20:52:44] [Server thread/WARN]: [PlaceholderAPI] Cannot load expansion thirst due to a missing plugin: Thirst
-[20:52:44] [Server thread/INFO]: [PlaceholderAPI] Successfully registered external expansion: player [2.0.8]
-[20:52:44] [Server thread/WARN]: [PlaceholderAPI] Cannot load expansion tp due to a missing plugin: ThemePark
-[20:52:44] [Server thread/INFO]: [PlaceholderAPI] Successfully registered external expansion: localtime [1.2]
-[20:52:44] [Server thread/WARN]: [PlaceholderAPI] Loaded class net.luckperms.api.LuckPerms from LuckPerms v5.4.40 which is not a depend or softdepend of this plugin.
-[20:52:44] [Server thread/INFO]: [PlaceholderAPI] Successfully registered external expansion: luckperms [5.4-R2]
-[20:52:44] [Server thread/INFO]: [PlaceholderAPI] Successfully registered external expansion: playerlist [3.0.7]
-[20:52:44] [Server thread/INFO]: [PlaceholderAPI] Successfully registered external expansion: tempdata [0.1-BETA]
-[20:52:44] [Server thread/WARN]: [PlaceholderAPI] Cannot load expansion playerstats due to a missing plugin: PlayerStats
-[20:52:44] [Server thread/INFO]: 12 placeholder hook(s) registered! 1 placeholder hook(s) have an update available.
-[20:52:53] [Craft Scheduler Thread - 12 - ProJumpPads/INFO]: [ProJumpPads] Loaded 1 jump pad successfully!
-[20:52:54] [Craft Scheduler Thread - 12 - ProJumpPads/INFO]: [ProJumpPads] Plugin is up to date!
-[20:53:43] [User Authenticator #1/INFO]: UUID of player amirabbas8585 is 20cf1db0-e54b-388d-8edc-76880a8b4ffa
-[20:53:43] [Server thread/INFO]: + amirabbas8585 Connected
-[20:53:43] [Server thread/INFO]: amirabbas8585[/[0:0:0:0:0:0:0:1%0]:37314] logged in with entity id 23 at ([crmapin]-110.84188446198117, 154.5, 1.9145532115897992)
-[20:53:46] [Craft Scheduler Thread - 12 - PlaceholderAPI/INFO]: [LocalTime] Couldn't get amirabbas8585's timezone. Will use default timezone.
-[20:53:58] [User Authenticator #1/INFO]: UUID of player Walter1389 is dc679653-70a9-30b1-9ef7-e24320742ebe
-[20:53:58] [Server thread/INFO]: + Walter1389 Connected
-[20:53:58] [Server thread/INFO]: Walter1389[/[0:0:0:0:0:0:0:1%0]:33406] logged in with entity id 234 at ([world]20.5, 69.0, 233.5)
-[20:54:00] [Craft Scheduler Thread - 12 - PlaceholderAPI/INFO]: [LocalTime] Couldn't get Walter1389's timezone. Will use default timezone.
-[20:54:23] [Server thread/INFO]: amirabbas8585 issued server command: /jumpp set color &3
-[20:54:25] [Server thread/INFO]: amirabbas8585 issued server command: /jumpp set color &3
-[20:54:26] [Server thread/INFO]: amirabbas8585 issued server command: /jumpp set color &3
-[20:54:47] [Server thread/INFO]: amirabbas8585 issued server command: /partygames start
-[20:54:50] [Server thread/INFO]: amirabbas8585 issued server command: /partygames start PartyGame-1
-[20:55:02] [Server thread/INFO]: Named entity EntityPig['+3'/842, uuid='08c325a8-2ad9-40e9-95aa-5ba7b92668dd', l='ServerLevel[Arcade]', x=-1005.31, y=128.00, z=-1810.35, cpos=[-63, -114], tl=127, v=true] died: +3 was slain by amirabbas8585
-[20:55:02] [Server thread/INFO]: Named entity EntityPig['+3'/843, uuid='3e8068d3-a03b-4181-aeab-44c8f063b6ef', l='ServerLevel[Arcade]', x=-988.14, y=128.00, z=-1804.30, cpos=[-62, -113], tl=130, v=true] died: +3 was slain by Walter1389
-[20:55:04] [Server thread/INFO]: Named entity EntityChicken['+1'/841, uuid='221660cb-c7da-4ee7-886b-b24f40d81260', l='ServerLevel[Arcade]', x=-999.78, y=128.00, z=-1808.74, cpos=[-63, -114], tl=168, v=true] died: +1 was slain by amirabbas8585
-[20:55:05] [Server thread/INFO]: Named entity EntityChicken['+1'/840, uuid='f037c985-bfa6-49e3-af60-7a5aa606f1e3', l='ServerLevel[Arcade]', x=-999.14, y=128.00, z=-1801.04, cpos=[-63, -113], tl=190, v=true] died: +1 was slain by Walter1389
-[20:55:07] [Server thread/INFO]: Named entity EntityPig['+3'/855, uuid='3195c434-5ad4-4b8f-ab6e-28bf15f10d8a', l='ServerLevel[Arcade]', x=-992.96, y=128.00, z=-1811.91, cpos=[-63, -114], tl=185, v=true] died: +3 was slain by amirabbas8585
-[20:55:08] [Server thread/INFO]: Named entity EntityChicken['+1'/893, uuid='35717255-82a3-4b1b-809a-9c6d5fff54fe', l='ServerLevel[Arcade]', x=-991.50, y=128.00, z=-1812.50, cpos=[-62, -114], tl=134, v=true] died: +1 was slain by amirabbas8585
-[20:55:09] [Server thread/INFO]: Named entity EntityChicken['+1'/890, uuid='230907bc-14c1-43d2-8240-982ee2cb167a', l='ServerLevel[Arcade]', x=-993.50, y=128.00, z=-1816.15, cpos=[-63, -114], tl=160, v=true] died: +1 was slain by amirabbas8585
-[20:55:11] [Server thread/INFO]: Named entity EntityChicken['+1'/874, uuid='ed8b159f-49bc-42f3-bfdb-46ed8ebdf9eb', l='ServerLevel[Arcade]', x=-999.02, y=128.00, z=-1797.68, cpos=[-63, -113], tl=222, v=true] died: +1 was slain by Walter1389
-[20:55:11] [Server thread/INFO]: Named entity EntityCow['+5'/856, uuid='172f4b1a-8910-4664-8b09-00df36259d0e', l='ServerLevel[Arcade]', x=-995.02, y=128.00, z=-1797.65, cpos=[-63, -113], tl=276, v=true] died: +5 was slain by Walter1389
-[20:55:11] [Server thread/INFO]: Named entity EntityChicken['+1'/892, uuid='c3e241b6-79ef-4f02-86d1-a80a633c6091', l='ServerLevel[Arcade]', x=-990.89, y=128.00, z=-1807.12, cpos=[-62, -113], tl=197, v=true] died: +1 was slain by amirabbas8585
-[20:55:12] [Server thread/INFO]: Named entity EntityChicken['+1'/838, uuid='b1a2805b-979c-45ab-942a-d83cae3a1897', l='ServerLevel[Arcade]', x=-994.02, y=128.00, z=-1796.17, cpos=[-63, -113], tl=334, v=true] died: +1 was slain by Walter1389
-[20:55:14] [Server thread/INFO]: Named entity EntityPig['+3'/945, uuid='1c706bd8-4079-4a60-88bf-9a5d7d8e57ae', l='ServerLevel[Arcade]', x=-993.21, y=128.00, z=-1794.71, cpos=[-63, -113], tl=42, v=true] died: +3 was slain by Walter1389
-[20:55:14] [Server thread/INFO]: Named entity EntityChicken['-50%'/875, uuid='896cc4e4-7891-4368-957d-350685960e2f', l='ServerLevel[Arcade]', x=-992.25, y=128.00, z=-1796.25, cpos=[-63, -113], tl=282, v=true] died: -50% was slain by Walter1389
-[20:55:14] [Server thread/INFO]: Named entity EntityChicken['+1'/908, uuid='45a59ba0-219e-4f70-bd53-6c8f0b15ca1a', l='ServerLevel[Arcade]', x=-1001.46, y=128.00, z=-1806.74, cpos=[-63, -113], tl=221, v=true] died: +1 was slain by amirabbas8585
-[20:55:15] [Server thread/INFO]: Named entity EntityChicken['+1'/936, uuid='d34dcfe0-d5de-4dc7-8c58-444ffe02efc0', l='ServerLevel[Arcade]', x=-1002.36, y=128.00, z=-1806.76, cpos=[-63, -113], tl=108, v=true] died: +1 was slain by amirabbas8585
-[20:55:16] [Server thread/INFO]: Named entity EntityPig['+3'/924, uuid='7022f65f-2f12-4850-9481-bee2c2742a96', l='ServerLevel[Arcade]', x=-999.53, y=128.00, z=-1796.36, cpos=[-63, -113], tl=211, v=true] died: +3 was slain by Walter1389
-[20:55:16] [Server thread/INFO]: Named entity EntityChicken['+1'/947, uuid='01d12634-8459-4007-9d6f-0398fbc33ddc', l='ServerLevel[Arcade]', x=-1004.59, y=128.00, z=-1804.50, cpos=[-63, -113], tl=20, v=true] died: +1 was slain by amirabbas8585
-[20:55:17] [Server thread/INFO]: Named entity EntityChicken['+1'/911, uuid='1fd5698a-f7b5-4da8-8c77-af048f2cadf7', l='ServerLevel[Arcade]', x=-1000.22, y=128.00, z=-1793.77, cpos=[-63, -113], tl=273, v=true] died: +1 was slain by Walter1389
-[20:55:17] [Server thread/INFO]: Named entity EntityChicken['+1'/943, uuid='2179d205-b6ab-41f3-895d-ff38efe7464b', l='ServerLevel[Arcade]', x=-1005.50, y=128.00, z=-1805.50, cpos=[-63, -113], tl=114, v=true] died: +1 was slain by amirabbas8585
-[20:55:22] [Server thread/INFO]: Named entity EntityCow['+5'/946, uuid='d6e70dd0-b328-4b57-bd03-81d76553b259', l='ServerLevel[Arcade]', x=-996.30, y=128.00, z=-1794.80, cpos=[-63, -113], tl=216, v=true] died: +5 was slain by Walter1389
-[20:55:23] [Server thread/INFO]: Named entity EntityChicken['+1'/941, uuid='b0e1b3b1-74b0-4185-9542-c9567e92f93f', l='ServerLevel[Arcade]', x=-998.31, y=128.00, z=-1798.20, cpos=[-63, -113], tl=235, v=true] died: +1 was slain by amirabbas8585
-[20:55:24] [Server thread/INFO]: Named entity EntityChicken['+1'/922, uuid='e2cddc65-535c-493b-a7b0-286abcb1fbf3', l='ServerLevel[Arcade]', x=-1000.29, y=128.00, z=-1798.42, cpos=[-63, -113], tl=380, v=true] died: +1 was slain by amirabbas8585
-[20:55:24] [Server thread/INFO]: Named entity EntityPig['+3'/878, uuid='d5ccb8ec-3cac-4428-8e48-8acc697ec55c', l='ServerLevel[Arcade]', x=-998.78, y=128.00, z=-1799.24, cpos=[-63, -113], tl=500, v=true] died: +3 was slain by amirabbas8585
-[20:55:26] [Server thread/INFO]: Named entity EntityChicken['+1'/920, uuid='5c5585ac-1753-486f-b87f-b2d6531c1ad6', l='ServerLevel[Arcade]', x=-999.36, y=128.00, z=-1800.54, cpos=[-63, -113], tl=410, v=true] died: +1 was slain by amirabbas8585
-[20:55:28] [Server thread/INFO]: Named entity EntityCow['+5'/896, uuid='a56e3d98-e222-4f19-9c41-10de38fa36e7', l='ServerLevel[Arcade]', x=-991.84, y=128.00, z=-1802.19, cpos=[-62, -113], tl=523, v=true] died: +5 was slain by Walter1389
-[20:55:29] [Server thread/INFO]: Named entity EntityCow['+5'/939, uuid='c3db090a-4a9d-435e-a3af-af373aab43ed', l='ServerLevel[Arcade]', x=-998.57, y=128.00, z=-1809.16, cpos=[-63, -114], tl=395, v=true] died: +5 was slain by amirabbas8585
-[20:55:30] [Server thread/INFO]: Named entity EntityPig['+3'/937, uuid='92c3e4f2-76aa-4519-a500-e00eca9bb582', l='ServerLevel[Arcade]', x=-994.26, y=128.00, z=-1804.94, cpos=[-63, -113], tl=409, v=true] died: +3 was slain by Walter1389
-[20:55:31] [Server thread/INFO]: Named entity EntityPig['+3'/931, uuid='5a549b9f-be57-4685-a3f6-e101a353e615', l='ServerLevel[Arcade]', x=-1003.48, y=128.00, z=-1815.48, cpos=[-63, -114], tl=474, v=true] died: +3 was slain by amirabbas8585
-[20:55:32] [Server thread/INFO]: Named entity EntityPig['+3'/912, uuid='e313c018-410e-47c7-8f17-29db54c0f18f', l='ServerLevel[Arcade]', x=-996.02, y=128.00, z=-1801.23, cpos=[-63, -113], tl=571, v=true] died: +3 was slain by Walter1389
-[20:55:34] [Server thread/INFO]: Named entity EntityChicken['+1'/852, uuid='7d8b1909-5592-47e9-947d-bddb8fdaeb61', l='ServerLevel[Arcade]', x=-996.06, y=128.00, z=-1798.75, cpos=[-63, -113], tl=730, v=true] died: +1 was slain by Walter1389
-[20:55:34] [Server thread/INFO]: Named entity EntityPig['+3'/944, uuid='c2842bdc-4e1e-4b58-8f62-d728179080a4', l='ServerLevel[Arcade]', x=-1010.68, y=128.00, z=-1810.31, cpos=[-64, -114], tl=451, v=true] died: +3 was slain by amirabbas8585
-[20:55:36] [Server thread/INFO]: Named entity EntityChicken['+1'/891, uuid='09bd7eab-331a-4ee3-8372-6207130c5c3a', l='ServerLevel[Arcade]', x=-1011.11, y=128.00, z=-1805.41, cpos=[-64, -113], tl=688, v=true] died: +1 was slain by amirabbas8585
-[20:55:36] [Server thread/INFO]: Named entity EntityCow['+5'/914, uuid='d21f0a9a-0af5-43a0-a5b4-86bb881014df', l='ServerLevel[Arcade]', x=-998.81, y=128.00, z=-1793.46, cpos=[-63, -113], tl=656, v=true] died: +5 was slain by Walter1389
-[20:55:37] [Server thread/INFO]: Named entity EntityChicken['+1'/934, uuid='c5c95143-be2a-47e1-bf4d-efdc2a1d0039', l='ServerLevel[Arcade]', x=-1011.81, y=128.00, z=-1800.83, cpos=[-64, -113], tl=556, v=true] died: +1 was slain by amirabbas8585
-[20:55:37] [Server thread/INFO]: Named entity EntityChicken['+1'/942, uuid='3ea68a47-73e8-4e82-9ad6-94031cdf3629', l='ServerLevel[Arcade]', x=-1013.16, y=128.00, z=-1800.16, cpos=[-64, -113], tl=516, v=true] died: +1 was slain by amirabbas8585
-[20:55:42] [Server thread/INFO]: Named entity EntityChicken['+1'/910, uuid='72b3f645-6138-4c0b-aa1c-37220589b50c', l='ServerLevel[Arcade]', x=-1011.34, y=128.00, z=-1792.74, cpos=[-64, -113], tl=773, v=true] died: +1 was slain by amirabbas8585
-[20:55:42] [Server thread/INFO]: Named entity EntityPig['+3'/979, uuid='89298c4c-886b-479f-b579-b7d8b2af8aa7', l='ServerLevel[Arcade]', x=-1006.27, y=128.00, z=-1783.70, cpos=[-63, -112], tl=97, v=true] died: +3 was slain by Walter1389
-[20:55:43] [Server thread/INFO]: Named entity EntityChicken['+1'/851, uuid='524e6ff7-f08d-4519-be48-50773526513e', l='ServerLevel[Arcade]', x=-1009.54, y=128.00, z=-1791.30, cpos=[-64, -112], tl=918, v=true] died: +1 was slain by amirabbas8585
-[20:55:44] [Server thread/INFO]: Named entity EntityChicken['+1'/940, uuid='aed3db30-7045-48d8-aa4d-9e5d29a4ab53', l='ServerLevel[Arcade]', x=-1007.80, y=128.00, z=-1792.14, cpos=[-63, -113], tl=656, v=true] died: +1 was slain by amirabbas8585
-[20:55:47] [Server thread/INFO]: Named entity EntityChicken['+1'/935, uuid='53dd4d65-f007-442c-b322-119ef48af99d', l='ServerLevel[Arcade]', x=-993.33, y=128.00, z=-1788.34, cpos=[-63, -112], tl=753, v=true] died: +1 was slain by Walter1389
-[20:55:48] [Server thread/INFO]: Named entity EntityCow['+5'/932, uuid='618827d5-b47b-4d7d-8374-e03841091d54', l='ServerLevel[Arcade]', x=-992.07, y=128.00, z=-1791.26, cpos=[-63, -112], tl=813, v=true] died: +5 was slain by Walter1389
-[20:55:52] [Server thread/INFO]: Named entity EntityCow['+5'/879, uuid='38034c21-02d3-4840-b484-6e2bf6e839d5', l='ServerLevel[Arcade]', x=-1011.82, y=128.00, z=-1797.44, cpos=[-64, -113], tl=1042, v=true] died: +5 was slain by amirabbas8585
-[20:55:53] [Server thread/INFO]: Named entity EntityPig['+3'/938, uuid='59c0d00a-12a2-4a71-be58-1e25cfc6c1af', l='ServerLevel[Arcade]', x=-989.79, y=128.00, z=-1789.89, cpos=[-62, -112], tl=869, v=true] died: +3 was slain by Walter1389
-[20:55:53] [Server thread/INFO]: Named entity EntityChicken['+1'/956, uuid='fd8822e8-c68f-4814-86f9-7c2887b83231', l='ServerLevel[Arcade]', x=-1012.65, y=128.00, z=-1796.72, cpos=[-64, -113], tl=596, v=true] died: +1 was slain by amirabbas8585
-[20:55:55] [Server thread/INFO]: Named entity EntityPig['+3'/991, uuid='74d678a1-c230-461e-95b1-928ee83a831c', l='ServerLevel[Arcade]', x=-989.68, y=128.00, z=-1787.53, cpos=[-62, -112], tl=116, v=true] died: +3 was slain by Walter1389
-[20:55:56] [Server thread/INFO]: Named entity EntityCow['+5'/980, uuid='15293986-2d8d-4279-a0bc-673ae85bd187', l='ServerLevel[Arcade]', x=-993.70, y=128.00, z=-1788.06, cpos=[-63, -112], tl=370, v=true] died: +5 was slain by Walter1389
-[20:55:56] [Server thread/INFO]: Named entity EntityPig['+3'/895, uuid='740e9e9a-b12c-49a9-a9fa-a3871f87f105', l='ServerLevel[Arcade]', x=-1006.40, y=128.00, z=-1801.15, cpos=[-63, -113], tl=1091, v=true] died: +3 was slain by amirabbas8585
-[20:57:19] [Async Chat Thread - #0/INFO]: [ELITE]amirabbas8585: gg
-[20:58:32] [Async Chat Thread - #1/INFO]: [ELITE]amirabbas8585: gg
-[20:58:40] [Server thread/INFO]: Named entity EntityBat['Ouch!'/6708, uuid='744b980d-c9ed-4f1a-a8b8-c4eeeddcb4a5', l='ServerLevel[Arcade]', x=-2202.61, y=105.08, z=-1200.13, cpos=[-138, -76], tl=33, v=true] died: Ouch! was slain by amirabbas8585
-[20:58:46] [Server thread/INFO]: Named entity EntityBat['Ouch!'/6751, uuid='3b6235e1-213b-4b39-808f-182403f4e7e7', l='ServerLevel[Arcade]', x=-2196.35, y=98.03, z=-1196.58, cpos=[-138, -75], tl=141, v=true] died: Ouch! was slain by Walter1389
-[20:58:48] [Server thread/INFO]: Named entity EntityBat['Ouch!'/6744, uuid='a1abedbe-5674-47a2-93dc-bbc5e3466138', l='ServerLevel[Arcade]', x=-2193.87, y=98.23, z=-1204.75, cpos=[-138, -76], tl=181, v=true] died: Ouch! was slain by Walter1389
-[20:58:48] [Server thread/INFO]: Named entity EntityBat['Ouch!'/6709, uuid='730d3180-6800-44a4-9ed1-55c6bc5141b5', l='ServerLevel[Arcade]', x=-2200.50, y=101.09, z=-1208.75, cpos=[-138, -76], tl=190, v=true] died: Ouch! was slain by amirabbas8585
-[20:58:49] [Server thread/INFO]: Named entity EntityBat['Ouch!'/6755, uuid='4a642df7-c8d4-4cd6-89ab-57f8e804317e', l='ServerLevel[Arcade]', x=-2196.88, y=98.00, z=-1203.50, cpos=[-138, -76], tl=215, v=true] died: Ouch! was slain by Walter1389
-[20:58:50] [Server thread/INFO]: Named entity EntityBat['Ouch!'/6718, uuid='3da3c20e-be50-4ee5-a5d4-8fc7d6471af0', l='ServerLevel[Arcade]', x=-2200.16, y=98.03, z=-1205.50, cpos=[-138, -76], tl=231, v=true] died: Ouch! was slain by Walter1389
-[20:58:51] [Server thread/INFO]: Named entity EntityBat['Ouch!'/6725, uuid='1e589e52-9db5-4bcf-aca5-aeb224096280', l='ServerLevel[Arcade]', x=-2200.75, y=99.60, z=-1205.50, cpos=[-138, -76], tl=246, v=true] died: Ouch! was slain by Walter1389
-[20:58:54] [Server thread/INFO]: Named entity EntityBat['Ouch!'/6750, uuid='d35f5cc2-3aa3-41c4-bc29-f3946f8d7d72', l='ServerLevel[Arcade]', x=-2195.47, y=99.01, z=-1197.87, cpos=[-138, -75], tl=304, v=true] died: Ouch! was slain by Walter1389
-[20:58:55] [Server thread/INFO]: Named entity EntityBat['Ouch!'/6711, uuid='b123b7a5-f2f2-40fb-b4c1-5341bfcf047a', l='ServerLevel[Arcade]', x=-2194.71, y=98.00, z=-1191.25, cpos=[-138, -75], tl=339, v=true] died: Ouch! was slain by Walter1389
-[20:58:58] [Server thread/INFO]: Named entity EntityBat['Ouch!'/6764, uuid='df602593-114f-4fc5-b080-673b8e823d8d', l='ServerLevel[Arcade]', x=-2202.75, y=98.00, z=-1190.25, cpos=[-138, -75], tl=387, v=true] died: Ouch! was slain by Walter1389
-[20:59:00] [Server thread/INFO]: Named entity EntityBat['Ouch!'/6740, uuid='262e6fa6-bdc5-4581-9681-1e6b1cac917a', l='ServerLevel[Arcade]', x=-2203.41, y=100.60, z=-1195.25, cpos=[-138, -75], tl=439, v=true] died: Ouch! was slain by amirabbas8585
-[20:59:01] [Server thread/INFO]: Named entity EntityBat['Ouch!'/6728, uuid='c8180d6d-8e63-49d8-85bf-a2bfe0fb101f', l='ServerLevel[Arcade]', x=-2202.41, y=99.81, z=-1195.25, cpos=[-138, -75], tl=441, v=true] died: Ouch! was slain by Walter1389
-[20:59:03] [Server thread/INFO]: Named entity EntityBat['Ouch!'/6743, uuid='1d88ba7f-731a-4a6d-a9fa-e9a9a05c1f69', l='ServerLevel[Arcade]', x=-2208.61, y=100.03, z=-1201.38, cpos=[-139, -76], tl=485, v=true] died: Ouch! was slain by Walter1389
-[20:59:04] [Server thread/INFO]: Named entity EntityBat['Ouch!'/6741, uuid='b5b42771-6690-4a83-b368-92fb71ffa17f', l='ServerLevel[Arcade]', x=-2200.61, y=99.46, z=-1196.51, cpos=[-138, -75], tl=503, v=true] died: Ouch! was slain by amirabbas8585
-[20:59:05] [Server thread/INFO]: Named entity EntityBat['Ouch!'/6721, uuid='52976a54-5f27-4c32-9029-03d6b2dbf25f', l='ServerLevel[Arcade]', x=-2202.75, y=99.63, z=-1208.36, cpos=[-138, -76], tl=525, v=true] died: Ouch! was slain by Walter1389
-[20:59:06] [Server thread/INFO]: Named entity EntityBat['Ouch!'/6735, uuid='05f5fc09-9584-4d56-84d9-78718c3c599b', l='ServerLevel[Arcade]', x=-2197.54, y=98.03, z=-1208.70, cpos=[-138, -76], tl=548, v=true] died: Ouch! was slain by Walter1389
-[20:59:09] [Server thread/INFO]: Named entity EntityBat['Ouch!'/6753, uuid='9b327229-87f5-41c4-81e2-88ab281ef47b', l='ServerLevel[Arcade]', x=-2195.44, y=100.50, z=-1207.70, cpos=[-138, -76], tl=613, v=true] died: Ouch! was slain by Walter1389
-[20:59:13] [Server thread/INFO]: Named entity EntityBat['Ouch!'/6730, uuid='3dc37b39-a763-47cd-b56d-eb11736ccdf6', l='ServerLevel[Arcade]', x=-2200.53, y=101.50, z=-1195.20, cpos=[-138, -75], tl=700, v=true] died: Ouch! was slain by amirabbas8585
-[20:59:14] [Server thread/INFO]: Named entity EntityBat['Ouch!'/6738, uuid='ddcb8b0d-569b-4c1f-ba10-ab02f2105b29', l='ServerLevel[Arcade]', x=-2198.25, y=106.08, z=-1206.43, cpos=[-138, -76], tl=720, v=true] died: Ouch! was slain by Walter1389
-[20:59:18] [Server thread/INFO]: Named entity EntityBat['Ouch!'/6754, uuid='a67dbd60-8fff-4e64-ad94-85986c9c4a87', l='ServerLevel[Arcade]', x=-2196.13, y=99.08, z=-1203.56, cpos=[-138, -76], tl=788, v=true] died: Ouch! was slain by Walter1389
-[20:59:19] [Server thread/INFO]: Named entity EntityBat['Ouch!'/6762, uuid='e78a382f-a122-4665-923e-f90b74ca5d41', l='ServerLevel[Arcade]', x=-2199.37, y=99.57, z=-1205.87, cpos=[-138, -76], tl=820, v=true] died: Ouch! was slain by Walter1389
-[20:59:20] [Server thread/INFO]: Named entity EntityBat['Ouch!'/6747, uuid='032c8cdf-cc51-425c-9cd9-9c08091dcc1e', l='ServerLevel[Arcade]', x=-2208.75, y=100.04, z=-1202.75, cpos=[-139, -76], tl=825, v=true] died: Ouch! was slain by amirabbas8585
-[20:59:21] [Server thread/INFO]: Named entity EntityBat['Ouch!'/6766, uuid='c6c108e9-e016-4689-8f33-1d1447785a78', l='ServerLevel[Arcade]', x=-2206.75, y=98.00, z=-1205.52, cpos=[-138, -76], tl=857, v=true] died: Ouch! was slain by amirabbas8585
-[20:59:22] [Server thread/INFO]: Named entity EntityBat['Ouch!'/6745, uuid='fc3e7349-c929-4e56-a9b0-05348e909f7a', l='ServerLevel[Arcade]', x=-2198.40, y=99.06, z=-1205.81, cpos=[-138, -76], tl=873, v=true] died: Ouch! was slain by Walter1389
-[20:59:23] [Server thread/INFO]: Named entity EntityBat['Ouch!'/6752, uuid='7d26d6b1-19ce-4627-a09e-3e9ec7ca55f8', l='ServerLevel[Arcade]', x=-2199.57, y=98.84, z=-1205.26, cpos=[-138, -76], tl=887, v=true] died: Ouch! was slain by Walter1389
-[20:59:23] [Server thread/INFO]: Named entity EntityBat['Ouch!'/6760, uuid='780235b6-3e1a-4b22-9d7a-e0e5f9298891', l='ServerLevel[Arcade]', x=-2201.60, y=100.12, z=-1207.75, cpos=[-138, -76], tl=893, v=true] died: Ouch! was slain by amirabbas8585
-[20:59:25] [Server thread/INFO]: Named entity EntityBat['Ouch!'/6791, uuid='9304db38-2617-419e-8c6d-b5d4b44049fb', l='ServerLevel[Arcade]', x=-2195.72, y=98.22, z=-1203.47, cpos=[-138, -76], tl=134, v=true] died: Ouch! was slain by Walter1389
-[20:59:26] [Server thread/INFO]: Named entity EntityBat['Ouch!'/6726, uuid='3846bdec-3e8d-49dc-ab55-7c58d3af75d3', l='ServerLevel[Arcade]', x=-2192.25, y=98.00, z=-1205.75, cpos=[-138, -76], tl=946, v=true] died: Ouch! was slain by amirabbas8585
-[20:59:26] [Server thread/INFO]: Named entity EntityBat['Ouch!'/6824, uuid='43e1bf35-80e8-4abf-ab7e-42ffaf54e849', l='ServerLevel[Arcade]', x=-2194.68, y=98.00, z=-1198.95, cpos=[-138, -75], tl=170, v=true] died: Ouch! was slain by Walter1389
-[20:59:28] [Server thread/INFO]: Named entity EntityBat['Ouch!'/6713, uuid='cca4bc5f-4efc-486d-87e1-e15da0a070b3', l='ServerLevel[Arcade]', x=-2195.34, y=98.92, z=-1197.77, cpos=[-138, -75], tl=999, v=true] died: Ouch! was slain by Walter1389
-[20:59:29] [Server thread/INFO]: Named entity EntityBat['Ouch!'/6707, uuid='193e4096-242f-48ee-a7e6-bd532a3a123c', l='ServerLevel[Arcade]', x=-2193.97, y=100.13, z=-1195.14, cpos=[-138, -75], tl=1013, v=true] died: Ouch! was slain by Walter1389
-[20:59:31] [Server thread/INFO]: Named entity EntityBat['Ouch!'/6814, uuid='e0342a95-eb8e-4db8-9e15-cb63a7407809', l='ServerLevel[Arcade]', x=-2197.82, y=98.00, z=-1202.51, cpos=[-138, -76], tl=268, v=true] died: Ouch! was slain by Walter1389
-[20:59:31] [Server thread/INFO]: Named entity EntityBat['Ouch!'/6802, uuid='159059a5-f954-492c-8f93-a84f58e56e64', l='ServerLevel[Arcade]', x=-2199.59, y=99.03, z=-1199.87, cpos=[-138, -75], tl=271, v=true] died: Ouch! was slain by amirabbas8585
-[20:59:39] [Server thread/INFO]: Named entity EntityBat['Ouch!'/6710, uuid='0f8fdc78-c597-4563-b710-94cc6a769c12', l='ServerLevel[Arcade]', x=-2198.28, y=99.57, z=-1195.35, cpos=[-138, -75], tl=1205, v=true] died: Ouch! was slain by amirabbas8585
-[20:59:39] [Server thread/INFO]: Named entity EntityBat['Ouch!'/6748, uuid='b6649040-76c3-4f4e-bb61-f1532c5ef90a', l='ServerLevel[Arcade]', x=-2202.23, y=100.21, z=-1201.45, cpos=[-138, -76], tl=1211, v=true] died: Ouch! was slain by Walter1389
-[21:02:43] [Async Chat Thread - #2/INFO]: [ELITE]amirabbas8585: gg
-[21:03:12] [Async Chat Thread - #2/INFO]: [ELITE]amirabbas8585: gg
-[21:04:00] [Server thread/INFO]: amirabbas8585 issued server command: /arcade setlobby
-[21:04:27] [Server thread/INFO]: amirabbas8585 issued server command: /qk start
-[21:04:30] [Server thread/INFO]: amirabbas8585 issued server command: /qk start 2
-[21:14:00] [Server thread/INFO]: amirabbas8585 lost connection: Disconnected
-[21:14:00] [Server thread/INFO]: - amirabbas8585 Disconnected
-[21:14:09] [Server thread/INFO]: Walter1389 lost connection: Disconnected
-[21:14:09] [Server thread/INFO]: - Walter1389 Disconnected
+	at com.destroystokyo.paper.io.QueueExecutorThread.run(QueueExecutorThread.java:62) ~[paper-1.19.jar:git-Paper-81]
+[06:35:20] [Server thread/INFO]:  - Loading Mini Walls...
+[06:35:20] [Server thread/INFO]:  - Loading Splegg...
+[06:35:20] [Server thread/INFO]:  - Loading Temple Run...
+[06:35:20] [Server thread/INFO]:  - Loading Bomb Lobbers...
+[06:35:20] [Server thread/INFO]:  - Loading TNT Run...
+[06:35:20] [Server thread/INFO]:  - Loading Prop Hunt...
+[06:35:20] [Server thread/INFO]:  - Loading Quake...
+[06:35:20] [Server thread/INFO]:  - Loading Block Party...
+[06:35:21] [Server thread/INFO]:  - Loading TNT Tag...
+[06:35:21] [Server thread/INFO]: [PlaceholderAPI] Successfully registered internal expansion: arcade [null]
+[06:35:21] [Server thread/INFO]: Arcade has been loaded!
+[06:35:21] [Server thread/INFO]: =-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=
+[06:35:21] [Server thread/INFO]: [GadgetsMenu] Enabling GadgetsMenu v4.7.3
+[06:35:21] [Server thread/INFO]: [GadgetsMenu] ------------------------------------------------------
+[06:35:21] [Server thread/INFO]: [GadgetsMenu]         GadgetsMenu [Free] 4.7.3 is loading...
+[06:35:21] [Server thread/INFO]: [GadgetsMenu]           [server: git-Paper-81 (MC: 1.19)]
+[06:35:21] [Server thread/INFO]: [GadgetsMenu]                  Running Java 17.0.11
+[06:35:21] [Server thread/INFO]: [GadgetsMenu]                Plugin by Yap Zhen Yie.
+[06:35:21] [Server thread/INFO]: [GadgetsMenu]             Date Modified: 30 August 2022
+[06:35:21] [Server thread/INFO]: [GadgetsMenu]                            
+[06:35:21] [Server thread/INFO]: [GadgetsMenu]              Initializing module v1_19_R1
+[06:35:21] [Server thread/INFO]: [GadgetsMenu] ------------------------------------------------------
+[06:35:22] [Server thread/INFO]: [GadgetsMenu] Connecting to SQLite database...
+[06:35:22] [Server thread/INFO]: [GadgetsMenu] Successfully connected to SQLite database!
+[06:35:22] [Server thread/INFO]: [PlaceholderAPI] Successfully registered internal expansion: gadgetsmenu [1.0.2]
+[06:35:22] [Server thread/INFO]: [GadgetsMenu] [Placeholder] PlaceholderAPI hooked.
+[06:35:22] [Server thread/INFO]: [LPC] Enabling LPC v3.6.0
+[06:35:23] [Server thread/INFO]: [PlaceholderAPI] Placeholder expansion registration initializing...
+[06:35:23] [Server thread/INFO]: Running delayed init tasks
+[06:35:23] [Server thread/INFO]: [JumpPads] CleanUp found no JumpPads to delete!
+[06:35:23] [Craft Scheduler Thread - 6 - ViaVersion/INFO]: [ViaVersion] Finished mapping loading, shutting down loader executor!
+[06:35:23] [Craft Scheduler Thread - 6 - PlayerPoints/INFO]: [RoseGarden] [RoseGarden] An update for PlayerPoints (v3.2.7) is available! You are running v3.0.1.
+[06:35:23] [Craft Scheduler Thread - 10 - GadgetsMenu/INFO]: [GadgetsMenu] Checking for updates...
+[06:35:23] [Server thread/INFO]: Done (40.137s)! For help, type "help"
+[06:35:23] [Craft Scheduler Thread - 10 - GadgetsMenu/INFO]: [GadgetsMenu] You have an old version of the plugin. You are using 4.7.3, available version 4.13.1.
+[06:35:23] [Server thread/INFO]: Timings Reset
+[06:35:23] [Server thread/INFO]: [PlaceholderAPI] Successfully registered external expansion: math [2.0.2]
+[06:35:23] [Server thread/WARN]: [PlaceholderAPI] Cannot load expansion playertime due to a missing plugin: PlayerTime
+[06:35:23] [Server thread/WARN]: [PlaceholderAPI] Loaded class com.onarandombox.MultiverseCore.MultiverseCore from Multiverse-Core v4.3.1-b861 which is not a depend or softdepend of this plugin.
+[06:35:23] [Server thread/INFO]: [PlaceholderAPI] Successfully registered external expansion: multiverse [1.0.1]
+[06:35:23] [Server thread/INFO]: [PlaceholderAPI] Successfully registered external expansion: otherplayer [2.1.0]
+[06:35:23] [Server thread/INFO]: [PlaceholderAPI] Successfully registered external expansion: gg [1.0.0]
+[06:35:23] [Server thread/INFO]: [PlaceholderAPI] Successfully registered external expansion: server [2.7.2]
+[06:35:23] [Server thread/INFO]: [PlaceholderAPI] Successfully registered external expansion: pinger [1.0.1]
+[06:35:23] [Server thread/INFO]: [PlaceholderAPI] Successfully registered external expansion: gradient [1.0]
+[06:35:23] [Server thread/WARN]: [PlaceholderAPI] Cannot load expansion thirst due to a missing plugin: Thirst
+[06:35:23] [Server thread/INFO]: [PlaceholderAPI] Successfully registered external expansion: player [2.0.8]
+[06:35:23] [Server thread/WARN]: [PlaceholderAPI] Cannot load expansion tp due to a missing plugin: ThemePark
+[06:35:23] [Server thread/INFO]: [PlaceholderAPI] Successfully registered external expansion: localtime [1.2]
+[06:35:23] [Server thread/WARN]: [PlaceholderAPI] Loaded class net.luckperms.api.LuckPerms from LuckPerms v5.4.40 which is not a depend or softdepend of this plugin.
+[06:35:23] [Server thread/INFO]: [PlaceholderAPI] Successfully registered external expansion: luckperms [5.4-R2]
+[06:35:23] [Server thread/INFO]: [PlaceholderAPI] Successfully registered external expansion: playerlist [3.0.7]
+[06:35:23] [Server thread/INFO]: [PlaceholderAPI] Successfully registered external expansion: tempdata [0.1-BETA]
+[06:35:23] [Server thread/WARN]: [PlaceholderAPI] Cannot load expansion playerstats due to a missing plugin: PlayerStats
+[06:35:23] [Server thread/INFO]: 12 placeholder hook(s) registered! 1 placeholder hook(s) have an update available.
+[06:35:32] [Craft Scheduler Thread - 6 - ProJumpPads/INFO]: [ProJumpPads] Loaded 1 jump pad successfully!
+[06:35:33] [Craft Scheduler Thread - 6 - ProJumpPads/INFO]: [ProJumpPads] Plugin is up to date!
+[06:37:20] [User Authenticator #1/INFO]: UUID of player amirabbas8585 is 20cf1db0-e54b-388d-8edc-76880a8b4ffa
+[06:37:20] [Server thread/INFO]: + amirabbas8585 Connected
+[06:37:20] [Server thread/INFO]: amirabbas8585[/[0:0:0:0:0:0:0:1%0]:41262] logged in with entity id 22 at ([crmapin]-117.69999998807907, 158.0, -2.6680697842477885)
+[06:37:23] [Craft Scheduler Thread - 17 - PlaceholderAPI/INFO]: [LocalTime] Couldn't get amirabbas8585's timezone. Will use default timezone.
+[06:37:57] [Server thread/INFO]: amirabbas8585 issued server command: /arcade reload
+[06:37:57] [Server thread/INFO]: =-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=
+[06:37:57] [Server thread/INFO]: Arcade plugin is disabling... 
+[06:37:57] [Server thread/INFO]: Closing the database...
+[06:37:57] [Server thread/INFO]: Arcade plugin has been disabled... 
+[06:37:57] [Server thread/INFO]: =-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=
+[06:37:57] [Server thread/INFO]: [Arcade] [STDOUT] [36m[Spigotunlocked.net] - -Michy-
+[06:37:57] [Server thread/INFO]: =-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=
+[06:37:57] [Server thread/INFO]: Arcade plugin is loading... 
+[06:37:57] [Server thread/INFO]:  Author: Fr33styler
+[06:37:57] [Server thread/INFO]:  Version: 1.53
+[06:37:57] [Server thread/INFO]:  - Loading engine...
+[06:37:57] [Server thread/WARN]: org.bukkit.configuration.InvalidConfigurationException: expected '<document start>', but found '<block mapping start>'
+[06:37:57] [Server thread/WARN]:  in 'reader', line 2, column 3:
+[06:37:57] [Server thread/WARN]:       GameIsFull: '&cThe game is full!'
+[06:37:57] [Server thread/WARN]:       ^
+[06:37:57] [Server thread/WARN]: 
+[06:37:57] [Server thread/WARN]: 	at org.bukkit.configuration.file.YamlConfiguration.loadFromString(YamlConfiguration.java:104)
+[06:37:57] [Server thread/WARN]: 	at org.bukkit.configuration.file.FileConfiguration.load(FileConfiguration.java:160)
+[06:37:57] [Server thread/WARN]: 	at org.bukkit.configuration.file.FileConfiguration.load(FileConfiguration.java:128)
+[06:37:57] [Server thread/WARN]: 	at Arcade_1.19_FIX.jar//ro.fr33styler.arcade.q.<init>(a:34)
+[06:37:57] [Server thread/WARN]: 	at Arcade_1.19_FIX.jar//ro.fr33styler.arcade.Arcade.onEnable(a:96)
+[06:37:57] [Server thread/WARN]: 	at Arcade_1.19_FIX.jar//ro.fr33styler.arcade.l.a(a:30)
+[06:37:57] [Server thread/WARN]: 	at Arcade_1.19_FIX.jar//ro.fr33styler.arcade.g.execute(a:80)
+[06:37:57] [Server thread/WARN]: 	at org.bukkit.command.SimpleCommandMap.dispatch(SimpleCommandMap.java:155)
+[06:37:57] [Server thread/WARN]: 	at org.bukkit.craftbukkit.v1_19_R1.CraftServer.dispatchCommand(CraftServer.java:909)
+[06:37:57] [Server thread/WARN]: 	at net.minecraft.server.network.PlayerConnection.handleCommand(PlayerConnection.java:2382)
+[06:37:57] [Server thread/WARN]: 	at net.minecraft.server.network.PlayerConnection.lambda$handleChatCommand$18(PlayerConnection.java:2153)
+[06:37:57] [Server thread/WARN]: 	at net.minecraft.server.TickTask.run(TickTask.java:18)
+[06:37:57] [Server thread/WARN]: 	at net.minecraft.util.thread.IAsyncTaskHandler.d(IAsyncTaskHandler.java:153)
+[06:37:57] [Server thread/WARN]: 	at net.minecraft.util.thread.IAsyncTaskHandlerReentrant.d(IAsyncTaskHandlerReentrant.java:24)
+[06:37:57] [Server thread/WARN]: 	at net.minecraft.server.MinecraftServer.b(MinecraftServer.java:1359)
+[06:37:57] [Server thread/WARN]: 	at net.minecraft.server.MinecraftServer.d(MinecraftServer.java:183)
+[06:37:57] [Server thread/WARN]: 	at net.minecraft.util.thread.IAsyncTaskHandler.x(IAsyncTaskHandler.java:126)
+[06:37:57] [Server thread/WARN]: 	at net.minecraft.server.MinecraftServer.bh(MinecraftServer.java:1336)
+[06:37:57] [Server thread/WARN]: 	at net.minecraft.server.MinecraftServer.x(MinecraftServer.java:1329)
+[06:37:57] [Server thread/WARN]: 	at net.minecraft.util.thread.IAsyncTaskHandler.c(IAsyncTaskHandler.java:136)
+[06:37:57] [Server thread/WARN]: 	at net.minecraft.server.MinecraftServer.w(MinecraftServer.java:1307)
+[06:37:57] [Server thread/WARN]: 	at net.minecraft.server.MinecraftServer.v(MinecraftServer.java:1192)
+[06:37:57] [Server thread/WARN]: 	at net.minecraft.server.MinecraftServer.lambda$spin$0(MinecraftServer.java:303)
+[06:37:57] [Server thread/WARN]: 	at java.base/java.lang.Thread.run(Thread.java:840)
+[06:37:57] [Server thread/WARN]: Caused by: expected '<document start>', but found '<block mapping start>'
+[06:37:57] [Server thread/WARN]:  in 'reader', line 2, column 3:
+[06:37:57] [Server thread/WARN]:       GameIsFull: '&cThe game is full!'
+[06:37:57] [Server thread/WARN]:       ^
+[06:37:57] [Server thread/WARN]: 
+[06:37:57] [Server thread/WARN]: 	at org.yaml.snakeyaml.parser.ParserImpl$ParseDocumentStart.produce(ParserImpl.java:259)
+[06:37:57] [Server thread/WARN]: 	at org.yaml.snakeyaml.parser.ParserImpl.peekEvent(ParserImpl.java:166)
+[06:37:57] [Server thread/WARN]: 	at org.yaml.snakeyaml.parser.ParserImpl.checkEvent(ParserImpl.java:156)
+[06:37:57] [Server thread/WARN]: 	at org.yaml.snakeyaml.composer.Composer.getSingleNode(Composer.java:145)
+[06:37:57] [Server thread/WARN]: 	at org.yaml.snakeyaml.Yaml.compose(Yaml.java:575)
+[06:37:57] [Server thread/WARN]: 	at org.bukkit.configuration.file.YamlConfiguration.loadFromString(YamlConfiguration.java:102)
+[06:37:57] [Server thread/WARN]: 	... 23 more
+[06:37:57] [Server thread/INFO]: [Arcade] [STDOUT] Error loading message: Messages.SpectatorSettingItemTeleportOn
+[06:37:57] [Server thread/INFO]: [Arcade] [STDOUT] Error loading message: Messages.GameIsFull
+[06:37:57] [Server thread/INFO]: [Arcade] [STDOUT] Error loading message: Messages.LeaderboardLifetime
+[06:37:57] [Server thread/INFO]: [Arcade] [STDOUT] Error loading message: Messages.SpectatorTeleporterPage
+[06:37:57] [Server thread/INFO]: [Arcade] [STDOUT] Error loading message: Messages.GameBroadcastLeave
+[06:37:57] [Server thread/INFO]: [Arcade] [STDOUT] Error loading message: Messages.SpectatorTarget
+[06:37:57] [Server thread/INFO]: [Arcade] [STDOUT] Error loading message: Messages.SpectatorSettingItemNightVisionOff
+[06:37:57] [Server thread/INFO]: [Arcade] [STDOUT] Error loading message: Messages.LeaderboardNoData
+[06:37:57] [Server thread/INFO]: [Arcade] [STDOUT] Error loading message: Messages.SpectatorSpectateSubtitle
+[06:37:57] [Server thread/INFO]: [Arcade] [STDOUT] Error loading message: Messages.LeaderboardWeekly
+[06:37:57] [Server thread/INFO]: [Arcade] [STDOUT] Error loading message: MessagesList.SidebarLines
+[06:37:57] [Server thread/INFO]: [Arcade] [STDOUT] Error loading message: MessagesList.ItemLeaveLore
+[06:37:57] [Server thread/INFO]: [Arcade] [STDOUT] Error loading message: Messages.GameIsStarted
+[06:37:57] [Server thread/INFO]: [Arcade] [STDOUT] Error loading message: Messages.GameStartCancelled
+[06:37:57] [Server thread/INFO]: [Arcade] [STDOUT] Error loading message: Messages.GameLeaveDelay
+[06:37:57] [Server thread/INFO]: [Arcade] [STDOUT] Error loading message: Messages.LeaderboardNone
+[06:37:57] [Server thread/INFO]: [Arcade] [STDOUT] Error loading message: Messages.LeaderboardTogglerClick
+[06:37:57] [Server thread/INFO]: [Arcade] [STDOUT] Error loading message: Messages.SpectatorSettingItemSpeed
+[06:37:57] [Server thread/INFO]: [Arcade] [STDOUT] Error loading message: Messages.SpectatorSettingItemTeleportOff
+[06:37:57] [Server thread/INFO]: [Arcade] [STDOUT] Error loading message: MessagesList.ItemPlayAgainLore
+[06:37:57] [Server thread/INFO]: [Arcade] [STDOUT] Error loading message: Messages.GameLeaveCancelled
+[06:37:57] [Server thread/INFO]: [Arcade] [STDOUT] Error loading message: Messages.ItemSettings
+[06:37:57] [Server thread/INFO]: [Arcade] [STDOUT] Error loading message: Messages.LeaderboardGame
+[06:37:57] [Server thread/INFO]: [Arcade] [STDOUT] Error loading message: Messages.SpectatorTeleporter
+[06:37:57] [Server thread/INFO]: [Arcade] [STDOUT] Error loading message: Messages.GameRestrictedCommand
+[06:37:57] [Server thread/INFO]: [Arcade] [STDOUT] Error loading message: Messages.SpectatorSettingNightVisionOn
+[06:37:57] [Server thread/INFO]: [Arcade] [STDOUT] Error loading message: Messages.GameBroadcastJoin
+[06:37:57] [Server thread/INFO]: [Arcade] [STDOUT] Error loading message: Messages.SpectatorSettingTeleportOn
+[06:37:57] [Server thread/INFO]: [Arcade] [STDOUT] Error loading message: Messages.GameStart
+[06:37:57] [Server thread/INFO]: [Arcade] [STDOUT] Error loading message: Messages.SpectatorExit
+[06:37:57] [Server thread/INFO]: [Arcade] [STDOUT] Error loading message: Messages.SpectatorSettingItemNightVisionOn
+[06:37:57] [Server thread/INFO]: [Arcade] [STDOUT] Error loading message: Messages.GameAlreadyIngame
+[06:37:57] [Server thread/INFO]: [Arcade] [STDOUT] Error loading message: Messages.LeaderboardPosition
+[06:37:57] [Server thread/INFO]: [Arcade] [STDOUT] Error loading message: Messages.SpectatorSpectateTitle
+[06:37:57] [Server thread/INFO]: [Arcade] [STDOUT] Error loading message: Messages.ItemLeave
+[06:37:57] [Server thread/INFO]: [Arcade] [STDOUT] Error loading message: Messages.SpectatorSettingFirstPersonOff
+[06:37:57] [Server thread/INFO]: [Arcade] [STDOUT] Error loading message: Messages.StateReseting
+[06:37:57] [Server thread/INFO]: [Arcade] [STDOUT] Error loading message: Messages.GameChatFormat
+[06:37:57] [Server thread/INFO]: [Arcade] [STDOUT] Error loading message: MessagesList.JoinSign
+[06:37:57] [Server thread/INFO]: [Arcade] [STDOUT] Error loading message: Messages.LeaderboardClick
+[06:37:57] [Server thread/INFO]: [Arcade] [STDOUT] Error loading message: Messages.LeaderboardShowPosition
+[06:37:57] [Server thread/INFO]: [Arcade] [STDOUT] Error loading message: Messages.SpectatorSettingNightVisionOff
+[06:37:57] [Server thread/INFO]: [Arcade] [STDOUT] Error loading message: Messages.SpectatorSettingFirstPersonOn
+[06:37:57] [Server thread/INFO]: [Arcade] [STDOUT] Error loading message: MessagesList.ItemSettingsLore
+[06:37:57] [Server thread/INFO]: [Arcade] [STDOUT] Error loading message: Messages.SpectatorSettingTitle
+[06:37:57] [Server thread/INFO]: [Arcade] [STDOUT] Error loading message: Messages.SpectatorSettingTeleportOff
+[06:37:57] [Server thread/INFO]: [Arcade] [STDOUT] Error loading message: Messages.StateIngame
+[06:37:57] [Server thread/INFO]: [Arcade] [STDOUT] Error loading message: Messages.ItemPlayAgain
+[06:37:57] [Server thread/INFO]: [Arcade] [STDOUT] Error loading message: Messages.SpectatorSettingNoSpeed
+[06:37:57] [Server thread/INFO]: [Arcade] [STDOUT] Error loading message: Messages.LeaderboardMonthly
+[06:37:57] [Server thread/INFO]: [Arcade] [STDOUT] Error loading message: Messages.SpectatorSettingSpeed
+[06:37:57] [Server thread/INFO]: [Arcade] [STDOUT] Error loading message: Messages.GameNotFound
+[06:37:57] [Server thread/INFO]: [Arcade] [STDOUT] Error loading message: Messages.LeaderboardTop
+[06:37:57] [Server thread/INFO]: [Arcade] [STDOUT] Error loading message: Messages.SpectatorPage
+[06:37:57] [Server thread/INFO]: [Arcade] [STDOUT] Error loading message: Messages.SpectatorSettingItemFirstPersonOn
+[06:37:57] [Server thread/INFO]: [Arcade] [STDOUT] Error loading message: Messages.SpectatorTargetFirstPerson
+[06:37:57] [Server thread/INFO]: [Arcade] [STDOUT] Error loading message: Messages.LeaderboardRank
+[06:37:57] [Server thread/INFO]: [Arcade] [STDOUT] Error loading message: Messages.SpectatorSpectate
+[06:37:57] [Server thread/INFO]: [Arcade] [STDOUT] Error loading message: Messages.SpectatorSettingItemNoSpeed
+[06:37:57] [Server thread/INFO]: [Arcade] [STDOUT] Error loading message: Messages.SpectatorSettingItemFirstPersonOff
+[06:37:57] [Server thread/INFO]: [Arcade] [STDOUT] Error loading message: Messages.StateWaiting
+[06:37:57] [Server thread/INFO]: [Arcade] [STDOUT] Error loading message: MessagesList.JoinNPC
+[06:37:57] [Server thread/INFO]: [Arcade] [STDOUT] Error loading message: Messages.LeaderboardWins
+[06:37:57] [Server thread/INFO]: [Arcade] [STDOUT] Error loading message: Messages.LeaderboardLoading
+[06:37:57] [Server thread/INFO]:  - Loading database...
+[06:37:57] [Server thread/INFO]:  - Loading Party Games...
+[06:37:57] [Server thread/INFO]:  - Loading Mini Walls...
+[06:37:57] [Server thread/INFO]:  - Loading Splegg...
+[06:37:57] [Server thread/INFO]:  - Loading Temple Run...
+[06:37:57] [Server thread/INFO]:  - Loading Bomb Lobbers...
+[06:37:57] [Server thread/INFO]:  - Loading TNT Run...
+[06:37:57] [Server thread/INFO]:  - Loading Prop Hunt...
+[06:37:57] [Server thread/INFO]:  - Loading Quake...
+[06:37:57] [Server thread/INFO]:  - Loading Block Party...
+[06:37:58] [Server thread/INFO]:  - Loading TNT Tag...
+[06:37:58] [Server thread/INFO]: [PlaceholderAPI] Successfully registered internal expansion: arcade [null]
+[06:37:58] [Server thread/INFO]: Arcade has been loaded!
+[06:37:58] [Server thread/INFO]: =-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=
+[06:38:26] [User Authenticator #2/INFO]: UUID of player Walter1389 is dc679653-70a9-30b1-9ef7-e24320742ebe
+[06:38:26] [Server thread/INFO]: + Walter1389 Connected
+[06:38:26] [Server thread/INFO]: Walter1389[/[0:0:0:0:0:0:0:1%0]:41976] logged in with entity id 850 at ([crmapin]-110.53096151296127, 158.0, -9.624678432472459)
+[06:38:29] [Craft Scheduler Thread - 18 - PlaceholderAPI/INFO]: [LocalTime] Couldn't get Walter1389's timezone. Will use default timezone.
