@@ -276,3 +276,8 @@
 [10:57:14] [Server thread/WARN]: MR__miner moved too quickly! -0.022392904801378677,12.261459323803294,-0.393151529808776
 [10:57:36] [Server thread/INFO]: amirabbas8585 issued server command: /gamemode creative
 [10:57:40] [Server thread/INFO]: amirabbas8585 issued server command: /gamemode survival
+[11:01:53] [Server thread/WARN]: MR__miner moved too quickly! 0.3629280332686875,14.625417693509561,0.2933602464760696
+[11:02:31] [Server thread/WARN]: amirabbas8585 moved too quickly! -8.631949077912239,6.0,2.3158861762625804
+[11:04:09] [Server thread/INFO]: amirabbas8585 issued server command: /quake start
+[11:04:11] [Server thread/INFO]: amirabbas8585 issued server command: /quake start 1
+[11:04:14] [Server thread/WARN]: MR__miner moved too quickly! -0.45903243459440546,-143.87142116971094,-0.007938456154192863
