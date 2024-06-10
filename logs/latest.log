@@ -260,3 +260,16 @@
 [10:40:35] [Server thread/INFO]: + MR__miner Connected
 [10:40:35] [Server thread/INFO]: MR__miner[/[0:0:0:0:0:0:0:1%0]:52358] logged in with entity id 7684 at ([crmapin]-110.37394624892231, 158.0, -9.346778482686066)
 [10:40:37] [Craft Scheduler Thread - 71 - PlaceholderAPI/INFO]: [LocalTime] Couldn't get MR__miner's timezone. Will use default timezone.
+[10:41:27] [Server thread/INFO]: amirabbas8585 lost connection: Timed out
+[10:41:27] [Server thread/INFO]: - amirabbas8585 Disconnected
+[10:42:50] [User Authenticator #3/INFO]: UUID of player amirabbas8585 is 20cf1db0-e54b-388d-8edc-76880a8b4ffa
+[10:42:50] [Server thread/INFO]: + amirabbas8585 Connected
+[10:42:50] [Server thread/INFO]: amirabbas8585[/[0:0:0:0:0:0:0:1%0]:34484] logged in with entity id 9478 at ([crmapin]-110.37394624892231, 158.0, -9.346778482686066)
+[10:42:50] [Server thread/INFO]: [amirabbas8585: Applied effect Night Vision to 2 targets]
+[10:42:53] [Craft Scheduler Thread - 77 - PlaceholderAPI/INFO]: [LocalTime] Couldn't get amirabbas8585's timezone. Will use default timezone.
+[10:43:58] [Server thread/INFO]: amirabbas8585 issued server command: /lp user MR__miner parent set dev
+[10:43:58] [luckperms-command-executor/INFO]: [LP] LOG > (amirabbas8585) [U] (mr__miner)
+[10:43:58] [luckperms-command-executor/INFO]: [LP] LOG > parent set dev
+[10:44:15] [Server thread/INFO]: amirabbas8585 issued server command: /lp user MR__miner parent set default
+[10:44:15] [luckperms-command-executor/INFO]: [LP] LOG > (amirabbas8585) [U] (mr__miner)
+[10:44:15] [luckperms-command-executor/INFO]: [LP] LOG > parent set default
