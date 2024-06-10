@@ -1,0 +1,17 @@
+{
+  "minecraft:recipes/decorations/light_blue_glazed_terracotta": {
+    "criteria": {
+      "has_light_blue_terracotta": "2024-06-10 10:45:26 +0000"
+    },
+    "done": true
+  },
+  "minecraft:adventure/adventuring_time": {
+    "criteria": {
+      "minecraft:dark_forest": "2024-06-10 10:43:13 +0000",
+      "minecraft:forest": "2024-06-10 10:43:19 +0000",
+      "minecraft:plains": "2024-06-10 10:40:35 +0000"
+    },
+    "done": false
+  },
+  "DataVersion": 3105
+}

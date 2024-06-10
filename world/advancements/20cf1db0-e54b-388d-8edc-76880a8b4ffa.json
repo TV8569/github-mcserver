@@ -5,9 +5,21 @@
     },
     "done": true
   },
+  "minecraft:recipes/decorations/green_glazed_terracotta": {
+    "criteria": {
+      "has_green_terracotta": "2024-06-10 10:45:49 +0000"
+    },
+    "done": true
+  },
   "minecraft:recipes/decorations/lime_candle": {
     "criteria": {
       "has_lime_dye": "2024-06-08 15:29:58 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/decorations/light_blue_glazed_terracotta": {
+    "criteria": {
+      "has_light_blue_terracotta": "2024-06-10 10:45:26 +0000"
     },
     "done": true
   },
@@ -201,6 +213,12 @@
   "minecraft:recipes/decorations/magenta_carpet": {
     "criteria": {
       "has_magenta_wool": "2024-06-10 10:34:16 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/decorations/pink_glazed_terracotta": {
+    "criteria": {
+      "has_pink_terracotta": "2024-06-10 10:45:38 +0000"
     },
     "done": true
   },

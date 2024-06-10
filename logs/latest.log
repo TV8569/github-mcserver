@@ -273,3 +273,9 @@
 [10:44:15] [Server thread/INFO]: amirabbas8585 issued server command: /lp user MR__miner parent set default
 [10:44:15] [luckperms-command-executor/INFO]: [LP] LOG > (amirabbas8585) [U] (mr__miner)
 [10:44:15] [luckperms-command-executor/INFO]: [LP] LOG > parent set default
+[10:44:46] [User Authenticator #4/INFO]: UUID of player Ali3339 is 6cc94cba-ac5b-3601-bcad-96ef2da1cff8
+[10:44:47] [Server thread/INFO]: + Ali3339 Connected
+[10:44:47] [Server thread/INFO]: Ali3339[/[0:0:0:0:0:0:0:1%0]:35230] logged in with entity id 10729 at ([crmapin]-110.37394624892231, 158.0, -9.346778482686066)
+[10:44:49] [Craft Scheduler Thread - 82 - PlaceholderAPI/INFO]: [LocalTime] Couldn't get Ali3339's timezone. Will use default timezone.
+[10:47:18] [Server thread/WARN]: amirabbas8585 moved wrongly!
+[10:47:54] [Server thread/WARN]: MR__miner moved wrongly!
