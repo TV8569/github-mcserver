@@ -256,3 +256,7 @@
 [10:30:05] [Server thread/INFO]: amirabbas8585 issued server command: /gamemode survival
 [10:30:08] [Server thread/INFO]: amirabbas8585 issued server command: /gamemode creative
 [10:31:48] [Server thread/WARN]: amirabbas8585 moved too quickly! 23.810096258458273,-2.264931767107754,-21.23598999415497
+[10:40:34] [User Authenticator #2/INFO]: UUID of player MR__miner is 9ef28c61-29cb-3685-991a-9417c1c53412
+[10:40:35] [Server thread/INFO]: + MR__miner Connected
+[10:40:35] [Server thread/INFO]: MR__miner[/[0:0:0:0:0:0:0:1%0]:52358] logged in with entity id 7684 at ([crmapin]-110.37394624892231, 158.0, -9.346778482686066)
+[10:40:37] [Craft Scheduler Thread - 71 - PlaceholderAPI/INFO]: [LocalTime] Couldn't get MR__miner's timezone. Will use default timezone.
