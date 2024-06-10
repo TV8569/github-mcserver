@@ -264,3 +264,13 @@
 [10:52:53] [Server thread/INFO]: amirabbas8585 issued server command: /time set day
 [10:52:53] [Server thread/INFO]: [amirabbas8585: Set the time to 1000]
 [10:54:04] [Server thread/WARN]: MR__miner moved too quickly! -0.1462131909716362,14.442082773268638,0.31787929611230936
+[10:54:21] [User Authenticator #2/INFO]: UUID of player Ali3339 is 6cc94cba-ac5b-3601-bcad-96ef2da1cff8
+[10:54:21] [Server thread/INFO]: + Ali3339 Connected
+[10:54:21] [Server thread/INFO]: Ali3339[/[0:0:0:0:0:0:0:1%0]:60228] logged in with entity id 1511 at ([crmapin]-110.37394624892231, 158.0, -9.346778482686066)
+[10:54:23] [Craft Scheduler Thread - 22 - PlaceholderAPI/INFO]: [LocalTime] Couldn't get Ali3339's timezone. Will use default timezone.
+[10:54:43] [Server thread/INFO]: amirabbas8585 issued server command: /quake start
+[10:54:45] [Server thread/INFO]: amirabbas8585 issued server command: /quake start 1
+[10:54:47] [Server thread/INFO]: amirabbas8585 issued server command: /quake start 2
+[10:56:04] [Server thread/INFO]: amirabbas8585 issued server command: /gamemode creative
+[10:56:26] [Server thread/INFO]: amirabbas8585 issued server command: /gamemode survival
+[10:57:14] [Server thread/WARN]: MR__miner moved too quickly! -0.022392904801378677,12.261459323803294,-0.393151529808776
