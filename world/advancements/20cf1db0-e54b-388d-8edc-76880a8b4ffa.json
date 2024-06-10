@@ -47,6 +47,12 @@
     },
     "done": true
   },
+  "minecraft:recipes/decorations/magenta_bed": {
+    "criteria": {
+      "has_magenta_wool": "2024-06-10 10:34:16 +0000"
+    },
+    "done": true
+  },
   "minecraft:adventure/adventuring_time": {
     "criteria": {
       "minecraft:birch_forest": "2024-06-08 20:54:51 +0000",
@@ -75,6 +81,12 @@
   "minecraft:recipes/decorations/lime_stained_glass_pane_from_glass_pane": {
     "criteria": {
       "has_lime_dye": "2024-06-06 18:03:48 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/decorations/composter": {
+    "criteria": {
+      "has_wood_slab": "2024-06-10 10:33:34 +0000"
     },
     "done": true
   },
@@ -126,9 +138,21 @@
     },
     "done": true
   },
+  "minecraft:recipes/decorations/barrel": {
+    "criteria": {
+      "has_wood_slab": "2024-06-10 10:33:34 +0000"
+    },
+    "done": true
+  },
   "minecraft:recipes/decorations/pink_carpet": {
     "criteria": {
       "has_pink_wool": "2024-06-06 19:12:33 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/decorations/magenta_banner": {
+    "criteria": {
+      "has_magenta_wool": "2024-06-10 10:34:16 +0000"
     },
     "done": true
   },
@@ -171,6 +195,12 @@
   "minecraft:recipes/misc/coal": {
     "criteria": {
       "has_coal_block": "2024-06-09 22:09:33 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/decorations/magenta_carpet": {
+    "criteria": {
+      "has_magenta_wool": "2024-06-10 10:34:16 +0000"
     },
     "done": true
   },
