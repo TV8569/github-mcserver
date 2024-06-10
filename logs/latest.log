@@ -295,3 +295,4 @@
 [11:10:51] [Server thread/INFO]: amirabbas8585[/[0:0:0:0:0:0:0:1%0]:42740] logged in with entity id 5307 at ([crmapin]-110.37394624892231, 158.0, -9.346778482686066)
 [11:10:51] [Server thread/INFO]: [amirabbas8585: Applied effect Night Vision to 3 targets]
 [11:10:54] [Craft Scheduler Thread - 61 - PlaceholderAPI/INFO]: [LocalTime] Couldn't get amirabbas8585's timezone. Will use default timezone.
+[11:11:28] [Server thread/INFO]: amirabbas8585 issued server command: /gamemode creative
