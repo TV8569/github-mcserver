@@ -288,3 +288,10 @@
 [11:06:21] [Server thread/INFO]: amirabbas8585 issued server command: /gamemode survival
 [11:07:08] [Server thread/INFO]: amirabbas8585 issued server command: /gamemode creative
 [11:07:15] [Server thread/WARN]: MR__miner moved too quickly! -0.24931945339483264,45.809329507168286,-0.4030856335161843
+[11:08:49] [Server thread/INFO]: amirabbas8585 lost connection: Disconnected
+[11:08:49] [Server thread/INFO]: - amirabbas8585 Disconnected
+[11:10:51] [User Authenticator #3/INFO]: UUID of player amirabbas8585 is 20cf1db0-e54b-388d-8edc-76880a8b4ffa
+[11:10:51] [Server thread/INFO]: + amirabbas8585 Connected
+[11:10:51] [Server thread/INFO]: amirabbas8585[/[0:0:0:0:0:0:0:1%0]:42740] logged in with entity id 5307 at ([crmapin]-110.37394624892231, 158.0, -9.346778482686066)
+[11:10:51] [Server thread/INFO]: [amirabbas8585: Applied effect Night Vision to 3 targets]
+[11:10:54] [Craft Scheduler Thread - 61 - PlaceholderAPI/INFO]: [LocalTime] Couldn't get amirabbas8585's timezone. Will use default timezone.
