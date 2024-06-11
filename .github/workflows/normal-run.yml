@@ -10,7 +10,7 @@ env:
   # Backup to be repeated every few seconds?
   BACKUP_TIME: 200
   # How much RAM should be given to the game server? (Enter value in Gigabyte)
-  SERVER_RAM: 8
+  SERVER_RAM: 16
 
 jobs:
   build:
