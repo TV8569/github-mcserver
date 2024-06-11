@@ -1,248 +1,250 @@
-[11:22:47] [ServerMain/INFO]: Building unoptimized datafixer
-[11:22:48] [ServerMain/INFO]: Environment: authHost='https://authserver.mojang.com', accountsHost='https://api.mojang.com', sessionHost='https://sessionserver.mojang.com', servicesHost='https://api.minecraftservices.com', name='PROD'
-[11:22:51] [ServerMain/INFO]: Loaded 7 recipes
-[11:22:52] [Server thread/INFO]: Starting minecraft server version 1.19
-[11:22:52] [Server thread/INFO]: Loading properties
-[11:22:52] [Server thread/INFO]: This server is running Paper version git-Paper-81 (MC: 1.19) (Implementing API version 1.19-R0.1-SNAPSHOT) (Git: 86f87ba)
-[11:22:52] [Server thread/INFO]: Server Ping Player Sample Count: 12
-[11:22:52] [Server thread/INFO]: Using 4 threads for Netty based IO
-[11:22:52] [Server thread/INFO]: Default game type: SURVIVAL
-[11:22:52] [Server thread/INFO]: Generating keypair
-[11:22:53] [Server thread/INFO]: Starting Minecraft server on *:25565
-[11:22:53] [Server thread/INFO]: Using epoll channel type
-[11:22:53] [Server thread/INFO]: Paper: Using libdeflate (Linux x86_64) compression from Velocity.
-[11:22:53] [Server thread/INFO]: Paper: Using OpenSSL 1.1.x (Linux x86_64) cipher from Velocity.
-[11:22:54] [Server thread/INFO]: [STDOUT] [9CZxV0oGSTD1X4cwbOdOxmt] [35;1m Downloaded from https://directleaks.net [0m
-[11:22:55] [Server thread/INFO]: [WorldEdit] Loading WorldEdit v7.2.12+6240-87f4ae1
-[11:22:55] [Server thread/INFO]: Got request to register class com.sk89q.worldedit.bukkit.BukkitServerInterface with WorldEdit [com.sk89q.worldedit.extension.platform.PlatformManager@2143d261]
-[11:22:55] [Server thread/INFO]: [JumpPads] Loading JumpPads v1.25.13
-[11:22:55] [Server thread/INFO]: [PlaceholderAPI] Loading PlaceholderAPI v2.11.6
-[11:22:55] [Server thread/INFO]: [ViaVersion] Loading ViaVersion v4.10.2
-[11:22:55] [Server thread/INFO]: [ViaVersion] ViaVersion 4.10.2 is now loaded. Registering protocol transformers and injecting...
-[11:22:56] [Via-Mappingloader-0/INFO]: [ViaVersion] Loading block connection mappings ...
-[11:22:56] [Via-Mappingloader-0/INFO]: [ViaVersion] Using FastUtil Long2ObjectOpenHashMap for block connections
-[11:22:56] [Server thread/INFO]: [ViaBackwards] Loading translations...
-[11:22:56] [Server thread/INFO]: [ViaBackwards] Registering protocols...
-[11:22:56] [Server thread/INFO]: [ViaRewind] Registering protocols...
-[11:22:56] [Server thread/INFO]: [HolographicDisplays] Loading HolographicDisplays v3.0.4
-[11:22:56] [Server thread/INFO]: [UltraCustomizer] Loading UltraCustomizer v2.4.2
-[11:22:56] [Server thread/INFO]: [PlayerPoints] Loading PlayerPoints v3.0.1
-[11:22:56] [Server thread/INFO]: [ViaBackwards] Loading ViaBackwards v4.10.2
-[11:22:56] [Server thread/INFO]: [MyCommand] Loading MyCommand v5.7.4
-[11:22:56] [Server thread/INFO]: [Multiverse-Core] Loading Multiverse-Core v4.3.1-b861
-[11:22:56] [Server thread/INFO]: [ViaRewind] Loading ViaRewind v3.1.2
-[11:22:56] [Server thread/INFO]: [LuckPerms] Loading LuckPerms v5.4.40
-[11:22:57] [Server thread/INFO]: [HolographicExtension] Loading HolographicExtension v1.10.9
-[11:22:57] [Server thread/INFO]: [DeluxeHub] Loading DeluxeHub v3.5.5
-[11:22:57] [Server thread/INFO]: [ajLeaderboards] Loading ajLeaderboards v2.8.0
-[11:22:57] [Server thread/INFO]: [ajLeaderboards] Verifying checksum for gson
-[11:22:57] [Server thread/INFO]: [ajLeaderboards] Checksum matched for gson
-[11:22:57] [Server thread/INFO]: [ajLeaderboards] Verifying checksum for jar-relocator
-[11:22:57] [Server thread/INFO]: [ajLeaderboards] Checksum matched for jar-relocator
-[11:22:57] [Server thread/INFO]: [ajLeaderboards] Verifying checksum for asm
-[11:22:57] [Server thread/INFO]: [ajLeaderboards] Checksum matched for asm
-[11:22:57] [Server thread/INFO]: [ajLeaderboards] Verifying checksum for asm-commons
-[11:22:57] [Server thread/INFO]: [ajLeaderboards] Checksum matched for asm-commons
-[11:22:57] [Server thread/INFO]: [ajLeaderboards] Verifying checksum for gson
-[11:22:57] [Server thread/INFO]: [ajLeaderboards] Checksum matched for gson
-[11:22:57] [Server thread/INFO]: [ajLeaderboards] Verifying checksum for HikariCP
-[11:22:57] [Server thread/INFO]: [ajLeaderboards] Checksum matched for HikariCP
-[11:22:57] [Server thread/INFO]: [ajLeaderboards] Verifying checksum for slf4j-api
-[11:22:57] [Server thread/INFO]: [ajLeaderboards] Checksum matched for slf4j-api
-[11:22:57] [Server thread/INFO]: [ajLeaderboards] Verifying checksum for h2
-[11:22:57] [Server thread/INFO]: [ajLeaderboards] Checksum matched for h2
-[11:22:57] [Server thread/INFO]: [Arcade] Loading Arcade v1.53
-[11:22:57] [Server thread/INFO]: [GadgetsMenu] Loading GadgetsMenu v4.7.3
-[11:22:57] [Server thread/INFO]: Server permissions file permissions.yml is empty, ignoring it
-[11:22:57] [Server thread/INFO]: [WorldEdit] Enabling WorldEdit v7.2.12+6240-87f4ae1
-[11:22:57] [Server thread/INFO]: Registering commands with com.sk89q.worldedit.bukkit.BukkitServerInterface
-[11:22:57] [Server thread/INFO]: WEPIF: Using the Bukkit Permissions API.
-[11:22:57] [Server thread/INFO]: Using com.sk89q.worldedit.bukkit.adapter.impl.v1_19_R1.PaperweightAdapter as the Bukkit adapter
-[11:22:58] [Server thread/INFO]: [UltraCustomizer] Enabling UltraCustomizer v2.4.2
-[11:22:59] [Server thread/INFO]: [UltraCustomizer] Loading Plugin...
-[11:22:59] [Server thread/INFO]: [UltraCustomizer] Hooked into PlaceholderAPI version: 2.11.6
-[11:22:59] [Server thread/INFO]: [UltraCustomizer] Registered 76 Elements
-[11:22:59] [Server thread/INFO]: [UltraCustomizer] No ProtocolLib found, the ChatEditor feature is not enabled!
-[11:22:59] [Server thread/INFO]: [UltraCustomizer] Registered 0 Crafting Recipes of folder: Local
-[11:22:59] [Server thread/INFO]: [UltraCustomizer] Registered 0 Furnace Recipes of folder: Local
-[11:22:59] [Server thread/INFO]: [UltraCustomizer] Successfully loaded in 610 ms
-[11:22:59] [Server thread/INFO]: [ViaRewind] Enabling ViaRewind v3.1.2
-[11:22:59] [Server thread/INFO]: [LuckPerms] Enabling LuckPerms v5.4.40
-[11:23:00] [Server thread/INFO]:         __    
-[11:23:00] [Server thread/INFO]:   |    |__)   LuckPerms v5.4.40
-[11:23:00] [Server thread/INFO]:   |___ |      Running on Bukkit - Paper
-[11:23:00] [Server thread/INFO]: 
-[11:23:00] [Server thread/INFO]: [LuckPerms] Loading configuration...
-[11:23:00] [Server thread/INFO]: [LuckPerms] Loading storage provider... [H2]
-[11:23:00] [Server thread/INFO]: [LuckPerms] Loading internal permission managers...
-[11:23:00] [Server thread/INFO]: [LuckPerms] Performing initial data load...
-[11:23:01] [Server thread/INFO]: [LuckPerms] Successfully enabled. (took 1463ms)
-[11:23:01] [Server thread/WARN]: **** SERVER IS RUNNING IN OFFLINE/INSECURE MODE!
-[11:23:01] [Server thread/WARN]: The server will make no attempt to authenticate usernames. Beware.
-[11:23:01] [Server thread/WARN]: While this makes the game possible to play without internet access, it also opens up the ability for hackers to connect with any username they choose.
-[11:23:01] [Server thread/WARN]: To change this, set "online-mode" to "true" in the server.properties file.
-[11:23:01] [Server thread/INFO]: Preparing level "world"
-[11:23:02] [Server thread/INFO]: Preparing start region for dimension minecraft:overworld
-[11:23:02] [Server thread/INFO]: Time elapsed: 386 ms
-[11:23:02] [Server thread/INFO]: [JumpPads] Enabling JumpPads v1.25.13
-[11:23:02] [Server thread/INFO]: [PlaceholderAPI] Enabling PlaceholderAPI v2.11.6
-[11:23:03] [Server thread/INFO]: [PlaceholderAPI] Fetching available expansion information...
-[11:23:03] [Server thread/INFO]: [ViaVersion] Enabling ViaVersion v4.10.2
-[11:23:03] [Server thread/INFO]: [ViaVersion] ViaVersion detected server version: 1.19 (759)
-[11:23:03] [Server thread/INFO]: [HolographicDisplays] Enabling HolographicDisplays v3.0.4
-[11:23:03] [Server thread/INFO]: [PlayerPoints] Enabling PlayerPoints v3.0.1
-[11:23:03] [Server thread/INFO]: [PlayerPoints] Initializing using RoseGarden v1.0.5-SNAPSHOT
-[11:23:03] [Server thread/INFO]: [PlayerPoints] Data handler connected using SQLite.
-[11:23:03] [Server thread/INFO]: [PlaceholderAPI] Successfully registered internal expansion: playerpoints [3.0.1]
-[11:23:03] [Server thread/INFO]: [ViaBackwards] Enabling ViaBackwards v4.10.2
-[11:23:03] [Server thread/INFO]: [MyCommand] Enabling MyCommand v5.7.4
-[11:23:03] [Server thread/INFO]: *-=-=-=-=-=-=-=-=-* MyCommand v.5.7.4*-=-=-=-=-=-=-=-=-=-*
-[11:23:03] [Server thread/INFO]: | Vault plugin not found. Using BukkitPermissions
-[11:23:03] [Server thread/INFO]: | No Economy support without Vault!
-[11:23:03] [Server thread/INFO]: | Logs Directory Created /MyCommand/logs/
-[11:23:03] [Server thread/INFO]: | PlayerData Directory Created /MyCommand/playerdata/
-[11:23:03] [Server thread/INFO]: | Command file(s) found : 1
-[11:23:03] [Server thread/INFO]: | Config : Ready.
-[11:23:03] [Server thread/INFO]: | ProtocolLib not found.
-[11:23:03] [Server thread/INFO]: [PlaceholderAPI] Successfully registered internal expansion: mycommand [1.0.0]
-[11:23:03] [Server thread/INFO]: | Placeholder_API : Hooked, Ok.
-[11:23:03] [Server thread/INFO]: | Custom commands loaded : 44
-[11:23:03] [Server thread/INFO]: | You're running the latest version of MyCommand.
-[11:23:03] [Server thread/INFO]: |          by emmerrei a.k.a. ivanfromitaly.           
-[11:23:03] [Server thread/INFO]: *-=-=-=-=-=-=-=-=-=-*   Done!   *-=-=-=-=-=-=-=-=-=-=-*
-[11:23:03] [Server thread/INFO]: [Multiverse-Core] Enabling Multiverse-Core v4.3.1-b861
-[11:23:03] [Server thread/WARN]: [Multiverse-Core] "Multiverse-Core v4.3.1-b861" has registered a listener for org.bukkit.event.entity.EntityCreatePortalEvent on method "public void com.onarandombox.MultiverseCore.listeners.MVPortalListener.entityPortalCreate(org.bukkit.event.entity.EntityCreatePortalEvent)", but the event is Deprecated. "Server performance will be affected"; please notify the authors [dumptruckman, Rigby, fernferret, lithium3141, main--].
-[11:23:03] [Server thread/INFO]: [Multiverse-Core] §aWe are aware of the warning about the deprecated event. There is no alternative that allows us to do what we need to do and performance impact is negligible. It is safe to ignore.
-[11:23:13] [Server thread/INFO]: Preparing start region for dimension minecraft:q1
-[11:23:13] [Server thread/INFO]: Preparing spawn area: 0%
-[11:23:13] [Server thread/INFO]: Time elapsed: 279 ms
-[11:23:13] [Server thread/INFO]: Preparing start region for dimension minecraft:t4
-[11:23:14] [Server thread/INFO]: Time elapsed: 226 ms
-[11:23:14] [Server thread/INFO]: Preparing start region for dimension minecraft:bb
-[11:23:14] [Server thread/INFO]: Preparing spawn area: 0%
-[11:23:14] [Server thread/INFO]: Time elapsed: 372 ms
-[11:23:15] [Server thread/INFO]: Preparing start region for dimension minecraft:q2
-[11:23:15] [Server thread/INFO]: Time elapsed: 224 ms
-[11:23:15] [Server thread/INFO]: Preparing start region for dimension minecraft:tv
-[11:23:15] [Server thread/INFO]: Time elapsed: 416 ms
-[11:23:15] [Server thread/INFO]: Preparing start region for dimension minecraft:bil2
-[11:23:16] [Server thread/INFO]: Time elapsed: 276 ms
-[11:23:16] [Server thread/INFO]: Preparing start region for dimension minecraft:bil
-[11:23:16] [Server thread/INFO]: Time elapsed: 169 ms
-[11:23:16] [Server thread/INFO]: Preparing start region for dimension minecraft:crmapin
-[11:23:16] [Server thread/INFO]: Time elapsed: 216 ms
-[11:23:16] [Server thread/INFO]: Preparing start region for dimension minecraft:arcade
-[11:23:16] [Server thread/INFO]: Time elapsed: 114 ms
-[11:23:28] [Server thread/INFO]: Preparing start region for dimension minecraft:tt2
-[11:23:28] [Server thread/INFO]: Preparing spawn area: 0%
-[11:23:28] [Server thread/INFO]: Time elapsed: 232 ms
-[11:23:28] [Server thread/INFO]: Preparing start region for dimension minecraft:sp2
-[11:23:29] [Server thread/INFO]: Time elapsed: 251 ms
-[11:23:29] [Server thread/INFO]: Preparing start region for dimension minecraft:sp1
-[11:23:30] [Server thread/INFO]: Preparing spawn area: 0%
-[11:23:30] [Server thread/INFO]: Preparing spawn area: 17%
-[11:23:30] [Server thread/INFO]: Time elapsed: 639 ms
-[11:23:30] [Server thread/INFO]: Preparing start region for dimension minecraft:tt4
-[11:23:30] [Server thread/INFO]: Time elapsed: 134 ms
-[11:23:30] [Server thread/INFO]: Preparing start region for dimension minecraft:block
-[11:23:30] [Server thread/INFO]: Time elapsed: 97 ms
-[11:23:30] [Server thread/INFO]: Preparing start region for dimension minecraft:t1
-[11:23:31] [Server thread/INFO]: Time elapsed: 87 ms
-[11:23:31] [Server thread/INFO]: Preparing start region for dimension minecraft:t2
-[11:23:31] [Server thread/INFO]: Time elapsed: 114 ms
-[11:23:31] [Server thread/INFO]: Preparing start region for dimension minecraft:t3
-[11:23:31] [Server thread/INFO]: Time elapsed: 148 ms
-[11:23:31] [Server thread/INFO]: [Multiverse-Core] 18 - World(s) loaded.
-[11:23:31] [Server thread/WARN]: [Multiverse-Core] Buscript failed to load! The script command will be disabled! If you would like not to see this message, use `/mv conf enablebuscript false` to disable Buscript from loading.
-[11:23:31] [Server thread/INFO]: [Multiverse-Core] Version 4.3.1-b861 (API v24) Enabled - By dumptruckman, Rigby, fernferret, lithium3141 and main--
-[11:23:31] [Server thread/INFO]: [HolographicExtension] Enabling HolographicExtension v1.10.9
-[11:23:31] [Server thread/INFO]: [HolographicExtension] Starting HolographicExtension v1.10.9
-[11:23:31] [Server thread/INFO]: [HolographicExtension] Registering placeholder 'example' from config.
-[11:23:31] [Server thread/INFO]: [HolographicExtension] Registering placeholder 'scroller' from config.
-[11:23:31] [Server thread/INFO]: [HolographicExtension] Registering placeholder 'typing' from config.
-[11:23:31] [Server thread/INFO]: [HolographicExtension] Registering placeholder 'rainbow' from config.
-[11:23:31] [Server thread/INFO]: [HolographicExtension] If you want to use the placeholder extension, please install ProtocolLib and PlaceholderAPI
-[11:23:31] [Server thread/INFO]: [DeluxeHub] Enabling DeluxeHub v3.5.5
-[11:23:31] [Server thread/INFO]: [DeluxeHub]  _   _            _          _    _ 
-[11:23:31] [Server thread/INFO]: [DeluxeHub] | \ |_ |  | | \/ |_ |_| | | |_)   _)
-[11:23:31] [Server thread/INFO]: [DeluxeHub] |_/ |_ |_ |_| /\ |_ | | |_| |_)   _)
-[11:23:31] [Server thread/INFO]: [DeluxeHub] 
-[11:23:31] [Server thread/INFO]: [DeluxeHub] Version: 3.5.5
-[11:23:31] [Server thread/INFO]: [DeluxeHub] Author: ItsLewizzz
-[11:23:31] [Server thread/INFO]: [DeluxeHub] 
-[11:23:31] [Server thread/INFO]: [DeluxeHub]  Hooked into PlaceholderAPI
-[11:23:32] [Server thread/INFO]: [DeluxeHub] Loaded custom menu 'serverselector'.
-[11:23:32] [Server thread/INFO]: [DeluxeHub] Loaded 13 plugin modules.
-[11:23:32] [Server thread/INFO]: [DeluxeHub] 
-[11:23:32] [Server thread/INFO]: [DeluxeHub] Successfully loaded in 225ms
-[11:23:32] [Server thread/INFO]: [ajLeaderboards] Enabling ajLeaderboards v2.8.0
-[11:23:32] [Server thread/INFO]: [ajLeaderboards] Using H2 flatfile for board cache. (h2)
-[11:23:32] [Server thread/INFO]: [ajLeaderboards] Loaded 0 boards
-[11:23:32] [Server thread/INFO]: [PlaceholderAPI] Successfully registered internal expansion: ajlb [2.8.0]
-[11:23:32] [Server thread/INFO]: [ajLeaderboards] PAPI placeholders successfully registered!
-[11:23:32] [Server thread/INFO]: [ajLeaderboards] ajLeaderboards v2.8.0 by ajgeiss0702 enabled!
-[11:23:32] [Server thread/INFO]: [Arcade] Enabling Arcade v1.53
-[11:23:32] [Server thread/INFO]: [Arcade] [STDOUT] [36m[Spigotunlocked.net] - -Michy-
-[11:23:32] [Server thread/WARN]: Nag author(s): '[Fr33styler]' of 'Arcade' about their usage of System.out/err.print. Please use your plugin's logger instead (JavaPlugin#getLogger).
-[11:23:33] [Server thread/INFO]: =-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=
-[11:23:33] [Server thread/INFO]: Arcade plugin is loading... 
-[11:23:33] [Server thread/INFO]:  Author: Fr33styler
-[11:23:33] [Server thread/INFO]:  Version: 1.53
-[11:23:33] [Server thread/INFO]:  - Loading engine...
-[11:23:33] [Server thread/INFO]:  - Loading database...
-[11:23:33] [Server thread/INFO]:  - Loading Party Games...
-[11:23:33] [Server thread/INFO]:  - Loading Mini Walls...
-[11:23:33] [Server thread/INFO]:  - Loading Splegg...
-[11:23:33] [Server thread/INFO]:  - Loading Temple Run...
-[11:23:33] [Server thread/INFO]:  - Loading Bomb Lobbers...
-[11:23:33] [Server thread/INFO]:  - Loading TNT Run...
-[11:23:33] [Server thread/INFO]:  - Loading Prop Hunt...
-[11:23:33] [Server thread/INFO]:  - Loading Quake...
-[11:23:33] [Server thread/INFO]:  - Loading Block Party...
-[11:23:34] [Server thread/INFO]:  - Loading TNT Tag...
-[11:23:34] [Server thread/INFO]: [PlaceholderAPI] Successfully registered internal expansion: arcade [null]
-[11:23:34] [Server thread/INFO]: Arcade has been loaded!
-[11:23:34] [Server thread/INFO]: =-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=
-[11:23:34] [Server thread/INFO]: [GadgetsMenu] Enabling GadgetsMenu v4.7.3
-[11:23:34] [Server thread/INFO]: [GadgetsMenu] ------------------------------------------------------
-[11:23:34] [Server thread/INFO]: [GadgetsMenu]         GadgetsMenu [Free] 4.7.3 is loading...
-[11:23:34] [Server thread/INFO]: [GadgetsMenu]           [server: git-Paper-81 (MC: 1.19)]
-[11:23:34] [Server thread/INFO]: [GadgetsMenu]                  Running Java 17.0.11
-[11:23:34] [Server thread/INFO]: [GadgetsMenu]                Plugin by Yap Zhen Yie.
-[11:23:34] [Server thread/INFO]: [GadgetsMenu]             Date Modified: 30 August 2022
-[11:23:34] [Server thread/INFO]: [GadgetsMenu]                            
-[11:23:34] [Server thread/INFO]: [GadgetsMenu]              Initializing module v1_19_R1
-[11:23:34] [Server thread/INFO]: [GadgetsMenu] ------------------------------------------------------
-[11:23:34] [Server thread/INFO]: [GadgetsMenu] Connecting to SQLite database...
-[11:23:34] [Server thread/INFO]: [GadgetsMenu] Successfully connected to SQLite database!
-[11:23:34] [Server thread/INFO]: [PlaceholderAPI] Successfully registered internal expansion: gadgetsmenu [1.0.2]
-[11:23:34] [Server thread/INFO]: [GadgetsMenu] [Placeholder] PlaceholderAPI hooked.
-[11:23:34] [Server thread/INFO]: [PlaceholderAPI] Placeholder expansion registration initializing...
-[11:23:34] [Server thread/INFO]: Running delayed init tasks
-[11:23:35] [Server thread/INFO]: [JumpPads] CleanUp found no JumpPads to delete!
-[11:23:35] [Server thread/INFO]: Done (42.526s)! For help, type "help"
-[11:23:35] [Server thread/INFO]: Timings Reset
-[11:23:35] [Craft Scheduler Thread - 7 - ViaVersion/INFO]: [ViaVersion] Finished mapping loading, shutting down loader executor!
-[11:23:35] [Craft Scheduler Thread - 8 - PlayerPoints/INFO]: [RoseGarden] [RoseGarden] An update for PlayerPoints (v3.2.7) is available! You are running v3.0.1.
-[11:23:35] [Craft Scheduler Thread - 10 - GadgetsMenu/INFO]: [GadgetsMenu] Checking for updates...
-[11:23:35] [Craft Scheduler Thread - 10 - GadgetsMenu/INFO]: [GadgetsMenu] You have an old version of the plugin. You are using 4.7.3, available version 4.13.1.
-[11:23:35] [Server thread/INFO]: [PlaceholderAPI] Successfully registered external expansion: math [2.0.2]
-[11:23:35] [Server thread/WARN]: [PlaceholderAPI] Cannot load expansion playertime due to a missing plugin: PlayerTime
-[11:23:35] [Server thread/WARN]: [PlaceholderAPI] Loaded class com.onarandombox.MultiverseCore.MultiverseCore from Multiverse-Core v4.3.1-b861 which is not a depend or softdepend of this plugin.
-[11:23:35] [Server thread/INFO]: [PlaceholderAPI] Successfully registered external expansion: multiverse [1.0.1]
-[11:23:35] [Server thread/INFO]: [PlaceholderAPI] Successfully registered external expansion: otherplayer [2.1.0]
-[11:23:35] [Server thread/INFO]: [PlaceholderAPI] Successfully registered external expansion: gg [1.0.0]
-[11:23:35] [Server thread/INFO]: [PlaceholderAPI] Successfully registered external expansion: server [2.7.2]
-[11:23:35] [Server thread/INFO]: [PlaceholderAPI] Successfully registered external expansion: pinger [1.0.1]
-[11:23:35] [Server thread/INFO]: [PlaceholderAPI] Successfully registered external expansion: gradient [1.0]
-[11:23:35] [Server thread/WARN]: [PlaceholderAPI] Cannot load expansion thirst due to a missing plugin: Thirst
-[11:23:35] [Server thread/INFO]: [PlaceholderAPI] Successfully registered external expansion: player [2.0.8]
-[11:23:35] [Server thread/WARN]: [PlaceholderAPI] Cannot load expansion tp due to a missing plugin: ThemePark
-[11:23:35] [Server thread/INFO]: [PlaceholderAPI] Successfully registered external expansion: localtime [1.2]
-[11:23:35] [Server thread/WARN]: [PlaceholderAPI] Loaded class net.luckperms.api.LuckPerms from LuckPerms v5.4.40 which is not a depend or softdepend of this plugin.
-[11:23:35] [Server thread/INFO]: [PlaceholderAPI] Successfully registered external expansion: luckperms [5.4-R2]
-[11:23:35] [Server thread/INFO]: [PlaceholderAPI] Successfully registered external expansion: playerlist [3.0.7]
-[11:23:35] [Server thread/INFO]: [PlaceholderAPI] Successfully registered external expansion: tempdata [0.1-BETA]
-[11:23:35] [Server thread/WARN]: [PlaceholderAPI] Cannot load expansion playerstats due to a missing plugin: PlayerStats
-[11:23:35] [Server thread/INFO]: 12 placeholder hook(s) registered! 1 placeholder hook(s) have an update available.
-[11:23:37] [Craft Scheduler Thread - 4 - UltraCustomizer/INFO]: [UltraCustomizer] Translations successfully loaded & applied (34 UltraCustomizer and Base Translation files found)
+[15:20:04] [ServerMain/INFO]: Building unoptimized datafixer
+[15:20:05] [ServerMain/INFO]: Environment: authHost='https://authserver.mojang.com', accountsHost='https://api.mojang.com', sessionHost='https://sessionserver.mojang.com', servicesHost='https://api.minecraftservices.com', name='PROD'
+[15:20:06] [ServerMain/INFO]: Loaded 7 recipes
+[15:20:08] [Server thread/INFO]: Starting minecraft server version 1.19
+[15:20:08] [Server thread/INFO]: Loading properties
+[15:20:08] [Server thread/INFO]: This server is running Paper version git-Paper-81 (MC: 1.19) (Implementing API version 1.19-R0.1-SNAPSHOT) (Git: 86f87ba)
+[15:20:08] [Server thread/INFO]: Server Ping Player Sample Count: 12
+[15:20:08] [Server thread/INFO]: Using 4 threads for Netty based IO
+[15:20:08] [Server thread/INFO]: Default game type: SURVIVAL
+[15:20:08] [Server thread/INFO]: Generating keypair
+[15:20:08] [Server thread/INFO]: Starting Minecraft server on *:25565
+[15:20:08] [Server thread/INFO]: Using epoll channel type
+[15:20:08] [Server thread/INFO]: Paper: Using libdeflate (Linux x86_64) compression from Velocity.
+[15:20:08] [Server thread/INFO]: Paper: Using OpenSSL 1.1.x (Linux x86_64) cipher from Velocity.
+[15:20:10] [Server thread/INFO]: [STDOUT] [9CZxV0oGSTD1X4cwbOdOxmt] [35;1m Downloaded from https://directleaks.net [0m
+[15:20:10] [Server thread/INFO]: [WorldEdit] Loading WorldEdit v7.2.12+6240-87f4ae1
+[15:20:11] [Server thread/INFO]: Got request to register class com.sk89q.worldedit.bukkit.BukkitServerInterface with WorldEdit [com.sk89q.worldedit.extension.platform.PlatformManager@56b2c51a]
+[15:20:11] [Server thread/INFO]: [JumpPads] Loading JumpPads v1.25.13
+[15:20:11] [Server thread/INFO]: [PlaceholderAPI] Loading PlaceholderAPI v2.11.6
+[15:20:11] [Server thread/INFO]: [ViaVersion] Loading ViaVersion v4.10.2
+[15:20:11] [Server thread/INFO]: [ViaVersion] ViaVersion 4.10.2 is now loaded. Registering protocol transformers and injecting...
+[15:20:11] [Via-Mappingloader-0/INFO]: [ViaVersion] Loading block connection mappings ...
+[15:20:11] [Via-Mappingloader-0/INFO]: [ViaVersion] Using FastUtil Long2ObjectOpenHashMap for block connections
+[15:20:11] [Server thread/INFO]: [ViaBackwards] Loading translations...
+[15:20:11] [Server thread/INFO]: [ViaBackwards] Registering protocols...
+[15:20:12] [Server thread/INFO]: [ViaRewind] Registering protocols...
+[15:20:12] [Server thread/INFO]: [HolographicDisplays] Loading HolographicDisplays v3.0.4
+[15:20:12] [Server thread/INFO]: [UltraCustomizer] Loading UltraCustomizer v2.4.2
+[15:20:12] [Server thread/INFO]: [PlayerPoints] Loading PlayerPoints v3.0.1
+[15:20:12] [Server thread/INFO]: [ViaBackwards] Loading ViaBackwards v4.10.2
+[15:20:12] [Server thread/INFO]: [MyCommand] Loading MyCommand v5.7.4
+[15:20:12] [Server thread/INFO]: [Multiverse-Core] Loading Multiverse-Core v4.3.1-b861
+[15:20:12] [Server thread/INFO]: [ViaRewind] Loading ViaRewind v3.1.2
+[15:20:12] [Server thread/INFO]: [LuckPerms] Loading LuckPerms v5.4.40
+[15:20:12] [Server thread/INFO]: [HolographicExtension] Loading HolographicExtension v1.10.9
+[15:20:12] [Server thread/INFO]: [DeluxeHub] Loading DeluxeHub v3.5.5
+[15:20:12] [Server thread/INFO]: [ajLeaderboards] Loading ajLeaderboards v2.8.0
+[15:20:12] [Server thread/INFO]: [ajLeaderboards] Verifying checksum for gson
+[15:20:12] [Server thread/INFO]: [ajLeaderboards] Checksum matched for gson
+[15:20:12] [Server thread/INFO]: [ajLeaderboards] Verifying checksum for jar-relocator
+[15:20:12] [Server thread/INFO]: [ajLeaderboards] Checksum matched for jar-relocator
+[15:20:12] [Server thread/INFO]: [ajLeaderboards] Verifying checksum for asm
+[15:20:12] [Server thread/INFO]: [ajLeaderboards] Checksum matched for asm
+[15:20:12] [Server thread/INFO]: [ajLeaderboards] Verifying checksum for asm-commons
+[15:20:12] [Server thread/INFO]: [ajLeaderboards] Checksum matched for asm-commons
+[15:20:12] [Server thread/INFO]: [ajLeaderboards] Verifying checksum for gson
+[15:20:12] [Server thread/INFO]: [ajLeaderboards] Checksum matched for gson
+[15:20:12] [Server thread/INFO]: [ajLeaderboards] Verifying checksum for HikariCP
+[15:20:12] [Server thread/INFO]: [ajLeaderboards] Checksum matched for HikariCP
+[15:20:12] [Server thread/INFO]: [ajLeaderboards] Verifying checksum for slf4j-api
+[15:20:12] [Server thread/INFO]: [ajLeaderboards] Checksum matched for slf4j-api
+[15:20:12] [Server thread/INFO]: [ajLeaderboards] Verifying checksum for h2
+[15:20:12] [Server thread/INFO]: [ajLeaderboards] Checksum matched for h2
+[15:20:12] [Server thread/INFO]: [Arcade] Loading Arcade v1.53
+[15:20:12] [Server thread/INFO]: [GadgetsMenu] Loading GadgetsMenu v4.7.3
+[15:20:12] [Server thread/INFO]: Server permissions file permissions.yml is empty, ignoring it
+[15:20:12] [Server thread/INFO]: [WorldEdit] Enabling WorldEdit v7.2.12+6240-87f4ae1
+[15:20:12] [Server thread/INFO]: Registering commands with com.sk89q.worldedit.bukkit.BukkitServerInterface
+[15:20:12] [Server thread/INFO]: WEPIF: Using the Bukkit Permissions API.
+[15:20:12] [Server thread/INFO]: Using com.sk89q.worldedit.bukkit.adapter.impl.v1_19_R1.PaperweightAdapter as the Bukkit adapter
+[15:20:14] [Server thread/INFO]: [UltraCustomizer] Enabling UltraCustomizer v2.4.2
+[15:20:14] [Server thread/INFO]: [UltraCustomizer] Loading Plugin...
+[15:20:14] [Server thread/INFO]: [UltraCustomizer] Hooked into PlaceholderAPI version: 2.11.6
+[15:20:14] [Server thread/INFO]: [UltraCustomizer] Registered 76 Elements
+[15:20:14] [Server thread/INFO]: [UltraCustomizer] No ProtocolLib found, the ChatEditor feature is not enabled!
+[15:20:14] [Server thread/INFO]: [UltraCustomizer] Registered 0 Crafting Recipes of folder: Local
+[15:20:14] [Server thread/INFO]: [UltraCustomizer] Registered 0 Furnace Recipes of folder: Local
+[15:20:14] [Server thread/INFO]: [UltraCustomizer] Successfully loaded in 673 ms
+[15:20:14] [Server thread/INFO]: [ViaRewind] Enabling ViaRewind v3.1.2
+[15:20:14] [Server thread/INFO]: [LuckPerms] Enabling LuckPerms v5.4.40
+[15:20:15] [Server thread/INFO]:         __    
+[15:20:15] [Server thread/INFO]:   |    |__)   LuckPerms v5.4.40
+[15:20:15] [Server thread/INFO]:   |___ |      Running on Bukkit - Paper
+[15:20:15] [Server thread/INFO]: 
+[15:20:15] [Server thread/INFO]: [LuckPerms] Loading configuration...
+[15:20:15] [Server thread/INFO]: [LuckPerms] Loading storage provider... [H2]
+[15:20:16] [Server thread/INFO]: [LuckPerms] Loading internal permission managers...
+[15:20:16] [Server thread/INFO]: [LuckPerms] Performing initial data load...
+[15:20:16] [Server thread/INFO]: [LuckPerms] Successfully enabled. (took 1586ms)
+[15:20:16] [Server thread/WARN]: **** SERVER IS RUNNING IN OFFLINE/INSECURE MODE!
+[15:20:16] [Server thread/WARN]: The server will make no attempt to authenticate usernames. Beware.
+[15:20:16] [Server thread/WARN]: While this makes the game possible to play without internet access, it also opens up the ability for hackers to connect with any username they choose.
+[15:20:16] [Server thread/WARN]: To change this, set "online-mode" to "true" in the server.properties file.
+[15:20:16] [Server thread/INFO]: Preparing level "world"
+[15:20:17] [Server thread/INFO]: Preparing start region for dimension minecraft:overworld
+[15:20:18] [Server thread/INFO]: Time elapsed: 392 ms
+[15:20:18] [Server thread/INFO]: [JumpPads] Enabling JumpPads v1.25.13
+[15:20:18] [Server thread/INFO]: [PlaceholderAPI] Enabling PlaceholderAPI v2.11.6
+[15:20:18] [Server thread/INFO]: [PlaceholderAPI] Fetching available expansion information...
+[15:20:18] [Server thread/INFO]: [ViaVersion] Enabling ViaVersion v4.10.2
+[15:20:18] [Server thread/INFO]: [ViaVersion] ViaVersion detected server version: 1.19 (759)
+[15:20:18] [Server thread/INFO]: [HolographicDisplays] Enabling HolographicDisplays v3.0.4
+[15:20:18] [Server thread/INFO]: [PlayerPoints] Enabling PlayerPoints v3.0.1
+[15:20:18] [Server thread/INFO]: [PlayerPoints] Initializing using RoseGarden v1.0.5-SNAPSHOT
+[15:20:19] [Server thread/INFO]: [PlayerPoints] Data handler connected using SQLite.
+[15:20:19] [Server thread/INFO]: [PlaceholderAPI] Successfully registered internal expansion: playerpoints [3.0.1]
+[15:20:19] [Server thread/INFO]: [ViaBackwards] Enabling ViaBackwards v4.10.2
+[15:20:19] [Server thread/INFO]: [MyCommand] Enabling MyCommand v5.7.4
+[15:20:19] [Server thread/INFO]: *-=-=-=-=-=-=-=-=-* MyCommand v.5.7.4*-=-=-=-=-=-=-=-=-=-*
+[15:20:19] [Server thread/INFO]: | Vault plugin not found. Using BukkitPermissions
+[15:20:19] [Server thread/INFO]: | No Economy support without Vault!
+[15:20:19] [Server thread/INFO]: | Logs Directory Created /MyCommand/logs/
+[15:20:19] [Server thread/INFO]: | PlayerData Directory Created /MyCommand/playerdata/
+[15:20:19] [Server thread/INFO]: | Command file(s) found : 1
+[15:20:19] [Server thread/INFO]: | Config : Ready.
+[15:20:19] [Server thread/INFO]: | ProtocolLib not found.
+[15:20:19] [Server thread/INFO]: [PlaceholderAPI] Successfully registered internal expansion: mycommand [1.0.0]
+[15:20:19] [Server thread/INFO]: | Placeholder_API : Hooked, Ok.
+[15:20:19] [Server thread/INFO]: | Custom commands loaded : 44
+[15:20:19] [Server thread/INFO]: | You're running the latest version of MyCommand.
+[15:20:19] [Server thread/INFO]: |          by emmerrei a.k.a. ivanfromitaly.           
+[15:20:19] [Server thread/INFO]: *-=-=-=-=-=-=-=-=-=-*   Done!   *-=-=-=-=-=-=-=-=-=-=-*
+[15:20:19] [Server thread/INFO]: [Multiverse-Core] Enabling Multiverse-Core v4.3.1-b861
+[15:20:19] [Server thread/WARN]: [Multiverse-Core] "Multiverse-Core v4.3.1-b861" has registered a listener for org.bukkit.event.entity.EntityCreatePortalEvent on method "public void com.onarandombox.MultiverseCore.listeners.MVPortalListener.entityPortalCreate(org.bukkit.event.entity.EntityCreatePortalEvent)", but the event is Deprecated. "Server performance will be affected"; please notify the authors [dumptruckman, Rigby, fernferret, lithium3141, main--].
+[15:20:19] [Server thread/INFO]: [Multiverse-Core] §aWe are aware of the warning about the deprecated event. There is no alternative that allows us to do what we need to do and performance impact is negligible. It is safe to ignore.
+[15:20:28] [Server thread/INFO]: Preparing start region for dimension minecraft:bb
+[15:20:28] [Server thread/INFO]: Preparing spawn area: 0%
+[15:20:28] [Server thread/INFO]: Time elapsed: 389 ms
+[15:20:28] [Server thread/INFO]: Preparing start region for dimension minecraft:t4
+[15:20:28] [Server thread/INFO]: Preparing spawn area: 0%
+[15:20:28] [Server thread/INFO]: Time elapsed: 284 ms
+[15:20:29] [Server thread/INFO]: Preparing start region for dimension minecraft:q1
+[15:20:29] [Server thread/INFO]: Preparing spawn area: 0%
+[15:20:29] [Server thread/INFO]: Time elapsed: 328 ms
+[15:20:29] [Server thread/INFO]: Preparing start region for dimension minecraft:q2
+[15:20:30] [Server thread/INFO]: Time elapsed: 206 ms
+[15:20:30] [Server thread/INFO]: Preparing start region for dimension minecraft:tv
+[15:20:30] [Server thread/INFO]: Time elapsed: 313 ms
+[15:20:30] [Server thread/INFO]: Preparing start region for dimension minecraft:bil2
+[15:20:30] [Server thread/INFO]: Time elapsed: 192 ms
+[15:20:31] [Server thread/INFO]: Preparing start region for dimension minecraft:bil
+[15:20:31] [Server thread/INFO]: Time elapsed: 196 ms
+[15:20:31] [Server thread/INFO]: Preparing start region for dimension minecraft:crmapin
+[15:20:31] [Server thread/INFO]: Time elapsed: 149 ms
+[15:20:31] [Server thread/INFO]: Preparing start region for dimension minecraft:arcade
+[15:20:31] [Server thread/INFO]: Time elapsed: 132 ms
+[15:20:42] [Server thread/INFO]: Preparing start region for dimension minecraft:tt2
+[15:20:42] [Server thread/INFO]: Preparing spawn area: 0%
+[15:20:42] [Server thread/INFO]: Time elapsed: 335 ms
+[15:20:42] [Server thread/INFO]: Preparing start region for dimension minecraft:sp2
+[15:20:42] [Server thread/INFO]: Preparing spawn area: 0%
+[15:20:43] [Server thread/INFO]: Time elapsed: 207 ms
+[15:20:43] [Server thread/INFO]: Preparing start region for dimension minecraft:tt4
+[15:20:43] [Server thread/INFO]: Preparing spawn area: 0%
+[15:20:44] [Server thread/INFO]: Preparing spawn area: 14%
+[15:20:44] [Server thread/INFO]: Time elapsed: 754 ms
+[15:20:44] [Server thread/INFO]: Preparing start region for dimension minecraft:sp1
+[15:20:44] [Server thread/INFO]: Time elapsed: 168 ms
+[15:20:44] [Server thread/INFO]: Preparing start region for dimension minecraft:block
+[15:20:44] [Server thread/INFO]: Time elapsed: 140 ms
+[15:20:44] [Server thread/INFO]: Preparing start region for dimension minecraft:t1
+[15:20:45] [Server thread/INFO]: Time elapsed: 132 ms
+[15:20:45] [Server thread/INFO]: Preparing start region for dimension minecraft:t2
+[15:20:45] [Server thread/INFO]: Time elapsed: 114 ms
+[15:20:45] [Server thread/INFO]: Preparing start region for dimension minecraft:t3
+[15:20:46] [Server thread/INFO]: Time elapsed: 79 ms
+[15:20:46] [Server thread/INFO]: [Multiverse-Core] 18 - World(s) loaded.
+[15:20:46] [Server thread/WARN]: [Multiverse-Core] Buscript failed to load! The script command will be disabled! If you would like not to see this message, use `/mv conf enablebuscript false` to disable Buscript from loading.
+[15:20:46] [Server thread/INFO]: [Multiverse-Core] Version 4.3.1-b861 (API v24) Enabled - By dumptruckman, Rigby, fernferret, lithium3141 and main--
+[15:20:46] [Server thread/INFO]: [HolographicExtension] Enabling HolographicExtension v1.10.9
+[15:20:46] [Server thread/INFO]: [HolographicExtension] Starting HolographicExtension v1.10.9
+[15:20:46] [Server thread/INFO]: [HolographicExtension] Registering placeholder 'example' from config.
+[15:20:46] [Server thread/INFO]: [HolographicExtension] Registering placeholder 'scroller' from config.
+[15:20:46] [Server thread/INFO]: [HolographicExtension] Registering placeholder 'typing' from config.
+[15:20:46] [Server thread/INFO]: [HolographicExtension] Registering placeholder 'rainbow' from config.
+[15:20:46] [Server thread/INFO]: [HolographicExtension] If you want to use the placeholder extension, please install ProtocolLib and PlaceholderAPI
+[15:20:46] [Server thread/INFO]: [DeluxeHub] Enabling DeluxeHub v3.5.5
+[15:20:46] [Server thread/INFO]: [DeluxeHub]  _   _            _          _    _ 
+[15:20:46] [Server thread/INFO]: [DeluxeHub] | \ |_ |  | | \/ |_ |_| | | |_)   _)
+[15:20:46] [Server thread/INFO]: [DeluxeHub] |_/ |_ |_ |_| /\ |_ | | |_| |_)   _)
+[15:20:46] [Server thread/INFO]: [DeluxeHub] 
+[15:20:46] [Server thread/INFO]: [DeluxeHub] Version: 3.5.5
+[15:20:46] [Server thread/INFO]: [DeluxeHub] Author: ItsLewizzz
+[15:20:46] [Server thread/INFO]: [DeluxeHub] 
+[15:20:46] [Server thread/INFO]: [DeluxeHub]  Hooked into PlaceholderAPI
+[15:20:46] [Server thread/INFO]: [DeluxeHub] Loaded custom menu 'serverselector'.
+[15:20:46] [Server thread/INFO]: [DeluxeHub] Loaded 13 plugin modules.
+[15:20:46] [Server thread/INFO]: [DeluxeHub] 
+[15:20:46] [Server thread/INFO]: [DeluxeHub] Successfully loaded in 257ms
+[15:20:46] [Server thread/INFO]: [ajLeaderboards] Enabling ajLeaderboards v2.8.0
+[15:20:47] [Server thread/INFO]: [ajLeaderboards] Using H2 flatfile for board cache. (h2)
+[15:20:47] [Server thread/INFO]: [ajLeaderboards] Loaded 0 boards
+[15:20:47] [Server thread/INFO]: [PlaceholderAPI] Successfully registered internal expansion: ajlb [2.8.0]
+[15:20:47] [Server thread/INFO]: [ajLeaderboards] PAPI placeholders successfully registered!
+[15:20:47] [Server thread/INFO]: [ajLeaderboards] ajLeaderboards v2.8.0 by ajgeiss0702 enabled!
+[15:20:47] [Server thread/INFO]: [Arcade] Enabling Arcade v1.53
+[15:20:47] [Server thread/INFO]: [Arcade] [STDOUT] [36m[Spigotunlocked.net] - -Michy-
+[15:20:47] [Server thread/WARN]: Nag author(s): '[Fr33styler]' of 'Arcade' about their usage of System.out/err.print. Please use your plugin's logger instead (JavaPlugin#getLogger).
+[15:20:47] [Server thread/INFO]: =-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=
+[15:20:47] [Server thread/INFO]: Arcade plugin is loading... 
+[15:20:47] [Server thread/INFO]:  Author: Fr33styler
+[15:20:47] [Server thread/INFO]:  Version: 1.53
+[15:20:47] [Server thread/INFO]:  - Loading engine...
+[15:20:47] [Server thread/INFO]:  - Loading database...
+[15:20:47] [Server thread/INFO]:  - Loading Party Games...
+[15:20:47] [Server thread/INFO]:  - Loading Mini Walls...
+[15:20:48] [Server thread/INFO]:  - Loading Splegg...
+[15:20:48] [Server thread/INFO]:  - Loading Temple Run...
+[15:20:48] [Server thread/INFO]:  - Loading Bomb Lobbers...
+[15:20:48] [Server thread/INFO]:  - Loading TNT Run...
+[15:20:48] [Server thread/INFO]:  - Loading Prop Hunt...
+[15:20:48] [Server thread/INFO]:  - Loading Quake...
+[15:20:48] [Server thread/INFO]:  - Loading Block Party...
+[15:20:48] [Server thread/INFO]:  - Loading TNT Tag...
+[15:20:48] [Server thread/INFO]: [PlaceholderAPI] Successfully registered internal expansion: arcade [null]
+[15:20:48] [Server thread/INFO]: Arcade has been loaded!
+[15:20:48] [Server thread/INFO]: =-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=
+[15:20:48] [Server thread/INFO]: [GadgetsMenu] Enabling GadgetsMenu v4.7.3
+[15:20:48] [Server thread/INFO]: [GadgetsMenu] ------------------------------------------------------
+[15:20:48] [Server thread/INFO]: [GadgetsMenu]         GadgetsMenu [Free] 4.7.3 is loading...
+[15:20:48] [Server thread/INFO]: [GadgetsMenu]           [server: git-Paper-81 (MC: 1.19)]
+[15:20:48] [Server thread/INFO]: [GadgetsMenu]                  Running Java 17.0.11
+[15:20:48] [Server thread/INFO]: [GadgetsMenu]                Plugin by Yap Zhen Yie.
+[15:20:48] [Server thread/INFO]: [GadgetsMenu]             Date Modified: 30 August 2022
+[15:20:48] [Server thread/INFO]: [GadgetsMenu]                            
+[15:20:48] [Server thread/INFO]: [GadgetsMenu]              Initializing module v1_19_R1
+[15:20:48] [Server thread/INFO]: [GadgetsMenu] ------------------------------------------------------
+[15:20:49] [Server thread/INFO]: [GadgetsMenu] Connecting to SQLite database...
+[15:20:49] [Server thread/INFO]: [GadgetsMenu] Successfully connected to SQLite database!
+[15:20:49] [Server thread/INFO]: [PlaceholderAPI] Successfully registered internal expansion: gadgetsmenu [1.0.2]
+[15:20:49] [Server thread/INFO]: [GadgetsMenu] [Placeholder] PlaceholderAPI hooked.
+[15:20:49] [Server thread/INFO]: [PlaceholderAPI] Placeholder expansion registration initializing...
+[15:20:49] [Server thread/INFO]: Running delayed init tasks
+[15:20:49] [Server thread/INFO]: [JumpPads] CleanUp found no JumpPads to delete!
+[15:20:49] [Craft Scheduler Thread - 7 - ViaVersion/INFO]: [ViaVersion] Finished mapping loading, shutting down loader executor!
+[15:20:49] [Craft Scheduler Thread - 5 - GadgetsMenu/INFO]: [GadgetsMenu] Checking for updates...
+[15:20:49] [Server thread/INFO]: Done (41.780s)! For help, type "help"
+[15:20:49] [Server thread/INFO]: Timings Reset
+[15:20:49] [Craft Scheduler Thread - 5 - GadgetsMenu/INFO]: [GadgetsMenu] You have an old version of the plugin. You are using 4.7.3, available version 4.13.1.
+[15:20:49] [Craft Scheduler Thread - 7 - PlayerPoints/INFO]: [RoseGarden] [RoseGarden] An update for PlayerPoints (v3.2.7) is available! You are running v3.0.1.
+[15:20:50] [Server thread/INFO]: [PlaceholderAPI] Successfully registered external expansion: math [2.0.2]
+[15:20:50] [Server thread/WARN]: [PlaceholderAPI] Cannot load expansion playertime due to a missing plugin: PlayerTime
+[15:20:50] [Server thread/WARN]: [PlaceholderAPI] Loaded class com.onarandombox.MultiverseCore.MultiverseCore from Multiverse-Core v4.3.1-b861 which is not a depend or softdepend of this plugin.
+[15:20:50] [Server thread/INFO]: [PlaceholderAPI] Successfully registered external expansion: multiverse [1.0.1]
+[15:20:50] [Server thread/INFO]: [PlaceholderAPI] Successfully registered external expansion: otherplayer [2.1.0]
+[15:20:50] [Server thread/INFO]: [PlaceholderAPI] Successfully registered external expansion: gg [1.0.0]
+[15:20:50] [Server thread/INFO]: [PlaceholderAPI] Successfully registered external expansion: server [2.7.2]
+[15:20:50] [Server thread/INFO]: [PlaceholderAPI] Successfully registered external expansion: pinger [1.0.1]
+[15:20:50] [Server thread/INFO]: [PlaceholderAPI] Successfully registered external expansion: gradient [1.0]
+[15:20:50] [Server thread/WARN]: [PlaceholderAPI] Cannot load expansion thirst due to a missing plugin: Thirst
+[15:20:50] [Server thread/INFO]: [PlaceholderAPI] Successfully registered external expansion: player [2.0.8]
+[15:20:50] [Server thread/WARN]: [PlaceholderAPI] Cannot load expansion tp due to a missing plugin: ThemePark
+[15:20:50] [Server thread/INFO]: [PlaceholderAPI] Successfully registered external expansion: localtime [1.2]
+[15:20:50] [Server thread/WARN]: [PlaceholderAPI] Loaded class net.luckperms.api.LuckPerms from LuckPerms v5.4.40 which is not a depend or softdepend of this plugin.
+[15:20:50] [Server thread/INFO]: [PlaceholderAPI] Successfully registered external expansion: luckperms [5.4-R2]
+[15:20:50] [Server thread/INFO]: [PlaceholderAPI] Successfully registered external expansion: playerlist [3.0.7]
+[15:20:50] [Server thread/INFO]: [PlaceholderAPI] Successfully registered external expansion: tempdata [0.1-BETA]
+[15:20:50] [Server thread/WARN]: [PlaceholderAPI] Cannot load expansion playerstats due to a missing plugin: PlayerStats
+[15:20:50] [Server thread/INFO]: 12 placeholder hook(s) registered! 1 placeholder hook(s) have an update available.
+[15:20:51] [Craft Scheduler Thread - 4 - UltraCustomizer/INFO]: [UltraCustomizer] Translations successfully loaded & applied (34 UltraCustomizer and Base Translation files found)
