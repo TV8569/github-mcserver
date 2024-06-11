@@ -248,3 +248,8 @@
 [15:20:50] [Server thread/WARN]: [PlaceholderAPI] Cannot load expansion playerstats due to a missing plugin: PlayerStats
 [15:20:50] [Server thread/INFO]: 12 placeholder hook(s) registered! 1 placeholder hook(s) have an update available.
 [15:20:51] [Craft Scheduler Thread - 4 - UltraCustomizer/INFO]: [UltraCustomizer] Translations successfully loaded & applied (34 UltraCustomizer and Base Translation files found)
+[15:25:37] [User Authenticator #1/INFO]: UUID of player amirabbas8585 is 20cf1db0-e54b-388d-8edc-76880a8b4ffa
+[15:25:37] [Server thread/INFO]: + amirabbas8585 Connected
+[15:25:37] [Server thread/INFO]: amirabbas8585[/[0:0:0:0:0:0:0:1%0]:53754] logged in with entity id 48 at ([crmapin]-110.37394624892231, 158.0, -9.346778482686066)
+[15:25:37] [Server thread/INFO]: [amirabbas8585: Applied effect Night Vision to amirabbas8585]
+[15:25:40] [Craft Scheduler Thread - 30 - PlaceholderAPI/INFO]: [LocalTime] Couldn't get amirabbas8585's timezone. Will use default timezone.
