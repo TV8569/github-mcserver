@@ -51,7 +51,7 @@ commands:
   setlobby:
     enabled: true
   lobby:
-    enabled: true
+    enabled: false
   vanish:
     enabled: true
     aliases:
