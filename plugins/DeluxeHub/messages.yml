@@ -5,9 +5,9 @@
 Messages:
   GENERAL:
     PREFIX: "&9[&3Arcade&9] &F"
-    NO_PERMISSION: "%prefix% &cYou are forbidden to use this."
-    CUSTOM_COMMAND_NO_PERMISSION: "&cYou are not allowed to execute this command."
-    INVALID_PLAYER: "%prefix% &c%player% is not online!"
+    NO_PERMISSION: "%prefix% &cshoma permission nadarid."
+    CUSTOM_COMMAND_NO_PERMISSION: "&shoma permission nadarid."
+    INVALID_PLAYER: "%prefix% &c%player% online nist!"
     CONFIG_RELOAD: "%prefix% &aAll configuration files has been reloaded in &7%time%ms"
     COOLDOWN_ACTIVE: "%prefix% &cYou must wait &e%time%s &cbefore doing this again!"
 
@@ -17,8 +17,8 @@ Messages:
     GAMEMODE_INVALID: "%prefix% &e%gamemode% &cis not a valid gamemode"
 
   VANISH:
-    ENABLE: "%prefix% &aYou have now vanished"
-    DISABLE: "%prefix% &cYou have now unvanished"
+    ENABLE: "%prefix% &aShoma vanished"
+    DISABLE: "%prefix% &cShoma Digar vanished Nisted"
 
   FLIGHT:
     ENABLE: "%prefix% &aYou have enabled flight"
@@ -27,8 +27,8 @@ Messages:
     DISABLE_OTHER: ""
 
   PLAYER_HIDER:
-    HIDDEN: "%prefix% &cPlayer visibility disabled"
-    SHOWN: "%prefix% &aPlayer visibility enabled"
+    HIDDEN: "%prefix% &cvisibility player gheirfaal shood"
+    SHOWN: "%prefix% &avisibility player faal shood"
 
   LOBBY:
     SET_LOBBY: "%prefix% &aYou have successfully set the lobby spawn point"
@@ -53,12 +53,12 @@ Messages:
     COOLDOWN_ACTIVE: "%prefix% &cYou must wait &e%time%s &cto Double Jump again!"
 
   WORLD_EVENT_MODIFICATIONS:
-    ITEM_DROP: "%prefix% &cYou are not allowed to drop items."
-    ITEM_PICKUP: "%prefix% &cYou are not allowed to pickup items."
-    BLOCK_PLACE: "%prefix% &cYou are not allowed to place blocks."
-    BLOCK_BREAK: "%prefix% &cYou are not allowed to break blocks."
-    BLOCK_INTERACT: "%prefix% &cYou are not allowed to use this."
-    PLAYER_PVP: "%prefix% &cYou are not allowed to pvp here."
+    ITEM_DROP: "%prefix% &cshoma nemitvanid itemi ra bendazid."
+    ITEM_PICKUP: "%prefix% &cshoma nemitavanid itemi ra bardarid."
+    BLOCK_PLACE: "%prefix% &cshoma nemitavanid blocki ra begozarid."
+    BLOCK_BREAK: "%prefix% &cshoma nemitavanid blocki ra bekanid."
+    BLOCK_INTERACT: "%prefix% &cshoma nemitavanid az in estefade konid."
+    PLAYER_PVP: "."
 
   HOLOGRAMS:
     EMPTY: "%prefix% &cCould not find any holograms."

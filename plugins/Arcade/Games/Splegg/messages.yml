@@ -1,8 +1,8 @@
 Messages:
-  Won: '&aYOU WON!'
-  Lost: '&cYOU LOST!'
+  Won: '&aSHOMA BORDID!'
+  Lost: '&cSHOMA BAKHTID!'
   TimeRunOutTitle: '&6&lDRAW'
-  TimeRunOutSubtitle: '&cThe time has run out!'
+  TimeRunOutSubtitle: '&czaman tamam shood!'
   EggLauncherName: '&aEgg Launcher &7(Right Click)'
   Eliminated: '&7%player% &ehas been eliminated!'
   SidebarTitle: '&e&lSplegg'

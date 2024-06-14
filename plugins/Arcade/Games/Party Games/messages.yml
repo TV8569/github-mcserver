@@ -1,6 +1,6 @@
 Messages:
   PigFishingTimeLeft: '&6&lTime Left: &c&l%timer%'
-  ParkourFinished: '&7%player% &ehas finished the parkour!'
+  ParkourFinished: '&7%player% &eparkour ra tamoom kard!'
   ParkourCheckpoint: '&a&lCheckpoint!'
   ParkourTimeLeft: '&6&lTime Left: &c&l%timer%'
   ColorRed: Red
@@ -12,9 +12,9 @@ Messages:
   ColorBlack: Black
   ColorWhite: White
   SidebarTitle: '&e&lParty Games'
-  BossBarAvalancheCover: '%cover%&lTake Cover!!'
-  BossBarAvalancheNext: '&6&lNext Avalanche: &c&l%countdown%'
-  BossBarPartyGameStart: '&e&l%game% starts in &c&l%timer% &e&lseconds!'
+  BossBarAvalancheCover: '%cover%&lPanah Begirid!!'
+  BossBarAvalancheNext: '&6&l bahman badi dar &c&l%countdown% &6&lshoroo mishavad'
+  BossBarPartyGameStart: '&e&l%game% Game Ta &c&l%timer% &e&lseconds Shoroo! '
   AvalancheCanHit: '&aYou can hit other players now!'
   AvalancheStartsIn: '&eWave &c%wave%&e will begin in &c%countdown%&e seconds with
     &c%safepoints%&e safe points! Find Cover!'

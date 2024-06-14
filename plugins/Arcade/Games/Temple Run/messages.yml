@@ -1,10 +1,10 @@
 Messages:
-  Won: '&aYOU WON!'
-  Lost: '&cYOU LOST!'
-  Finished: '%player% &ehas finished!'
-  Ending: '&eThe game has ended, You have 30 seconds to finish!'
-  Checkpoint: '&eThe &ccheckpoint&e has been reached!'
-  PowerupActivated: '&eThe powerup &c%powerup% &ehas been activated.'
+  Won: '&aSHOMA BORDID!!!!'
+  Lost: '&cSHOMA BAKHTID!!!! &4aura -100000'
+  Finished: '%player% &etamam kard!'
+  Ending: '&ebazi tamam shode ast, shoma 30 sanie baraye tamam karda darid!'
+  Checkpoint: '&ebe &ccheckpoint&e residid!'
+  PowerupActivated: '&e powerup &c%powerup% &efaal shode ast.'
   PowerupCoinBooster: Coin Booster
   SidebarTitle: '&e&lTemple Run'
 MessagesList:

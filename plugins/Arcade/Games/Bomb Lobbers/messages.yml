@@ -5,7 +5,7 @@ Messages:
   TeamRed: Red
   TeamBlue: Blue
   PlayerKilledByBorder: '%player% &ewas killed by the border!'
-  PlayerKilledByPlayer: '&a%player% &ewas killed by %damager%!'
+  PlayerKilledByPlayer: '&4%player% &c kill shod tavasote  &4%damager%!'
   SidebarTitle: '&e&lBomb Lobbers'
 MessagesList:
   Top:

@@ -1,15 +1,15 @@
 Messages:
   SidebarTitle: '&e&lTNT Tag'
   GoalRunAway: '&aRun away!'
-  GoalTagSomeone: '&cTag Someone!'
+  GoalTagSomeone: '&cTag yek fard!'
   IsIt: '%player% &7is IT!'
-  ItBlewUp: '%player% &eblew up!'
+  ItBlewUp: '%player% &eterekid!'
   ItTag: '&c[It] '
   Joiner: '&e, '
   JoinerFinal: ' &eand '
   NearestPlayer: '&aNearest Player'
-  PlayerTagged: '&7%player% &ctagged you!'
-  PlayerYouTagged: '&aYou tagged &7%player%&a!'
+  PlayerTagged: '&7%player% &cshoma ra tag kard!'
+  PlayerYouTagged: '&ashoma tag kardid &7%player%&a!'
   ActionBar: '&aRun away!'
   ActionBarIt: <TICKING=&c#>You're IT, tag someone!
 MessagesList:

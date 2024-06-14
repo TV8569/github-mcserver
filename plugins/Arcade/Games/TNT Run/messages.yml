@@ -1,7 +1,7 @@
 Messages:
   SidebarTitle: '&e&lTNT Run'
-  PlayerDied: '&7%name% &cdied!'
-  PlayersLeft: '&e%left% players remaining!'
+  PlayerDied: '&7%name% &cmord!'
+  PlayersLeft: '&e%left% player haye baghi mande!'
   ItemDoubleJump: '&a&lDouble Jump'
   CoinsReceived: '&6+20 Coins (Survival Coins)'
 MessagesList:

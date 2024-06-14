@@ -26,7 +26,7 @@ gotarrow: "Reload done!"
 kit-recieve: "&aSuccessfully recieved %kitname%"
 
 
-itemremoved:  "&eEvery items that were on ground were&b removed!"
+itemremoved:  ""
 arenachangemsg: "&eThe arena has changed to &b%arena%"
 purchase-success: "&aYou have successfully purchased %cosmetic%"
 fellvoidmsg: "&c %player_name% &e fell in to the void"

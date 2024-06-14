@@ -2,8 +2,8 @@ Messages:
   SidebarTitle: '&e&lQuake'
   RailGun: '&eRailgun'
   TrackingDevice: '&aTracking Device'
-  PlayerKill: '&7%killer% &7gibbed&7 %player%'
-  SneakDenied: '&cSneaking is disabled, your name is still visible!'
+  PlayerKill: '&7%killer% &7kill kard &7 %player%'
+  SneakDenied: '&c ba neshastan farghi ijad nmishe , esm shoma bazham dide mishe!'
   CooldownRailGun: '&8[&a%cooldown%&8] &6%left% seconds'
   CooldownDash: '&cYour Dash will be available in &e%left%s&c!'
 MessagesList:
