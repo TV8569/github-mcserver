@@ -286,3 +286,54 @@
 [22:29:17] [Craft Scheduler Thread - 5 - PowerBoard/ERROR]: [PowerBoard] ---------------------------------------------------------------------------------------------------------------------------
 [22:29:17] [Craft Scheduler Thread - 5 - PowerBoard/WARN]: [PowerBoard] Did not set amirabbas8585's rank for the already online players
 [22:29:20] [Craft Scheduler Thread - 6 - PlaceholderAPI/INFO]: [LocalTime] Couldn't get amirabbas8585's timezone. Will use default timezone.
+[22:30:29] [Server thread/INFO]: amirabbas8585 issued server command: /mvtp aTV
+[22:30:31] [Server thread/INFO]: amirabbas8585 issued server command: /mvtp TV
+[22:30:32] [Server thread/WARN]: [PlaceholderAPI] [math] Invalid Placeholder detected!
+[22:30:32] [Server thread/WARN]: [PlaceholderAPI] [math] Placeholder: %math_{server_online_t1}:{server_online_t2}_+%
+[22:30:32] [Server thread/WARN]: [PlaceholderAPI] [math] Cause:       '+' is not a valid Math expression.
+[22:30:34] [Server thread/INFO]: amirabbas8585 issued server command: /gamemode adventure
+[22:30:38] [Server thread/INFO]: amirabbas8585 issued server command: /mvtp TV
+[22:30:41] [Server thread/INFO]: amirabbas8585 issued server command: /gamemode creative
+[22:30:44] [Server thread/INFO]: amirabbas8585 issued server command: /mvtp TV
+[22:30:45] [Server thread/WARN]: [PlaceholderAPI] [math] Invalid Placeholder detected!
+[22:30:45] [Server thread/WARN]: [PlaceholderAPI] [math] Placeholder: %math_{server_online_t1}:{server_online_t2}_+%
+[22:30:45] [Server thread/WARN]: [PlaceholderAPI] [math] Cause:       '+' is not a valid Math expression.
+[22:30:46] [Server thread/INFO]: amirabbas8585 issued server command: /gamemode creative
+[22:31:05] [Server thread/WARN]: [PlaceholderAPI] [math] Invalid Placeholder detected!
+[22:31:05] [Server thread/WARN]: [PlaceholderAPI] [math] Placeholder: %math_{server_online_t1}:{server_online_t2}_+%
+[22:31:05] [Server thread/WARN]: [PlaceholderAPI] [math] Cause:       '+' is not a valid Math expression.
+[22:31:25] [Server thread/WARN]: [PlaceholderAPI] [math] Invalid Placeholder detected!
+[22:31:25] [Server thread/WARN]: [PlaceholderAPI] [math] Placeholder: %math_{server_online_t1}:{server_online_t2}_+%
+[22:31:25] [Server thread/WARN]: [PlaceholderAPI] [math] Cause:       '+' is not a valid Math expression.
+[22:31:35] [Server thread/WARN]: [PlaceholderAPI] [math] Invalid Placeholder detected!
+[22:31:35] [Server thread/WARN]: [PlaceholderAPI] [math] Placeholder: %math_{server_online_t1}:{server_online_t2}_+%
+[22:31:35] [Server thread/WARN]: [PlaceholderAPI] [math] Cause:       '+' is not a valid Math expression.
+[22:31:49] [Server thread/WARN]: [PlaceholderAPI] [math] Invalid Placeholder detected!
+[22:31:49] [Server thread/WARN]: [PlaceholderAPI] [math] Placeholder: %math_{server_online_t1}:{server_online_t2}_+%
+[22:31:49] [Server thread/WARN]: [PlaceholderAPI] [math] Cause:       '+' is not a valid Math expression.
+[22:32:09] [Server thread/WARN]: [PlaceholderAPI] [math] Invalid Placeholder detected!
+[22:32:09] [Server thread/WARN]: [PlaceholderAPI] [math] Placeholder: %math_{server_online_t1}:{server_online_t2}_+%
+[22:32:09] [Server thread/WARN]: [PlaceholderAPI] [math] Cause:       '+' is not a valid Math expression.
+[22:32:11] [Server thread/INFO]: amirabbas8585 lost connection: Disconnected
+[22:32:11] [Server thread/ERROR]: Could not pass event PlayerQuitEvent to KnockbackFFA v2.9.9
+java.lang.NullPointerException: Cannot invoke "me.gameisntover.knockbackffa.cosmetics.Cosmetic.getName()" because "cosmetic" is null
+	at me.gameisntover.knockbackffa.database.SQLite.updateData(SQLite.java:110) ~[KnockbackFFA-2.9.9.jar:?]
+	at me.gameisntover.knockbackffa.listener.JoinLeaveListeners.playerLeave(JoinLeaveListeners.java:51) ~[KnockbackFFA-2.9.9.jar:?]
+	at com.destroystokyo.paper.event.executor.asm.generated.GeneratedEventExecutor42.execute(Unknown Source) ~[?:?]
+	at org.bukkit.plugin.EventExecutor.lambda$create$1(EventExecutor.java:75) ~[paper-api-1.19-R0.1-SNAPSHOT.jar:?]
+	at co.aikar.timings.TimedEventExecutor.execute(TimedEventExecutor.java:80) ~[paper-api-1.19-R0.1-SNAPSHOT.jar:git-Paper-81]
+	at org.bukkit.plugin.RegisteredListener.callEvent(RegisteredListener.java:70) ~[paper-api-1.19-R0.1-SNAPSHOT.jar:?]
+	at org.bukkit.plugin.SimplePluginManager.callEvent(SimplePluginManager.java:670) ~[paper-api-1.19-R0.1-SNAPSHOT.jar:?]
+	at net.minecraft.server.players.PlayerList.remove(PlayerList.java:620) ~[paper-1.19.jar:git-Paper-81]
+	at net.minecraft.server.players.PlayerList.remove(PlayerList.java:605) ~[paper-1.19.jar:git-Paper-81]
+	at net.minecraft.server.network.ServerGamePacketListenerImpl.onDisconnect(ServerGamePacketListenerImpl.java:2035) ~[?:?]
+	at net.minecraft.server.network.ServerGamePacketListenerImpl.onDisconnect(ServerGamePacketListenerImpl.java:2015) ~[?:?]
+	at net.minecraft.network.Connection.handleDisconnection(Connection.java:758) ~[?:?]
+	at net.minecraft.server.network.ServerConnectionListener.tick(ServerConnectionListener.java:252) ~[?:?]
+	at net.minecraft.server.MinecraftServer.tickChildren(MinecraftServer.java:1582) ~[paper-1.19.jar:git-Paper-81]
+	at net.minecraft.server.dedicated.DedicatedServer.tickChildren(DedicatedServer.java:446) ~[paper-1.19.jar:git-Paper-81]
+	at net.minecraft.server.MinecraftServer.tickServer(MinecraftServer.java:1415) ~[paper-1.19.jar:git-Paper-81]
+	at net.minecraft.server.MinecraftServer.runServer(MinecraftServer.java:1188) ~[paper-1.19.jar:git-Paper-81]
+	at net.minecraft.server.MinecraftServer.lambda$spin$0(MinecraftServer.java:303) ~[paper-1.19.jar:git-Paper-81]
+	at java.lang.Thread.run(Thread.java:840) ~[?:?]
+[22:32:11] [Server thread/INFO]: - amirabbas8585 Disconnected
