@@ -1,0 +1,54 @@
+Games:
+  '1':
+    Min: 2
+    Max: 16
+    Name: TNTRun#1
+    Lobby: t1,1.67,85.50,-0.15,-0.45,-1.65
+    Signs: []
+    Settings:
+      Enabled: true
+      Ending: 20
+      Waiting: 60
+      CoinsEvery: 0
+      SpectatorSettings: true
+      SpectatorPlayAgain: true
+      DoubleJumps: 5
+    Spawn: t1,3.42,85.00,0.55,-91.80,56.55
+    Spectator: t1,6.65,95.11,0.32,-102.60,-85.65
+    PlayZone: t1,-22,8,-28,23,96,24
+  '2':
+    Min: 2
+    Max: 12
+    Name: TNTRun#2
+    Lobby: t2,0.23,7.50,1.57,177.90,-8.85
+    Signs: []
+    Settings:
+      Enabled: true
+      Ending: 20
+      Waiting: 60
+      CoinsEvery: 0
+      SpectatorSettings: true
+      SpectatorPlayAgain: true
+      DoubleJumps: 5
+    Spawn: t2,1.35,7.00,-0.06,-87.30,-6.30
+    Spectator: t2,1.35,7.00,-0.06,-87.30,-6.30
+    PlayZone: t2,-61,-2,-45,67,38,48
+  '3':
+    Min: 2
+    Max: 16
+    Name: TNTRun#3
+    Lobby: t3,4.18,62.50,-6.32,-92.40,-1.05
+    Signs: []
+    Settings:
+      Enabled: true
+      Ending: 20
+      Waiting: 60
+      CoinsEvery: 0
+      SpectatorSettings: true
+      SpectatorPlayAgain: true
+      DoubleJumps: 5
+    Spawn: t3,4.21,62.00,-6.16,0.60,2.70
+    Spectator: t3,4.21,62.00,-6.16,0.60,2.70
+    PlayZone: t3,-31,8,-40,37,74,27
+JoinNPC:
+- crmapin,-113.48,154.00,33.50,-178.95,-4.80
