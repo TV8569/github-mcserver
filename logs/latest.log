@@ -278,3 +278,13 @@
 [07:58:52] [Server thread/INFO]: [PowerBoard] Registering players...
 [07:58:52] [Server thread/INFO]: [PowerBoard] All players have been registered.
 [07:58:54] [Craft Scheduler Thread - 4 - UltraCustomizer/INFO]: [UltraCustomizer] Translations successfully loaded & applied (34 UltraCustomizer and Base Translation files found)
+[08:02:06] [User Authenticator #1/INFO]: UUID of player amirabbas8585 is 20cf1db0-e54b-388d-8edc-76880a8b4ffa
+[08:02:06] [Server thread/INFO]: + amirabbas8585 Connected
+[08:02:06] [Server thread/INFO]: amirabbas8585[/[0:0:0:0:0:0:0:1%0]:36750] logged in with entity id 53 at ([crmapin]-110.52753103846055, 158.0, -9.65908477089641)
+[08:02:06] [Server thread/INFO]: [amirabbas8585: Applied effect Night Vision to amirabbas8585]
+[08:02:06] [Craft Scheduler Thread - 21 - PowerBoard/ERROR]: [PowerBoard] ---------------------------------------------------------------------------------------------------------------------------
+[08:02:06] [Craft Scheduler Thread - 21 - PowerBoard/ERROR]: [PowerBoard] The group "default" has no weight! Please set the weight with /lp group <group> setweight <weight>
+[08:02:06] [Craft Scheduler Thread - 21 - PowerBoard/ERROR]: [PowerBoard] Read the wiki to see which weights you have to set: https://github.com/Xitee1/PowerBoard/wiki#configure-the-ranks-optional
+[08:02:06] [Craft Scheduler Thread - 21 - PowerBoard/ERROR]: [PowerBoard] ---------------------------------------------------------------------------------------------------------------------------
+[08:02:06] [Craft Scheduler Thread - 21 - PowerBoard/WARN]: [PowerBoard] Did not set amirabbas8585's rank for the already online players
+[08:02:08] [Craft Scheduler Thread - 4 - PlaceholderAPI/INFO]: [LocalTime] Couldn't get amirabbas8585's timezone. Will use default timezone.
