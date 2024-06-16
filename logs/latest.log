@@ -486,3 +486,20 @@ java.lang.NullPointerException: Cannot invoke "me.gameisntover.knockbackffa.cosm
 [20:32:03] [Server thread/INFO]: - MRWl Disconnected
 [20:34:56] [Server thread/INFO]: amirabbas8585 issued server command: /tnttag start 2
 [20:34:59] [Server thread/INFO]: amirabbas8585 issued server command: /tnttag start Fungi
+[20:37:52] [Server thread/INFO]: amirabbas8585 issued server command: /tnttag start Bloom
+[20:39:27] [User Authenticator #3/INFO]: UUID of player MRWl is 26381368-5a32-305a-9cdd-e02b8c49071f
+[20:39:28] [Server thread/INFO]: + MRWl Connected
+[20:39:28] [Server thread/INFO]: MRWl[/[0:0:0:0:0:0:0:1%0]:39174] logged in with entity id 5117 at ([crmapin]-110.52753103846055, 158.0, -9.65908477089641)
+[20:39:28] [Craft Scheduler Thread - 53 - PowerBoard/ERROR]: [PowerBoard] ---------------------------------------------------------------------------------------------------------------------------
+[20:39:28] [Craft Scheduler Thread - 53 - PowerBoard/ERROR]: [PowerBoard] The group "default" has no weight! Please set the weight with /lp group <group> setweight <weight>
+[20:39:28] [Craft Scheduler Thread - 53 - PowerBoard/ERROR]: [PowerBoard] Read the wiki to see which weights you have to set: https://github.com/Xitee1/PowerBoard/wiki#configure-the-ranks-optional
+[20:39:28] [Craft Scheduler Thread - 53 - PowerBoard/ERROR]: [PowerBoard] ---------------------------------------------------------------------------------------------------------------------------
+[20:39:28] [Craft Scheduler Thread - 53 - PowerBoard/WARN]: [PowerBoard] Did not set FameAx's rank for player MRWl
+[20:39:28] [Craft Scheduler Thread - 53 - PowerBoard/WARN]: [PowerBoard] Did not set mohamadjavad12's rank for player MRWl
+[20:39:28] [Craft Scheduler Thread - 53 - PowerBoard/WARN]: [PowerBoard] Did not set amirabbas8585's rank for player MRWl
+[20:39:28] [Craft Scheduler Thread - 53 - PowerBoard/WARN]: [PowerBoard] Did not set MR__miner's rank for player MRWl
+[20:39:28] [Craft Scheduler Thread - 53 - PowerBoard/WARN]: [PowerBoard] Did not set Ali3339's rank for player MRWl
+[20:39:28] [Craft Scheduler Thread - 53 - PowerBoard/WARN]: [PowerBoard] Did not set MRWl's rank for the already online players
+[20:39:31] [Craft Scheduler Thread - 53 - PlaceholderAPI/INFO]: [LocalTime] Couldn't get MRWl's timezone. Will use default timezone.
+[20:39:48] [Server thread/WARN]: FameAx moved wrongly!
+[20:40:46] [Server thread/INFO]: amirabbas8585 issued server command: /tnttag start 2
