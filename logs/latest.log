@@ -458,3 +458,29 @@ java.lang.NullPointerException: Cannot invoke "me.gameisntover.knockbackffa.cosm
 [20:30:23] [Craft Scheduler Thread - 25 - PowerBoard/WARN]: [PowerBoard] Did not set MRWl's rank for player MR__miner
 [20:30:23] [Craft Scheduler Thread - 25 - PowerBoard/WARN]: [PowerBoard] Did not set MR__miner's rank for the already online players
 [20:30:24] [Craft Scheduler Thread - 27 - PlaceholderAPI/INFO]: [LocalTime] Couldn't get MR__miner's timezone. Will use default timezone.
+[20:31:58] [Server thread/INFO]: amirabbas8585 issued server command: /tnttag start Fungi
+[20:32:01] [Server thread/INFO]: amirabbas8585 issued server command: /tnttag start Bloom
+[20:32:03] [Server thread/WARN]: MRWl was kicked for floating too long!
+[20:32:03] [Server thread/INFO]: MRWl lost connection: Flying is not enabled on this server
+[20:32:03] [Server thread/ERROR]: Could not pass event PlayerQuitEvent to KnockbackFFA v2.9.9
+java.lang.NullPointerException: Cannot invoke "me.gameisntover.knockbackffa.cosmetics.Cosmetic.getName()" because "cosmetic" is null
+	at me.gameisntover.knockbackffa.database.SQLite.updateData(SQLite.java:110) ~[KnockbackFFA-2.9.9.jar:?]
+	at me.gameisntover.knockbackffa.listener.JoinLeaveListeners.playerLeave(JoinLeaveListeners.java:51) ~[KnockbackFFA-2.9.9.jar:?]
+	at com.destroystokyo.paper.event.executor.asm.generated.GeneratedEventExecutor42.execute(Unknown Source) ~[?:?]
+	at org.bukkit.plugin.EventExecutor.lambda$create$1(EventExecutor.java:75) ~[paper-api-1.19-R0.1-SNAPSHOT.jar:?]
+	at co.aikar.timings.TimedEventExecutor.execute(TimedEventExecutor.java:80) ~[paper-api-1.19-R0.1-SNAPSHOT.jar:git-Paper-81]
+	at org.bukkit.plugin.RegisteredListener.callEvent(RegisteredListener.java:70) ~[paper-api-1.19-R0.1-SNAPSHOT.jar:?]
+	at org.bukkit.plugin.SimplePluginManager.callEvent(SimplePluginManager.java:670) ~[paper-api-1.19-R0.1-SNAPSHOT.jar:?]
+	at net.minecraft.server.players.PlayerList.remove(PlayerList.java:620) ~[paper-1.19.jar:git-Paper-81]
+	at net.minecraft.server.network.ServerGamePacketListenerImpl.onDisconnect(ServerGamePacketListenerImpl.java:2035) ~[?:?]
+	at net.minecraft.server.network.ServerGamePacketListenerImpl.disconnect(ServerGamePacketListenerImpl.java:485) ~[?:?]
+	at net.minecraft.server.network.ServerGamePacketListenerImpl.tick(ServerGamePacketListenerImpl.java:347) ~[?:?]
+	at net.minecraft.network.Connection.tick(Connection.java:568) ~[?:?]
+	at net.minecraft.server.network.ServerConnectionListener.tick(ServerConnectionListener.java:232) ~[?:?]
+	at net.minecraft.server.MinecraftServer.tickChildren(MinecraftServer.java:1582) ~[paper-1.19.jar:git-Paper-81]
+	at net.minecraft.server.dedicated.DedicatedServer.tickChildren(DedicatedServer.java:446) ~[paper-1.19.jar:git-Paper-81]
+	at net.minecraft.server.MinecraftServer.tickServer(MinecraftServer.java:1415) ~[paper-1.19.jar:git-Paper-81]
+	at net.minecraft.server.MinecraftServer.runServer(MinecraftServer.java:1188) ~[paper-1.19.jar:git-Paper-81]
+	at net.minecraft.server.MinecraftServer.lambda$spin$0(MinecraftServer.java:303) ~[paper-1.19.jar:git-Paper-81]
+	at java.lang.Thread.run(Thread.java:840) ~[?:?]
+[20:32:03] [Server thread/INFO]: - MRWl Disconnected
