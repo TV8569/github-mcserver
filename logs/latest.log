@@ -346,3 +346,115 @@ java.lang.NullPointerException: Cannot invoke "me.gameisntover.knockbackffa.cosm
 [20:27:21] [Craft Scheduler Thread - 17 - PowerBoard/WARN]: [PowerBoard] Did not set FameAx's rank for player mohamadjavad12
 [20:27:21] [Craft Scheduler Thread - 17 - PowerBoard/WARN]: [PowerBoard] Did not set mohamadjavad12's rank for the already online players
 [20:27:23] [Craft Scheduler Thread - 17 - PlaceholderAPI/INFO]: [LocalTime] Couldn't get mohamadjavad12's timezone. Will use default timezone.
+[20:27:30] [Server thread/INFO]: amirabbas8585 issued server command: /effect give @a minecraft:night_vision 9999 99 true
+[20:27:30] [Server thread/INFO]: [amirabbas8585: Applied effect Night Vision to 3 targets]
+[20:27:41] [User Authenticator #1/INFO]: UUID of player mohamadjavad12 is 87a5adf1-b388-3e2a-a9ab-43e40a3cb56c
+[20:27:41] [Server thread/INFO]: mohamadjavad12 lost connection: You logged in from another location
+[20:27:41] [Server thread/ERROR]: Could not pass event PlayerQuitEvent to KnockbackFFA v2.9.9
+java.lang.NullPointerException: Cannot invoke "me.gameisntover.knockbackffa.cosmetics.Cosmetic.getName()" because "cosmetic" is null
+	at me.gameisntover.knockbackffa.database.SQLite.updateData(SQLite.java:110) ~[KnockbackFFA-2.9.9.jar:?]
+	at me.gameisntover.knockbackffa.listener.JoinLeaveListeners.playerLeave(JoinLeaveListeners.java:51) ~[KnockbackFFA-2.9.9.jar:?]
+	at com.destroystokyo.paper.event.executor.asm.generated.GeneratedEventExecutor42.execute(Unknown Source) ~[?:?]
+	at org.bukkit.plugin.EventExecutor.lambda$create$1(EventExecutor.java:75) ~[paper-api-1.19-R0.1-SNAPSHOT.jar:?]
+	at co.aikar.timings.TimedEventExecutor.execute(TimedEventExecutor.java:80) ~[paper-api-1.19-R0.1-SNAPSHOT.jar:git-Paper-81]
+	at org.bukkit.plugin.RegisteredListener.callEvent(RegisteredListener.java:70) ~[paper-api-1.19-R0.1-SNAPSHOT.jar:?]
+	at org.bukkit.plugin.SimplePluginManager.callEvent(SimplePluginManager.java:670) ~[paper-api-1.19-R0.1-SNAPSHOT.jar:?]
+	at net.minecraft.server.players.PlayerList.remove(PlayerList.java:620) ~[paper-1.19.jar:git-Paper-81]
+	at net.minecraft.server.network.ServerGamePacketListenerImpl.onDisconnect(ServerGamePacketListenerImpl.java:2035) ~[?:?]
+	at net.minecraft.server.network.ServerGamePacketListenerImpl.disconnect(ServerGamePacketListenerImpl.java:485) ~[?:?]
+	at net.minecraft.server.network.ServerGamePacketListenerImpl.disconnect(ServerGamePacketListenerImpl.java:456) ~[?:?]
+	at net.minecraft.server.players.PlayerList.canPlayerLogin(PlayerList.java:737) ~[paper-1.19.jar:git-Paper-81]
+	at net.minecraft.server.network.ServerLoginPacketListenerImpl.handleAcceptedLogin(ServerLoginPacketListenerImpl.java:182) ~[?:?]
+	at net.minecraft.server.network.ServerLoginPacketListenerImpl.tick(ServerLoginPacketListenerImpl.java:93) ~[?:?]
+	at net.minecraft.network.Connection.tick(Connection.java:559) ~[?:?]
+	at net.minecraft.server.network.ServerConnectionListener.tick(ServerConnectionListener.java:232) ~[?:?]
+	at net.minecraft.server.MinecraftServer.tickChildren(MinecraftServer.java:1582) ~[paper-1.19.jar:git-Paper-81]
+	at net.minecraft.server.dedicated.DedicatedServer.tickChildren(DedicatedServer.java:446) ~[paper-1.19.jar:git-Paper-81]
+	at net.minecraft.server.MinecraftServer.tickServer(MinecraftServer.java:1415) ~[paper-1.19.jar:git-Paper-81]
+	at net.minecraft.server.MinecraftServer.runServer(MinecraftServer.java:1188) ~[paper-1.19.jar:git-Paper-81]
+	at net.minecraft.server.MinecraftServer.lambda$spin$0(MinecraftServer.java:303) ~[paper-1.19.jar:git-Paper-81]
+	at java.lang.Thread.run(Thread.java:840) ~[?:?]
+[20:27:41] [Server thread/INFO]: - mohamadjavad12 Disconnected
+[20:27:41] [Server thread/INFO]: + mohamadjavad12 Connected
+[20:27:41] [Server thread/INFO]: mohamadjavad12[/[0:0:0:0:0:0:0:1%0]:35244] logged in with entity id 1528 at ([crmapin]-110.52753103846055, 158.0, -9.65908477089641)
+[20:27:42] [Craft Scheduler Thread - 22 - PowerBoard/ERROR]: [PowerBoard] ---------------------------------------------------------------------------------------------------------------------------
+[20:27:42] [Craft Scheduler Thread - 22 - PowerBoard/ERROR]: [PowerBoard] The group "default" has no weight! Please set the weight with /lp group <group> setweight <weight>
+[20:27:42] [Craft Scheduler Thread - 22 - PowerBoard/ERROR]: [PowerBoard] Read the wiki to see which weights you have to set: https://github.com/Xitee1/PowerBoard/wiki#configure-the-ranks-optional
+[20:27:42] [Craft Scheduler Thread - 22 - PowerBoard/ERROR]: [PowerBoard] ---------------------------------------------------------------------------------------------------------------------------
+[20:27:42] [Craft Scheduler Thread - 22 - PowerBoard/WARN]: [PowerBoard] Did not set amirabbas8585's rank for player mohamadjavad12
+[20:27:42] [Craft Scheduler Thread - 22 - PowerBoard/WARN]: [PowerBoard] Did not set FameAx's rank for player mohamadjavad12
+[20:27:42] [Craft Scheduler Thread - 22 - PowerBoard/WARN]: [PowerBoard] Did not set mohamadjavad12's rank for the already online players
+[20:27:45] [Craft Scheduler Thread - 23 - PlaceholderAPI/INFO]: [LocalTime] Couldn't get mohamadjavad12's timezone. Will use default timezone.
+[20:27:47] [Server thread/INFO]: FameAx lost connection: Disconnected
+[20:27:47] [Server thread/ERROR]: Could not pass event PlayerQuitEvent to KnockbackFFA v2.9.9
+java.lang.NullPointerException: Cannot invoke "me.gameisntover.knockbackffa.cosmetics.Cosmetic.getName()" because "cosmetic" is null
+	at me.gameisntover.knockbackffa.database.SQLite.updateData(SQLite.java:110) ~[KnockbackFFA-2.9.9.jar:?]
+	at me.gameisntover.knockbackffa.listener.JoinLeaveListeners.playerLeave(JoinLeaveListeners.java:51) ~[KnockbackFFA-2.9.9.jar:?]
+	at com.destroystokyo.paper.event.executor.asm.generated.GeneratedEventExecutor42.execute(Unknown Source) ~[?:?]
+	at org.bukkit.plugin.EventExecutor.lambda$create$1(EventExecutor.java:75) ~[paper-api-1.19-R0.1-SNAPSHOT.jar:?]
+	at co.aikar.timings.TimedEventExecutor.execute(TimedEventExecutor.java:80) ~[paper-api-1.19-R0.1-SNAPSHOT.jar:git-Paper-81]
+	at org.bukkit.plugin.RegisteredListener.callEvent(RegisteredListener.java:70) ~[paper-api-1.19-R0.1-SNAPSHOT.jar:?]
+	at org.bukkit.plugin.SimplePluginManager.callEvent(SimplePluginManager.java:670) ~[paper-api-1.19-R0.1-SNAPSHOT.jar:?]
+	at net.minecraft.server.players.PlayerList.remove(PlayerList.java:620) ~[paper-1.19.jar:git-Paper-81]
+	at net.minecraft.server.players.PlayerList.remove(PlayerList.java:605) ~[paper-1.19.jar:git-Paper-81]
+	at net.minecraft.server.network.ServerGamePacketListenerImpl.onDisconnect(ServerGamePacketListenerImpl.java:2035) ~[?:?]
+	at net.minecraft.server.network.ServerGamePacketListenerImpl.onDisconnect(ServerGamePacketListenerImpl.java:2015) ~[?:?]
+	at net.minecraft.network.Connection.handleDisconnection(Connection.java:758) ~[?:?]
+	at net.minecraft.server.network.ServerConnectionListener.tick(ServerConnectionListener.java:252) ~[?:?]
+	at net.minecraft.server.MinecraftServer.tickChildren(MinecraftServer.java:1582) ~[paper-1.19.jar:git-Paper-81]
+	at net.minecraft.server.dedicated.DedicatedServer.tickChildren(DedicatedServer.java:446) ~[paper-1.19.jar:git-Paper-81]
+	at net.minecraft.server.MinecraftServer.tickServer(MinecraftServer.java:1415) ~[paper-1.19.jar:git-Paper-81]
+	at net.minecraft.server.MinecraftServer.runServer(MinecraftServer.java:1188) ~[paper-1.19.jar:git-Paper-81]
+	at net.minecraft.server.MinecraftServer.lambda$spin$0(MinecraftServer.java:303) ~[paper-1.19.jar:git-Paper-81]
+	at java.lang.Thread.run(Thread.java:840) ~[?:?]
+[20:27:47] [Server thread/INFO]: - FameAx Disconnected
+[20:28:22] [User Authenticator #1/INFO]: UUID of player Ali3339 is 6cc94cba-ac5b-3601-bcad-96ef2da1cff8
+[20:28:22] [Server thread/INFO]: + Ali3339 Connected
+[20:28:22] [Server thread/INFO]: Ali3339[/[0:0:0:0:0:0:0:1%0]:36226] logged in with entity id 2075 at ([crmapin]-110.52753103846055, 158.0, -9.65908477089641)
+[20:28:22] [Craft Scheduler Thread - 23 - PowerBoard/ERROR]: [PowerBoard] ---------------------------------------------------------------------------------------------------------------------------
+[20:28:22] [Craft Scheduler Thread - 23 - PowerBoard/ERROR]: [PowerBoard] The group "default" has no weight! Please set the weight with /lp group <group> setweight <weight>
+[20:28:22] [Craft Scheduler Thread - 23 - PowerBoard/ERROR]: [PowerBoard] Read the wiki to see which weights you have to set: https://github.com/Xitee1/PowerBoard/wiki#configure-the-ranks-optional
+[20:28:22] [Craft Scheduler Thread - 23 - PowerBoard/ERROR]: [PowerBoard] ---------------------------------------------------------------------------------------------------------------------------
+[20:28:22] [Craft Scheduler Thread - 23 - PowerBoard/WARN]: [PowerBoard] Did not set amirabbas8585's rank for player Ali3339
+[20:28:22] [Craft Scheduler Thread - 23 - PowerBoard/WARN]: [PowerBoard] Did not set mohamadjavad12's rank for player Ali3339
+[20:28:22] [Craft Scheduler Thread - 23 - PowerBoard/WARN]: [PowerBoard] Did not set Ali3339's rank for the already online players
+[20:28:25] [Craft Scheduler Thread - 23 - PlaceholderAPI/INFO]: [LocalTime] Couldn't get Ali3339's timezone. Will use default timezone.
+[20:29:35] [User Authenticator #2/INFO]: UUID of player FameAx is 31013f53-5a65-3d18-8c4d-02ca3685d33c
+[20:29:35] [Server thread/INFO]: + FameAx Connected
+[20:29:35] [Server thread/INFO]: FameAx[/[0:0:0:0:0:0:0:1%0]:33286] logged in with entity id 2977 at ([crmapin]-110.52753103846055, 158.0, -9.65908477089641)
+[20:29:36] [Craft Scheduler Thread - 18 - PowerBoard/ERROR]: [PowerBoard] ---------------------------------------------------------------------------------------------------------------------------
+[20:29:36] [Craft Scheduler Thread - 18 - PowerBoard/ERROR]: [PowerBoard] The group "default" has no weight! Please set the weight with /lp group <group> setweight <weight>
+[20:29:36] [Craft Scheduler Thread - 18 - PowerBoard/ERROR]: [PowerBoard] Read the wiki to see which weights you have to set: https://github.com/Xitee1/PowerBoard/wiki#configure-the-ranks-optional
+[20:29:36] [Craft Scheduler Thread - 18 - PowerBoard/ERROR]: [PowerBoard] ---------------------------------------------------------------------------------------------------------------------------
+[20:29:36] [Craft Scheduler Thread - 18 - PowerBoard/WARN]: [PowerBoard] Did not set amirabbas8585's rank for player FameAx
+[20:29:36] [Craft Scheduler Thread - 18 - PowerBoard/WARN]: [PowerBoard] Did not set mohamadjavad12's rank for player FameAx
+[20:29:36] [Craft Scheduler Thread - 18 - PowerBoard/WARN]: [PowerBoard] Did not set Ali3339's rank for player FameAx
+[20:29:36] [Craft Scheduler Thread - 18 - PowerBoard/WARN]: [PowerBoard] Did not set FameAx's rank for the already online players
+[20:29:38] [Craft Scheduler Thread - 25 - PlaceholderAPI/INFO]: [LocalTime] Couldn't get FameAx's timezone. Will use default timezone.
+[20:30:11] [User Authenticator #2/INFO]: UUID of player MRWl is 26381368-5a32-305a-9cdd-e02b8c49071f
+[20:30:11] [Server thread/INFO]: + MRWl Connected
+[20:30:11] [Server thread/INFO]: MRWl[/[0:0:0:0:0:0:0:1%0]:49074] logged in with entity id 3416 at ([crmapin]-110.52753103846055, 158.0, -9.65908477089641)
+[20:30:11] [Craft Scheduler Thread - 28 - PowerBoard/ERROR]: [PowerBoard] ---------------------------------------------------------------------------------------------------------------------------
+[20:30:11] [Craft Scheduler Thread - 28 - PowerBoard/ERROR]: [PowerBoard] The group "default" has no weight! Please set the weight with /lp group <group> setweight <weight>
+[20:30:11] [Craft Scheduler Thread - 28 - PowerBoard/ERROR]: [PowerBoard] Read the wiki to see which weights you have to set: https://github.com/Xitee1/PowerBoard/wiki#configure-the-ranks-optional
+[20:30:11] [Craft Scheduler Thread - 28 - PowerBoard/ERROR]: [PowerBoard] ---------------------------------------------------------------------------------------------------------------------------
+[20:30:11] [Craft Scheduler Thread - 28 - PowerBoard/WARN]: [PowerBoard] Did not set amirabbas8585's rank for player MRWl
+[20:30:11] [Craft Scheduler Thread - 28 - PowerBoard/WARN]: [PowerBoard] Did not set mohamadjavad12's rank for player MRWl
+[20:30:11] [Craft Scheduler Thread - 28 - PowerBoard/WARN]: [PowerBoard] Did not set Ali3339's rank for player MRWl
+[20:30:11] [Craft Scheduler Thread - 28 - PowerBoard/WARN]: [PowerBoard] Did not set FameAx's rank for player MRWl
+[20:30:11] [Craft Scheduler Thread - 28 - PowerBoard/WARN]: [PowerBoard] Did not set MRWl's rank for the already online players
+[20:30:13] [Craft Scheduler Thread - 18 - PlaceholderAPI/INFO]: [LocalTime] Couldn't get MRWl's timezone. Will use default timezone.
+[20:30:22] [User Authenticator #2/INFO]: UUID of player MR__miner is 9ef28c61-29cb-3685-991a-9417c1c53412
+[20:30:22] [Server thread/INFO]: + MR__miner Connected
+[20:30:22] [Server thread/INFO]: MR__miner[/[0:0:0:0:0:0:0:1%0]:47972] logged in with entity id 3640 at ([crmapin]-110.52753103846055, 158.0, -9.65908477089641)
+[20:30:23] [Craft Scheduler Thread - 25 - PowerBoard/ERROR]: [PowerBoard] ---------------------------------------------------------------------------------------------------------------------------
+[20:30:23] [Craft Scheduler Thread - 25 - PowerBoard/ERROR]: [PowerBoard] The group "default" has no weight! Please set the weight with /lp group <group> setweight <weight>
+[20:30:23] [Craft Scheduler Thread - 25 - PowerBoard/ERROR]: [PowerBoard] Read the wiki to see which weights you have to set: https://github.com/Xitee1/PowerBoard/wiki#configure-the-ranks-optional
+[20:30:23] [Craft Scheduler Thread - 25 - PowerBoard/ERROR]: [PowerBoard] ---------------------------------------------------------------------------------------------------------------------------
+[20:30:23] [Craft Scheduler Thread - 25 - PowerBoard/WARN]: [PowerBoard] Did not set amirabbas8585's rank for player MR__miner
+[20:30:23] [Craft Scheduler Thread - 25 - PowerBoard/WARN]: [PowerBoard] Did not set mohamadjavad12's rank for player MR__miner
+[20:30:23] [Craft Scheduler Thread - 25 - PowerBoard/WARN]: [PowerBoard] Did not set Ali3339's rank for player MR__miner
+[20:30:23] [Craft Scheduler Thread - 25 - PowerBoard/WARN]: [PowerBoard] Did not set FameAx's rank for player MR__miner
+[20:30:23] [Craft Scheduler Thread - 25 - PowerBoard/WARN]: [PowerBoard] Did not set MRWl's rank for player MR__miner
+[20:30:23] [Craft Scheduler Thread - 25 - PowerBoard/WARN]: [PowerBoard] Did not set MR__miner's rank for the already online players
+[20:30:24] [Craft Scheduler Thread - 27 - PlaceholderAPI/INFO]: [LocalTime] Couldn't get MR__miner's timezone. Will use default timezone.
