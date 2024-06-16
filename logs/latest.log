@@ -1,505 +1,339 @@
-[20:24:07] [ServerMain/INFO]: Building unoptimized datafixer
-[20:24:08] [ServerMain/INFO]: Environment: authHost='https://authserver.mojang.com', accountsHost='https://api.mojang.com', sessionHost='https://sessionserver.mojang.com', servicesHost='https://api.minecraftservices.com', name='PROD'
-[20:24:09] [ServerMain/INFO]: Loaded 7 recipes
-[20:24:10] [Server thread/INFO]: Starting minecraft server version 1.19
-[20:24:10] [Server thread/INFO]: Loading properties
-[20:24:10] [Server thread/INFO]: This server is running Paper version git-Paper-81 (MC: 1.19) (Implementing API version 1.19-R0.1-SNAPSHOT) (Git: 86f87ba)
-[20:24:10] [Server thread/INFO]: Server Ping Player Sample Count: 12
-[20:24:10] [Server thread/INFO]: Using 4 threads for Netty based IO
-[20:24:11] [Server thread/INFO]: Default game type: SURVIVAL
-[20:24:11] [Server thread/INFO]: Generating keypair
-[20:24:11] [Server thread/INFO]: Starting Minecraft server on *:25565
-[20:24:11] [Server thread/INFO]: Using epoll channel type
-[20:24:11] [Server thread/INFO]: Paper: Using libdeflate (Linux x86_64) compression from Velocity.
-[20:24:11] [Server thread/INFO]: Paper: Using OpenSSL 1.1.x (Linux x86_64) cipher from Velocity.
-[20:24:11] [Server thread/ERROR]: [STDERR] [org.bukkit.craftbukkit.v1_19_R1.legacy.CraftLegacy] Initializing Legacy Material Support. Unless you have legacy plugins and/or data this is a bug!
-[20:24:15] [Server thread/WARN]: Legacy plugin KnockbackFFA v2.9.9 does not specify an api-version.
-[20:24:16] [Server thread/INFO]: [STDOUT] [9CZxV0oGSTD1X4cwbOdOxmt] [35;1m Downloaded from https://directleaks.net [0m
-[20:24:16] [Server thread/INFO]: [WorldEdit] Loading WorldEdit v7.2.12+6240-87f4ae1
-[20:24:17] [Server thread/INFO]: Got request to register class com.sk89q.worldedit.bukkit.BukkitServerInterface with WorldEdit [com.sk89q.worldedit.extension.platform.PlatformManager@a7db26e]
-[20:24:17] [Server thread/INFO]: [KnockbackFFA] Loading KnockbackFFA v2.9.9
-[20:24:17] [Server thread/INFO]: [JumpPads] Loading JumpPads v1.25.13
-[20:24:17] [Server thread/INFO]: [PlaceholderAPI] Loading PlaceholderAPI v2.11.6
-[20:24:17] [Server thread/INFO]: [ViaVersion] Loading ViaVersion v4.10.2
-[20:24:17] [Server thread/INFO]: [ViaVersion] ViaVersion 4.10.2 is now loaded. Registering protocol transformers and injecting...
-[20:24:17] [Via-Mappingloader-0/INFO]: [ViaVersion] Loading block connection mappings ...
-[20:24:17] [Via-Mappingloader-0/INFO]: [ViaVersion] Using FastUtil Long2ObjectOpenHashMap for block connections
-[20:24:18] [Server thread/INFO]: [ViaBackwards] Loading translations...
-[20:24:18] [Server thread/INFO]: [ViaBackwards] Registering protocols...
-[20:24:18] [Server thread/INFO]: [ViaRewind] Registering protocols...
-[20:24:18] [Server thread/INFO]: [HolographicDisplays] Loading HolographicDisplays v3.0.4
-[20:24:18] [Server thread/INFO]: [UltraCustomizer] Loading UltraCustomizer v2.4.2
-[20:24:18] [Server thread/INFO]: [PlayerPoints] Loading PlayerPoints v3.0.1
-[20:24:18] [Server thread/INFO]: [ViaBackwards] Loading ViaBackwards v4.10.2
-[20:24:18] [Server thread/INFO]: [MyCommand] Loading MyCommand v5.7.4
-[20:24:18] [Server thread/INFO]: [Multiverse-Core] Loading Multiverse-Core v4.3.1-b861
-[20:24:18] [Server thread/INFO]: [ViaRewind] Loading ViaRewind v3.1.2
-[20:24:18] [Server thread/INFO]: [LuckPerms] Loading LuckPerms v5.4.40
-[20:24:18] [Server thread/INFO]: [HolographicExtension] Loading HolographicExtension v1.10.9
-[20:24:18] [Server thread/INFO]: [DeluxeHub] Loading DeluxeHub v3.5.5
-[20:24:18] [Server thread/INFO]: [ajLeaderboards] Loading ajLeaderboards v2.8.0
-[20:24:18] [Server thread/INFO]: [ajLeaderboards] Verifying checksum for gson
-[20:24:18] [Server thread/INFO]: [ajLeaderboards] Checksum matched for gson
-[20:24:18] [Server thread/INFO]: [ajLeaderboards] Verifying checksum for jar-relocator
-[20:24:18] [Server thread/INFO]: [ajLeaderboards] Checksum matched for jar-relocator
-[20:24:18] [Server thread/INFO]: [ajLeaderboards] Verifying checksum for asm
-[20:24:18] [Server thread/INFO]: [ajLeaderboards] Checksum matched for asm
-[20:24:18] [Server thread/INFO]: [ajLeaderboards] Verifying checksum for asm-commons
-[20:24:18] [Server thread/INFO]: [ajLeaderboards] Checksum matched for asm-commons
-[20:24:18] [Server thread/INFO]: [ajLeaderboards] Verifying checksum for gson
-[20:24:18] [Server thread/INFO]: [ajLeaderboards] Checksum matched for gson
-[20:24:18] [Server thread/INFO]: [ajLeaderboards] Verifying checksum for HikariCP
-[20:24:18] [Server thread/INFO]: [ajLeaderboards] Checksum matched for HikariCP
-[20:24:18] [Server thread/INFO]: [ajLeaderboards] Verifying checksum for slf4j-api
-[20:24:18] [Server thread/INFO]: [ajLeaderboards] Checksum matched for slf4j-api
-[20:24:18] [Server thread/INFO]: [ajLeaderboards] Verifying checksum for h2
-[20:24:18] [Server thread/INFO]: [ajLeaderboards] Checksum matched for h2
-[20:24:18] [Server thread/INFO]: [Arcade] Loading Arcade v1.53
-[20:24:18] [Server thread/INFO]: [GadgetsMenu] Loading GadgetsMenu v4.7.3
-[20:24:18] [Server thread/INFO]: [PowerBoard] Loading PowerBoard v3.6.2
-[20:24:18] [Server thread/INFO]: Server permissions file permissions.yml is empty, ignoring it
-[20:24:18] [Server thread/INFO]: [WorldEdit] Enabling WorldEdit v7.2.12+6240-87f4ae1
-[20:24:18] [Server thread/INFO]: Registering commands with com.sk89q.worldedit.bukkit.BukkitServerInterface
-[20:24:18] [Server thread/INFO]: WEPIF: Using the Bukkit Permissions API.
-[20:24:19] [Server thread/INFO]: Using com.sk89q.worldedit.bukkit.adapter.impl.v1_19_R1.PaperweightAdapter as the Bukkit adapter
-[20:24:19] [Server thread/INFO]: [UltraCustomizer] Enabling UltraCustomizer v2.4.2
-[20:24:20] [Server thread/INFO]: [UltraCustomizer] Loading Plugin...
-[20:24:20] [Server thread/INFO]: [UltraCustomizer] Hooked into PlaceholderAPI version: 2.11.6
-[20:24:20] [Server thread/INFO]: [UltraCustomizer] Registered 76 Elements
-[20:24:20] [Server thread/INFO]: [UltraCustomizer] No ProtocolLib found, the ChatEditor feature is not enabled!
-[20:24:20] [Server thread/INFO]: [UltraCustomizer] Registered 0 Crafting Recipes of folder: Local
-[20:24:20] [Server thread/INFO]: [UltraCustomizer] Registered 0 Furnace Recipes of folder: Local
-[20:24:20] [Server thread/INFO]: [UltraCustomizer] Successfully loaded in 729 ms
-[20:24:20] [Server thread/INFO]: [ViaRewind] Enabling ViaRewind v3.1.2
-[20:24:20] [Server thread/INFO]: [LuckPerms] Enabling LuckPerms v5.4.40
-[20:24:21] [Server thread/INFO]:         __    
-[20:24:21] [Server thread/INFO]:   |    |__)   LuckPerms v5.4.40
-[20:24:21] [Server thread/INFO]:   |___ |      Running on Bukkit - Paper
-[20:24:21] [Server thread/INFO]: 
-[20:24:21] [Server thread/INFO]: [LuckPerms] Loading configuration...
-[20:24:21] [Server thread/INFO]: [LuckPerms] Loading storage provider... [H2]
-[20:24:21] [Server thread/INFO]: [LuckPerms] Loading internal permission managers...
-[20:24:22] [Server thread/INFO]: [LuckPerms] Performing initial data load...
-[20:24:22] [Server thread/INFO]: [LuckPerms] Successfully enabled. (took 1634ms)
-[20:24:22] [Server thread/WARN]: **** SERVER IS RUNNING IN OFFLINE/INSECURE MODE!
-[20:24:22] [Server thread/WARN]: The server will make no attempt to authenticate usernames. Beware.
-[20:24:22] [Server thread/WARN]: While this makes the game possible to play without internet access, it also opens up the ability for hackers to connect with any username they choose.
-[20:24:22] [Server thread/WARN]: To change this, set "online-mode" to "true" in the server.properties file.
-[20:24:22] [Server thread/INFO]: Preparing level "world"
-[20:24:23] [Server thread/INFO]: Preparing start region for dimension minecraft:overworld
-[20:24:23] [Server thread/INFO]: Time elapsed: 423 ms
-[20:24:23] [Server thread/INFO]: [KnockbackFFA] Enabling KnockbackFFA v2.9.9*
-[20:24:23] [Server thread/INFO]: [KnockbackFFA] Loading Commands
-[20:24:23] [Server thread/INFO]: [KnockbackFFA] Loading Configuration Files
-[20:24:23] [Server thread/INFO]: [KnockbackFFA] Loading Java Classes
-[20:24:23] [Server thread/INFO]: [KnockbackFFA] Loading example cosmetics if not exists
-[20:24:23] [Server thread/INFO]: [KnockbackFFA] Loading Tasks
-[20:24:23] [Server thread/INFO]: [KnockbackFFA] Enjoy using plugin :)
-[20:24:23] [Server thread/WARN]: [KnockbackFFA] Loaded class me.clip.placeholderapi.expansion.PlaceholderExpansion from PlaceholderAPI v2.11.6 which is not a depend or softdepend of this plugin.
-[20:24:23] [Server thread/INFO]: [PlaceholderAPI] Successfully registered internal expansion: advancedknockbackffa [2.9]
-[20:24:23] [Server thread/INFO]: [JumpPads] Enabling JumpPads v1.25.13
-[20:24:23] [Server thread/INFO]: [PlaceholderAPI] Enabling PlaceholderAPI v2.11.6
-[20:24:24] [Server thread/INFO]: [PlaceholderAPI] Fetching available expansion information...
-[20:24:24] [Server thread/INFO]: [ViaVersion] Enabling ViaVersion v4.10.2
-[20:24:24] [Server thread/INFO]: [ViaVersion] ViaVersion detected server version: 1.19 (759)
-[20:24:24] [Server thread/INFO]: [HolographicDisplays] Enabling HolographicDisplays v3.0.4
-[20:24:24] [Server thread/INFO]: [PlayerPoints] Enabling PlayerPoints v3.0.1
-[20:24:24] [Server thread/INFO]: [PlayerPoints] Initializing using RoseGarden v1.0.5-SNAPSHOT
-[20:24:24] [Server thread/INFO]: [PlayerPoints] Data handler connected using SQLite.
-[20:24:24] [Server thread/INFO]: [PlaceholderAPI] Successfully registered internal expansion: playerpoints [3.0.1]
-[20:24:24] [Server thread/INFO]: [ViaBackwards] Enabling ViaBackwards v4.10.2
-[20:24:24] [Server thread/INFO]: [MyCommand] Enabling MyCommand v5.7.4
-[20:24:24] [Server thread/INFO]: *-=-=-=-=-=-=-=-=-* MyCommand v.5.7.4*-=-=-=-=-=-=-=-=-=-*
-[20:24:24] [Server thread/INFO]: | Vault plugin not found. Using BukkitPermissions
-[20:24:24] [Server thread/INFO]: | No Economy support without Vault!
-[20:24:24] [Server thread/INFO]: | Logs Directory Created /MyCommand/logs/
-[20:24:24] [Server thread/INFO]: | PlayerData Directory Created /MyCommand/playerdata/
-[20:24:24] [Server thread/INFO]: | Command file(s) found : 1
-[20:24:24] [Server thread/INFO]: | Config : Ready.
-[20:24:24] [Server thread/INFO]: | ProtocolLib not found.
-[20:24:24] [Server thread/INFO]: [PlaceholderAPI] Successfully registered internal expansion: mycommand [1.0.0]
-[20:24:24] [Server thread/INFO]: | Placeholder_API : Hooked, Ok.
-[20:24:24] [Server thread/INFO]: | Custom commands loaded : 44
-[20:24:25] [Server thread/INFO]: | You're running the latest version of MyCommand.
-[20:24:25] [Server thread/INFO]: |          by emmerrei a.k.a. ivanfromitaly.           
-[20:24:25] [Server thread/INFO]: *-=-=-=-=-=-=-=-=-=-*   Done!   *-=-=-=-=-=-=-=-=-=-=-*
-[20:24:25] [Server thread/INFO]: [Multiverse-Core] Enabling Multiverse-Core v4.3.1-b861
-[20:24:25] [Server thread/WARN]: [Multiverse-Core] "Multiverse-Core v4.3.1-b861" has registered a listener for org.bukkit.event.entity.EntityCreatePortalEvent on method "public void com.onarandombox.MultiverseCore.listeners.MVPortalListener.entityPortalCreate(org.bukkit.event.entity.EntityCreatePortalEvent)", but the event is Deprecated. "Server performance will be affected"; please notify the authors [dumptruckman, Rigby, fernferret, lithium3141, main--].
-[20:24:25] [Server thread/INFO]: [Multiverse-Core] §aWe are aware of the warning about the deprecated event. There is no alternative that allows us to do what we need to do and performance impact is negligible. It is safe to ignore.
-[20:24:33] [Server thread/INFO]: Preparing start region for dimension minecraft:q1
-[20:24:33] [Server thread/INFO]: Preparing spawn area: 0%
-[20:24:34] [Server thread/INFO]: Time elapsed: 388 ms
-[20:24:34] [Server thread/INFO]: Preparing start region for dimension minecraft:t4
-[20:24:34] [Server thread/INFO]: Preparing spawn area: 0%
-[20:24:34] [Server thread/INFO]: Time elapsed: 281 ms
-[20:24:35] [Server thread/INFO]: Preparing start region for dimension minecraft:bb
-[20:24:35] [Server thread/INFO]: Preparing spawn area: 0%
-[20:24:35] [Server thread/INFO]: Time elapsed: 318 ms
-[20:24:35] [Server thread/INFO]: Preparing start region for dimension minecraft:q2
-[20:24:36] [Server thread/INFO]: Time elapsed: 609 ms
-[20:24:36] [Server thread/INFO]: Preparing start region for dimension minecraft:tv
-[20:24:36] [Server thread/INFO]: Time elapsed: 88 ms
-[20:24:36] [Server thread/INFO]: Preparing start region for dimension minecraft:bil2
-[20:24:36] [Server thread/INFO]: Time elapsed: 180 ms
-[20:24:36] [Server thread/INFO]: Preparing start region for dimension minecraft:bil
-[20:24:36] [Server thread/INFO]: Time elapsed: 172 ms
-[20:24:36] [Server thread/INFO]: Preparing start region for dimension minecraft:crmapin
-[20:24:37] [Server thread/INFO]: Time elapsed: 100 ms
-[20:24:37] [Server thread/INFO]: Preparing start region for dimension minecraft:arcade
-[20:24:37] [Server thread/INFO]: Time elapsed: 116 ms
-[20:24:47] [Server thread/INFO]: Preparing start region for dimension minecraft:tt2
-[20:24:47] [Server thread/INFO]: Preparing spawn area: 0%
-[20:24:47] [Server thread/INFO]: Time elapsed: 253 ms
-[20:24:48] [Server thread/INFO]: Preparing start region for dimension minecraft:sp2
-[20:24:48] [Server thread/INFO]: Preparing spawn area: 0%
-[20:24:49] [Server thread/INFO]: Time elapsed: 472 ms
-[20:24:49] [Server thread/INFO]: Preparing start region for dimension minecraft:sp1
-[20:24:49] [Server thread/INFO]: Time elapsed: 318 ms
-[20:24:49] [Server thread/INFO]: Preparing start region for dimension minecraft:tt4
-[20:24:49] [Server thread/INFO]: Time elapsed: 99 ms
-[20:24:49] [Server thread/INFO]: Preparing start region for dimension minecraft:block
-[20:24:49] [Server thread/INFO]: Time elapsed: 104 ms
-[20:24:50] [Server thread/INFO]: Preparing start region for dimension minecraft:t1
-[20:24:50] [Server thread/INFO]: Time elapsed: 100 ms
-[20:24:50] [Server thread/INFO]: Preparing start region for dimension minecraft:t2
-[20:24:50] [Server thread/INFO]: Time elapsed: 138 ms
-[20:24:50] [Server thread/INFO]: Preparing start region for dimension minecraft:t3
-[20:24:50] [Server thread/INFO]: Time elapsed: 120 ms
-[20:24:50] [Server thread/INFO]: [Multiverse-Core] 18 - World(s) loaded.
-[20:24:50] [Server thread/WARN]: [Multiverse-Core] Buscript failed to load! The script command will be disabled! If you would like not to see this message, use `/mv conf enablebuscript false` to disable Buscript from loading.
-[20:24:50] [Server thread/INFO]: [Multiverse-Core] Version 4.3.1-b861 (API v24) Enabled - By dumptruckman, Rigby, fernferret, lithium3141 and main--
-[20:24:50] [Server thread/INFO]: [HolographicExtension] Enabling HolographicExtension v1.10.9
-[20:24:50] [Server thread/INFO]: [HolographicExtension] Starting HolographicExtension v1.10.9
-[20:24:50] [Server thread/INFO]: [HolographicExtension] Registering placeholder 'example' from config.
-[20:24:50] [Server thread/INFO]: [HolographicExtension] Registering placeholder 'scroller' from config.
-[20:24:50] [Server thread/INFO]: [HolographicExtension] Registering placeholder 'typing' from config.
-[20:24:50] [Server thread/INFO]: [HolographicExtension] Registering placeholder 'rainbow' from config.
-[20:24:50] [Server thread/INFO]: [HolographicExtension] If you want to use the placeholder extension, please install ProtocolLib and PlaceholderAPI
-[20:24:50] [Server thread/INFO]: [DeluxeHub] Enabling DeluxeHub v3.5.5
-[20:24:50] [Server thread/INFO]: [DeluxeHub]  _   _            _          _    _ 
-[20:24:50] [Server thread/INFO]: [DeluxeHub] | \ |_ |  | | \/ |_ |_| | | |_)   _)
-[20:24:50] [Server thread/INFO]: [DeluxeHub] |_/ |_ |_ |_| /\ |_ | | |_| |_)   _)
-[20:24:50] [Server thread/INFO]: [DeluxeHub] 
-[20:24:50] [Server thread/INFO]: [DeluxeHub] Version: 3.5.5
-[20:24:50] [Server thread/INFO]: [DeluxeHub] Author: ItsLewizzz
-[20:24:50] [Server thread/INFO]: [DeluxeHub] 
-[20:24:50] [Server thread/INFO]: [DeluxeHub]  Hooked into PlaceholderAPI
-[20:24:50] [Server thread/INFO]: [DeluxeHub] Loaded custom menu 'serverselector'.
-[20:24:50] [Server thread/INFO]: [DeluxeHub] Loaded 13 plugin modules.
-[20:24:50] [Server thread/INFO]: [DeluxeHub] 
-[20:24:50] [Server thread/INFO]: [DeluxeHub] Successfully loaded in 108ms
-[20:24:50] [Server thread/INFO]: [ajLeaderboards] Enabling ajLeaderboards v2.8.0
-[20:24:51] [Server thread/INFO]: [ajLeaderboards] Using H2 flatfile for board cache. (h2)
-[20:24:51] [Server thread/INFO]: [ajLeaderboards] Loaded 0 boards
-[20:24:51] [Server thread/INFO]: [PlaceholderAPI] Successfully registered internal expansion: ajlb [2.8.0]
-[20:24:51] [Server thread/INFO]: [ajLeaderboards] PAPI placeholders successfully registered!
-[20:24:51] [Server thread/INFO]: [ajLeaderboards] ajLeaderboards v2.8.0 by ajgeiss0702 enabled!
-[20:24:51] [Server thread/INFO]: [Arcade] Enabling Arcade v1.53
-[20:24:51] [Server thread/INFO]: [Arcade] [STDOUT] [36m[Spigotunlocked.net] - -Michy-
-[20:24:51] [Server thread/WARN]: Nag author(s): '[Fr33styler]' of 'Arcade' about their usage of System.out/err.print. Please use your plugin's logger instead (JavaPlugin#getLogger).
-[20:24:51] [Server thread/INFO]: =-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=
-[20:24:51] [Server thread/INFO]: Arcade plugin is loading... 
-[20:24:51] [Server thread/INFO]:  Author: Fr33styler
-[20:24:51] [Server thread/INFO]:  Version: 1.53
-[20:24:51] [Server thread/INFO]:  - Loading engine...
-[20:24:51] [Server thread/INFO]:  - Loading database...
-[20:24:51] [Server thread/INFO]:  - Loading Party Games...
-[20:24:51] [Server thread/INFO]:  - Loading Mini Walls...
-[20:24:51] [Server thread/INFO]:  - Loading Splegg...
-[20:24:51] [Server thread/INFO]:  - Loading Temple Run...
-[20:24:51] [Server thread/INFO]:  - Loading Bomb Lobbers...
-[20:24:51] [Server thread/INFO]:  - Loading TNT Run...
-[20:24:51] [Server thread/INFO]:  - Loading Prop Hunt...
-[20:24:52] [Server thread/INFO]:  - Loading Quake...
-[20:24:52] [Server thread/INFO]:  - Loading Block Party...
-[20:24:52] [Server thread/INFO]:  - Loading TNT Tag...
-[20:24:52] [Server thread/INFO]: [PlaceholderAPI] Successfully registered internal expansion: arcade [null]
-[20:24:52] [Server thread/INFO]: Arcade has been loaded!
-[20:24:52] [Server thread/INFO]: =-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=
-[20:24:52] [Server thread/INFO]: [GadgetsMenu] Enabling GadgetsMenu v4.7.3
-[20:24:52] [Server thread/INFO]: [GadgetsMenu] ------------------------------------------------------
-[20:24:52] [Server thread/INFO]: [GadgetsMenu]         GadgetsMenu [Free] 4.7.3 is loading...
-[20:24:52] [Server thread/INFO]: [GadgetsMenu]           [server: git-Paper-81 (MC: 1.19)]
-[20:24:52] [Server thread/INFO]: [GadgetsMenu]                  Running Java 17.0.11
-[20:24:52] [Server thread/INFO]: [GadgetsMenu]                Plugin by Yap Zhen Yie.
-[20:24:52] [Server thread/INFO]: [GadgetsMenu]             Date Modified: 30 August 2022
-[20:24:52] [Server thread/INFO]: [GadgetsMenu]                            
-[20:24:52] [Server thread/INFO]: [GadgetsMenu]              Initializing module v1_19_R1
-[20:24:52] [Server thread/INFO]: [GadgetsMenu] ------------------------------------------------------
-[20:24:53] [Server thread/INFO]: [GadgetsMenu] Connecting to SQLite database...
-[20:24:53] [Server thread/INFO]: [GadgetsMenu] Successfully connected to SQLite database!
-[20:24:53] [Server thread/INFO]: [PlaceholderAPI] Successfully registered internal expansion: gadgetsmenu [1.0.2]
-[20:24:53] [Server thread/INFO]: [GadgetsMenu] [Placeholder] PlaceholderAPI hooked.
-[20:24:53] [Server thread/INFO]: [PowerBoard] Enabling PowerBoard v3.6.2
-[20:24:53] [Server thread/INFO]: [PowerBoard] --------------------------------------------------
-[20:24:53] [Server thread/INFO]: [PowerBoard] --------------- Loading PowerBoard ---------------
-[20:24:53] [Server thread/INFO]: [PowerBoard]  
-[20:24:53] [Server thread/INFO]: [PowerBoard] Loading configs..
-[20:24:53] [Server thread/INFO]: [PowerBoard]  
-[20:24:53] [Server thread/INFO]: [PowerBoard] (SelfCheck) config.yml -> Loading...
-[20:24:53] [Server thread/INFO]: [PowerBoard] (SelfCheck) config.yml -> Finished!
-[20:24:53] [Server thread/INFO]: [PowerBoard]  
-[20:24:53] [Server thread/INFO]: [PowerBoard] Configs loaded!
-[20:24:53] [Server thread/INFO]: [PowerBoard]  
-[20:24:53] [Server thread/INFO]: [PowerBoard] Registered tablist.
-[20:24:53] [Server thread/INFO]: [PowerBoard]  
-[20:24:53] [Server thread/INFO]: [PowerBoard] --------------- PowerBoard  loaded ---------------
-[20:24:53] [Server thread/INFO]: [PowerBoard] --------------------------------------------------
-[20:24:54] [Server thread/INFO]: [PlaceholderAPI] Placeholder expansion registration initializing...
-[20:24:54] [Server thread/INFO]: Running delayed init tasks
-[20:24:54] [Server thread/INFO]: [JumpPads] CleanUp found no JumpPads to delete!
-[20:24:54] [Server thread/INFO]: [PlaceholderAPI] Successfully registered internal expansion: PowerBoard [3.6.2]
-[20:24:54] [Server thread/INFO]: Done (43.442s)! For help, type "help"
-[20:24:54] [Server thread/INFO]: Timings Reset
-[20:24:54] [Craft Scheduler Thread - 7 - ViaVersion/INFO]: [ViaVersion] Finished mapping loading, shutting down loader executor!
-[20:24:54] [Craft Scheduler Thread - 12 - GadgetsMenu/INFO]: [GadgetsMenu] Checking for updates...
-[20:24:54] [Craft Scheduler Thread - 13 - PowerBoard/INFO]: [PowerBoard] -> You are running the latest version! :)
-[20:24:54] [Craft Scheduler Thread - 12 - GadgetsMenu/INFO]: [GadgetsMenu] You have an old version of the plugin. You are using 4.7.3, available version 4.13.1.
-[20:24:54] [Craft Scheduler Thread - 9 - PlayerPoints/INFO]: [RoseGarden] [RoseGarden] An update for PlayerPoints (v3.2.7) is available! You are running v3.0.1.
-[20:24:54] [Server thread/WARN]: [ViaVersion] There is a newer plugin version available: 5.0.0, you're on: 4.10.2
-[20:24:54] [Server thread/INFO]: [PlaceholderAPI] Successfully registered external expansion: math [2.0.2]
-[20:24:54] [Server thread/WARN]: [PlaceholderAPI] Cannot load expansion playertime due to a missing plugin: PlayerTime
-[20:24:54] [Server thread/WARN]: [PlaceholderAPI] Loaded class com.onarandombox.MultiverseCore.MultiverseCore from Multiverse-Core v4.3.1-b861 which is not a depend or softdepend of this plugin.
-[20:24:54] [Server thread/INFO]: [PlaceholderAPI] Successfully registered external expansion: multiverse [1.0.1]
-[20:24:54] [Server thread/INFO]: [PlaceholderAPI] Successfully registered external expansion: otherplayer [2.1.0]
-[20:24:54] [Server thread/INFO]: [PlaceholderAPI] Successfully registered external expansion: gg [1.0.0]
-[20:24:54] [Server thread/INFO]: [PlaceholderAPI] Successfully registered external expansion: server [2.7.2]
-[20:24:54] [Server thread/INFO]: [PlaceholderAPI] Successfully registered external expansion: pinger [1.0.1]
-[20:24:54] [Server thread/INFO]: [PlaceholderAPI] Successfully registered external expansion: gradient [1.0]
-[20:24:54] [Server thread/WARN]: [PlaceholderAPI] Cannot load expansion thirst due to a missing plugin: Thirst
-[20:24:54] [Server thread/INFO]: [PlaceholderAPI] Successfully registered external expansion: player [2.0.8]
-[20:24:54] [Server thread/WARN]: [PlaceholderAPI] Cannot load expansion tp due to a missing plugin: ThemePark
-[20:24:54] [Server thread/INFO]: [PlaceholderAPI] Successfully registered external expansion: localtime [1.2]
-[20:24:54] [Server thread/WARN]: [PlaceholderAPI] Loaded class net.luckperms.api.LuckPerms from LuckPerms v5.4.40 which is not a depend or softdepend of this plugin.
-[20:24:54] [Server thread/INFO]: [PlaceholderAPI] Successfully registered external expansion: luckperms [5.4-R2]
-[20:24:54] [Server thread/INFO]: [PlaceholderAPI] Successfully registered external expansion: playerlist [3.0.7]
-[20:24:54] [Server thread/INFO]: [PlaceholderAPI] Successfully registered external expansion: tempdata [0.1-BETA]
-[20:24:54] [Server thread/WARN]: [PlaceholderAPI] Cannot load expansion playerstats due to a missing plugin: PlayerStats
-[20:24:54] [Server thread/INFO]: 12 placeholder hook(s) registered! 1 placeholder hook(s) have an update available.
-[20:24:55] [Server thread/INFO]: [PowerBoard] Registering players...
-[20:24:55] [Server thread/INFO]: [PowerBoard] All players have been registered.
-[20:24:56] [Craft Scheduler Thread - 4 - UltraCustomizer/INFO]: [UltraCustomizer] Translations successfully loaded & applied (34 UltraCustomizer and Base Translation files found)
-[20:26:00] [User Authenticator #1/INFO]: UUID of player amirabbas8585 is 20cf1db0-e54b-388d-8edc-76880a8b4ffa
-[20:26:00] [Server thread/INFO]: + amirabbas8585 Connected
-[20:26:00] [Server thread/INFO]: amirabbas8585[/[0:0:0:0:0:0:0:1%0]:45904] logged in with entity id 52 at ([crmapin]-110.52753103846055, 158.0, -9.65908477089641)
-[20:26:00] [Server thread/INFO]: [amirabbas8585: Applied effect Night Vision to amirabbas8585]
-[20:26:01] [Craft Scheduler Thread - 17 - PowerBoard/ERROR]: [PowerBoard] ---------------------------------------------------------------------------------------------------------------------------
-[20:26:01] [Craft Scheduler Thread - 17 - PowerBoard/ERROR]: [PowerBoard] The group "default" has no weight! Please set the weight with /lp group <group> setweight <weight>
-[20:26:01] [Craft Scheduler Thread - 17 - PowerBoard/ERROR]: [PowerBoard] Read the wiki to see which weights you have to set: https://github.com/Xitee1/PowerBoard/wiki#configure-the-ranks-optional
-[20:26:01] [Craft Scheduler Thread - 17 - PowerBoard/ERROR]: [PowerBoard] ---------------------------------------------------------------------------------------------------------------------------
-[20:26:01] [Craft Scheduler Thread - 17 - PowerBoard/WARN]: [PowerBoard] Did not set amirabbas8585's rank for the already online players
-[20:26:03] [Craft Scheduler Thread - 6 - PlaceholderAPI/INFO]: [LocalTime] Couldn't get amirabbas8585's timezone. Will use default timezone.
-[20:26:10] [User Authenticator #1/INFO]: UUID of player FameAx is 31013f53-5a65-3d18-8c4d-02ca3685d33c
-[20:26:10] [Server thread/INFO]: + FameAx Connected
-[20:26:10] [Server thread/INFO]: FameAx[/[0:0:0:0:0:0:0:1%0]:37680] logged in with entity id 192 at ([crmapin]-110.52753103846055, 158.0, -9.65908477089641)
-[20:26:10] [Craft Scheduler Thread - 18 - PowerBoard/ERROR]: [PowerBoard] ---------------------------------------------------------------------------------------------------------------------------
-[20:26:10] [Craft Scheduler Thread - 18 - PowerBoard/ERROR]: [PowerBoard] The group "default" has no weight! Please set the weight with /lp group <group> setweight <weight>
-[20:26:10] [Craft Scheduler Thread - 18 - PowerBoard/ERROR]: [PowerBoard] Read the wiki to see which weights you have to set: https://github.com/Xitee1/PowerBoard/wiki#configure-the-ranks-optional
-[20:26:10] [Craft Scheduler Thread - 18 - PowerBoard/ERROR]: [PowerBoard] ---------------------------------------------------------------------------------------------------------------------------
-[20:26:10] [Craft Scheduler Thread - 18 - PowerBoard/WARN]: [PowerBoard] Did not set amirabbas8585's rank for player FameAx
-[20:26:10] [Craft Scheduler Thread - 18 - PowerBoard/WARN]: [PowerBoard] Did not set FameAx's rank for the already online players
-[20:26:12] [Craft Scheduler Thread - 18 - PlaceholderAPI/INFO]: [LocalTime] Couldn't get FameAx's timezone. Will use default timezone.
-[20:26:42] [User Authenticator #1/INFO]: UUID of player Ali3339 is 6cc94cba-ac5b-3601-bcad-96ef2da1cff8
-[20:26:42] [Server thread/INFO]: + Ali3339 Connected
-[20:26:42] [Server thread/INFO]: Ali3339[/[0:0:0:0:0:0:0:1%0]:40742] logged in with entity id 662 at ([crmapin]-110.52753103846055, 158.0, -9.65908477089641)
-[20:26:42] [Craft Scheduler Thread - 18 - PowerBoard/ERROR]: [PowerBoard] ---------------------------------------------------------------------------------------------------------------------------
-[20:26:42] [Craft Scheduler Thread - 18 - PowerBoard/ERROR]: [PowerBoard] The group "default" has no weight! Please set the weight with /lp group <group> setweight <weight>
-[20:26:42] [Craft Scheduler Thread - 18 - PowerBoard/ERROR]: [PowerBoard] Read the wiki to see which weights you have to set: https://github.com/Xitee1/PowerBoard/wiki#configure-the-ranks-optional
-[20:26:42] [Craft Scheduler Thread - 18 - PowerBoard/ERROR]: [PowerBoard] ---------------------------------------------------------------------------------------------------------------------------
-[20:26:42] [Craft Scheduler Thread - 18 - PowerBoard/WARN]: [PowerBoard] Did not set amirabbas8585's rank for player Ali3339
-[20:26:42] [Craft Scheduler Thread - 18 - PowerBoard/WARN]: [PowerBoard] Did not set FameAx's rank for player Ali3339
-[20:26:42] [Craft Scheduler Thread - 18 - PowerBoard/WARN]: [PowerBoard] Did not set Ali3339's rank for the already online players
-[20:26:44] [Craft Scheduler Thread - 17 - PlaceholderAPI/INFO]: [LocalTime] Couldn't get Ali3339's timezone. Will use default timezone.
-[20:27:10] [Server thread/INFO]: amirabbas8585 issued server command: /vanish
-[20:27:13] [Server thread/INFO]: amirabbas8585 issued server command: /vanish
-[20:27:18] [Server thread/INFO]: Ali3339 lost connection: Kicked for exceeding packet rate limit
-[20:27:18] [Server thread/ERROR]: Could not pass event PlayerQuitEvent to KnockbackFFA v2.9.9
-java.lang.NullPointerException: Cannot invoke "me.gameisntover.knockbackffa.cosmetics.Cosmetic.getName()" because "cosmetic" is null
-	at me.gameisntover.knockbackffa.database.SQLite.updateData(SQLite.java:110) ~[KnockbackFFA-2.9.9.jar:?]
-	at me.gameisntover.knockbackffa.listener.JoinLeaveListeners.playerLeave(JoinLeaveListeners.java:51) ~[KnockbackFFA-2.9.9.jar:?]
-	at com.destroystokyo.paper.event.executor.asm.generated.GeneratedEventExecutor42.execute(Unknown Source) ~[?:?]
-	at org.bukkit.plugin.EventExecutor.lambda$create$1(EventExecutor.java:75) ~[paper-api-1.19-R0.1-SNAPSHOT.jar:?]
-	at co.aikar.timings.TimedEventExecutor.execute(TimedEventExecutor.java:80) ~[paper-api-1.19-R0.1-SNAPSHOT.jar:git-Paper-81]
-	at org.bukkit.plugin.RegisteredListener.callEvent(RegisteredListener.java:70) ~[paper-api-1.19-R0.1-SNAPSHOT.jar:?]
-	at org.bukkit.plugin.SimplePluginManager.callEvent(SimplePluginManager.java:670) ~[paper-api-1.19-R0.1-SNAPSHOT.jar:?]
-	at net.minecraft.server.players.PlayerList.remove(PlayerList.java:620) ~[paper-1.19.jar:git-Paper-81]
-	at net.minecraft.server.players.PlayerList.remove(PlayerList.java:605) ~[paper-1.19.jar:git-Paper-81]
-	at net.minecraft.server.network.ServerGamePacketListenerImpl.onDisconnect(ServerGamePacketListenerImpl.java:2035) ~[?:?]
-	at net.minecraft.server.network.ServerGamePacketListenerImpl.onDisconnect(ServerGamePacketListenerImpl.java:2015) ~[?:?]
-	at net.minecraft.network.Connection.handleDisconnection(Connection.java:756) ~[?:?]
-	at net.minecraft.server.network.ServerConnectionListener.tick(ServerConnectionListener.java:252) ~[?:?]
-	at net.minecraft.server.MinecraftServer.tickChildren(MinecraftServer.java:1582) ~[paper-1.19.jar:git-Paper-81]
-	at net.minecraft.server.dedicated.DedicatedServer.tickChildren(DedicatedServer.java:446) ~[paper-1.19.jar:git-Paper-81]
-	at net.minecraft.server.MinecraftServer.tickServer(MinecraftServer.java:1415) ~[paper-1.19.jar:git-Paper-81]
-	at net.minecraft.server.MinecraftServer.runServer(MinecraftServer.java:1188) ~[paper-1.19.jar:git-Paper-81]
-	at net.minecraft.server.MinecraftServer.lambda$spin$0(MinecraftServer.java:303) ~[paper-1.19.jar:git-Paper-81]
-	at java.lang.Thread.run(Thread.java:840) ~[?:?]
-[20:27:18] [Server thread/INFO]: - Ali3339 Disconnected
-[20:27:21] [User Authenticator #1/INFO]: UUID of player mohamadjavad12 is 87a5adf1-b388-3e2a-a9ab-43e40a3cb56c
-[20:27:21] [Server thread/INFO]: + mohamadjavad12 Connected
-[20:27:21] [Server thread/INFO]: mohamadjavad12[/[0:0:0:0:0:0:0:1%0]:48068] logged in with entity id 1221 at ([crmapin]-110.52753103846055, 158.0, -9.65908477089641)
-[20:27:21] [Craft Scheduler Thread - 17 - PowerBoard/ERROR]: [PowerBoard] ---------------------------------------------------------------------------------------------------------------------------
-[20:27:21] [Craft Scheduler Thread - 17 - PowerBoard/ERROR]: [PowerBoard] The group "default" has no weight! Please set the weight with /lp group <group> setweight <weight>
-[20:27:21] [Craft Scheduler Thread - 17 - PowerBoard/ERROR]: [PowerBoard] Read the wiki to see which weights you have to set: https://github.com/Xitee1/PowerBoard/wiki#configure-the-ranks-optional
-[20:27:21] [Craft Scheduler Thread - 17 - PowerBoard/ERROR]: [PowerBoard] ---------------------------------------------------------------------------------------------------------------------------
-[20:27:21] [Craft Scheduler Thread - 17 - PowerBoard/WARN]: [PowerBoard] Did not set amirabbas8585's rank for player mohamadjavad12
-[20:27:21] [Craft Scheduler Thread - 17 - PowerBoard/WARN]: [PowerBoard] Did not set FameAx's rank for player mohamadjavad12
-[20:27:21] [Craft Scheduler Thread - 17 - PowerBoard/WARN]: [PowerBoard] Did not set mohamadjavad12's rank for the already online players
-[20:27:23] [Craft Scheduler Thread - 17 - PlaceholderAPI/INFO]: [LocalTime] Couldn't get mohamadjavad12's timezone. Will use default timezone.
-[20:27:30] [Server thread/INFO]: amirabbas8585 issued server command: /effect give @a minecraft:night_vision 9999 99 true
-[20:27:30] [Server thread/INFO]: [amirabbas8585: Applied effect Night Vision to 3 targets]
-[20:27:41] [User Authenticator #1/INFO]: UUID of player mohamadjavad12 is 87a5adf1-b388-3e2a-a9ab-43e40a3cb56c
-[20:27:41] [Server thread/INFO]: mohamadjavad12 lost connection: You logged in from another location
-[20:27:41] [Server thread/ERROR]: Could not pass event PlayerQuitEvent to KnockbackFFA v2.9.9
-java.lang.NullPointerException: Cannot invoke "me.gameisntover.knockbackffa.cosmetics.Cosmetic.getName()" because "cosmetic" is null
-	at me.gameisntover.knockbackffa.database.SQLite.updateData(SQLite.java:110) ~[KnockbackFFA-2.9.9.jar:?]
-	at me.gameisntover.knockbackffa.listener.JoinLeaveListeners.playerLeave(JoinLeaveListeners.java:51) ~[KnockbackFFA-2.9.9.jar:?]
-	at com.destroystokyo.paper.event.executor.asm.generated.GeneratedEventExecutor42.execute(Unknown Source) ~[?:?]
-	at org.bukkit.plugin.EventExecutor.lambda$create$1(EventExecutor.java:75) ~[paper-api-1.19-R0.1-SNAPSHOT.jar:?]
-	at co.aikar.timings.TimedEventExecutor.execute(TimedEventExecutor.java:80) ~[paper-api-1.19-R0.1-SNAPSHOT.jar:git-Paper-81]
-	at org.bukkit.plugin.RegisteredListener.callEvent(RegisteredListener.java:70) ~[paper-api-1.19-R0.1-SNAPSHOT.jar:?]
-	at org.bukkit.plugin.SimplePluginManager.callEvent(SimplePluginManager.java:670) ~[paper-api-1.19-R0.1-SNAPSHOT.jar:?]
-	at net.minecraft.server.players.PlayerList.remove(PlayerList.java:620) ~[paper-1.19.jar:git-Paper-81]
-	at net.minecraft.server.network.ServerGamePacketListenerImpl.onDisconnect(ServerGamePacketListenerImpl.java:2035) ~[?:?]
-	at net.minecraft.server.network.ServerGamePacketListenerImpl.disconnect(ServerGamePacketListenerImpl.java:485) ~[?:?]
-	at net.minecraft.server.network.ServerGamePacketListenerImpl.disconnect(ServerGamePacketListenerImpl.java:456) ~[?:?]
-	at net.minecraft.server.players.PlayerList.canPlayerLogin(PlayerList.java:737) ~[paper-1.19.jar:git-Paper-81]
-	at net.minecraft.server.network.ServerLoginPacketListenerImpl.handleAcceptedLogin(ServerLoginPacketListenerImpl.java:182) ~[?:?]
-	at net.minecraft.server.network.ServerLoginPacketListenerImpl.tick(ServerLoginPacketListenerImpl.java:93) ~[?:?]
-	at net.minecraft.network.Connection.tick(Connection.java:559) ~[?:?]
-	at net.minecraft.server.network.ServerConnectionListener.tick(ServerConnectionListener.java:232) ~[?:?]
-	at net.minecraft.server.MinecraftServer.tickChildren(MinecraftServer.java:1582) ~[paper-1.19.jar:git-Paper-81]
-	at net.minecraft.server.dedicated.DedicatedServer.tickChildren(DedicatedServer.java:446) ~[paper-1.19.jar:git-Paper-81]
-	at net.minecraft.server.MinecraftServer.tickServer(MinecraftServer.java:1415) ~[paper-1.19.jar:git-Paper-81]
-	at net.minecraft.server.MinecraftServer.runServer(MinecraftServer.java:1188) ~[paper-1.19.jar:git-Paper-81]
-	at net.minecraft.server.MinecraftServer.lambda$spin$0(MinecraftServer.java:303) ~[paper-1.19.jar:git-Paper-81]
-	at java.lang.Thread.run(Thread.java:840) ~[?:?]
-[20:27:41] [Server thread/INFO]: - mohamadjavad12 Disconnected
-[20:27:41] [Server thread/INFO]: + mohamadjavad12 Connected
-[20:27:41] [Server thread/INFO]: mohamadjavad12[/[0:0:0:0:0:0:0:1%0]:35244] logged in with entity id 1528 at ([crmapin]-110.52753103846055, 158.0, -9.65908477089641)
-[20:27:42] [Craft Scheduler Thread - 22 - PowerBoard/ERROR]: [PowerBoard] ---------------------------------------------------------------------------------------------------------------------------
-[20:27:42] [Craft Scheduler Thread - 22 - PowerBoard/ERROR]: [PowerBoard] The group "default" has no weight! Please set the weight with /lp group <group> setweight <weight>
-[20:27:42] [Craft Scheduler Thread - 22 - PowerBoard/ERROR]: [PowerBoard] Read the wiki to see which weights you have to set: https://github.com/Xitee1/PowerBoard/wiki#configure-the-ranks-optional
-[20:27:42] [Craft Scheduler Thread - 22 - PowerBoard/ERROR]: [PowerBoard] ---------------------------------------------------------------------------------------------------------------------------
-[20:27:42] [Craft Scheduler Thread - 22 - PowerBoard/WARN]: [PowerBoard] Did not set amirabbas8585's rank for player mohamadjavad12
-[20:27:42] [Craft Scheduler Thread - 22 - PowerBoard/WARN]: [PowerBoard] Did not set FameAx's rank for player mohamadjavad12
-[20:27:42] [Craft Scheduler Thread - 22 - PowerBoard/WARN]: [PowerBoard] Did not set mohamadjavad12's rank for the already online players
-[20:27:45] [Craft Scheduler Thread - 23 - PlaceholderAPI/INFO]: [LocalTime] Couldn't get mohamadjavad12's timezone. Will use default timezone.
-[20:27:47] [Server thread/INFO]: FameAx lost connection: Disconnected
-[20:27:47] [Server thread/ERROR]: Could not pass event PlayerQuitEvent to KnockbackFFA v2.9.9
-java.lang.NullPointerException: Cannot invoke "me.gameisntover.knockbackffa.cosmetics.Cosmetic.getName()" because "cosmetic" is null
-	at me.gameisntover.knockbackffa.database.SQLite.updateData(SQLite.java:110) ~[KnockbackFFA-2.9.9.jar:?]
-	at me.gameisntover.knockbackffa.listener.JoinLeaveListeners.playerLeave(JoinLeaveListeners.java:51) ~[KnockbackFFA-2.9.9.jar:?]
-	at com.destroystokyo.paper.event.executor.asm.generated.GeneratedEventExecutor42.execute(Unknown Source) ~[?:?]
-	at org.bukkit.plugin.EventExecutor.lambda$create$1(EventExecutor.java:75) ~[paper-api-1.19-R0.1-SNAPSHOT.jar:?]
-	at co.aikar.timings.TimedEventExecutor.execute(TimedEventExecutor.java:80) ~[paper-api-1.19-R0.1-SNAPSHOT.jar:git-Paper-81]
-	at org.bukkit.plugin.RegisteredListener.callEvent(RegisteredListener.java:70) ~[paper-api-1.19-R0.1-SNAPSHOT.jar:?]
-	at org.bukkit.plugin.SimplePluginManager.callEvent(SimplePluginManager.java:670) ~[paper-api-1.19-R0.1-SNAPSHOT.jar:?]
-	at net.minecraft.server.players.PlayerList.remove(PlayerList.java:620) ~[paper-1.19.jar:git-Paper-81]
-	at net.minecraft.server.players.PlayerList.remove(PlayerList.java:605) ~[paper-1.19.jar:git-Paper-81]
-	at net.minecraft.server.network.ServerGamePacketListenerImpl.onDisconnect(ServerGamePacketListenerImpl.java:2035) ~[?:?]
-	at net.minecraft.server.network.ServerGamePacketListenerImpl.onDisconnect(ServerGamePacketListenerImpl.java:2015) ~[?:?]
-	at net.minecraft.network.Connection.handleDisconnection(Connection.java:758) ~[?:?]
-	at net.minecraft.server.network.ServerConnectionListener.tick(ServerConnectionListener.java:252) ~[?:?]
-	at net.minecraft.server.MinecraftServer.tickChildren(MinecraftServer.java:1582) ~[paper-1.19.jar:git-Paper-81]
-	at net.minecraft.server.dedicated.DedicatedServer.tickChildren(DedicatedServer.java:446) ~[paper-1.19.jar:git-Paper-81]
-	at net.minecraft.server.MinecraftServer.tickServer(MinecraftServer.java:1415) ~[paper-1.19.jar:git-Paper-81]
-	at net.minecraft.server.MinecraftServer.runServer(MinecraftServer.java:1188) ~[paper-1.19.jar:git-Paper-81]
-	at net.minecraft.server.MinecraftServer.lambda$spin$0(MinecraftServer.java:303) ~[paper-1.19.jar:git-Paper-81]
-	at java.lang.Thread.run(Thread.java:840) ~[?:?]
-[20:27:47] [Server thread/INFO]: - FameAx Disconnected
-[20:28:22] [User Authenticator #1/INFO]: UUID of player Ali3339 is 6cc94cba-ac5b-3601-bcad-96ef2da1cff8
-[20:28:22] [Server thread/INFO]: + Ali3339 Connected
-[20:28:22] [Server thread/INFO]: Ali3339[/[0:0:0:0:0:0:0:1%0]:36226] logged in with entity id 2075 at ([crmapin]-110.52753103846055, 158.0, -9.65908477089641)
-[20:28:22] [Craft Scheduler Thread - 23 - PowerBoard/ERROR]: [PowerBoard] ---------------------------------------------------------------------------------------------------------------------------
-[20:28:22] [Craft Scheduler Thread - 23 - PowerBoard/ERROR]: [PowerBoard] The group "default" has no weight! Please set the weight with /lp group <group> setweight <weight>
-[20:28:22] [Craft Scheduler Thread - 23 - PowerBoard/ERROR]: [PowerBoard] Read the wiki to see which weights you have to set: https://github.com/Xitee1/PowerBoard/wiki#configure-the-ranks-optional
-[20:28:22] [Craft Scheduler Thread - 23 - PowerBoard/ERROR]: [PowerBoard] ---------------------------------------------------------------------------------------------------------------------------
-[20:28:22] [Craft Scheduler Thread - 23 - PowerBoard/WARN]: [PowerBoard] Did not set amirabbas8585's rank for player Ali3339
-[20:28:22] [Craft Scheduler Thread - 23 - PowerBoard/WARN]: [PowerBoard] Did not set mohamadjavad12's rank for player Ali3339
-[20:28:22] [Craft Scheduler Thread - 23 - PowerBoard/WARN]: [PowerBoard] Did not set Ali3339's rank for the already online players
-[20:28:25] [Craft Scheduler Thread - 23 - PlaceholderAPI/INFO]: [LocalTime] Couldn't get Ali3339's timezone. Will use default timezone.
-[20:29:35] [User Authenticator #2/INFO]: UUID of player FameAx is 31013f53-5a65-3d18-8c4d-02ca3685d33c
-[20:29:35] [Server thread/INFO]: + FameAx Connected
-[20:29:35] [Server thread/INFO]: FameAx[/[0:0:0:0:0:0:0:1%0]:33286] logged in with entity id 2977 at ([crmapin]-110.52753103846055, 158.0, -9.65908477089641)
-[20:29:36] [Craft Scheduler Thread - 18 - PowerBoard/ERROR]: [PowerBoard] ---------------------------------------------------------------------------------------------------------------------------
-[20:29:36] [Craft Scheduler Thread - 18 - PowerBoard/ERROR]: [PowerBoard] The group "default" has no weight! Please set the weight with /lp group <group> setweight <weight>
-[20:29:36] [Craft Scheduler Thread - 18 - PowerBoard/ERROR]: [PowerBoard] Read the wiki to see which weights you have to set: https://github.com/Xitee1/PowerBoard/wiki#configure-the-ranks-optional
-[20:29:36] [Craft Scheduler Thread - 18 - PowerBoard/ERROR]: [PowerBoard] ---------------------------------------------------------------------------------------------------------------------------
-[20:29:36] [Craft Scheduler Thread - 18 - PowerBoard/WARN]: [PowerBoard] Did not set amirabbas8585's rank for player FameAx
-[20:29:36] [Craft Scheduler Thread - 18 - PowerBoard/WARN]: [PowerBoard] Did not set mohamadjavad12's rank for player FameAx
-[20:29:36] [Craft Scheduler Thread - 18 - PowerBoard/WARN]: [PowerBoard] Did not set Ali3339's rank for player FameAx
-[20:29:36] [Craft Scheduler Thread - 18 - PowerBoard/WARN]: [PowerBoard] Did not set FameAx's rank for the already online players
-[20:29:38] [Craft Scheduler Thread - 25 - PlaceholderAPI/INFO]: [LocalTime] Couldn't get FameAx's timezone. Will use default timezone.
-[20:30:11] [User Authenticator #2/INFO]: UUID of player MRWl is 26381368-5a32-305a-9cdd-e02b8c49071f
-[20:30:11] [Server thread/INFO]: + MRWl Connected
-[20:30:11] [Server thread/INFO]: MRWl[/[0:0:0:0:0:0:0:1%0]:49074] logged in with entity id 3416 at ([crmapin]-110.52753103846055, 158.0, -9.65908477089641)
-[20:30:11] [Craft Scheduler Thread - 28 - PowerBoard/ERROR]: [PowerBoard] ---------------------------------------------------------------------------------------------------------------------------
-[20:30:11] [Craft Scheduler Thread - 28 - PowerBoard/ERROR]: [PowerBoard] The group "default" has no weight! Please set the weight with /lp group <group> setweight <weight>
-[20:30:11] [Craft Scheduler Thread - 28 - PowerBoard/ERROR]: [PowerBoard] Read the wiki to see which weights you have to set: https://github.com/Xitee1/PowerBoard/wiki#configure-the-ranks-optional
-[20:30:11] [Craft Scheduler Thread - 28 - PowerBoard/ERROR]: [PowerBoard] ---------------------------------------------------------------------------------------------------------------------------
-[20:30:11] [Craft Scheduler Thread - 28 - PowerBoard/WARN]: [PowerBoard] Did not set amirabbas8585's rank for player MRWl
-[20:30:11] [Craft Scheduler Thread - 28 - PowerBoard/WARN]: [PowerBoard] Did not set mohamadjavad12's rank for player MRWl
-[20:30:11] [Craft Scheduler Thread - 28 - PowerBoard/WARN]: [PowerBoard] Did not set Ali3339's rank for player MRWl
-[20:30:11] [Craft Scheduler Thread - 28 - PowerBoard/WARN]: [PowerBoard] Did not set FameAx's rank for player MRWl
-[20:30:11] [Craft Scheduler Thread - 28 - PowerBoard/WARN]: [PowerBoard] Did not set MRWl's rank for the already online players
-[20:30:13] [Craft Scheduler Thread - 18 - PlaceholderAPI/INFO]: [LocalTime] Couldn't get MRWl's timezone. Will use default timezone.
-[20:30:22] [User Authenticator #2/INFO]: UUID of player MR__miner is 9ef28c61-29cb-3685-991a-9417c1c53412
-[20:30:22] [Server thread/INFO]: + MR__miner Connected
-[20:30:22] [Server thread/INFO]: MR__miner[/[0:0:0:0:0:0:0:1%0]:47972] logged in with entity id 3640 at ([crmapin]-110.52753103846055, 158.0, -9.65908477089641)
-[20:30:23] [Craft Scheduler Thread - 25 - PowerBoard/ERROR]: [PowerBoard] ---------------------------------------------------------------------------------------------------------------------------
-[20:30:23] [Craft Scheduler Thread - 25 - PowerBoard/ERROR]: [PowerBoard] The group "default" has no weight! Please set the weight with /lp group <group> setweight <weight>
-[20:30:23] [Craft Scheduler Thread - 25 - PowerBoard/ERROR]: [PowerBoard] Read the wiki to see which weights you have to set: https://github.com/Xitee1/PowerBoard/wiki#configure-the-ranks-optional
-[20:30:23] [Craft Scheduler Thread - 25 - PowerBoard/ERROR]: [PowerBoard] ---------------------------------------------------------------------------------------------------------------------------
-[20:30:23] [Craft Scheduler Thread - 25 - PowerBoard/WARN]: [PowerBoard] Did not set amirabbas8585's rank for player MR__miner
-[20:30:23] [Craft Scheduler Thread - 25 - PowerBoard/WARN]: [PowerBoard] Did not set mohamadjavad12's rank for player MR__miner
-[20:30:23] [Craft Scheduler Thread - 25 - PowerBoard/WARN]: [PowerBoard] Did not set Ali3339's rank for player MR__miner
-[20:30:23] [Craft Scheduler Thread - 25 - PowerBoard/WARN]: [PowerBoard] Did not set FameAx's rank for player MR__miner
-[20:30:23] [Craft Scheduler Thread - 25 - PowerBoard/WARN]: [PowerBoard] Did not set MRWl's rank for player MR__miner
-[20:30:23] [Craft Scheduler Thread - 25 - PowerBoard/WARN]: [PowerBoard] Did not set MR__miner's rank for the already online players
-[20:30:24] [Craft Scheduler Thread - 27 - PlaceholderAPI/INFO]: [LocalTime] Couldn't get MR__miner's timezone. Will use default timezone.
-[20:31:58] [Server thread/INFO]: amirabbas8585 issued server command: /tnttag start Fungi
-[20:32:01] [Server thread/INFO]: amirabbas8585 issued server command: /tnttag start Bloom
-[20:32:03] [Server thread/WARN]: MRWl was kicked for floating too long!
-[20:32:03] [Server thread/INFO]: MRWl lost connection: Flying is not enabled on this server
-[20:32:03] [Server thread/ERROR]: Could not pass event PlayerQuitEvent to KnockbackFFA v2.9.9
-java.lang.NullPointerException: Cannot invoke "me.gameisntover.knockbackffa.cosmetics.Cosmetic.getName()" because "cosmetic" is null
-	at me.gameisntover.knockbackffa.database.SQLite.updateData(SQLite.java:110) ~[KnockbackFFA-2.9.9.jar:?]
-	at me.gameisntover.knockbackffa.listener.JoinLeaveListeners.playerLeave(JoinLeaveListeners.java:51) ~[KnockbackFFA-2.9.9.jar:?]
-	at com.destroystokyo.paper.event.executor.asm.generated.GeneratedEventExecutor42.execute(Unknown Source) ~[?:?]
-	at org.bukkit.plugin.EventExecutor.lambda$create$1(EventExecutor.java:75) ~[paper-api-1.19-R0.1-SNAPSHOT.jar:?]
-	at co.aikar.timings.TimedEventExecutor.execute(TimedEventExecutor.java:80) ~[paper-api-1.19-R0.1-SNAPSHOT.jar:git-Paper-81]
-	at org.bukkit.plugin.RegisteredListener.callEvent(RegisteredListener.java:70) ~[paper-api-1.19-R0.1-SNAPSHOT.jar:?]
-	at org.bukkit.plugin.SimplePluginManager.callEvent(SimplePluginManager.java:670) ~[paper-api-1.19-R0.1-SNAPSHOT.jar:?]
-	at net.minecraft.server.players.PlayerList.remove(PlayerList.java:620) ~[paper-1.19.jar:git-Paper-81]
-	at net.minecraft.server.network.ServerGamePacketListenerImpl.onDisconnect(ServerGamePacketListenerImpl.java:2035) ~[?:?]
-	at net.minecraft.server.network.ServerGamePacketListenerImpl.disconnect(ServerGamePacketListenerImpl.java:485) ~[?:?]
-	at net.minecraft.server.network.ServerGamePacketListenerImpl.tick(ServerGamePacketListenerImpl.java:347) ~[?:?]
-	at net.minecraft.network.Connection.tick(Connection.java:568) ~[?:?]
-	at net.minecraft.server.network.ServerConnectionListener.tick(ServerConnectionListener.java:232) ~[?:?]
-	at net.minecraft.server.MinecraftServer.tickChildren(MinecraftServer.java:1582) ~[paper-1.19.jar:git-Paper-81]
-	at net.minecraft.server.dedicated.DedicatedServer.tickChildren(DedicatedServer.java:446) ~[paper-1.19.jar:git-Paper-81]
-	at net.minecraft.server.MinecraftServer.tickServer(MinecraftServer.java:1415) ~[paper-1.19.jar:git-Paper-81]
-	at net.minecraft.server.MinecraftServer.runServer(MinecraftServer.java:1188) ~[paper-1.19.jar:git-Paper-81]
-	at net.minecraft.server.MinecraftServer.lambda$spin$0(MinecraftServer.java:303) ~[paper-1.19.jar:git-Paper-81]
-	at java.lang.Thread.run(Thread.java:840) ~[?:?]
-[20:32:03] [Server thread/INFO]: - MRWl Disconnected
-[20:34:56] [Server thread/INFO]: amirabbas8585 issued server command: /tnttag start 2
-[20:34:59] [Server thread/INFO]: amirabbas8585 issued server command: /tnttag start Fungi
-[20:37:52] [Server thread/INFO]: amirabbas8585 issued server command: /tnttag start Bloom
-[20:39:27] [User Authenticator #3/INFO]: UUID of player MRWl is 26381368-5a32-305a-9cdd-e02b8c49071f
-[20:39:28] [Server thread/INFO]: + MRWl Connected
-[20:39:28] [Server thread/INFO]: MRWl[/[0:0:0:0:0:0:0:1%0]:39174] logged in with entity id 5117 at ([crmapin]-110.52753103846055, 158.0, -9.65908477089641)
-[20:39:28] [Craft Scheduler Thread - 53 - PowerBoard/ERROR]: [PowerBoard] ---------------------------------------------------------------------------------------------------------------------------
-[20:39:28] [Craft Scheduler Thread - 53 - PowerBoard/ERROR]: [PowerBoard] The group "default" has no weight! Please set the weight with /lp group <group> setweight <weight>
-[20:39:28] [Craft Scheduler Thread - 53 - PowerBoard/ERROR]: [PowerBoard] Read the wiki to see which weights you have to set: https://github.com/Xitee1/PowerBoard/wiki#configure-the-ranks-optional
-[20:39:28] [Craft Scheduler Thread - 53 - PowerBoard/ERROR]: [PowerBoard] ---------------------------------------------------------------------------------------------------------------------------
-[20:39:28] [Craft Scheduler Thread - 53 - PowerBoard/WARN]: [PowerBoard] Did not set FameAx's rank for player MRWl
-[20:39:28] [Craft Scheduler Thread - 53 - PowerBoard/WARN]: [PowerBoard] Did not set mohamadjavad12's rank for player MRWl
-[20:39:28] [Craft Scheduler Thread - 53 - PowerBoard/WARN]: [PowerBoard] Did not set amirabbas8585's rank for player MRWl
-[20:39:28] [Craft Scheduler Thread - 53 - PowerBoard/WARN]: [PowerBoard] Did not set MR__miner's rank for player MRWl
-[20:39:28] [Craft Scheduler Thread - 53 - PowerBoard/WARN]: [PowerBoard] Did not set Ali3339's rank for player MRWl
-[20:39:28] [Craft Scheduler Thread - 53 - PowerBoard/WARN]: [PowerBoard] Did not set MRWl's rank for the already online players
-[20:39:31] [Craft Scheduler Thread - 53 - PlaceholderAPI/INFO]: [LocalTime] Couldn't get MRWl's timezone. Will use default timezone.
-[20:39:48] [Server thread/WARN]: FameAx moved wrongly!
-[20:40:46] [Server thread/INFO]: amirabbas8585 issued server command: /tnttag start 2
+[20:50:36] [ServerMain/INFO]: Building unoptimized datafixer
+[20:50:37] [ServerMain/INFO]: Environment: authHost='https://authserver.mojang.com', accountsHost='https://api.mojang.com', sessionHost='https://sessionserver.mojang.com', servicesHost='https://api.minecraftservices.com', name='PROD'
+[20:50:38] [ServerMain/INFO]: Loaded 7 recipes
+[20:50:40] [Server thread/INFO]: Starting minecraft server version 1.19
+[20:50:40] [Server thread/INFO]: Loading properties
+[20:50:40] [Server thread/INFO]: This server is running Paper version git-Paper-81 (MC: 1.19) (Implementing API version 1.19-R0.1-SNAPSHOT) (Git: 86f87ba)
+[20:50:40] [Server thread/INFO]: Server Ping Player Sample Count: 12
+[20:50:40] [Server thread/INFO]: Using 4 threads for Netty based IO
+[20:50:40] [Server thread/INFO]: Default game type: SURVIVAL
+[20:50:40] [Server thread/INFO]: Generating keypair
+[20:50:40] [Server thread/INFO]: Starting Minecraft server on *:25565
+[20:50:40] [Server thread/INFO]: Using epoll channel type
+[20:50:40] [Server thread/INFO]: Paper: Using libdeflate (Linux x86_64) compression from Velocity.
+[20:50:40] [Server thread/INFO]: Paper: Using OpenSSL 1.1.x (Linux x86_64) cipher from Velocity.
+[20:50:41] [Server thread/ERROR]: [STDERR] [org.bukkit.craftbukkit.v1_19_R1.legacy.CraftLegacy] Initializing Legacy Material Support. Unless you have legacy plugins and/or data this is a bug!
+[20:50:44] [Server thread/WARN]: Legacy plugin KnockbackFFA v2.9.9 does not specify an api-version.
+[20:50:46] [Server thread/INFO]: [STDOUT] [9CZxV0oGSTD1X4cwbOdOxmt] [35;1m Downloaded from https://directleaks.net [0m
+[20:50:46] [Server thread/INFO]: [WorldEdit] Loading WorldEdit v7.2.12+6240-87f4ae1
+[20:50:46] [Server thread/INFO]: Got request to register class com.sk89q.worldedit.bukkit.BukkitServerInterface with WorldEdit [com.sk89q.worldedit.extension.platform.PlatformManager@a7db26e]
+[20:50:46] [Server thread/INFO]: [KnockbackFFA] Loading KnockbackFFA v2.9.9
+[20:50:46] [Server thread/INFO]: [JumpPads] Loading JumpPads v1.25.13
+[20:50:46] [Server thread/INFO]: [PlaceholderAPI] Loading PlaceholderAPI v2.11.6
+[20:50:46] [Server thread/INFO]: [ViaVersion] Loading ViaVersion v4.10.2
+[20:50:46] [Server thread/INFO]: [ViaVersion] ViaVersion 4.10.2 is now loaded. Registering protocol transformers and injecting...
+[20:50:47] [Via-Mappingloader-0/INFO]: [ViaVersion] Loading block connection mappings ...
+[20:50:47] [Via-Mappingloader-0/INFO]: [ViaVersion] Using FastUtil Long2ObjectOpenHashMap for block connections
+[20:50:47] [Server thread/INFO]: [ViaBackwards] Loading translations...
+[20:50:47] [Server thread/INFO]: [ViaBackwards] Registering protocols...
+[20:50:47] [Server thread/INFO]: [ViaRewind] Registering protocols...
+[20:50:47] [Server thread/INFO]: [HolographicDisplays] Loading HolographicDisplays v3.0.4
+[20:50:47] [Server thread/INFO]: [UltraCustomizer] Loading UltraCustomizer v2.4.2
+[20:50:47] [Server thread/INFO]: [PlayerPoints] Loading PlayerPoints v3.0.1
+[20:50:47] [Server thread/INFO]: [ViaBackwards] Loading ViaBackwards v4.10.2
+[20:50:47] [Server thread/INFO]: [MyCommand] Loading MyCommand v5.7.4
+[20:50:47] [Server thread/INFO]: [Multiverse-Core] Loading Multiverse-Core v4.3.1-b861
+[20:50:47] [Server thread/INFO]: [ViaRewind] Loading ViaRewind v3.1.2
+[20:50:47] [Server thread/INFO]: [LuckPerms] Loading LuckPerms v5.4.40
+[20:50:48] [Server thread/INFO]: [HolographicExtension] Loading HolographicExtension v1.10.9
+[20:50:48] [Server thread/INFO]: [DeluxeHub] Loading DeluxeHub v3.5.5
+[20:50:48] [Server thread/INFO]: [ajLeaderboards] Loading ajLeaderboards v2.8.0
+[20:50:48] [Server thread/INFO]: [ajLeaderboards] Verifying checksum for gson
+[20:50:48] [Server thread/INFO]: [ajLeaderboards] Checksum matched for gson
+[20:50:48] [Server thread/INFO]: [ajLeaderboards] Verifying checksum for jar-relocator
+[20:50:48] [Server thread/INFO]: [ajLeaderboards] Checksum matched for jar-relocator
+[20:50:48] [Server thread/INFO]: [ajLeaderboards] Verifying checksum for asm
+[20:50:48] [Server thread/INFO]: [ajLeaderboards] Checksum matched for asm
+[20:50:48] [Server thread/INFO]: [ajLeaderboards] Verifying checksum for asm-commons
+[20:50:48] [Server thread/INFO]: [ajLeaderboards] Checksum matched for asm-commons
+[20:50:48] [Server thread/INFO]: [ajLeaderboards] Verifying checksum for gson
+[20:50:48] [Server thread/INFO]: [ajLeaderboards] Checksum matched for gson
+[20:50:48] [Server thread/INFO]: [ajLeaderboards] Verifying checksum for HikariCP
+[20:50:48] [Server thread/INFO]: [ajLeaderboards] Checksum matched for HikariCP
+[20:50:48] [Server thread/INFO]: [ajLeaderboards] Verifying checksum for slf4j-api
+[20:50:48] [Server thread/INFO]: [ajLeaderboards] Checksum matched for slf4j-api
+[20:50:48] [Server thread/INFO]: [ajLeaderboards] Verifying checksum for h2
+[20:50:48] [Server thread/INFO]: [ajLeaderboards] Checksum matched for h2
+[20:50:48] [Server thread/INFO]: [Arcade] Loading Arcade v1.53
+[20:50:48] [Server thread/INFO]: [GadgetsMenu] Loading GadgetsMenu v4.7.3
+[20:50:48] [Server thread/INFO]: [PowerBoard] Loading PowerBoard v3.6.2
+[20:50:48] [Server thread/INFO]: Server permissions file permissions.yml is empty, ignoring it
+[20:50:48] [Server thread/INFO]: [WorldEdit] Enabling WorldEdit v7.2.12+6240-87f4ae1
+[20:50:48] [Server thread/INFO]: Registering commands with com.sk89q.worldedit.bukkit.BukkitServerInterface
+[20:50:48] [Server thread/INFO]: WEPIF: Using the Bukkit Permissions API.
+[20:50:48] [Server thread/INFO]: Using com.sk89q.worldedit.bukkit.adapter.impl.v1_19_R1.PaperweightAdapter as the Bukkit adapter
+[20:50:49] [Server thread/INFO]: [UltraCustomizer] Enabling UltraCustomizer v2.4.2
+[20:50:49] [Server thread/INFO]: [UltraCustomizer] Loading Plugin...
+[20:50:49] [Server thread/INFO]: [UltraCustomizer] Hooked into PlaceholderAPI version: 2.11.6
+[20:50:49] [Server thread/INFO]: [UltraCustomizer] Registered 76 Elements
+[20:50:49] [Server thread/INFO]: [UltraCustomizer] No ProtocolLib found, the ChatEditor feature is not enabled!
+[20:50:49] [Server thread/INFO]: [UltraCustomizer] Registered 0 Crafting Recipes of folder: Local
+[20:50:49] [Server thread/INFO]: [UltraCustomizer] Registered 0 Furnace Recipes of folder: Local
+[20:50:49] [Server thread/INFO]: [UltraCustomizer] Successfully loaded in 778 ms
+[20:50:50] [Server thread/INFO]: [ViaRewind] Enabling ViaRewind v3.1.2
+[20:50:50] [Server thread/INFO]: [LuckPerms] Enabling LuckPerms v5.4.40
+[20:50:50] [Server thread/INFO]:         __    
+[20:50:50] [Server thread/INFO]:   |    |__)   LuckPerms v5.4.40
+[20:50:50] [Server thread/INFO]:   |___ |      Running on Bukkit - Paper
+[20:50:50] [Server thread/INFO]: 
+[20:50:50] [Server thread/INFO]: [LuckPerms] Loading configuration...
+[20:50:50] [Server thread/INFO]: [LuckPerms] Loading storage provider... [H2]
+[20:50:51] [Server thread/INFO]: [LuckPerms] Loading internal permission managers...
+[20:50:51] [Server thread/INFO]: [LuckPerms] Performing initial data load...
+[20:50:51] [Server thread/INFO]: [LuckPerms] Successfully enabled. (took 1487ms)
+[20:50:51] [Server thread/WARN]: **** SERVER IS RUNNING IN OFFLINE/INSECURE MODE!
+[20:50:51] [Server thread/WARN]: The server will make no attempt to authenticate usernames. Beware.
+[20:50:51] [Server thread/WARN]: While this makes the game possible to play without internet access, it also opens up the ability for hackers to connect with any username they choose.
+[20:50:51] [Server thread/WARN]: To change this, set "online-mode" to "true" in the server.properties file.
+[20:50:51] [Server thread/INFO]: Preparing level "world"
+[20:50:52] [Server thread/INFO]: Preparing start region for dimension minecraft:overworld
+[20:50:53] [Server thread/INFO]: Time elapsed: 343 ms
+[20:50:53] [Server thread/INFO]: [KnockbackFFA] Enabling KnockbackFFA v2.9.9*
+[20:50:53] [Server thread/INFO]: [KnockbackFFA] Loading Commands
+[20:50:53] [Server thread/INFO]: [KnockbackFFA] Loading Configuration Files
+[20:50:53] [Server thread/INFO]: [KnockbackFFA] Loading Java Classes
+[20:50:53] [Server thread/INFO]: [KnockbackFFA] Loading example cosmetics if not exists
+[20:50:53] [Server thread/INFO]: [KnockbackFFA] Loading Tasks
+[20:50:53] [Server thread/INFO]: [KnockbackFFA] Enjoy using plugin :)
+[20:50:53] [Server thread/WARN]: [KnockbackFFA] Loaded class me.clip.placeholderapi.expansion.PlaceholderExpansion from PlaceholderAPI v2.11.6 which is not a depend or softdepend of this plugin.
+[20:50:53] [Server thread/INFO]: [PlaceholderAPI] Successfully registered internal expansion: advancedknockbackffa [2.9]
+[20:50:53] [Server thread/INFO]: [JumpPads] Enabling JumpPads v1.25.13
+[20:50:53] [Server thread/INFO]: [PlaceholderAPI] Enabling PlaceholderAPI v2.11.6
+[20:50:53] [Server thread/INFO]: [PlaceholderAPI] Fetching available expansion information...
+[20:50:53] [Server thread/INFO]: [ViaVersion] Enabling ViaVersion v4.10.2
+[20:50:53] [Server thread/INFO]: [ViaVersion] ViaVersion detected server version: 1.19 (759)
+[20:50:53] [Server thread/INFO]: [HolographicDisplays] Enabling HolographicDisplays v3.0.4
+[20:50:53] [Server thread/INFO]: [PlayerPoints] Enabling PlayerPoints v3.0.1
+[20:50:53] [Server thread/INFO]: [PlayerPoints] Initializing using RoseGarden v1.0.5-SNAPSHOT
+[20:50:53] [Server thread/INFO]: [PlayerPoints] Data handler connected using SQLite.
+[20:50:53] [Server thread/INFO]: [PlaceholderAPI] Successfully registered internal expansion: playerpoints [3.0.1]
+[20:50:53] [Server thread/INFO]: [ViaBackwards] Enabling ViaBackwards v4.10.2
+[20:50:53] [Server thread/INFO]: [MyCommand] Enabling MyCommand v5.7.4
+[20:50:53] [Server thread/INFO]: *-=-=-=-=-=-=-=-=-* MyCommand v.5.7.4*-=-=-=-=-=-=-=-=-=-*
+[20:50:53] [Server thread/INFO]: | Vault plugin not found. Using BukkitPermissions
+[20:50:53] [Server thread/INFO]: | No Economy support without Vault!
+[20:50:53] [Server thread/INFO]: | Logs Directory Created /MyCommand/logs/
+[20:50:53] [Server thread/INFO]: | PlayerData Directory Created /MyCommand/playerdata/
+[20:50:53] [Server thread/INFO]: | Command file(s) found : 1
+[20:50:54] [Server thread/INFO]: | Config : Ready.
+[20:50:54] [Server thread/INFO]: | ProtocolLib not found.
+[20:50:54] [Server thread/INFO]: [PlaceholderAPI] Successfully registered internal expansion: mycommand [1.0.0]
+[20:50:54] [Server thread/INFO]: | Placeholder_API : Hooked, Ok.
+[20:50:54] [Server thread/INFO]: | Custom commands loaded : 44
+[20:50:54] [Server thread/INFO]: | You're running the latest version of MyCommand.
+[20:50:54] [Server thread/INFO]: |          by emmerrei a.k.a. ivanfromitaly.           
+[20:50:54] [Server thread/INFO]: *-=-=-=-=-=-=-=-=-=-*   Done!   *-=-=-=-=-=-=-=-=-=-=-*
+[20:50:54] [Server thread/INFO]: [Multiverse-Core] Enabling Multiverse-Core v4.3.1-b861
+[20:50:54] [Server thread/WARN]: [Multiverse-Core] "Multiverse-Core v4.3.1-b861" has registered a listener for org.bukkit.event.entity.EntityCreatePortalEvent on method "public void com.onarandombox.MultiverseCore.listeners.MVPortalListener.entityPortalCreate(org.bukkit.event.entity.EntityCreatePortalEvent)", but the event is Deprecated. "Server performance will be affected"; please notify the authors [dumptruckman, Rigby, fernferret, lithium3141, main--].
+[20:50:54] [Server thread/INFO]: [Multiverse-Core] §aWe are aware of the warning about the deprecated event. There is no alternative that allows us to do what we need to do and performance impact is negligible. It is safe to ignore.
+[20:51:03] [Server thread/INFO]: Preparing start region for dimension minecraft:bb
+[20:51:03] [Server thread/INFO]: Preparing spawn area: 0%
+[20:51:03] [Server thread/INFO]: Time elapsed: 321 ms
+[20:51:03] [Server thread/INFO]: Preparing start region for dimension minecraft:t4
+[20:51:03] [Server thread/INFO]: Time elapsed: 166 ms
+[20:51:04] [Server thread/INFO]: Preparing start region for dimension minecraft:q1
+[20:51:04] [Server thread/INFO]: Time elapsed: 238 ms
+[20:51:04] [Server thread/INFO]: Preparing start region for dimension minecraft:q2
+[20:51:04] [Server thread/INFO]: Time elapsed: 208 ms
+[20:51:05] [Server thread/INFO]: Preparing start region for dimension minecraft:tv
+[20:51:05] [Server thread/INFO]: Time elapsed: 777 ms
+[20:51:06] [Server thread/INFO]: Preparing start region for dimension minecraft:bil2
+[20:51:06] [Server thread/INFO]: Time elapsed: 171 ms
+[20:51:06] [Server thread/INFO]: Preparing start region for dimension minecraft:bil
+[20:51:06] [Server thread/INFO]: Time elapsed: 167 ms
+[20:51:06] [Server thread/INFO]: Preparing start region for dimension minecraft:crmapin
+[20:51:06] [Server thread/INFO]: Time elapsed: 135 ms
+[20:51:06] [Server thread/INFO]: Preparing start region for dimension minecraft:arcade
+[20:51:06] [Server thread/INFO]: Time elapsed: 108 ms
+[20:51:16] [Server thread/INFO]: Preparing start region for dimension minecraft:tt2
+[20:51:16] [Server thread/INFO]: Preparing spawn area: 0%
+[20:51:16] [Server thread/INFO]: Time elapsed: 276 ms
+[20:51:16] [Server thread/INFO]: Preparing start region for dimension minecraft:sp2
+[20:51:16] [Server thread/INFO]: Time elapsed: 138 ms
+[20:51:17] [Server thread/INFO]: Preparing start region for dimension minecraft:tt4
+[20:51:17] [Server thread/INFO]: Preparing spawn area: 0%
+[20:51:17] [Server thread/INFO]: Preparing spawn area: 10%
+[20:51:18] [Server thread/INFO]: Time elapsed: 547 ms
+[20:51:18] [Server thread/INFO]: Preparing start region for dimension minecraft:sp1
+[20:51:18] [Server thread/INFO]: Time elapsed: 184 ms
+[20:51:18] [Server thread/INFO]: Preparing start region for dimension minecraft:block
+[20:51:18] [Server thread/INFO]: Time elapsed: 299 ms
+[20:51:18] [Server thread/INFO]: Preparing start region for dimension minecraft:t1
+[20:51:18] [Server thread/INFO]: Time elapsed: 106 ms
+[20:51:19] [Server thread/INFO]: Preparing start region for dimension minecraft:t2
+[20:51:19] [Server thread/INFO]: Time elapsed: 164 ms
+[20:51:19] [Server thread/INFO]: Preparing start region for dimension minecraft:t3
+[20:51:19] [Server thread/INFO]: Time elapsed: 131 ms
+[20:51:19] [Server thread/INFO]: [Multiverse-Core] 18 - World(s) loaded.
+[20:51:19] [Server thread/WARN]: [Multiverse-Core] Buscript failed to load! The script command will be disabled! If you would like not to see this message, use `/mv conf enablebuscript false` to disable Buscript from loading.
+[20:51:20] [Server thread/INFO]: [Multiverse-Core] Version 4.3.1-b861 (API v24) Enabled - By dumptruckman, Rigby, fernferret, lithium3141 and main--
+[20:51:20] [Server thread/INFO]: [HolographicExtension] Enabling HolographicExtension v1.10.9
+[20:51:20] [Server thread/INFO]: [HolographicExtension] Starting HolographicExtension v1.10.9
+[20:51:20] [Server thread/INFO]: [HolographicExtension] Registering placeholder 'example' from config.
+[20:51:20] [Server thread/INFO]: [HolographicExtension] Registering placeholder 'scroller' from config.
+[20:51:20] [Server thread/INFO]: [HolographicExtension] Registering placeholder 'typing' from config.
+[20:51:20] [Server thread/INFO]: [HolographicExtension] Registering placeholder 'rainbow' from config.
+[20:51:20] [Server thread/INFO]: [HolographicExtension] If you want to use the placeholder extension, please install ProtocolLib and PlaceholderAPI
+[20:51:20] [Server thread/INFO]: [DeluxeHub] Enabling DeluxeHub v3.5.5
+[20:51:20] [Server thread/INFO]: [DeluxeHub]  _   _            _          _    _ 
+[20:51:20] [Server thread/INFO]: [DeluxeHub] | \ |_ |  | | \/ |_ |_| | | |_)   _)
+[20:51:20] [Server thread/INFO]: [DeluxeHub] |_/ |_ |_ |_| /\ |_ | | |_| |_)   _)
+[20:51:20] [Server thread/INFO]: [DeluxeHub] 
+[20:51:20] [Server thread/INFO]: [DeluxeHub] Version: 3.5.5
+[20:51:20] [Server thread/INFO]: [DeluxeHub] Author: ItsLewizzz
+[20:51:20] [Server thread/INFO]: [DeluxeHub] 
+[20:51:20] [Server thread/INFO]: [DeluxeHub]  Hooked into PlaceholderAPI
+[20:51:20] [Server thread/INFO]: [DeluxeHub] Loaded custom menu 'serverselector'.
+[20:51:20] [Server thread/INFO]: [DeluxeHub] Loaded 13 plugin modules.
+[20:51:20] [Server thread/INFO]: [DeluxeHub] 
+[20:51:20] [Server thread/INFO]: [DeluxeHub] Successfully loaded in 168ms
+[20:51:20] [Server thread/INFO]: [ajLeaderboards] Enabling ajLeaderboards v2.8.0
+[20:51:20] [Server thread/INFO]: [ajLeaderboards] Using H2 flatfile for board cache. (h2)
+[20:51:20] [Server thread/INFO]: [ajLeaderboards] Loaded 0 boards
+[20:51:20] [Server thread/INFO]: [PlaceholderAPI] Successfully registered internal expansion: ajlb [2.8.0]
+[20:51:20] [Server thread/INFO]: [ajLeaderboards] PAPI placeholders successfully registered!
+[20:51:20] [Server thread/INFO]: [ajLeaderboards] ajLeaderboards v2.8.0 by ajgeiss0702 enabled!
+[20:51:20] [Server thread/INFO]: [Arcade] Enabling Arcade v1.53
+[20:51:20] [Server thread/INFO]: [Arcade] [STDOUT] [36m[Spigotunlocked.net] - -Michy-
+[20:51:20] [Server thread/WARN]: Nag author(s): '[Fr33styler]' of 'Arcade' about their usage of System.out/err.print. Please use your plugin's logger instead (JavaPlugin#getLogger).
+[20:51:21] [Server thread/INFO]: =-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=
+[20:51:21] [Server thread/INFO]: Arcade plugin is loading... 
+[20:51:21] [Server thread/INFO]:  Author: Fr33styler
+[20:51:21] [Server thread/INFO]:  Version: 1.53
+[20:51:21] [Server thread/INFO]:  - Loading engine...
+[20:51:21] [Server thread/INFO]:  - Loading database...
+[20:51:21] [Server thread/INFO]:  - Loading Party Games...
+[20:51:21] [Server thread/INFO]:  - Loading Mini Walls...
+[20:51:21] [Server thread/INFO]:  - Loading Splegg...
+[20:51:21] [Server thread/INFO]:  - Loading Temple Run...
+[20:51:21] [Server thread/INFO]:  - Loading Bomb Lobbers...
+[20:51:21] [Server thread/INFO]:  - Loading TNT Run...
+[20:51:21] [Server thread/INFO]:  - Loading Prop Hunt...
+[20:51:21] [Server thread/INFO]:  - Loading Quake...
+[20:51:21] [Server thread/INFO]:  - Loading Block Party...
+[20:51:22] [Server thread/INFO]:  - Loading TNT Tag...
+[20:51:22] [Server thread/INFO]: [PlaceholderAPI] Successfully registered internal expansion: arcade [null]
+[20:51:22] [Server thread/INFO]: Arcade has been loaded!
+[20:51:22] [Server thread/INFO]: =-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=
+[20:51:22] [Server thread/INFO]: [GadgetsMenu] Enabling GadgetsMenu v4.7.3
+[20:51:22] [Server thread/INFO]: [GadgetsMenu] ------------------------------------------------------
+[20:51:22] [Server thread/INFO]: [GadgetsMenu]         GadgetsMenu [Free] 4.7.3 is loading...
+[20:51:22] [Server thread/INFO]: [GadgetsMenu]           [server: git-Paper-81 (MC: 1.19)]
+[20:51:22] [Server thread/INFO]: [GadgetsMenu]                  Running Java 17.0.11
+[20:51:22] [Server thread/INFO]: [GadgetsMenu]                Plugin by Yap Zhen Yie.
+[20:51:22] [Server thread/INFO]: [GadgetsMenu]             Date Modified: 30 August 2022
+[20:51:22] [Server thread/INFO]: [GadgetsMenu]                            
+[20:51:22] [Server thread/INFO]: [GadgetsMenu]              Initializing module v1_19_R1
+[20:51:22] [Server thread/INFO]: [GadgetsMenu] ------------------------------------------------------
+[20:51:23] [Server thread/INFO]: [GadgetsMenu] Connecting to SQLite database...
+[20:51:23] [Server thread/INFO]: [GadgetsMenu] Successfully connected to SQLite database!
+[20:51:23] [Server thread/INFO]: [PlaceholderAPI] Successfully registered internal expansion: gadgetsmenu [1.0.2]
+[20:51:23] [Server thread/INFO]: [GadgetsMenu] [Placeholder] PlaceholderAPI hooked.
+[20:51:23] [Server thread/INFO]: [PowerBoard] Enabling PowerBoard v3.6.2
+[20:51:23] [Server thread/INFO]: [PowerBoard] --------------------------------------------------
+[20:51:23] [Server thread/INFO]: [PowerBoard] --------------- Loading PowerBoard ---------------
+[20:51:23] [Server thread/INFO]: [PowerBoard]  
+[20:51:23] [Server thread/INFO]: [PowerBoard] Loading configs..
+[20:51:23] [Server thread/INFO]: [PowerBoard]  
+[20:51:23] [Server thread/INFO]: [PowerBoard] (SelfCheck) config.yml -> Loading...
+[20:51:23] [Server thread/INFO]: [PowerBoard] (SelfCheck) config.yml -> Finished!
+[20:51:23] [Server thread/INFO]: [PowerBoard]  
+[20:51:23] [Server thread/INFO]: [PowerBoard] Configs loaded!
+[20:51:23] [Server thread/INFO]: [PowerBoard]  
+[20:51:23] [Server thread/INFO]: [PowerBoard] Registered tablist.
+[20:51:23] [Server thread/INFO]: [PowerBoard]  
+[20:51:23] [Server thread/INFO]: [PowerBoard] --------------- PowerBoard  loaded ---------------
+[20:51:23] [Server thread/INFO]: [PowerBoard] --------------------------------------------------
+[20:51:23] [Server thread/INFO]: [PlaceholderAPI] Placeholder expansion registration initializing...
+[20:51:23] [Server thread/INFO]: Running delayed init tasks
+[20:51:23] [Server thread/INFO]: [JumpPads] CleanUp found no JumpPads to delete!
+[20:51:23] [Server thread/INFO]: [PlaceholderAPI] Successfully registered internal expansion: PowerBoard [3.6.2]
+[20:51:23] [Server thread/INFO]: Done (43.082s)! For help, type "help"
+[20:51:23] [Server thread/INFO]: Timings Reset
+[20:51:23] [Craft Scheduler Thread - 7 - ViaVersion/INFO]: [ViaVersion] Finished mapping loading, shutting down loader executor!
+[20:51:23] [Craft Scheduler Thread - 8 - PlayerPoints/INFO]: [RoseGarden] [RoseGarden] An update for PlayerPoints (v3.2.7) is available! You are running v3.0.1.
+[20:51:23] [Craft Scheduler Thread - 10 - GadgetsMenu/INFO]: [GadgetsMenu] Checking for updates...
+[20:51:23] [Craft Scheduler Thread - 11 - PowerBoard/INFO]: [PowerBoard] -> You are running the latest version! :)
+[20:51:23] [Craft Scheduler Thread - 10 - GadgetsMenu/INFO]: [GadgetsMenu] You have an old version of the plugin. You are using 4.7.3, available version 4.13.1.
+[20:51:23] [Server thread/WARN]: [ViaVersion] There is a newer plugin version available: 5.0.0, you're on: 4.10.2
+[20:51:23] [Server thread/INFO]: [PlaceholderAPI] Successfully registered external expansion: math [2.0.2]
+[20:51:23] [Server thread/WARN]: [PlaceholderAPI] Cannot load expansion playertime due to a missing plugin: PlayerTime
+[20:51:23] [Server thread/WARN]: [PlaceholderAPI] Loaded class com.onarandombox.MultiverseCore.MultiverseCore from Multiverse-Core v4.3.1-b861 which is not a depend or softdepend of this plugin.
+[20:51:23] [Server thread/INFO]: [PlaceholderAPI] Successfully registered external expansion: multiverse [1.0.1]
+[20:51:23] [Server thread/INFO]: [PlaceholderAPI] Successfully registered external expansion: otherplayer [2.1.0]
+[20:51:23] [Server thread/INFO]: [PlaceholderAPI] Successfully registered external expansion: gg [1.0.0]
+[20:51:23] [Server thread/INFO]: [PlaceholderAPI] Successfully registered external expansion: server [2.7.2]
+[20:51:23] [Server thread/INFO]: [PlaceholderAPI] Successfully registered external expansion: pinger [1.0.1]
+[20:51:23] [Server thread/INFO]: [PlaceholderAPI] Successfully registered external expansion: gradient [1.0]
+[20:51:23] [Server thread/WARN]: [PlaceholderAPI] Cannot load expansion thirst due to a missing plugin: Thirst
+[20:51:23] [Server thread/INFO]: [PlaceholderAPI] Successfully registered external expansion: player [2.0.8]
+[20:51:23] [Server thread/WARN]: [PlaceholderAPI] Cannot load expansion tp due to a missing plugin: ThemePark
+[20:51:23] [Server thread/INFO]: [PlaceholderAPI] Successfully registered external expansion: localtime [1.2]
+[20:51:23] [Server thread/WARN]: [PlaceholderAPI] Loaded class net.luckperms.api.LuckPerms from LuckPerms v5.4.40 which is not a depend or softdepend of this plugin.
+[20:51:23] [Server thread/INFO]: [PlaceholderAPI] Successfully registered external expansion: luckperms [5.4-R2]
+[20:51:23] [Server thread/INFO]: [PlaceholderAPI] Successfully registered external expansion: playerlist [3.0.7]
+[20:51:23] [Server thread/INFO]: [PlaceholderAPI] Successfully registered external expansion: tempdata [0.1-BETA]
+[20:51:23] [Server thread/WARN]: [PlaceholderAPI] Cannot load expansion playerstats due to a missing plugin: PlayerStats
+[20:51:23] [Server thread/INFO]: 12 placeholder hook(s) registered! 1 placeholder hook(s) have an update available.
+[20:51:24] [Server thread/INFO]: [PowerBoard] Registering players...
+[20:51:24] [Server thread/INFO]: [PowerBoard] All players have been registered.
+[20:51:25] [Craft Scheduler Thread - 4 - UltraCustomizer/INFO]: [UltraCustomizer] Translations successfully loaded & applied (34 UltraCustomizer and Base Translation files found)
+[20:51:52] [User Authenticator #1/INFO]: UUID of player amirabbas8585 is 20cf1db0-e54b-388d-8edc-76880a8b4ffa
+[20:51:53] [Server thread/INFO]: + amirabbas8585 Connected
+[20:51:53] [Server thread/INFO]: amirabbas8585[/[0:0:0:0:0:0:0:1%0]:54144] logged in with entity id 52 at ([crmapin]-110.52753103846055, 158.0, -9.65908477089641)
+[20:51:53] [Server thread/INFO]: [amirabbas8585: Applied effect Night Vision to amirabbas8585]
+[20:51:53] [Craft Scheduler Thread - 5 - PowerBoard/ERROR]: [PowerBoard] ---------------------------------------------------------------------------------------------------------------------------
+[20:51:53] [Craft Scheduler Thread - 5 - PowerBoard/ERROR]: [PowerBoard] The group "default" has no weight! Please set the weight with /lp group <group> setweight <weight>
+[20:51:53] [Craft Scheduler Thread - 5 - PowerBoard/ERROR]: [PowerBoard] Read the wiki to see which weights you have to set: https://github.com/Xitee1/PowerBoard/wiki#configure-the-ranks-optional
+[20:51:53] [Craft Scheduler Thread - 5 - PowerBoard/ERROR]: [PowerBoard] ---------------------------------------------------------------------------------------------------------------------------
+[20:51:53] [Craft Scheduler Thread - 5 - PowerBoard/WARN]: [PowerBoard] Did not set amirabbas8585's rank for the already online players
+[20:51:55] [Craft Scheduler Thread - 4 - PlaceholderAPI/INFO]: [LocalTime] Couldn't get amirabbas8585's timezone. Will use default timezone.
+[20:52:07] [User Authenticator #1/INFO]: UUID of player MRWl is 26381368-5a32-305a-9cdd-e02b8c49071f
+[20:52:07] [Server thread/INFO]: + MRWl Connected
+[20:52:07] [Server thread/INFO]: MRWl[/[0:0:0:0:0:0:0:1%0]:43366] logged in with entity id 239 at ([crmapin]-110.52753103846055, 158.0, -9.65908477089641)
+[20:52:07] [Craft Scheduler Thread - 4 - PowerBoard/ERROR]: [PowerBoard] ---------------------------------------------------------------------------------------------------------------------------
+[20:52:07] [Craft Scheduler Thread - 4 - PowerBoard/ERROR]: [PowerBoard] The group "default" has no weight! Please set the weight with /lp group <group> setweight <weight>
+[20:52:07] [Craft Scheduler Thread - 4 - PowerBoard/ERROR]: [PowerBoard] Read the wiki to see which weights you have to set: https://github.com/Xitee1/PowerBoard/wiki#configure-the-ranks-optional
+[20:52:07] [Craft Scheduler Thread - 4 - PowerBoard/ERROR]: [PowerBoard] ---------------------------------------------------------------------------------------------------------------------------
+[20:52:07] [Craft Scheduler Thread - 4 - PowerBoard/WARN]: [PowerBoard] Did not set amirabbas8585's rank for player MRWl
+[20:52:07] [Craft Scheduler Thread - 4 - PowerBoard/WARN]: [PowerBoard] Did not set MRWl's rank for the already online players
+[20:52:10] [Craft Scheduler Thread - 4 - PlaceholderAPI/INFO]: [LocalTime] Couldn't get MRWl's timezone. Will use default timezone.
+[20:52:15] [User Authenticator #1/INFO]: UUID of player Ali3339 is 6cc94cba-ac5b-3601-bcad-96ef2da1cff8
+[20:52:15] [Server thread/INFO]: + Ali3339 Connected
+[20:52:15] [Server thread/INFO]: Ali3339[/[0:0:0:0:0:0:0:1%0]:36228] logged in with entity id 392 at ([crmapin]-110.52753103846055, 158.0, -9.65908477089641)
+[20:52:15] [Craft Scheduler Thread - 6 - PowerBoard/ERROR]: [PowerBoard] ---------------------------------------------------------------------------------------------------------------------------
+[20:52:15] [Craft Scheduler Thread - 6 - PowerBoard/ERROR]: [PowerBoard] The group "default" has no weight! Please set the weight with /lp group <group> setweight <weight>
+[20:52:15] [Craft Scheduler Thread - 6 - PowerBoard/ERROR]: [PowerBoard] Read the wiki to see which weights you have to set: https://github.com/Xitee1/PowerBoard/wiki#configure-the-ranks-optional
+[20:52:15] [Craft Scheduler Thread - 6 - PowerBoard/ERROR]: [PowerBoard] ---------------------------------------------------------------------------------------------------------------------------
+[20:52:15] [Craft Scheduler Thread - 6 - PowerBoard/WARN]: [PowerBoard] Did not set amirabbas8585's rank for player Ali3339
+[20:52:15] [Craft Scheduler Thread - 6 - PowerBoard/WARN]: [PowerBoard] Did not set MRWl's rank for player Ali3339
+[20:52:15] [Craft Scheduler Thread - 6 - PowerBoard/WARN]: [PowerBoard] Did not set Ali3339's rank for the already online players
+[20:52:17] [Craft Scheduler Thread - 4 - PlaceholderAPI/INFO]: [LocalTime] Couldn't get Ali3339's timezone. Will use default timezone.
+[20:52:25] [User Authenticator #1/INFO]: UUID of player mohamadjavad12 is 87a5adf1-b388-3e2a-a9ab-43e40a3cb56c
+[20:52:25] [Server thread/INFO]:  -=[+]=- hey mohamadjavad12 welcome to knockbackFFA
+[20:52:25] [Server thread/INFO]: mohamadjavad12[/[0:0:0:0:0:0:0:1%0]:34676] logged in with entity id 552 at ([crmapin]-110.52753103846055, 158.0, -9.65908477089641)
+[20:52:25] [Craft Scheduler Thread - 15 - PowerBoard/ERROR]: [PowerBoard] ---------------------------------------------------------------------------------------------------------------------------
+[20:52:25] [Craft Scheduler Thread - 15 - PowerBoard/ERROR]: [PowerBoard] The group "default" has no weight! Please set the weight with /lp group <group> setweight <weight>
+[20:52:25] [Craft Scheduler Thread - 15 - PowerBoard/ERROR]: [PowerBoard] Read the wiki to see which weights you have to set: https://github.com/Xitee1/PowerBoard/wiki#configure-the-ranks-optional
+[20:52:25] [Craft Scheduler Thread - 15 - PowerBoard/ERROR]: [PowerBoard] ---------------------------------------------------------------------------------------------------------------------------
+[20:52:25] [Craft Scheduler Thread - 15 - PowerBoard/WARN]: [PowerBoard] Did not set amirabbas8585's rank for player mohamadjavad12
+[20:52:25] [Craft Scheduler Thread - 15 - PowerBoard/WARN]: [PowerBoard] Did not set MRWl's rank for player mohamadjavad12
+[20:52:25] [Craft Scheduler Thread - 15 - PowerBoard/WARN]: [PowerBoard] Did not set Ali3339's rank for player mohamadjavad12
+[20:52:25] [Craft Scheduler Thread - 15 - PowerBoard/WARN]: [PowerBoard] Did not set mohamadjavad12's rank for the already online players
+[20:52:27] [Craft Scheduler Thread - 4 - PlaceholderAPI/INFO]: [LocalTime] Couldn't get mohamadjavad12's timezone. Will use default timezone.
+[20:52:45] [User Authenticator #1/INFO]: UUID of player MR__miner is 9ef28c61-29cb-3685-991a-9417c1c53412
+[20:52:46] [Server thread/INFO]: + MR__miner Connected
+[20:52:46] [Server thread/INFO]: MR__miner[/[0:0:0:0:0:0:0:1%0]:36734] logged in with entity id 834 at ([crmapin]-110.52753103846055, 158.0, -9.65908477089641)
+[20:52:46] [Craft Scheduler Thread - 15 - PowerBoard/ERROR]: [PowerBoard] ---------------------------------------------------------------------------------------------------------------------------
+[20:52:46] [Craft Scheduler Thread - 15 - PowerBoard/ERROR]: [PowerBoard] The group "default" has no weight! Please set the weight with /lp group <group> setweight <weight>
+[20:52:46] [Craft Scheduler Thread - 15 - PowerBoard/ERROR]: [PowerBoard] Read the wiki to see which weights you have to set: https://github.com/Xitee1/PowerBoard/wiki#configure-the-ranks-optional
+[20:52:46] [Craft Scheduler Thread - 15 - PowerBoard/ERROR]: [PowerBoard] ---------------------------------------------------------------------------------------------------------------------------
+[20:52:46] [Craft Scheduler Thread - 15 - PowerBoard/WARN]: [PowerBoard] Did not set amirabbas8585's rank for player MR__miner
+[20:52:46] [Craft Scheduler Thread - 15 - PowerBoard/WARN]: [PowerBoard] Did not set MRWl's rank for player MR__miner
+[20:52:46] [Craft Scheduler Thread - 15 - PowerBoard/WARN]: [PowerBoard] Did not set Ali3339's rank for player MR__miner
+[20:52:46] [Craft Scheduler Thread - 15 - PowerBoard/WARN]: [PowerBoard] Did not set mohamadjavad12's rank for player MR__miner
+[20:52:46] [Craft Scheduler Thread - 15 - PowerBoard/WARN]: [PowerBoard] Did not set MR__miner's rank for the already online players
+[20:52:48] [Craft Scheduler Thread - 16 - PlaceholderAPI/INFO]: [LocalTime] Couldn't get MR__miner's timezone. Will use default timezone.
+[20:53:16] [Server thread/INFO]: amirabbas8585 issued server command: /effect clear mohamadjavad12
+[20:53:16] [Server thread/INFO]: [amirabbas8585: Removed every effect from mohamadjavad12]
+[20:53:43] [Server thread/INFO]: amirabbas8585 issued server command: /blockparty start 1
