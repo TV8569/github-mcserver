@@ -29,9 +29,21 @@
     },
     "done": true
   },
+  "minecraft:recipes/building_blocks/snow_block": {
+    "criteria": {
+      "has_snowball": "2024-06-16 21:00:21 +0000"
+    },
+    "done": true
+  },
   "minecraft:recipes/decorations/red_glazed_terracotta": {
     "criteria": {
       "has_red_terracotta": "2024-06-16 20:54:02 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/decorations/snow": {
+    "criteria": {
+      "has_snowball": "2024-06-16 21:00:21 +0000"
     },
     "done": true
   },
@@ -74,6 +86,8 @@
   "minecraft:adventure/adventuring_time": {
     "criteria": {
       "minecraft:dark_forest": "2024-06-16 20:30:51 +0000",
+      "minecraft:snowy_taiga": "2024-06-16 20:57:55 +0000",
+      "minecraft:swamp": "2024-06-16 21:00:16 +0000",
       "minecraft:forest": "2024-06-16 20:30:57 +0000",
       "minecraft:plains": "2024-06-16 20:30:11 +0000"
     },

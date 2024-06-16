@@ -353,3 +353,36 @@
 [20:57:02] [Server thread/INFO]: amirabbas8585 issued server command: /gamemode creative
 [20:57:09] [Server thread/INFO]: amirabbas8585 issued server command: /clear MR__miner
 [20:57:09] [Server thread/INFO]: [amirabbas8585: Removed 2 items from player MR__miner]
+[20:57:17] [Server thread/INFO]: amirabbas8585 issued server command: /effect clear MR__miner
+[20:57:17] [Server thread/INFO]: [amirabbas8585: Removed every effect from MR__miner]
+[20:57:55] [Server thread/INFO]: amirabbas8585 issued server command: /partygames start PartyGame-1
+[20:59:50] [Server thread/INFO]: amirabbas8585 issued server command: /gamemode adventure
+[20:59:52] [Server thread/INFO]: amirabbas8585 issued server command: /gamemode creative
+[21:00:08] [Server thread/INFO]: amirabbas8585 issued server command: /gamemode creative
+[21:00:12] [Server thread/INFO]: amirabbas8585 issued server command: /gamemode spectator
+[21:00:24] [Server thread/WARN]: MR__miner moved too quickly! 0.7306792534915303,24.333247436431492,1.8640357211552327E-4
+[21:00:28] [Server thread/WARN]: MR__miner moved wrongly!
+[21:00:34] [Server thread/INFO]: MRWl lost connection: Disconnected
+[21:00:34] [Server thread/ERROR]: Could not pass event PlayerQuitEvent to KnockbackFFA v2.9.9
+java.lang.NullPointerException: Cannot invoke "me.gameisntover.knockbackffa.cosmetics.Cosmetic.getName()" because "cosmetic" is null
+	at me.gameisntover.knockbackffa.database.SQLite.updateData(SQLite.java:110) ~[KnockbackFFA-2.9.9.jar:?]
+	at me.gameisntover.knockbackffa.listener.JoinLeaveListeners.playerLeave(JoinLeaveListeners.java:51) ~[KnockbackFFA-2.9.9.jar:?]
+	at com.destroystokyo.paper.event.executor.asm.generated.GeneratedEventExecutor42.execute(Unknown Source) ~[?:?]
+	at org.bukkit.plugin.EventExecutor.lambda$create$1(EventExecutor.java:75) ~[paper-api-1.19-R0.1-SNAPSHOT.jar:?]
+	at co.aikar.timings.TimedEventExecutor.execute(TimedEventExecutor.java:80) ~[paper-api-1.19-R0.1-SNAPSHOT.jar:git-Paper-81]
+	at org.bukkit.plugin.RegisteredListener.callEvent(RegisteredListener.java:70) ~[paper-api-1.19-R0.1-SNAPSHOT.jar:?]
+	at org.bukkit.plugin.SimplePluginManager.callEvent(SimplePluginManager.java:670) ~[paper-api-1.19-R0.1-SNAPSHOT.jar:?]
+	at net.minecraft.server.players.PlayerList.remove(PlayerList.java:620) ~[paper-1.19.jar:git-Paper-81]
+	at net.minecraft.server.players.PlayerList.remove(PlayerList.java:605) ~[paper-1.19.jar:git-Paper-81]
+	at net.minecraft.server.network.ServerGamePacketListenerImpl.onDisconnect(ServerGamePacketListenerImpl.java:2035) ~[?:?]
+	at net.minecraft.server.network.ServerGamePacketListenerImpl.onDisconnect(ServerGamePacketListenerImpl.java:2015) ~[?:?]
+	at net.minecraft.network.Connection.handleDisconnection(Connection.java:758) ~[?:?]
+	at net.minecraft.server.network.ServerConnectionListener.tick(ServerConnectionListener.java:252) ~[?:?]
+	at net.minecraft.server.MinecraftServer.tickChildren(MinecraftServer.java:1582) ~[paper-1.19.jar:git-Paper-81]
+	at net.minecraft.server.dedicated.DedicatedServer.tickChildren(DedicatedServer.java:446) ~[paper-1.19.jar:git-Paper-81]
+	at net.minecraft.server.MinecraftServer.tickServer(MinecraftServer.java:1415) ~[paper-1.19.jar:git-Paper-81]
+	at net.minecraft.server.MinecraftServer.runServer(MinecraftServer.java:1188) ~[paper-1.19.jar:git-Paper-81]
+	at net.minecraft.server.MinecraftServer.lambda$spin$0(MinecraftServer.java:303) ~[paper-1.19.jar:git-Paper-81]
+	at java.lang.Thread.run(Thread.java:840) ~[?:?]
+[21:00:34] [Server thread/INFO]: - MRWl Disconnected
+[21:00:35] [Server thread/WARN]: MR__miner moved wrongly!
