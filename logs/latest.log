@@ -337,3 +337,19 @@
 [20:53:16] [Server thread/INFO]: amirabbas8585 issued server command: /effect clear mohamadjavad12
 [20:53:16] [Server thread/INFO]: [amirabbas8585: Removed every effect from mohamadjavad12]
 [20:53:43] [Server thread/INFO]: amirabbas8585 issued server command: /blockparty start 1
+[20:54:16] [Server thread/ERROR]: Unable to parse Stat data from ./world/stats/43ac474b-5b0f-4a26-a5f4-209aff51656a.json
+[20:54:16] [Server thread/ERROR]: Unable to parse Stat data from ./world/stats/ef75ac68-708b-41a9-9968-beba427cf785.json
+[20:54:16] [Server thread/ERROR]: Unable to parse Stat data from ./world/stats/15102d95-12b5-4f68-837f-176116512ca6.json
+[20:54:39] [Server thread/INFO]: amirabbas8585 issued server command: /ci MR__miner
+[20:54:56] [Server thread/WARN]: MR__miner moved too quickly! -0.32778868673842965,13.800051509652398,-0.0029271596601496697
+[20:54:58] [Server thread/INFO]: amirabbas8585 issued server command: /clear MR__miner
+[20:54:58] [Server thread/INFO]: [amirabbas8585: Removed 2 items from player MR__miner]
+[20:55:07] [Server thread/INFO]: amirabbas8585 issued server command: /blockparty start 1
+[20:56:36] [Server thread/WARN]: MR__miner moved too quickly! -0.0955993040993377,20.93880040631655,-0.0971468054816853
+[20:56:43] [Server thread/ERROR]: Unable to parse Stat data from ./world/stats/cdd151be-03bf-4c6f-a9e4-0a5315ff1d88.json
+[20:56:43] [Server thread/ERROR]: Unable to parse Stat data from ./world/stats/6d0565a4-b5ce-4004-8219-6b73d2f009d8.json
+[20:56:43] [Server thread/ERROR]: Unable to parse Stat data from ./world/stats/a256cd2d-eb7a-4957-a557-a796b8fcf663.json
+[20:56:59] [Server thread/INFO]: amirabbas8585 issued server command: /gamemode adventure
+[20:57:02] [Server thread/INFO]: amirabbas8585 issued server command: /gamemode creative
+[20:57:09] [Server thread/INFO]: amirabbas8585 issued server command: /clear MR__miner
+[20:57:09] [Server thread/INFO]: [amirabbas8585: Removed 2 items from player MR__miner]
