@@ -53,6 +53,12 @@
     },
     "done": true
   },
+  "minecraft:recipes/building_blocks/snow_block": {
+    "criteria": {
+      "has_snowball": "2024-06-16 21:00:21 +0000"
+    },
+    "done": true
+  },
   "minecraft:recipes/transportation/acacia_boat": {
     "criteria": {
       "in_water": "2024-06-16 20:28:14 +0000"
@@ -62,6 +68,12 @@
   "minecraft:recipes/decorations/red_glazed_terracotta": {
     "criteria": {
       "has_red_terracotta": "2024-06-16 20:54:02 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/decorations/snow": {
+    "criteria": {
+      "has_snowball": "2024-06-16 21:00:21 +0000"
     },
     "done": true
   },
@@ -103,8 +115,13 @@
   },
   "minecraft:adventure/adventuring_time": {
     "criteria": {
+      "minecraft:sunflower_plains": "2024-06-16 21:00:12 +0000",
       "minecraft:dark_forest": "2024-06-16 20:31:44 +0000",
+      "minecraft:river": "2024-06-16 21:00:08 +0000",
+      "minecraft:snowy_taiga": "2024-06-16 20:57:55 +0000",
+      "minecraft:swamp": "2024-06-16 20:59:40 +0000",
       "minecraft:forest": "2024-06-16 20:31:47 +0000",
+      "minecraft:jungle": "2024-06-16 21:01:28 +0000",
       "minecraft:plains": "2024-06-16 20:27:21 +0000"
     },
     "done": false
