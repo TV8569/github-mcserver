@@ -1,0 +1,29 @@
+{
+  "minecraft:recipes/misc/book": {
+    "criteria": {
+      "has_paper": "2024-06-16 20:32:21 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/misc/map": {
+    "criteria": {
+      "has_compass": "2024-06-16 20:32:15 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/decorations/cartography_table": {
+    "criteria": {
+      "has_paper": "2024-06-16 20:32:21 +0000"
+    },
+    "done": true
+  },
+  "minecraft:adventure/adventuring_time": {
+    "criteria": {
+      "minecraft:dark_forest": "2024-06-16 20:30:53 +0000",
+      "minecraft:forest": "2024-06-16 20:30:57 +0000",
+      "minecraft:plains": "2024-06-16 20:26:10 +0000"
+    },
+    "done": false
+  },
+  "DataVersion": 3105
+}

@@ -37,8 +37,11 @@
   },
   "minecraft:adventure/adventuring_time": {
     "criteria": {
+      "minecraft:sunflower_plains": "2024-06-16 20:59:44 +0000",
       "minecraft:birch_forest": "2024-06-08 20:54:51 +0000",
+      "minecraft:badlands": "2024-06-16 20:40:34 +0000",
       "minecraft:dark_forest": "2024-06-08 20:59:52 +0000",
+      "minecraft:river": "2024-06-16 20:59:42 +0000",
       "minecraft:snowy_taiga": "2024-06-08 20:56:02 +0000",
       "minecraft:swamp": "2024-06-08 21:00:50 +0000",
       "minecraft:forest": "2024-06-08 20:57:21 +0000",
@@ -171,6 +174,12 @@
   "minecraft:recipes/transportation/jungle_boat": {
     "criteria": {
       "in_water": "2024-06-08 15:30:48 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/decorations/purple_glazed_terracotta": {
+    "criteria": {
+      "has_purple_terracotta": "2024-06-16 20:55:26 +0000"
     },
     "done": true
   },
